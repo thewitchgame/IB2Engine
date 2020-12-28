@@ -127,6 +127,8 @@ namespace IceBlink2
         public float currentMoves = 0;
         public float creatureMoves = 0;
         public Coordinate UpperLeftSquare = new Coordinate();
+        public float UpperLeftPartialSquareX = 0.0f; // In order to handle partial tile movements of the map
+        public float UpperLeftPartialSquareY = 0.0f;// In order to handle partial tile movements of the map
         public Coordinate FormerUpperLeftSquare = new Coordinate();
 
         public string currentCombatMode = "info"; //info, move, cast, attack
@@ -20581,8 +20583,10 @@ namespace IceBlink2
                     #endregion
 
                     #region TOUCH ON MAP AREA
-                    gridx = ((int)(e.X - gv.oXshift - mapStartLocXinPixels) / gv.squareSize) + UpperLeftSquare.X;
-                    gridy = ((int)(e.Y - (gv.squareSize / 2)) / gv.squareSize) + UpperLeftSquare.Y;
+                    Console.WriteLine($"onTouchCombat: Partial X/Y: {UpperLeftPartialSquareX}/{UpperLeftPartialSquareY}");
+                    // Added PartialSquare to handle when the move didn't go an entire square length
+                    gridx = ((int)(e.X - gv.oXshift - mapStartLocXinPixels + UpperLeftPartialSquareX) / gv.squareSize) + UpperLeftSquare.X;
+                    gridy = ((int)(e.Y - UpperLeftPartialSquareY - (gv.squareSize / 2)) / gv.squareSize) + UpperLeftSquare.Y;
                     int tappedSqrX = ((int)(e.X - gv.oXshift - mapStartLocXinPixels) / gv.squareSize);
                     int tappedSqrY = ((int)(e.Y - (gv.squareSize / 2)) / gv.squareSize);
 

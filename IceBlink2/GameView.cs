@@ -813,6 +813,7 @@ namespace IceBlink2
         //covid19
         public void onTimedEvent3(object source, EventArgs e)
         {
+            Console.WriteLine($"onTimedEvent3:starting");
             cc.floatyTextPropMouseOver = "";
             mod.beforeCombatScroll = gameTimerStopwatch.ElapsedMilliseconds;
             mod.timeSinceLastCombatScrollTick = (int)(mod.beforeCombatScroll - mod.afterCombatScroll);
@@ -839,23 +840,36 @@ namespace IceBlink2
                 mod.combatScrollingTimer = mod.combatScrollingTimer + (mod.timeSinceLastCombatScrollTick / 1.0f);
             }
             //cc.addLogText("white", "Timer: " + mod.combatScrollingTimer);
+            Console.WriteLine($"onTimedEvent3:Scrolling Timer:{mod.combatScrollingTimer}");
 
-
-            if (mod.combatScrollingTimer <= -100)
+            screenCombat.UpperLeftPartialSquareX = 0.0f;
+            // In order to handle partial moves that don't cover an entire block store the partial amount of the move
+            if (mod.combatScrollingTimer < 100 &&
+                mod.combatScrollingTimer > -100)
             {
-                mod.combatScrollingTimer = 0;
-                if (screenCombat.UpperLeftSquare.X > -playerOffsetX)
-                {
-                    screenCombat.UpperLeftSquare.X--;
-                }
+                screenCombat.UpperLeftPartialSquareX = mod.combatScrollingTimer;
             }
-
-            if (mod.combatScrollingTimer >= 100)
+            else
             {
-                mod.combatScrollingTimer = 0;
-                if (screenCombat.UpperLeftSquare.X < mod.currentEncounter.MapSizeX - playerOffsetX - 1)
+                if (mod.combatScrollingTimer <= -100)
                 {
-                    screenCombat.UpperLeftSquare.X++;
+                    mod.combatScrollingTimer = 0;
+                    if (screenCombat.UpperLeftSquare.X > -playerOffsetX)
+                    {
+                        screenCombat.UpperLeftSquare.X--;
+                    }
+                }
+                else
+                {
+                }
+    
+                if (mod.combatScrollingTimer >= 100)
+                {
+                    mod.combatScrollingTimer = 0;
+                    if (screenCombat.UpperLeftSquare.X < mod.currentEncounter.MapSizeX - playerOffsetX - 1)
+                    {
+                        screenCombat.UpperLeftSquare.X++;
+                    }
                 }
             }
 
@@ -922,22 +936,31 @@ namespace IceBlink2
             }
             //cc.addLogText("white", "Timer: " + mod.combatScrollingTimer);
 
-
-            if (mod.combatScrollingTimerY <= -100)
+            screenCombat.UpperLeftPartialSquareY = 0.0f;
+            // In order to handle partial moves that don't cover an entire block store the partial amount of the move
+            if (mod.combatScrollingTimerY < 100 &&
+                mod.combatScrollingTimerY > -100)
             {
-                mod.combatScrollingTimerY = 0;
-                if (screenCombat.UpperLeftSquare.Y > -playerOffsetY)
-                {
-                    screenCombat.UpperLeftSquare.Y--;
-                }
+                // Divide by 2 since we already are padding the number in the combat cell calculation
+                screenCombat.UpperLeftPartialSquareY = mod.combatScrollingTimer / 2;
             }
-
-            if (mod.combatScrollingTimerY >= 100)
-            {
-                mod.combatScrollingTimerY = 0;
-                if (screenCombat.UpperLeftSquare.Y < mod.currentEncounter.MapSizeY - playerOffsetY - 1)
+            else { 
+                if (mod.combatScrollingTimerY <= -100)
                 {
-                    screenCombat.UpperLeftSquare.Y++;
+                    mod.combatScrollingTimerY = 0;
+                    if (screenCombat.UpperLeftSquare.Y > -playerOffsetY)
+                    {
+                        screenCombat.UpperLeftSquare.Y--;
+                    }
+                }
+    
+                if (mod.combatScrollingTimerY >= 100)
+                {
+                    mod.combatScrollingTimerY = 0;
+                    if (screenCombat.UpperLeftSquare.Y < mod.currentEncounter.MapSizeY - playerOffsetY - 1)
+                    {
+                        screenCombat.UpperLeftSquare.Y++;
+                    }
                 }
             }
             /*
