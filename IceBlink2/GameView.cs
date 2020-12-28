@@ -317,8 +317,9 @@ namespace IceBlink2
             //TODOinitializeMusic();
             setupMusicPlayers();
             //TODOinitializeCombatMusic();
-            
 
+            // Default to The Initiation game
+            fixedModule = "The Initiation";
             if (fixedModule.Equals("")) //this is the IceBlink Engine app
             {
                 screenLauncher = new ScreenLauncher(mod, this);

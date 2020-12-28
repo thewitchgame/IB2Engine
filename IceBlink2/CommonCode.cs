@@ -4254,7 +4254,9 @@ namespace IceBlink2
 
         public string GetModulePath()
         {
-            return gv.mainDirectory + "\\modules\\" + gv.mod.moduleName;
+            // When hard coding the startup game the moduleName won't be set so leave it blank
+            var modName = gv.mod.moduleName.Equals("none") ? "" : gv.mod.moduleName;
+            return gv.mainDirectory + "\\modules\\" + modName;
         }
 
         //GENERAL
