@@ -1,0 +1,16 @@
+@1 = ~gcRand1of(2)
+@2 = ~gcRand1of(1)
+
+
+~osSetProp(,0,s,false)
+
+
+if (@1 = 1)
+~gaDoConversationByName(random2_con)
+end
+endif
+
+if (@2 = 1)
+~gaDoConversationByName(randomcombat_con)
+end
+endif

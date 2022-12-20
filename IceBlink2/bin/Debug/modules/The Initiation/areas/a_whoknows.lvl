@@ -12,6 +12,22 @@
   "isPNGMap": false,
   "allowLevelDesignWithMoreThan2HeightLevelsDifference": false,
   "AllowLevelDesignWithMoreThan2HeightLevelsDifference": false,
+  "isOverViewMap": false,
+  "overviewOwnZoneMapExists": false,
+  "overviewMotherZoneMapExists": false,
+  "overviewGrandMotherZoneMapExists": false,
+  "showOverviewButtonOwnZoneMap": false,
+  "showOverviewButtonMotherZoneMap": false,
+  "showOverviewButtonGrandMotherZoneMap": false,
+  "filenameOfOwnZoneMap": "none",
+  "filenameOfMotherZoneMap": "none",
+  "filenameOfGrandmotherZoneMap": "none",
+  "partyPositionMarkerOnOwnZoneMapX": -1,
+  "partyPositionMarkerOnOwnZoneMapY": -1,
+  "partyPositionMarkerOnMotherZoneMapX": -1,
+  "partyPositionMarkerOnMotherZoneMapY": -1,
+  "partyPositionMarkerOnGrandMotherZoneMapX": -1,
+  "partyPositionMarkerOnGrandMotherZoneMapY": -1,
   "Filename": "a_whoknows",
   "AreaVisibleDistance": 2,
   "RestingAllowed": false,
@@ -107,6 +123,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -180,7 +197,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -243,6 +261,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -316,7 +335,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -379,6 +399,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -452,7 +473,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -515,6 +537,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -588,7 +611,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -651,6 +675,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -724,7 +749,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -787,6 +813,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -860,7 +887,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -923,6 +951,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -996,7 +1025,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -1059,6 +1089,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -1132,7 +1163,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -1195,6 +1227,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -1268,7 +1301,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -1331,6 +1365,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -1404,7 +1439,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -1467,6 +1503,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -1540,7 +1577,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -1603,6 +1641,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -1676,7 +1715,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -1739,6 +1779,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -1812,7 +1853,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -1875,6 +1917,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -1948,7 +1991,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -2011,6 +2055,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -2084,7 +2129,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -2147,6 +2193,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -2220,7 +2267,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -2283,6 +2331,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -2356,7 +2405,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -2419,6 +2469,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -2492,7 +2543,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -2555,6 +2607,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -2628,7 +2681,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -2691,6 +2745,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -2764,7 +2819,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -2827,6 +2883,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -2900,7 +2957,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -2963,6 +3021,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -3036,7 +3095,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -3099,6 +3159,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -3172,7 +3233,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -3235,6 +3297,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -3308,7 +3371,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -3371,6 +3435,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -3444,7 +3509,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -3507,6 +3573,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -3580,7 +3647,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -3643,6 +3711,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -3716,7 +3785,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -3779,6 +3849,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -3852,7 +3923,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -3915,6 +3987,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -3988,7 +4061,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -4051,6 +4125,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -4124,7 +4199,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -4187,6 +4263,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -4260,7 +4337,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -4323,6 +4401,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -4396,7 +4475,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -4459,6 +4539,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -4532,7 +4613,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -4595,6 +4677,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -4668,7 +4751,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -4731,6 +4815,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -4804,7 +4889,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -4867,6 +4953,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -4940,7 +5027,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -5003,6 +5091,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -5076,7 +5165,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -5139,6 +5229,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -5212,7 +5303,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -5275,6 +5367,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -5348,7 +5441,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -5411,6 +5505,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -5484,7 +5579,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -5547,6 +5643,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -5620,7 +5717,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -5683,6 +5781,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -5756,7 +5855,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -5819,6 +5919,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -5892,7 +5993,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -5955,6 +6057,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -6028,7 +6131,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -6091,6 +6195,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -6164,7 +6269,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -6227,6 +6333,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -6300,7 +6407,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -6363,6 +6471,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -6436,7 +6545,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -6499,6 +6609,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -6572,7 +6683,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -6635,6 +6747,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -6708,7 +6821,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -6771,6 +6885,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -6844,7 +6959,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -6907,6 +7023,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -6980,7 +7097,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -7043,6 +7161,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -7116,7 +7235,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -7179,6 +7299,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -7252,7 +7373,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -7315,6 +7437,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -7388,7 +7511,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -7451,6 +7575,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -7524,7 +7649,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -7587,6 +7713,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -7660,7 +7787,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -7723,6 +7851,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -7796,7 +7925,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -7859,6 +7989,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -7932,7 +8063,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -7995,6 +8127,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -8068,7 +8201,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -8131,6 +8265,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -8204,7 +8339,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -8267,6 +8403,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -8340,7 +8477,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -8403,6 +8541,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -8476,7 +8615,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -8539,6 +8679,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -8612,7 +8753,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -8675,6 +8817,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -8748,7 +8891,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -8811,6 +8955,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -8884,7 +9029,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -8947,6 +9093,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -9020,7 +9167,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -9083,6 +9231,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -9156,7 +9305,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -9219,6 +9369,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -9292,7 +9443,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -9355,6 +9507,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -9428,7 +9581,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -9491,6 +9645,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -9564,7 +9719,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -9627,6 +9783,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -9700,7 +9857,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -9763,6 +9921,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -9836,7 +9995,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -9899,6 +10059,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -9972,7 +10133,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -10035,6 +10197,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -10108,7 +10271,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -10171,6 +10335,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -10244,7 +10409,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -10307,6 +10473,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -10380,7 +10547,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -10443,6 +10611,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -10516,7 +10685,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -10579,6 +10749,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -10652,7 +10823,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -10715,6 +10887,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -10788,7 +10961,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -10851,6 +11025,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -10924,7 +11099,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -10987,6 +11163,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -11060,7 +11237,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -11123,6 +11301,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -11196,7 +11375,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -11259,6 +11439,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -11332,7 +11513,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -11395,6 +11577,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -11468,7 +11651,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -11531,6 +11715,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -11604,7 +11789,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -11667,6 +11853,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -11740,7 +11927,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -11803,6 +11991,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -11876,7 +12065,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -11939,6 +12129,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -12012,7 +12203,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -12075,6 +12267,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -12148,7 +12341,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -12211,6 +12405,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -12284,7 +12479,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -12347,6 +12543,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -12420,7 +12617,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -12483,6 +12681,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -12556,7 +12755,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -12619,6 +12819,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -12692,7 +12893,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -12755,6 +12957,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -12828,7 +13031,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -12891,6 +13095,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -12964,7 +13169,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -13027,6 +13233,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -13100,7 +13307,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -13163,6 +13371,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -13236,7 +13445,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -13299,6 +13509,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -13372,7 +13583,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -13435,6 +13647,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -13508,7 +13721,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -13571,6 +13785,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -13644,7 +13859,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -13707,6 +13923,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -13780,7 +13997,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -13843,6 +14061,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -13916,7 +14135,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -13979,6 +14199,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -14052,7 +14273,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -14115,6 +14337,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -14188,7 +14411,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -14251,6 +14475,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -14324,7 +14549,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -14387,6 +14613,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -14460,7 +14687,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -14523,6 +14751,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -14596,7 +14825,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -14659,6 +14889,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -14732,7 +14963,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -14795,6 +15027,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -14868,7 +15101,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -14931,6 +15165,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -15004,7 +15239,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -15067,6 +15303,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -15140,7 +15377,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -15203,6 +15441,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -15276,7 +15515,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -15339,6 +15579,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -15412,7 +15653,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -15475,6 +15717,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -15548,7 +15791,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -15611,6 +15855,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -15684,7 +15929,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -15747,6 +15993,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -15820,7 +16067,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -15883,6 +16131,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -15956,7 +16205,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -16019,6 +16269,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -16092,7 +16343,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -16155,6 +16407,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -16228,7 +16481,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -16291,6 +16545,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -16364,7 +16619,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -16427,6 +16683,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -16500,7 +16757,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -16563,6 +16821,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -16636,7 +16895,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -16699,6 +16959,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -16772,7 +17033,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -16835,6 +17097,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -16908,7 +17171,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -16971,6 +17235,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -17044,7 +17309,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -17107,6 +17373,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -17180,7 +17447,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -17243,6 +17511,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -17316,7 +17585,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -17379,6 +17649,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -17452,7 +17723,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -17515,6 +17787,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -17588,7 +17861,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -17651,6 +17925,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -17724,7 +17999,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -17787,6 +18063,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -17860,7 +18137,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -17923,6 +18201,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -17996,7 +18275,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -18059,6 +18339,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -18132,7 +18413,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -18195,6 +18477,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -18268,7 +18551,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -18331,6 +18615,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -18404,7 +18689,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -18467,6 +18753,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -18540,7 +18827,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -18603,6 +18891,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -18676,7 +18965,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -18739,6 +19029,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -18812,7 +19103,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -18875,6 +19167,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -18948,7 +19241,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -19011,6 +19305,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -19084,7 +19379,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -19147,6 +19443,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -19220,7 +19517,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -19283,6 +19581,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -19356,7 +19655,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -19419,6 +19719,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -19492,7 +19793,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -19555,6 +19857,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -19628,7 +19931,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -19691,6 +19995,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -19764,7 +20069,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -19827,6 +20133,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -19900,7 +20207,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -19963,6 +20271,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -20036,7 +20345,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -20099,6 +20409,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -20172,7 +20483,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -20235,6 +20547,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -20308,7 +20621,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -20371,6 +20685,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -20444,7 +20759,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -20507,6 +20823,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -20580,7 +20897,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -20643,6 +20961,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -20716,7 +21035,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -20779,6 +21099,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -20852,7 +21173,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -20915,6 +21237,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -20988,7 +21311,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -21051,6 +21375,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -21124,7 +21449,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -21187,6 +21513,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -21260,7 +21587,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -21323,6 +21651,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -21396,7 +21725,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -21459,6 +21789,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -21532,7 +21863,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -21595,6 +21927,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -21668,7 +22001,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -21731,6 +22065,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -21804,7 +22139,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -21867,6 +22203,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -21940,7 +22277,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -22003,6 +22341,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -22076,7 +22415,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -22139,6 +22479,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -22212,7 +22553,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -22275,6 +22617,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -22348,7 +22691,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -22411,6 +22755,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -22484,7 +22829,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -22547,6 +22893,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -22620,7 +22967,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -22683,6 +23031,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -22756,7 +23105,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -22819,6 +23169,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -22892,7 +23243,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -22955,6 +23307,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -23028,7 +23381,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -23091,6 +23445,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -23164,7 +23519,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -23227,6 +23583,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -23300,7 +23657,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -23363,6 +23721,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -23436,7 +23795,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -23499,6 +23859,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -23572,7 +23933,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -23635,6 +23997,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -23708,7 +24071,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -23771,6 +24135,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -23844,7 +24209,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -23907,6 +24273,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -23980,7 +24347,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -24043,6 +24411,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -24116,7 +24485,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -24179,6 +24549,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -24252,7 +24623,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -24315,6 +24687,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -24388,7 +24761,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -24451,6 +24825,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -24524,7 +24899,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -24587,6 +24963,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -24660,7 +25037,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -24723,6 +25101,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -24796,7 +25175,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -24859,6 +25239,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -24932,7 +25313,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -24995,6 +25377,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -25068,7 +25451,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -25131,6 +25515,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -25204,7 +25589,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -25267,6 +25653,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -25340,7 +25727,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -25403,6 +25791,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -25476,7 +25865,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -25539,6 +25929,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -25612,7 +26003,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -25675,6 +26067,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -25748,7 +26141,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -25811,6 +26205,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -25884,7 +26279,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -25947,6 +26343,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -26020,7 +26417,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -26083,6 +26481,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -26156,7 +26555,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -26219,6 +26619,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -26292,7 +26693,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -26355,6 +26757,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -26428,7 +26831,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -26491,6 +26895,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -26564,7 +26969,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -26627,6 +27033,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -26700,7 +27107,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -26763,6 +27171,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -26836,7 +27245,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -26899,6 +27309,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -26972,7 +27383,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -27035,6 +27447,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -27108,7 +27521,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -27171,6 +27585,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -27244,7 +27659,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -27307,6 +27723,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -27380,7 +27797,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -27443,6 +27861,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -27516,7 +27935,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -27579,6 +27999,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -27652,7 +28073,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -27715,6 +28137,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -27788,7 +28211,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -27851,6 +28275,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -27924,7 +28349,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -27987,6 +28413,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -28060,7 +28487,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -28123,6 +28551,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -28196,7 +28625,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -28259,6 +28689,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -28332,7 +28763,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -28395,6 +28827,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -28468,7 +28901,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -28531,6 +28965,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -28604,7 +29039,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -28667,6 +29103,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -28740,7 +29177,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -28803,6 +29241,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -28876,7 +29315,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -28939,6 +29379,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -29012,7 +29453,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -29075,6 +29517,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -29148,7 +29591,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -29211,6 +29655,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -29284,7 +29729,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -29347,6 +29793,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -29420,7 +29867,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -29483,6 +29931,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -29556,7 +30005,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -29619,6 +30069,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -29692,7 +30143,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -29755,6 +30207,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -29828,7 +30281,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -29891,6 +30345,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -29964,7 +30419,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -30027,6 +30483,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -30100,7 +30557,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -30163,6 +30621,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -30236,7 +30695,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -30299,6 +30759,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -30372,7 +30833,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -30435,6 +30897,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -30508,7 +30971,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -30571,6 +31035,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -30644,7 +31109,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -30707,6 +31173,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -30780,7 +31247,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -30843,6 +31311,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -30916,7 +31385,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -30979,6 +31449,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -31052,7 +31523,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -31115,6 +31587,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -31188,7 +31661,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -31251,6 +31725,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -31324,7 +31799,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -31387,6 +31863,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -31460,7 +31937,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -31523,6 +32001,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -31596,7 +32075,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -31659,6 +32139,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -31732,7 +32213,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -31795,6 +32277,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -31868,7 +32351,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -31931,6 +32415,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -32004,7 +32489,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -32067,6 +32553,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -32140,7 +32627,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -32203,6 +32691,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -32276,7 +32765,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -32339,6 +32829,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -32412,7 +32903,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -32475,6 +32967,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -32548,7 +33041,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -32611,6 +33105,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -32684,7 +33179,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -32747,6 +33243,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -32820,7 +33317,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -32883,6 +33381,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -32956,7 +33455,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -33019,6 +33519,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -33092,7 +33593,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -33155,6 +33657,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -33228,7 +33731,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -33291,6 +33795,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -33364,7 +33869,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -33427,6 +33933,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -33500,7 +34007,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -33563,6 +34071,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -33636,7 +34145,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -33699,6 +34209,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -33772,7 +34283,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -33835,6 +34347,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -33908,7 +34421,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -33971,6 +34485,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -34044,7 +34559,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -34107,6 +34623,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -34180,7 +34697,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -34243,6 +34761,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -34316,7 +34835,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -34379,6 +34899,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -34452,7 +34973,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -34515,6 +35037,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -34588,7 +35111,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -34651,6 +35175,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -34724,7 +35249,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     },
     {
       "transitionToMasterDirection": "none",
@@ -34787,6 +35313,7 @@
       "drawEntranceLights": true,
       "alwaysNormalShadow": false,
       "drawDownStairShadows": true,
+      "stealthModifier": 0,
       "isSecretPassage": false,
       "isInShortShadeN": false,
       "isInShortShadeE": false,
@@ -34860,7 +35387,8 @@
       "DrawEntranceLights": true,
       "AlwaysNormalShadow": false,
       "IsSecretPassage": false,
-      "DrawDownStairShadows": true
+      "DrawDownStairShadows": true,
+      "StealthModifier": 0
     }
   ],
   "Props": [],
@@ -34871,7 +35399,7 @@
   "AreaSounds": "none",
   "AreaSoundsDelay": 0,
   "AreaSoundsDelayRandomAdder": 0,
-  "NextIdNumber": 102,
+  "NextIdNumber": 103,
   "OnHeartBeatIBScript": "none",
   "OnHeartBeatIBScriptParms": "",
   "AreaLocalInts": [],

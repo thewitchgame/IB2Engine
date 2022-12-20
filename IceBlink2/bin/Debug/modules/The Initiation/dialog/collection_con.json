@@ -18,7 +18,7 @@
           "orderNum": 0,
           "pcNode": false,
           "linkTo": 0,
-          "ShowOnlyOnce": false,
+          "ShowOnlyOnce": true,
           "NodeIsActive": true,
           "NodePortraitBitmap": "",
           "NodeNpcName": "",
@@ -75,7 +75,7 @@
                           "NodePortraitBitmap": "",
                           "NodeNpcName": "",
                           "NodeSound": "none",
-                          "conversationText": "\"Good, good!\" said the man, absentmindedly brushing off the paper he'd picked up. \"I've passed through these woods many times, and they've never been as bad as this -- malicious fairies at every turn, bandits, strange people doing strange things...\" He glanced at the normal gourd that Knott had once again become. It lay at <FirstName>'s feet.",
+                          "conversationText": "\"Good, good!\" said the man, brushing off the paper he'd picked up. \"I've passed through these woods many times, and they've never been as bad as this -- malicious fairies at every turn, bandits, strange people doing strange things...\" He glanced at the normal gourd that Knott had once again become. It lay at <FirstName>'s feet.",
                           "IsExpanded": true,
                           "subNodes": [
                             {
@@ -180,7 +180,7 @@
                                                           "NodeNpcName": "",
                                                           "NodeSound": "none",
                                                           "conversationText": "The man peered at the page inquisitively, first right-side up and then upside-down.\r\n<p>\r\n\"If you say so.\"",
-                                                          "IsExpanded": true,
+                                                          "IsExpanded": false,
                                                           "subNodes": [
                                                             {
                                                               "idNum": 31,
@@ -231,7 +231,7 @@
                                                                           "NodePortraitBitmap": "",
                                                                           "NodeNpcName": "",
                                                                           "NodeSound": "none",
-                                                                          "conversationText": "\"Oh? Very well.\" He cleared his throat. \"I have the honor of being the servant of an esteemed but eccentric person, a collector of oddities. Collecting for its own sake is irrational, but it is my master's sole occupation; infer what you like from that.\"",
+                                                                          "conversationText": "\"Oh? Very well.\" He cleared his throat. \"I have the honor of being the servant of an esteemed but eccentric person, a collector of oddities. Collecting for its own sake is irrational, but it is also my master's one true vocation; infer what you like from that.\"",
                                                                           "IsExpanded": true,
                                                                           "subNodes": [
                                                                             {
@@ -257,7 +257,7 @@
                                                                                   "NodePortraitBitmap": "",
                                                                                   "NodeNpcName": "",
                                                                                   "NodeSound": "none",
-                                                                                  "conversationText": "\"Anyway, he sent me to fetch this calendar from the ruins of the great library of Xianaqash. How he knew about it or was so sure I'd find it exactly where he told me it'd be I have no idea. I have learned not to pry too deeply into his mysteries -- any mysteries, really, but especially his.\"",
+                                                                                  "conversationText": "\"He sent me to fetch this calendar from the ruins of the great library of Xianaqash. How he knew about it or was so sure I'd find it exactly where he told me it'd be I have no idea. I have learned not to pry too deeply into his mysteries.\"",
                                                                                   "IsExpanded": true,
                                                                                   "subNodes": [
                                                                                     {
@@ -283,7 +283,7 @@
                                                                                           "NodePortraitBitmap": "",
                                                                                           "NodeNpcName": "",
                                                                                           "NodeSound": "none",
-                                                                                          "conversationText": "\"I was on my way back from Xianaqash when I was beset by the Congress of Moths. I thought they were going to kill me, but they only made fun of me, pulled my hair, and capered around.\"",
+                                                                                          "conversationText": "\"I was on my way back from Xianaqash when I was beset by wicked fairies. I thought they were going to kill me, but they only made fun of me, pulled my hair, and capered around.\"",
                                                                                           "IsExpanded": true,
                                                                                           "subNodes": [
                                                                                             {
@@ -335,7 +335,7 @@
                                                                                                           "NodePortraitBitmap": "",
                                                                                                           "NodeNpcName": "",
                                                                                                           "NodeSound": "none",
-                                                                                                          "conversationText": "\"Very well. The fairy grabbed the calendar. 'Don't take that,' I said. 'It's a present!' They seemed very childlike, so I thought this line of reasoning might persuade them.\"",
+                                                                                                          "conversationText": "\"The fairy grabbed the calendar. 'Don't take that,' I said. 'It's a present!' They seemed very childlike, so I thought this line of reasoning might persuade them.\"",
                                                                                                           "IsExpanded": true,
                                                                                                           "subNodes": [
                                                                                                             {
@@ -361,7 +361,7 @@
                                                                                                                   "NodePortraitBitmap": "prp_redcap.png",
                                                                                                                   "NodeNpcName": "",
                                                                                                                   "NodeSound": "none",
-                                                                                                                  "conversationText": "\"Indeed. 'All the more reason to take it,' the fairy said. 'One takes one's present as one gets it.'\"",
+                                                                                                                  "conversationText": "\"Indeed. 'All the more reason to take it,' the fairy said. \"You take your present as you get it.\"",
                                                                                                                   "IsExpanded": true,
                                                                                                                   "subNodes": [
                                                                                                                     {
@@ -387,7 +387,7 @@
                                                                                                                           "NodePortraitBitmap": "prp_magistrate.png",
                                                                                                                           "NodeNpcName": "",
                                                                                                                           "NodeSound": "none",
-                                                                                                                          "conversationText": "\"'But this is more than our present. It's past and future, too. Our past and future. <i><His/Her></i> past and future.\"",
+                                                                                                                          "conversationText": "\"'Like all forms of time.'\"",
                                                                                                                           "IsExpanded": true,
                                                                                                                           "subNodes": [
                                                                                                                             {
@@ -413,7 +413,7 @@
                                                                                                                                   "NodePortraitBitmap": "prp_redcap.png",
                                                                                                                                   "NodeNpcName": "",
                                                                                                                                   "NodeSound": "none",
-                                                                                                                                  "conversationText": "\"'Oh my! What will we do with it?'\"",
+                                                                                                                                  "conversationText": "\"'Time! So that's what this is. What's to be done with it?\"",
                                                                                                                                   "IsExpanded": true,
                                                                                                                                   "subNodes": [
                                                                                                                                     {
@@ -439,7 +439,7 @@
                                                                                                                                           "NodePortraitBitmap": "prp_magistrate.png",
                                                                                                                                           "NodeNpcName": "",
                                                                                                                                           "NodeSound": "none",
-                                                                                                                                          "conversationText": "\"'There's only one thing to do with time. Waste it!' At that, the lead fairy threw the calendar into the air. A great gust of wind, quite extraordinary, leapt up out of nowhere, ripping the calendar apart and sending the leaves flying in every direction. Then the fairies turned into moths and flew away.\"",
+                                                                                                                                          "conversationText": "\"'The only thing you can.\" At that, the lead fairy threw the calendar into the air. \r\n\r\n\"Waste it!\"\r\n\r\nA great gust of wind, quite extraordinary, leapt up out of nowhere, ripping the calendar apart and sending the leaves flying in every direction.  Then the fairies turned into moths and flew away.\"",
                                                                                                                                           "IsExpanded": true,
                                                                                                                                           "subNodes": [
                                                                                                                                             {
@@ -491,7 +491,7 @@
                                                                                                                                                           "NodePortraitBitmap": "",
                                                                                                                                                           "NodeNpcName": "",
                                                                                                                                                           "NodeSound": "none",
-                                                                                                                                                          "conversationText": "\"An old friend  lives not far from the forest. I can stay with him for a few days and come back. If you find at least six of the lost pages, I'll give you something from my master's collection that would suit you,\" he said, looking meaningfully at Pharaoh -- the first time he'd acknowledged the crow.",
+                                                                                                                                                          "conversationText": "\"Well, a friend of mine lives not far from the forest. I can stay with him for a few days and come back. If you find at least six of the lost pages, I'll give you something from my master's collection that might suit you.\" He looked meaningfully at Pharaoh. \"I'm not a churchy sort of person. I don't mind helping witches.\"",
                                                                                                                                                           "IsExpanded": true,
                                                                                                                                                           "subNodes": [
                                                                                                                                                             {
@@ -504,7 +504,7 @@
                                                                                                                                                               "NodePortraitBitmap": "",
                                                                                                                                                               "NodeNpcName": "",
                                                                                                                                                               "NodeSound": "none",
-                                                                                                                                                              "conversationText": "<FirstName> was intrigued and found the arrangement satisfactory.",
+                                                                                                                                                              "conversationText": "<FirstName> was intrigued.",
                                                                                                                                                               "IsExpanded": true,
                                                                                                                                                               "subNodes": [
                                                                                                                                                                 {
@@ -517,9 +517,56 @@
                                                                                                                                                                   "NodePortraitBitmap": "black_tile.png",
                                                                                                                                                                   "NodeNpcName": "",
                                                                                                                                                                   "NodeSound": "none",
-                                                                                                                                                                  "conversationText": "It was settled. Colin -- that was his name -- would wait at the forest gate. \"The one with the old statue on the south edge of the woods,\" he told <FirstName>.",
+                                                                                                                                                                  "conversationText": "They soon came to an agreement. Colin -- that was his name -- would wait at the forest gate next Thursday. \"You know, the south entrance, where the trail leads to the road. The one with the old statue on the south edge of the woods,\" he told <FirstName>.\r\n\r\nThen the two parted ways.",
                                                                                                                                                                   "IsExpanded": true,
-                                                                                                                                                                  "subNodes": [],
+                                                                                                                                                                  "subNodes": [
+                                                                                                                                                                    {
+                                                                                                                                                                      "idNum": 106,
+                                                                                                                                                                      "orderNum": 0,
+                                                                                                                                                                      "pcNode": true,
+                                                                                                                                                                      "linkTo": 0,
+                                                                                                                                                                      "ShowOnlyOnce": false,
+                                                                                                                                                                      "NodeIsActive": true,
+                                                                                                                                                                      "NodePortraitBitmap": "",
+                                                                                                                                                                      "NodeNpcName": "",
+                                                                                                                                                                      "NodeSound": "none",
+                                                                                                                                                                      "conversationText": "[End.]",
+                                                                                                                                                                      "IsExpanded": true,
+                                                                                                                                                                      "subNodes": [],
+                                                                                                                                                                      "actions": [
+                                                                                                                                                                        {
+                                                                                                                                                                          "a_script": "gaAddJournalEntryByTag.cs",
+                                                                                                                                                                          "a_parameter_1": "jr_colin",
+                                                                                                                                                                          "a_parameter_2": "colin01",
+                                                                                                                                                                          "a_parameter_3": null,
+                                                                                                                                                                          "a_parameter_4": null
+                                                                                                                                                                        },
+                                                                                                                                                                        {
+                                                                                                                                                                          "a_script": "gaAddJournalEntryByTag.cs",
+                                                                                                                                                                          "a_parameter_1": "jr_colin",
+                                                                                                                                                                          "a_parameter_2": "colin02",
+                                                                                                                                                                          "a_parameter_3": null,
+                                                                                                                                                                          "a_parameter_4": null
+                                                                                                                                                                        },
+                                                                                                                                                                        {
+                                                                                                                                                                          "a_script": "gaShowMessageBox.cs",
+                                                                                                                                                                          "a_parameter_1": "<i><b>THE ELEVEN MONTHS</b> has been added to journal.</i>",
+                                                                                                                                                                          "a_parameter_2": null,
+                                                                                                                                                                          "a_parameter_3": null,
+                                                                                                                                                                          "a_parameter_4": null
+                                                                                                                                                                        },
+                                                                                                                                                                        {
+                                                                                                                                                                          "a_script": "gaSetGlobalInt.cs",
+                                                                                                                                                                          "a_parameter_1": "calendar_quest",
+                                                                                                                                                                          "a_parameter_2": "1",
+                                                                                                                                                                          "a_parameter_3": null,
+                                                                                                                                                                          "a_parameter_4": null
+                                                                                                                                                                        }
+                                                                                                                                                                      ],
+                                                                                                                                                                      "conditions": [],
+                                                                                                                                                                      "isLink": false
+                                                                                                                                                                    }
+                                                                                                                                                                  ],
                                                                                                                                                                   "actions": [],
                                                                                                                                                                   "conditions": [],
                                                                                                                                                                   "isLink": false
@@ -815,7 +862,7 @@
                                                                                           "NodePortraitBitmap": "",
                                                                                           "NodeNpcName": "",
                                                                                           "NodeSound": "none",
-                                                                                          "conversationText": "\"An old friend  lives not far from the forest. I can stay with him for a few days and come back. If you find at least six of the lost pages, I'll give you something from my master's collection that would suit you,\" he said, looking meaningfully at Pharaoh -- the first time he'd acknowledged the crow.",
+                                                                                          "conversationText": "\"Well, a friend of mine lives not far from the forest. I can stay with him for a few days and come back. If you find at least six of the lost pages, I'll give you something from my master's collection that might suit you.\" He looked meaningfully at Pharaoh. \"I'm not a churchy sort of person. I don't mind helping witches.\"",
                                                                                           "IsExpanded": true,
                                                                                           "subNodes": [],
                                                                                           "actions": [],
@@ -848,8 +895,151 @@
                                                                       "isLink": false
                                                                     },
                                                                     {
-                                                                      "idNum": 81,
+                                                                      "idNum": 98,
                                                                       "orderNum": 1,
+                                                                      "pcNode": true,
+                                                                      "linkTo": 0,
+                                                                      "ShowOnlyOnce": false,
+                                                                      "NodeIsActive": true,
+                                                                      "NodePortraitBitmap": "",
+                                                                      "NodeNpcName": "",
+                                                                      "NodeSound": "none",
+                                                                      "conversationText": "\"Perhaps I can hear a short version of it.\"",
+                                                                      "IsExpanded": true,
+                                                                      "subNodes": [
+                                                                        {
+                                                                          "idNum": 99,
+                                                                          "orderNum": 0,
+                                                                          "pcNode": false,
+                                                                          "linkTo": 0,
+                                                                          "ShowOnlyOnce": false,
+                                                                          "NodeIsActive": true,
+                                                                          "NodePortraitBitmap": "",
+                                                                          "NodeNpcName": "",
+                                                                          "NodeSound": "none",
+                                                                          "conversationText": "\"Oh? Very well.\"",
+                                                                          "IsExpanded": true,
+                                                                          "subNodes": [
+                                                                            {
+                                                                              "idNum": 100,
+                                                                              "orderNum": 0,
+                                                                              "pcNode": true,
+                                                                              "linkTo": 0,
+                                                                              "ShowOnlyOnce": false,
+                                                                              "NodeIsActive": true,
+                                                                              "NodePortraitBitmap": "",
+                                                                              "NodeNpcName": "",
+                                                                              "NodeSound": "none",
+                                                                              "conversationText": "[Continue.]",
+                                                                              "IsExpanded": true,
+                                                                              "subNodes": [
+                                                                                {
+                                                                                  "idNum": 101,
+                                                                                  "orderNum": 0,
+                                                                                  "pcNode": false,
+                                                                                  "linkTo": 0,
+                                                                                  "ShowOnlyOnce": false,
+                                                                                  "NodeIsActive": true,
+                                                                                  "NodePortraitBitmap": "",
+                                                                                  "NodeNpcName": "",
+                                                                                  "NodeSound": "none",
+                                                                                  "conversationText": "\"My master is a collector of oddities, and the calendar this picture belonged to was one of them. I found it in Xianaqash and was returning to him from that desolate place when I was beset by fairies.\"",
+                                                                                  "IsExpanded": true,
+                                                                                  "subNodes": [
+                                                                                    {
+                                                                                      "idNum": 102,
+                                                                                      "orderNum": 0,
+                                                                                      "pcNode": true,
+                                                                                      "linkTo": 0,
+                                                                                      "ShowOnlyOnce": false,
+                                                                                      "NodeIsActive": true,
+                                                                                      "NodePortraitBitmap": "",
+                                                                                      "NodeNpcName": "",
+                                                                                      "NodeSound": "none",
+                                                                                      "conversationText": "[Continue.]",
+                                                                                      "IsExpanded": true,
+                                                                                      "subNodes": [
+                                                                                        {
+                                                                                          "idNum": 103,
+                                                                                          "orderNum": 0,
+                                                                                          "pcNode": false,
+                                                                                          "linkTo": 0,
+                                                                                          "ShowOnlyOnce": false,
+                                                                                          "NodeIsActive": true,
+                                                                                          "NodePortraitBitmap": "",
+                                                                                          "NodeNpcName": "",
+                                                                                          "NodeSound": "none",
+                                                                                          "conversationText": "\"They did no harm to me, but they destroyed the calendar. One of them grabbed it, threw it high in the air, and made a joke about time. A great wind picked up out of nowhere and scattered the pages far and wide.\"",
+                                                                                          "IsExpanded": true,
+                                                                                          "subNodes": [
+                                                                                            {
+                                                                                              "idNum": 104,
+                                                                                              "orderNum": 0,
+                                                                                              "pcNode": true,
+                                                                                              "linkTo": 0,
+                                                                                              "ShowOnlyOnce": false,
+                                                                                              "NodeIsActive": true,
+                                                                                              "NodePortraitBitmap": "",
+                                                                                              "NodeNpcName": "",
+                                                                                              "NodeSound": "none",
+                                                                                              "conversationText": "[Continue.]",
+                                                                                              "IsExpanded": true,
+                                                                                              "subNodes": [
+                                                                                                {
+                                                                                                  "idNum": 105,
+                                                                                                  "orderNum": 0,
+                                                                                                  "pcNode": true,
+                                                                                                  "linkTo": 63,
+                                                                                                  "ShowOnlyOnce": false,
+                                                                                                  "NodeIsActive": true,
+                                                                                                  "NodePortraitBitmap": "",
+                                                                                                  "NodeNpcName": "",
+                                                                                                  "NodeSound": "none",
+                                                                                                  "conversationText": "\"What am I to do? The manuscript is -- was -- quite precious. My master will be sorely disappointed that all I have is January. But how can I find the rest? I can't spend days scouring perilous woods.\"",
+                                                                                                  "IsExpanded": true,
+                                                                                                  "subNodes": [],
+                                                                                                  "actions": [],
+                                                                                                  "conditions": [],
+                                                                                                  "isLink": true
+                                                                                                }
+                                                                                              ],
+                                                                                              "actions": [],
+                                                                                              "conditions": [],
+                                                                                              "isLink": false
+                                                                                            }
+                                                                                          ],
+                                                                                          "actions": [],
+                                                                                          "conditions": [],
+                                                                                          "isLink": false
+                                                                                        }
+                                                                                      ],
+                                                                                      "actions": [],
+                                                                                      "conditions": [],
+                                                                                      "isLink": false
+                                                                                    }
+                                                                                  ],
+                                                                                  "actions": [],
+                                                                                  "conditions": [],
+                                                                                  "isLink": false
+                                                                                }
+                                                                              ],
+                                                                              "actions": [],
+                                                                              "conditions": [],
+                                                                              "isLink": false
+                                                                            }
+                                                                          ],
+                                                                          "actions": [],
+                                                                          "conditions": [],
+                                                                          "isLink": false
+                                                                        }
+                                                                      ],
+                                                                      "actions": [],
+                                                                      "conditions": [],
+                                                                      "isLink": false
+                                                                    },
+                                                                    {
+                                                                      "idNum": 81,
+                                                                      "orderNum": 2,
                                                                       "pcNode": true,
                                                                       "linkTo": 0,
                                                                       "ShowOnlyOnce": false,
@@ -913,7 +1103,7 @@
                                                       "NodeNpcName": "",
                                                       "NodeSound": "none",
                                                       "conversationText": "\"Magicians' trickery,\" said <FirstName>. \"Put it away.\"",
-                                                      "IsExpanded": true,
+                                                      "IsExpanded": false,
                                                       "subNodes": [
                                                         {
                                                           "idNum": 27,
@@ -978,7 +1168,7 @@
                                                           "NodePortraitBitmap": "",
                                                           "NodeNpcName": "",
                                                           "NodeSound": "none",
-                                                          "conversationText": "The man studied the paper for a moment and then shook his head.",
+                                                          "conversationText": "The man barely glanced at the remarkable image.",
                                                           "IsExpanded": true,
                                                           "subNodes": [
                                                             {
@@ -1079,7 +1269,7 @@
                                   "NodePortraitBitmap": "",
                                   "NodeNpcName": "",
                                   "NodeSound": "none",
-                                  "conversationText": "\"I'm the servant of a most mercurial master. He sends me on strange errands, some of them very absurd. I'm returning to him now -- or I was,\" he said, looking at the paper in his hands.",
+                                  "conversationText": "\"I'm the servant of a most mercurial master. He sends me on errands, some of them very absurd. I'm returning to him now -- or I was,\" he said, looking at the paper in his hands.",
                                   "IsExpanded": true,
                                   "subNodes": [
                                     {
@@ -1301,7 +1491,7 @@
                           "NodePortraitBitmap": "",
                           "NodeNpcName": "",
                           "NodeSound": "none",
-                          "conversationText": "\"But sane enough to own it. We're off to a better start than I've had with most of the folk here.\"",
+                          "conversationText": "\"But sane enough to own it. We're off to a better start than I've had with everyone else here.\"",
                           "IsExpanded": true,
                           "subNodes": [
                             {
@@ -1380,7 +1570,7 @@
                                   "NodePortraitBitmap": "",
                                   "NodeNpcName": "",
                                   "NodeSound": "none",
-                                  "conversationText": "He absentmindedly brushed off the paper he'd picked up. \"I've passed through these woods many times, and they've never been as bad as this -- malicious fairies at every turn, bandits, strange people doing strange things...\" He glanced at the normal gourd that Knott had once again become. It lay at <FirstName>'s feet.",
+                                  "conversationText": "He brushed off the paper he'd picked up. \"I've passed through these woods many times, and they've never been as bad as this -- malicious fairies at every turn, bandits, strange people doing strange things...\" He glanced at the normal gourd that Knott had once again become. It lay at <FirstName>'s feet.",
                                   "IsExpanded": true,
                                   "subNodes": [],
                                   "actions": [],
@@ -1425,7 +1615,7 @@
                           "NodePortraitBitmap": "",
                           "NodeNpcName": "",
                           "NodeSound": "none",
-                          "conversationText": "He laughed. \"Oh! I suppose not. In this case, a facetious answer is better than a straightforward one.\"",
+                          "conversationText": "He laughed. \"Oh, I suppose not. I'd rather you didn't.\"",
                           "IsExpanded": true,
                           "subNodes": [
                             {
@@ -1451,7 +1641,7 @@
                                   "NodePortraitBitmap": "",
                                   "NodeNpcName": "",
                                   "NodeSound": "none",
-                                  "conversationText": "He absentmindedly brushed off the paper he'd picked up. \"I've passed through these woods many times, and they've never been as bad as this -- malicious fairies at every turn, bandits, strange people doing strange things...\" He glanced at the normal gourd that Knott had once again become. It lay at <FirstName>'s feet.",
+                                  "conversationText": "He brushed off the paper he'd picked up. \"I've passed through these woods many times, and they've never been as bad as this -- malicious fairies at every turn, bandits, strange people doing strange things...\" He glanced at the normal gourd that Knott had once again become. It lay at <FirstName>'s feet.",
                                   "IsExpanded": true,
                                   "subNodes": [
                                     {
@@ -1531,7 +1721,29 @@
                   "isLink": false
                 }
               ],
-              "actions": [],
+              "actions": [
+                {
+                  "a_script": "gaSetGlobalInt.cs",
+                  "a_parameter_1": "colin_conversed",
+                  "a_parameter_2": "1",
+                  "a_parameter_3": null,
+                  "a_parameter_4": null
+                },
+                {
+                  "a_script": "osSetProp.cs",
+                  "a_parameter_1": "newPropTag_171969_171974",
+                  "a_parameter_2": null,
+                  "a_parameter_3": "a",
+                  "a_parameter_4": "false"
+                },
+                {
+                  "a_script": "osSetProp.cs",
+                  "a_parameter_1": "newPropTag_171969_171973",
+                  "a_parameter_2": null,
+                  "a_parameter_3": "a",
+                  "a_parameter_4": "false"
+                }
+              ],
               "conditions": [],
               "isLink": false
             }
@@ -1552,5 +1764,5 @@
   "SpeakToMainPcOnly": true,
   "NpcPortraitBitmap": "prp_witchbanditwizard.png",
   "DefaultNpcName": "",
-  "NextIdNum": 96
+  "NextIdNum": 106
 }

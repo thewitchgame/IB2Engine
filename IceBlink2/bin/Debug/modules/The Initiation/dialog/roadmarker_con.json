@@ -14,8 +14,128 @@
       "IsExpanded": true,
       "subNodes": [
         {
-          "idNum": 1,
+          "idNum": 26,
           "orderNum": 0,
+          "pcNode": false,
+          "linkTo": 0,
+          "ShowOnlyOnce": false,
+          "NodeIsActive": true,
+          "NodePortraitBitmap": "prp_eldestlady2.png",
+          "NodeNpcName": "",
+          "NodeSound": "none",
+          "conversationText": "\"Now now, <FirstName>. No running off.\"",
+          "IsExpanded": true,
+          "subNodes": [
+            {
+              "idNum": 27,
+              "orderNum": 0,
+              "pcNode": true,
+              "linkTo": 0,
+              "ShowOnlyOnce": false,
+              "NodeIsActive": true,
+              "NodePortraitBitmap": "",
+              "NodeNpcName": "",
+              "NodeSound": "none",
+              "conversationText": "[Continue.]",
+              "IsExpanded": true,
+              "subNodes": [
+                {
+                  "idNum": 28,
+                  "orderNum": 0,
+                  "pcNode": false,
+                  "linkTo": 0,
+                  "ShowOnlyOnce": false,
+                  "NodeIsActive": true,
+                  "NodePortraitBitmap": "",
+                  "NodeNpcName": "",
+                  "NodeSound": "none",
+                  "conversationText": "<He/She> heard Eldest Lady's voice as clearly as if she had been standing next to <him/her>, but there was no one there. <He/She> found, though, that when <he/she> tried to follow the path to the road, it circled back to the woods. Powerful witchcraft was preventing <him/her> from leaving.",
+                  "IsExpanded": true,
+                  "subNodes": [
+                    {
+                      "idNum": 29,
+                      "orderNum": 0,
+                      "pcNode": true,
+                      "linkTo": 0,
+                      "ShowOnlyOnce": false,
+                      "NodeIsActive": true,
+                      "NodePortraitBitmap": "",
+                      "NodeNpcName": "",
+                      "NodeSound": "none",
+                      "conversationText": "[End.]",
+                      "IsExpanded": true,
+                      "subNodes": [],
+                      "actions": [
+                        {
+                          "a_script": "gaSetGlobalInt.cs",
+                          "a_parameter_1": "witchward",
+                          "a_parameter_2": "1",
+                          "a_parameter_3": null,
+                          "a_parameter_4": null
+                        }
+                      ],
+                      "conditions": [],
+                      "isLink": false
+                    }
+                  ],
+                  "actions": [],
+                  "conditions": [],
+                  "isLink": false
+                }
+              ],
+              "actions": [],
+              "conditions": [],
+              "isLink": false
+            }
+          ],
+          "actions": [],
+          "conditions": [
+            {
+              "c_script": "gcCheckIsInMonthsWindowYearly.cs",
+              "c_btnAndOr": "and",
+              "c_and": true,
+              "c_not": false,
+              "c_parameter_1": "7",
+              "c_parameter_2": "8",
+              "c_parameter_3": null,
+              "c_parameter_4": null
+            },
+            {
+              "c_script": "gcCheckIsInDaysWindowWeekly.cs",
+              "c_btnAndOr": "and",
+              "c_and": true,
+              "c_not": false,
+              "c_parameter_1": "3",
+              "c_parameter_2": "4",
+              "c_parameter_3": null,
+              "c_parameter_4": null
+            },
+            {
+              "c_script": "gcCheckGlobalInt.cs",
+              "c_btnAndOr": "and",
+              "c_and": true,
+              "c_not": true,
+              "c_parameter_1": "pathout",
+              "c_parameter_2": "=",
+              "c_parameter_3": "1",
+              "c_parameter_4": null
+            },
+            {
+              "c_script": "gcCheckGlobalInt.cs",
+              "c_btnAndOr": "and",
+              "c_and": true,
+              "c_not": true,
+              "c_parameter_1": "witchward",
+              "c_parameter_2": "=",
+              "c_parameter_3": "1",
+              "c_parameter_4": null
+            }
+          ],
+          "isLink": false
+        },
+        {
+          "idNum": 30,
+          "orderNum": 1,
           "pcNode": false,
           "linkTo": 0,
           "ShowOnlyOnce": false,
@@ -23,7 +143,53 @@
           "NodePortraitBitmap": "",
           "NodeNpcName": "",
           "NodeSound": "none",
-          "conversationText": "An ancient stone figure stood beside the path. Beyond, <FirstName> could see the path wind through a field before it met a rough, overgrown road.",
+          "conversationText": "<FirstName> still couldn't leave.",
+          "IsExpanded": true,
+          "subNodes": [
+            {
+              "idNum": 31,
+              "orderNum": 0,
+              "pcNode": true,
+              "linkTo": 0,
+              "ShowOnlyOnce": false,
+              "NodeIsActive": true,
+              "NodePortraitBitmap": "",
+              "NodeNpcName": "",
+              "NodeSound": "none",
+              "conversationText": "[End.]",
+              "IsExpanded": true,
+              "subNodes": [],
+              "actions": [],
+              "conditions": [],
+              "isLink": false
+            }
+          ],
+          "actions": [],
+          "conditions": [
+            {
+              "c_script": "gcCheckGlobalInt.cs",
+              "c_btnAndOr": "and",
+              "c_and": true,
+              "c_not": false,
+              "c_parameter_1": "witchward",
+              "c_parameter_2": "=",
+              "c_parameter_3": "1",
+              "c_parameter_4": null
+            }
+          ],
+          "isLink": false
+        },
+        {
+          "idNum": 1,
+          "orderNum": 2,
+          "pcNode": false,
+          "linkTo": 0,
+          "ShowOnlyOnce": true,
+          "NodeIsActive": true,
+          "NodePortraitBitmap": "",
+          "NodeNpcName": "",
+          "NodeSound": "none",
+          "conversationText": "An ancient stone figure stood beside the path. The elements made it completely featureless. It was impossible to tell what it was supposed to represent. Beyond, <FirstName> could see the path wind through a field before it met a dirt road.",
           "IsExpanded": true,
           "subNodes": [
             {
@@ -49,7 +215,7 @@
                   "NodePortraitBitmap": "",
                   "NodeNpcName": "",
                   "NodeSound": "none",
-                  "conversationText": "Carved into its breast was the distance to the nearest settlement and an arrow to the road beyond. The arrow pointing into the forest had an upside-down skull beside it -- a warning, <FirstName> knew, that witches lived here.",
+                  "conversationText": "Carved into its breast was the distance to the nearest settlement to the east and an arrow to the road beyond. The arrow pointing into the forest had a crude devil's face beside it -- a warning to travelers that witches lived within.",
                   "IsExpanded": true,
                   "subNodes": [
                     {
@@ -62,46 +228,11 @@
                       "NodePortraitBitmap": "",
                       "NodeNpcName": "",
                       "NodeSound": "none",
-                      "conversationText": "\"It seems there's been a coven in these woods for some time,\" <FirstName> mused.",
+                      "conversationText": "\"There's been a coven in these woods for a long time,\" <FirstName> mused.",
                       "IsExpanded": true,
                       "subNodes": [
                         {
-                          "idNum": 10,
-                          "orderNum": 0,
-                          "pcNode": true,
-                          "linkTo": 7,
-                          "ShowOnlyOnce": false,
-                          "NodeIsActive": true,
-                          "NodePortraitBitmap": "",
-                          "NodeNpcName": "",
-                          "NodeSound": "none",
-                          "conversationText": "The figure did not respond.",
-                          "IsExpanded": true,
-                          "subNodes": [],
-                          "actions": [],
-                          "conditions": [],
-                          "isLink": true
-                        }
-                      ],
-                      "actions": [],
-                      "conditions": [],
-                      "isLink": false
-                    },
-                    {
-                      "idNum": 6,
-                      "orderNum": 1,
-                      "pcNode": true,
-                      "linkTo": 0,
-                      "ShowOnlyOnce": false,
-                      "NodeIsActive": true,
-                      "NodePortraitBitmap": "",
-                      "NodeNpcName": "",
-                      "NodeSound": "none",
-                      "conversationText": "\"Now, now, old fellow,\" said <FirstName>, pretending to scold the statue, \"towns are just as dangerous as witches.\"",
-                      "IsExpanded": true,
-                      "subNodes": [
-                        {
-                          "idNum": 7,
+                          "idNum": 17,
                           "orderNum": 0,
                           "pcNode": false,
                           "linkTo": 0,
@@ -110,11 +241,11 @@
                           "NodePortraitBitmap": "",
                           "NodeNpcName": "",
                           "NodeSound": "none",
-                          "conversationText": "The figure did not respond.",
+                          "conversationText": "The statue did not respond.",
                           "IsExpanded": true,
                           "subNodes": [
                             {
-                              "idNum": 11,
+                              "idNum": 18,
                               "orderNum": 0,
                               "pcNode": true,
                               "linkTo": 9,
@@ -142,7 +273,7 @@
                     },
                     {
                       "idNum": 9,
-                      "orderNum": 2,
+                      "orderNum": 1,
                       "pcNode": true,
                       "linkTo": 0,
                       "ShowOnlyOnce": false,
@@ -152,7 +283,102 @@
                       "NodeSound": "none",
                       "conversationText": "<FirstName> turned <his/her> back on the exit.",
                       "IsExpanded": true,
-                      "subNodes": [],
+                      "subNodes": [
+                        {
+                          "idNum": 12,
+                          "orderNum": 0,
+                          "pcNode": false,
+                          "linkTo": 0,
+                          "ShowOnlyOnce": false,
+                          "NodeIsActive": true,
+                          "NodePortraitBitmap": "",
+                          "NodeNpcName": "",
+                          "NodeSound": "none",
+                          "conversationText": "New landmark discovered!",
+                          "IsExpanded": true,
+                          "subNodes": [
+                            {
+                              "idNum": 13,
+                              "orderNum": 0,
+                              "pcNode": true,
+                              "linkTo": 0,
+                              "ShowOnlyOnce": false,
+                              "NodeIsActive": true,
+                              "NodePortraitBitmap": "",
+                              "NodeNpcName": "",
+                              "NodeSound": "none",
+                              "conversationText": "[Continue.]",
+                              "IsExpanded": true,
+                              "subNodes": [
+                                {
+                                  "idNum": 14,
+                                  "orderNum": 0,
+                                  "pcNode": false,
+                                  "linkTo": 0,
+                                  "ShowOnlyOnce": false,
+                                  "NodeIsActive": true,
+                                  "NodePortraitBitmap": "",
+                                  "NodeNpcName": "",
+                                  "NodeSound": "none",
+                                  "conversationText": "<b>THE ROAD TO TOWN</b> added to map.",
+                                  "IsExpanded": true,
+                                  "subNodes": [
+                                    {
+                                      "idNum": 15,
+                                      "orderNum": 0,
+                                      "pcNode": true,
+                                      "linkTo": 0,
+                                      "ShowOnlyOnce": false,
+                                      "NodeIsActive": true,
+                                      "NodePortraitBitmap": "",
+                                      "NodeNpcName": "",
+                                      "NodeSound": "none",
+                                      "conversationText": "[End.]",
+                                      "IsExpanded": true,
+                                      "subNodes": [],
+                                      "actions": [
+                                        {
+                                          "a_script": "gaSetGlobalInt.cs",
+                                          "a_parameter_1": "roadtotown",
+                                          "a_parameter_2": "1",
+                                          "a_parameter_3": null,
+                                          "a_parameter_4": null
+                                        },
+                                        {
+                                          "a_script": "gaEnableDisableTrigger.cs",
+                                          "a_parameter_1": "newTrigger_183762",
+                                          "a_parameter_2": "true",
+                                          "a_parameter_3": null,
+                                          "a_parameter_4": null
+                                        }
+                                      ],
+                                      "conditions": [],
+                                      "isLink": false
+                                    }
+                                  ],
+                                  "actions": [],
+                                  "conditions": [],
+                                  "isLink": false
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "a_script": "gaPlaySound.cs",
+                                  "a_parameter_1": "xp",
+                                  "a_parameter_2": null,
+                                  "a_parameter_3": null,
+                                  "a_parameter_4": null
+                                }
+                              ],
+                              "conditions": [],
+                              "isLink": false
+                            }
+                          ],
+                          "actions": [],
+                          "conditions": [],
+                          "isLink": false
+                        }
+                      ],
                       "actions": [],
                       "conditions": [],
                       "isLink": false
@@ -179,6 +405,80 @@
               "NodeSound": "none",
               "conversationText": "That way would lead <FirstName> out of the woods. <He/She> turned around.",
               "IsExpanded": true,
+              "subNodes": [
+                {
+                  "idNum": 16,
+                  "orderNum": 0,
+                  "pcNode": true,
+                  "linkTo": 12,
+                  "ShowOnlyOnce": false,
+                  "NodeIsActive": true,
+                  "NodePortraitBitmap": "",
+                  "NodeNpcName": "",
+                  "NodeSound": "none",
+                  "conversationText": "New landmark discovered!",
+                  "IsExpanded": true,
+                  "subNodes": [],
+                  "actions": [],
+                  "conditions": [],
+                  "isLink": true
+                }
+              ],
+              "actions": [],
+              "conditions": [],
+              "isLink": false
+            }
+          ],
+          "actions": [],
+          "conditions": [
+            {
+              "c_script": "gcCheckGlobalInt.cs",
+              "c_btnAndOr": "and",
+              "c_and": true,
+              "c_not": true,
+              "c_parameter_1": "roadtotown",
+              "c_parameter_2": "=",
+              "c_parameter_3": "1",
+              "c_parameter_4": null
+            },
+            {
+              "c_script": "gcCheckGlobalInt.cs",
+              "c_btnAndOr": "and",
+              "c_and": true,
+              "c_not": true,
+              "c_parameter_1": "pathout",
+              "c_parameter_2": "=",
+              "c_parameter_3": "1",
+              "c_parameter_4": null
+            }
+          ],
+          "isLink": false
+        },
+        {
+          "idNum": 20,
+          "orderNum": 3,
+          "pcNode": false,
+          "linkTo": 0,
+          "ShowOnlyOnce": false,
+          "NodeIsActive": true,
+          "NodePortraitBitmap": "",
+          "NodeNpcName": "",
+          "NodeSound": "none",
+          "conversationText": "<FirstName> couldn't leave the forest. <His/Her> work there wasn't done.",
+          "IsExpanded": true,
+          "subNodes": [
+            {
+              "idNum": 21,
+              "orderNum": 0,
+              "pcNode": true,
+              "linkTo": 0,
+              "ShowOnlyOnce": false,
+              "NodeIsActive": true,
+              "NodePortraitBitmap": "",
+              "NodeNpcName": "",
+              "NodeSound": "none",
+              "conversationText": "[End.]",
+              "IsExpanded": true,
               "subNodes": [],
               "actions": [],
               "conditions": [],
@@ -186,7 +486,116 @@
             }
           ],
           "actions": [],
-          "conditions": [],
+          "conditions": [
+            {
+              "c_script": "gcCheckGlobalInt.cs",
+              "c_btnAndOr": "and",
+              "c_and": true,
+              "c_not": true,
+              "c_parameter_1": "pathout",
+              "c_parameter_2": "=",
+              "c_parameter_3": "1",
+              "c_parameter_4": null
+            }
+          ],
+          "isLink": false
+        },
+        {
+          "idNum": 22,
+          "orderNum": 4,
+          "pcNode": false,
+          "linkTo": 0,
+          "ShowOnlyOnce": false,
+          "NodeIsActive": true,
+          "NodePortraitBitmap": "",
+          "NodeNpcName": "",
+          "NodeSound": "none",
+          "conversationText": "The stone figure marked the boundary between the woods and the outside world.",
+          "IsExpanded": true,
+          "subNodes": [
+            {
+              "idNum": 23,
+              "orderNum": 0,
+              "pcNode": true,
+              "linkTo": 0,
+              "ShowOnlyOnce": false,
+              "NodeIsActive": true,
+              "NodePortraitBitmap": "",
+              "NodeNpcName": "",
+              "NodeSound": "none",
+              "conversationText": "[Continue.]",
+              "IsExpanded": true,
+              "subNodes": [
+                {
+                  "idNum": 24,
+                  "orderNum": 0,
+                  "pcNode": false,
+                  "linkTo": 0,
+                  "ShowOnlyOnce": false,
+                  "NodeIsActive": true,
+                  "NodePortraitBitmap": "",
+                  "NodeNpcName": "",
+                  "NodeSound": "none",
+                  "conversationText": "<FirstName> stepped over the invisible line.",
+                  "IsExpanded": true,
+                  "subNodes": [
+                    {
+                      "idNum": 999,
+                      "orderNum": 0,
+                      "pcNode": true,
+                      "linkTo": 0,
+                      "ShowOnlyOnce": false,
+                      "NodeIsActive": true,
+                      "NodePortraitBitmap": "",
+                      "NodeNpcName": "",
+                      "NodeSound": "none",
+                      "conversationText": "[Continue.]",
+                      "IsExpanded": true,
+                      "subNodes": [],
+                      "actions": [
+                        {
+                          "a_script": "gaDoConversationByName.cs",
+                          "a_parameter_1": "epilogue2_con",
+                          "a_parameter_2": null,
+                          "a_parameter_3": null,
+                          "a_parameter_4": null
+                        }
+                      ],
+                      "conditions": [],
+                      "isLink": false
+                    }
+                  ],
+                  "actions": [],
+                  "conditions": [],
+                  "isLink": false
+                }
+              ],
+              "actions": [
+                {
+                  "a_script": "gaTransitionPartyToMapLocation.cs",
+                  "a_parameter_1": "a_endgame1",
+                  "a_parameter_2": "0",
+                  "a_parameter_3": "0",
+                  "a_parameter_4": null
+                }
+              ],
+              "conditions": [],
+              "isLink": false
+            }
+          ],
+          "actions": [],
+          "conditions": [
+            {
+              "c_script": "gcCheckGlobalInt.cs",
+              "c_btnAndOr": "and",
+              "c_and": true,
+              "c_not": false,
+              "c_parameter_1": "pathout",
+              "c_parameter_2": "=",
+              "c_parameter_3": "1",
+              "c_parameter_4": null
+            }
+          ],
           "isLink": false
         }
       ],
@@ -198,8 +607,8 @@
   "ConvoFileName": "roadmarker_con",
   "Narration": false,
   "PartyChat": false,
-  "SpeakToMainPcOnly": false,
-  "NpcPortraitBitmap": "",
+  "SpeakToMainPcOnly": true,
+  "NpcPortraitBitmap": "black_tile.png",
   "DefaultNpcName": "",
-  "NextIdNum": 11
+  "NextIdNum": 31
 }

@@ -204,7 +204,7 @@
                                                           "NodePortraitBitmap": "",
                                                           "NodeNpcName": "",
                                                           "NodeSound": "none",
-                                                          "conversationText": "<i>Are you sure?</i>",
+                                                          "conversationText": "Are you sure?",
                                                           "IsExpanded": true,
                                                           "subNodes": [
                                                             {
@@ -328,7 +328,15 @@
                   "isLink": false
                 }
               ],
-              "actions": [],
+              "actions": [
+                {
+                  "a_script": "osSetProp.cs",
+                  "a_parameter_1": "newPropTag_174690_176756",
+                  "a_parameter_2": null,
+                  "a_parameter_3": "s",
+                  "a_parameter_4": "false"
+                }
+              ],
               "conditions": [],
               "isLink": false
             }

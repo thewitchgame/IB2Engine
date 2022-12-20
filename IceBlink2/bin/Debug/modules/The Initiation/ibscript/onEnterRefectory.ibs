@@ -1,0 +1,8 @@
+
+~gaGetGlobalInt(abbesstalk,@i)
+if (@i = 1)
+~osSetProp(newPropTag_322268_327281,,s,true)
+~gaEnableDisableTrigger(newTrigger_327285,true)
+~osSetTileLayerGraphic(6,7,3,a_witch_floor_honeysilk)
+~gaSetGlobalInt(abbesstalk,99)
+endif

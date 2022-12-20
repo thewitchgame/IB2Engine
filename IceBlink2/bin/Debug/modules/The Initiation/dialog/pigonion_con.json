@@ -1,0 +1,800 @@
+{
+  "subNodes": [
+    {
+      "idNum": 0,
+      "orderNum": 0,
+      "pcNode": true,
+      "linkTo": 0,
+      "ShowOnlyOnce": false,
+      "NodeIsActive": true,
+      "NodePortraitBitmap": "",
+      "NodeNpcName": "",
+      "NodeSound": "none",
+      "conversationText": "root",
+      "IsExpanded": true,
+      "subNodes": [
+        {
+          "idNum": 1,
+          "orderNum": 0,
+          "pcNode": false,
+          "linkTo": 0,
+          "ShowOnlyOnce": true,
+          "NodeIsActive": true,
+          "NodePortraitBitmap": "",
+          "NodeNpcName": "",
+          "NodeSound": "none",
+          "conversationText": "<FirstName> came upon a plant with green and crimson basal leaves. It was pig onion, prized by cooks and herbalists alike. The bulb could heal and prevent injury.",
+          "IsExpanded": true,
+          "subNodes": [
+            {
+              "idNum": 2,
+              "orderNum": 0,
+              "pcNode": true,
+              "linkTo": 0,
+              "ShowOnlyOnce": false,
+              "NodeIsActive": true,
+              "NodePortraitBitmap": "",
+              "NodeNpcName": "",
+              "NodeSound": "none",
+              "conversationText": "[Natural Philosophy: 50% chance of success -- Wisdom modifies] <He/She> carefully gathered the useful parts of the plant.",
+              "IsExpanded": true,
+              "subNodes": [
+                {
+                  "idNum": 14,
+                  "orderNum": 0,
+                  "pcNode": false,
+                  "linkTo": 0,
+                  "ShowOnlyOnce": false,
+                  "NodeIsActive": true,
+                  "NodePortraitBitmap": "",
+                  "NodeNpcName": "",
+                  "NodeSound": "none",
+                  "conversationText": "[Success: 5 minutes pass.] <He/She> took three bulbs.",
+                  "IsExpanded": true,
+                  "subNodes": [
+                    {
+                      "idNum": 17,
+                      "orderNum": 0,
+                      "pcNode": true,
+                      "linkTo": 0,
+                      "ShowOnlyOnce": false,
+                      "NodeIsActive": true,
+                      "NodePortraitBitmap": "",
+                      "NodeNpcName": "",
+                      "NodeSound": "none",
+                      "conversationText": "[End.]",
+                      "IsExpanded": true,
+                      "subNodes": [],
+                      "actions": [
+                        {
+                          "a_script": "gaGiveItem.cs",
+                          "a_parameter_1": "pigonion00",
+                          "a_parameter_2": "3",
+                          "a_parameter_3": null,
+                          "a_parameter_4": null
+                        },
+                        {
+                          "a_script": "gaShowMessageBox.cs",
+                          "a_parameter_1": "Pig Onion (3) received!",
+                          "a_parameter_2": null,
+                          "a_parameter_3": null,
+                          "a_parameter_4": null
+                        },
+                        {
+                          "a_script": "gaSetGlobalInt.cs",
+                          "a_parameter_1": "onmap",
+                          "a_parameter_2": "1",
+                          "a_parameter_3": null,
+                          "a_parameter_4": null
+                        }
+                      ],
+                      "conditions": [],
+                      "isLink": false
+                    }
+                  ],
+                  "actions": [],
+                  "conditions": [
+                    {
+                      "c_script": "gcCheckAttribute.cs",
+                      "c_btnAndOr": "and",
+                      "c_and": true,
+                      "c_not": false,
+                      "c_parameter_1": "-1",
+                      "c_parameter_2": "wis",
+                      "c_parameter_3": ">",
+                      "c_parameter_4": "14"
+                    },
+                    {
+                      "c_script": "gcRand1of.cs",
+                      "c_btnAndOr": "and",
+                      "c_and": true,
+                      "c_not": false,
+                      "c_parameter_1": "5",
+                      "c_parameter_2": null,
+                      "c_parameter_3": null,
+                      "c_parameter_4": null
+                    }
+                  ],
+                  "isLink": false
+                },
+                {
+                  "idNum": 15,
+                  "orderNum": 1,
+                  "pcNode": false,
+                  "linkTo": 0,
+                  "ShowOnlyOnce": false,
+                  "NodeIsActive": true,
+                  "NodePortraitBitmap": "",
+                  "NodeNpcName": "",
+                  "NodeSound": "none",
+                  "conversationText": "[Success: 5 minutes pass.] <He/She> took two bulbs.",
+                  "IsExpanded": true,
+                  "subNodes": [
+                    {
+                      "idNum": 18,
+                      "orderNum": 0,
+                      "pcNode": true,
+                      "linkTo": 0,
+                      "ShowOnlyOnce": false,
+                      "NodeIsActive": true,
+                      "NodePortraitBitmap": "",
+                      "NodeNpcName": "",
+                      "NodeSound": "none",
+                      "conversationText": "[End.]",
+                      "IsExpanded": true,
+                      "subNodes": [],
+                      "actions": [
+                        {
+                          "a_script": "gaGiveItem.cs",
+                          "a_parameter_1": "pigonion00",
+                          "a_parameter_2": "2",
+                          "a_parameter_3": null,
+                          "a_parameter_4": null
+                        },
+                        {
+                          "a_script": "gaShowMessageBox.cs",
+                          "a_parameter_1": "Pig Onion (2) received!",
+                          "a_parameter_2": null,
+                          "a_parameter_3": null,
+                          "a_parameter_4": null
+                        },
+                        {
+                          "a_script": "gaSetGlobalInt.cs",
+                          "a_parameter_1": "onmap",
+                          "a_parameter_2": "1",
+                          "a_parameter_3": null,
+                          "a_parameter_4": null
+                        }
+                      ],
+                      "conditions": [],
+                      "isLink": false
+                    }
+                  ],
+                  "actions": [],
+                  "conditions": [
+                    {
+                      "c_script": "gcCheckAttribute.cs",
+                      "c_btnAndOr": "and",
+                      "c_and": true,
+                      "c_not": false,
+                      "c_parameter_1": "-1",
+                      "c_parameter_2": "wis",
+                      "c_parameter_3": ">",
+                      "c_parameter_4": "10"
+                    },
+                    {
+                      "c_script": "gcRand1of.cs",
+                      "c_btnAndOr": "and",
+                      "c_and": true,
+                      "c_not": false,
+                      "c_parameter_1": "2",
+                      "c_parameter_2": null,
+                      "c_parameter_3": null,
+                      "c_parameter_4": null
+                    }
+                  ],
+                  "isLink": false
+                },
+                {
+                  "idNum": 16,
+                  "orderNum": 2,
+                  "pcNode": false,
+                  "linkTo": 0,
+                  "ShowOnlyOnce": false,
+                  "NodeIsActive": true,
+                  "NodePortraitBitmap": "",
+                  "NodeNpcName": "",
+                  "NodeSound": "none",
+                  "conversationText": "[Failure: 5 minutes pass.] Unfortunately, <he/she> found only one good bulb.",
+                  "IsExpanded": true,
+                  "subNodes": [
+                    {
+                      "idNum": 19,
+                      "orderNum": 0,
+                      "pcNode": true,
+                      "linkTo": 0,
+                      "ShowOnlyOnce": false,
+                      "NodeIsActive": true,
+                      "NodePortraitBitmap": "",
+                      "NodeNpcName": "",
+                      "NodeSound": "none",
+                      "conversationText": "[End.]",
+                      "IsExpanded": true,
+                      "subNodes": [],
+                      "actions": [
+                        {
+                          "a_script": "gaGiveItem.cs",
+                          "a_parameter_1": "pigonion00",
+                          "a_parameter_2": "1",
+                          "a_parameter_3": null,
+                          "a_parameter_4": null
+                        },
+                        {
+                          "a_script": "gaShowMessageBox.cs",
+                          "a_parameter_1": "Pig Onion received!",
+                          "a_parameter_2": null,
+                          "a_parameter_3": null,
+                          "a_parameter_4": null
+                        },
+                        {
+                          "a_script": "gaSetGlobalInt.cs",
+                          "a_parameter_1": "onmap",
+                          "a_parameter_2": "1",
+                          "a_parameter_3": null,
+                          "a_parameter_4": null
+                        }
+                      ],
+                      "conditions": [],
+                      "isLink": false
+                    }
+                  ],
+                  "actions": [],
+                  "conditions": [],
+                  "isLink": false
+                }
+              ],
+              "actions": [
+                {
+                  "a_script": "osSetProp.cs",
+                  "a_parameter_1": "event1",
+                  "a_parameter_2": null,
+                  "a_parameter_3": "a",
+                  "a_parameter_4": "false"
+                },
+                {
+                  "a_script": "osSetProp.cs",
+                  "a_parameter_1": "event1",
+                  "a_parameter_2": null,
+                  "a_parameter_3": "s",
+                  "a_parameter_4": "false"
+                },
+                {
+                  "a_script": "osSetWorldTime.cs",
+                  "a_parameter_1": "+",
+                  "a_parameter_2": "5",
+                  "a_parameter_3": "false",
+                  "a_parameter_4": null
+                }
+              ],
+              "conditions": [
+                {
+                  "c_script": "gcCheckHasTrait.cs",
+                  "c_btnAndOr": "and",
+                  "c_and": true,
+                  "c_not": false,
+                  "c_parameter_1": "-1",
+                  "c_parameter_2": "trait_naturalphil",
+                  "c_parameter_3": null,
+                  "c_parameter_4": null
+                }
+              ],
+              "isLink": false
+            },
+            {
+              "idNum": 20,
+              "orderNum": 1,
+              "pcNode": true,
+              "linkTo": 0,
+              "ShowOnlyOnce": false,
+              "NodeIsActive": true,
+              "NodePortraitBitmap": "",
+              "NodeNpcName": "",
+              "NodeSound": "none",
+              "conversationText": "[Folk Magic: 75% chance of success -- Wisdom modifies] Seeing it brought to mind the wooden shield <he/she>'d found in the swamp.",
+              "IsExpanded": true,
+              "subNodes": [
+                {
+                  "idNum": 21,
+                  "orderNum": 0,
+                  "pcNode": false,
+                  "linkTo": 0,
+                  "ShowOnlyOnce": false,
+                  "NodeIsActive": true,
+                  "NodePortraitBitmap": "black_tile.png",
+                  "NodeNpcName": "",
+                  "NodeSound": "none",
+                  "conversationText": "[Success: 5 minutes pass.] The Onion Knight was the name of a wandering hero in several folk traditions. She carried only a wooden sword and a wooden shield, and her misadventures almost always resulted in the overthrow of the rich and unjust.",
+                  "IsExpanded": true,
+                  "subNodes": [
+                    {
+                      "idNum": 27,
+                      "orderNum": 0,
+                      "pcNode": true,
+                      "linkTo": 0,
+                      "ShowOnlyOnce": false,
+                      "NodeIsActive": true,
+                      "NodePortraitBitmap": "",
+                      "NodeNpcName": "",
+                      "NodeSound": "none",
+                      "conversationText": "[Continue.]",
+                      "IsExpanded": true,
+                      "subNodes": [
+                        {
+                          "idNum": 28,
+                          "orderNum": 0,
+                          "pcNode": false,
+                          "linkTo": 0,
+                          "ShowOnlyOnce": false,
+                          "NodeIsActive": true,
+                          "NodePortraitBitmap": "black_tile.png",
+                          "NodeNpcName": "",
+                          "NodeSound": "none",
+                          "conversationText": "<FirstName> pulled up an onion and with strong ribbons strapped it to the shield. Then <he/she> recited the nursery rhyme:\r\n\r\n\"From the ground, from the hedge,\r\nFrom the stone wall by the sedge:\r\nThere she grew, though never planted --\r\nTake not an onion's fate for granted.\"",
+                          "IsExpanded": true,
+                          "subNodes": [
+                            {
+                              "idNum": 29,
+                              "orderNum": 0,
+                              "pcNode": true,
+                              "linkTo": 0,
+                              "ShowOnlyOnce": false,
+                              "NodeIsActive": true,
+                              "NodePortraitBitmap": "",
+                              "NodeNpcName": "",
+                              "NodeSound": "none",
+                              "conversationText": "[End.]",
+                              "IsExpanded": true,
+                              "subNodes": [],
+                              "actions": [
+                                {
+                                  "a_script": "gaGiveItem.cs",
+                                  "a_parameter_1": "onionknight00",
+                                  "a_parameter_2": "1",
+                                  "a_parameter_3": null,
+                                  "a_parameter_4": null
+                                },
+                                {
+                                  "a_script": "gaShowMessageBox.cs",
+                                  "a_parameter_1": "Shield of the Onion Knight received!",
+                                  "a_parameter_2": null,
+                                  "a_parameter_3": null,
+                                  "a_parameter_4": null
+                                },
+                                {
+                                  "a_script": "gaTakeItem.cs",
+                                  "a_parameter_1": "woodenshield00",
+                                  "a_parameter_2": "1",
+                                  "a_parameter_3": null,
+                                  "a_parameter_4": null
+                                },
+                                {
+                                  "a_script": "gaSetGlobalInt.cs",
+                                  "a_parameter_1": "onmap",
+                                  "a_parameter_2": "1",
+                                  "a_parameter_3": null,
+                                  "a_parameter_4": null
+                                },
+                                {
+                                  "a_script": "osSetWorldTime.cs",
+                                  "a_parameter_1": "+",
+                                  "a_parameter_2": "5",
+                                  "a_parameter_3": "false",
+                                  "a_parameter_4": null
+                                }
+                              ],
+                              "conditions": [],
+                              "isLink": false
+                            }
+                          ],
+                          "actions": [],
+                          "conditions": [],
+                          "isLink": false
+                        }
+                      ],
+                      "actions": [],
+                      "conditions": [],
+                      "isLink": false
+                    }
+                  ],
+                  "actions": [],
+                  "conditions": [
+                    {
+                      "c_script": "gcPassSkillCheckSilent.cs",
+                      "c_btnAndOr": "and",
+                      "c_and": true,
+                      "c_not": false,
+                      "c_parameter_1": "-1",
+                      "c_parameter_2": "trait_folkmagic",
+                      "c_parameter_3": "6",
+                      "c_parameter_4": null
+                    },
+                    {
+                      "c_script": "gcCheckHasTrait.cs",
+                      "c_btnAndOr": "or",
+                      "c_and": false,
+                      "c_not": false,
+                      "c_parameter_1": "-1",
+                      "c_parameter_2": "trait_folkmagic3",
+                      "c_parameter_3": null,
+                      "c_parameter_4": null
+                    }
+                  ],
+                  "isLink": false
+                },
+                {
+                  "idNum": 22,
+                  "orderNum": 1,
+                  "pcNode": false,
+                  "linkTo": 0,
+                  "ShowOnlyOnce": false,
+                  "NodeIsActive": true,
+                  "NodePortraitBitmap": "",
+                  "NodeNpcName": "",
+                  "NodeSound": "none",
+                  "conversationText": "[Failure] But why? There was some story connecting the two things, but <he/she> couldn't recall it.",
+                  "IsExpanded": true,
+                  "subNodes": [
+                    {
+                      "idNum": 30,
+                      "orderNum": 0,
+                      "pcNode": true,
+                      "linkTo": 2,
+                      "ShowOnlyOnce": false,
+                      "NodeIsActive": true,
+                      "NodePortraitBitmap": "",
+                      "NodeNpcName": "",
+                      "NodeSound": "none",
+                      "conversationText": "[Natural Philosophy: 50% chance of success -- Wisdom modifies] <He/She> carefully gathered the useful parts of the plant.",
+                      "IsExpanded": true,
+                      "subNodes": [],
+                      "actions": [],
+                      "conditions": [],
+                      "isLink": true
+                    },
+                    {
+                      "idNum": 23,
+                      "orderNum": 1,
+                      "pcNode": true,
+                      "linkTo": 3,
+                      "ShowOnlyOnce": false,
+                      "NodeIsActive": true,
+                      "NodePortraitBitmap": "",
+                      "NodeNpcName": "",
+                      "NodeSound": "none",
+                      "conversationText": "<FirstName> collected some. [This takes 5 minutes.]",
+                      "IsExpanded": true,
+                      "subNodes": [],
+                      "actions": [],
+                      "conditions": [],
+                      "isLink": true
+                    },
+                    {
+                      "idNum": 25,
+                      "orderNum": 2,
+                      "pcNode": true,
+                      "linkTo": 0,
+                      "ShowOnlyOnce": false,
+                      "NodeIsActive": true,
+                      "NodePortraitBitmap": "",
+                      "NodeNpcName": "",
+                      "NodeSound": "none",
+                      "conversationText": "<He/She> left the plant alone. [This provides experience.]",
+                      "IsExpanded": true,
+                      "subNodes": [],
+                      "actions": [
+                        {
+                          "a_script": "osSetProp.cs",
+                          "a_parameter_1": "event1",
+                          "a_parameter_2": null,
+                          "a_parameter_3": "s",
+                          "a_parameter_4": "false"
+                        },
+                        {
+                          "a_script": "osSetProp.cs",
+                          "a_parameter_1": "event1",
+                          "a_parameter_2": null,
+                          "a_parameter_3": "a",
+                          "a_parameter_4": "false"
+                        },
+                        {
+                          "a_script": "gaSetGlobalInt.cs",
+                          "a_parameter_1": "experience",
+                          "a_parameter_2": "1",
+                          "a_parameter_3": null,
+                          "a_parameter_4": null
+                        },
+                        {
+                          "a_script": "gaSetGlobalInt.cs",
+                          "a_parameter_1": "onmap",
+                          "a_parameter_2": "1",
+                          "a_parameter_3": null,
+                          "a_parameter_4": null
+                        }
+                      ],
+                      "conditions": [],
+                      "isLink": false
+                    }
+                  ],
+                  "actions": [],
+                  "conditions": [],
+                  "isLink": false
+                }
+              ],
+              "actions": [
+                {
+                  "a_script": "gaSetGlobalInt.cs",
+                  "a_parameter_1": "global_onionknight",
+                  "a_parameter_2": "1",
+                  "a_parameter_3": null,
+                  "a_parameter_4": null
+                },
+                {
+                  "a_script": "osSetProp.cs",
+                  "a_parameter_1": "event1",
+                  "a_parameter_2": null,
+                  "a_parameter_3": "s",
+                  "a_parameter_4": "false"
+                },
+                {
+                  "a_script": "osSetProp.cs",
+                  "a_parameter_1": "event1",
+                  "a_parameter_2": null,
+                  "a_parameter_3": "a",
+                  "a_parameter_4": "false"
+                }
+              ],
+              "conditions": [
+                {
+                  "c_script": "gcCheckHasTrait.cs",
+                  "c_btnAndOr": "and",
+                  "c_and": true,
+                  "c_not": false,
+                  "c_parameter_1": "-1",
+                  "c_parameter_2": "trait_folkmagic",
+                  "c_parameter_3": null,
+                  "c_parameter_4": null
+                },
+                {
+                  "c_script": "gcCheckForItem.cs",
+                  "c_btnAndOr": "and",
+                  "c_and": true,
+                  "c_not": false,
+                  "c_parameter_1": "woodenshield00",
+                  "c_parameter_2": "1",
+                  "c_parameter_3": null,
+                  "c_parameter_4": null
+                },
+                {
+                  "c_script": "gcCheckGlobalInt.cs",
+                  "c_btnAndOr": "and",
+                  "c_and": true,
+                  "c_not": true,
+                  "c_parameter_1": "global_onionknight",
+                  "c_parameter_2": "=",
+                  "c_parameter_3": "1",
+                  "c_parameter_4": null
+                }
+              ],
+              "isLink": false
+            },
+            {
+              "idNum": 3,
+              "orderNum": 2,
+              "pcNode": true,
+              "linkTo": 0,
+              "ShowOnlyOnce": false,
+              "NodeIsActive": true,
+              "NodePortraitBitmap": "",
+              "NodeNpcName": "",
+              "NodeSound": "none",
+              "conversationText": "<FirstName> collected some. [This takes 5 minutes.]",
+              "IsExpanded": true,
+              "subNodes": [],
+              "actions": [
+                {
+                  "a_script": "osSetProp.cs",
+                  "a_parameter_1": "event1",
+                  "a_parameter_2": null,
+                  "a_parameter_3": "s",
+                  "a_parameter_4": "false"
+                },
+                {
+                  "a_script": "osSetProp.cs",
+                  "a_parameter_1": "event1",
+                  "a_parameter_2": "0",
+                  "a_parameter_3": "a",
+                  "a_parameter_4": "false"
+                },
+                {
+                  "a_script": "gaGiveItem.cs",
+                  "a_parameter_1": "pigonion00",
+                  "a_parameter_2": "1",
+                  "a_parameter_3": null,
+                  "a_parameter_4": null
+                },
+                {
+                  "a_script": "gaShowMessageBox.cs",
+                  "a_parameter_1": "Pig Onion received!",
+                  "a_parameter_2": null,
+                  "a_parameter_3": null,
+                  "a_parameter_4": null
+                },
+                {
+                  "a_script": "gaSetGlobalInt.cs",
+                  "a_parameter_1": "onmap",
+                  "a_parameter_2": "1",
+                  "a_parameter_3": null,
+                  "a_parameter_4": null
+                },
+                {
+                  "a_script": "osSetWorldTime.cs",
+                  "a_parameter_1": "+",
+                  "a_parameter_2": "5",
+                  "a_parameter_3": "false",
+                  "a_parameter_4": null
+                }
+              ],
+              "conditions": [],
+              "isLink": false
+            },
+            {
+              "idNum": 6,
+              "orderNum": 3,
+              "pcNode": true,
+              "linkTo": 0,
+              "ShowOnlyOnce": false,
+              "NodeIsActive": true,
+              "NodePortraitBitmap": "",
+              "NodeNpcName": "",
+              "NodeSound": "none",
+              "conversationText": "<He/She> left it alone. [This provides experience.]",
+              "IsExpanded": true,
+              "subNodes": [],
+              "actions": [
+                {
+                  "a_script": "osSetProp.cs",
+                  "a_parameter_1": "event1",
+                  "a_parameter_2": null,
+                  "a_parameter_3": "s",
+                  "a_parameter_4": "false"
+                },
+                {
+                  "a_script": "osSetProp.cs",
+                  "a_parameter_1": "event1",
+                  "a_parameter_2": null,
+                  "a_parameter_3": "a",
+                  "a_parameter_4": "false"
+                },
+                {
+                  "a_script": "gaSetGlobalInt.cs",
+                  "a_parameter_1": "experience",
+                  "a_parameter_2": "1",
+                  "a_parameter_3": null,
+                  "a_parameter_4": null
+                },
+                {
+                  "a_script": "gaSetGlobalInt.cs",
+                  "a_parameter_1": "onmap",
+                  "a_parameter_2": "1",
+                  "a_parameter_3": null,
+                  "a_parameter_4": null
+                }
+              ],
+              "conditions": [],
+              "isLink": false
+            }
+          ],
+          "actions": [],
+          "conditions": [],
+          "isLink": false
+        },
+        {
+          "idNum": 7,
+          "orderNum": 1,
+          "pcNode": false,
+          "linkTo": 0,
+          "ShowOnlyOnce": false,
+          "NodeIsActive": true,
+          "NodePortraitBitmap": "",
+          "NodeNpcName": "",
+          "NodeSound": "none",
+          "conversationText": "Pig onion grew here.",
+          "IsExpanded": true,
+          "subNodes": [
+            {
+              "idNum": 9,
+              "orderNum": 0,
+              "pcNode": true,
+              "linkTo": 2,
+              "ShowOnlyOnce": false,
+              "NodeIsActive": true,
+              "NodePortraitBitmap": "",
+              "NodeNpcName": "",
+              "NodeSound": "none",
+              "conversationText": "[Natural Philosophy: 50% chance of success -- Wisdom modifies] <He/She> carefully gathered the useful parts of the plant.",
+              "IsExpanded": true,
+              "subNodes": [],
+              "actions": [],
+              "conditions": [],
+              "isLink": true
+            },
+            {
+              "idNum": 26,
+              "orderNum": 1,
+              "pcNode": true,
+              "linkTo": 20,
+              "ShowOnlyOnce": false,
+              "NodeIsActive": true,
+              "NodePortraitBitmap": "",
+              "NodeNpcName": "",
+              "NodeSound": "none",
+              "conversationText": "[Folk Magic: 75% chance of success -- Wisdom modifies] Seeing it brought to mind the wooden shield <he/she>'d found in the swamp.",
+              "IsExpanded": true,
+              "subNodes": [],
+              "actions": [],
+              "conditions": [],
+              "isLink": true
+            },
+            {
+              "idNum": 10,
+              "orderNum": 2,
+              "pcNode": true,
+              "linkTo": 3,
+              "ShowOnlyOnce": false,
+              "NodeIsActive": true,
+              "NodePortraitBitmap": "",
+              "NodeNpcName": "",
+              "NodeSound": "none",
+              "conversationText": "<FirstName> collected some. [This takes 5 minutes.]",
+              "IsExpanded": true,
+              "subNodes": [],
+              "actions": [],
+              "conditions": [],
+              "isLink": true
+            },
+            {
+              "idNum": 13,
+              "orderNum": 3,
+              "pcNode": true,
+              "linkTo": 6,
+              "ShowOnlyOnce": false,
+              "NodeIsActive": true,
+              "NodePortraitBitmap": "",
+              "NodeNpcName": "",
+              "NodeSound": "none",
+              "conversationText": "<He/She> left it alone. [This provides experience.]",
+              "IsExpanded": true,
+              "subNodes": [],
+              "actions": [],
+              "conditions": [],
+              "isLink": true
+            }
+          ],
+          "actions": [],
+          "conditions": [],
+          "isLink": false
+        }
+      ],
+      "actions": [],
+      "conditions": [],
+      "isLink": false
+    }
+  ],
+  "ConvoFileName": "pigonion_con",
+  "Narration": false,
+  "PartyChat": false,
+  "SpeakToMainPcOnly": true,
+  "NpcPortraitBitmap": "it_pigonion.png",
+  "DefaultNpcName": "",
+  "NextIdNum": 34
+}

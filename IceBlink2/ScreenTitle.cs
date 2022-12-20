@@ -11,6 +11,7 @@ namespace IceBlink2
     {
 	    //public gv.module gv.mod;
 	    public GameView gv;
+
 	
 	    private IbbButton btnNewGame = null;
 	    private IbbButton btnLoadSavedGame = null;
@@ -25,7 +26,19 @@ namespace IceBlink2
 		    gv = g;
 		    setControlsStart();
 	    }
-	
+
+
+//public WMPLib.WindowsMediaPlayer titleMusic = new WMPLib.WindowsMediaPlayer();
+
+
+  //      titleMusic.URL = (this.mainDirectory + "\\modules\\" + this.mod.moduleName + "\\music\\" + Walk of the Young Witch + ".mp3");
+
+  //      titleMusic.settings.setMode("loop", true);
+
+    //    titleMusic.controls.play();
+
+
+
 	    public void setControlsStart()
 	    {
             int pH = (int)((float)gv.screenHeight / 100.0f);
@@ -99,6 +112,9 @@ namespace IceBlink2
         }
 
 	    //TITLE SCREEN  
+
+
+
         public void redrawTitle()
         {            
     	    //DRAW TITLE SCREEN

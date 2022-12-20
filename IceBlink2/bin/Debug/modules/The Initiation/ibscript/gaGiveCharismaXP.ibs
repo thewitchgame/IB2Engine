@@ -1,0 +1,30 @@
+~gaGetGlobalInt(global_charisma,@charisma)
+~gaGetGlobalInt(Summons,@summons)
+~gaPlaySound(xp)
+
+if (@charisma = 0)
+   ~gaGiveXP(20)
+end
+endif
+
+if (@charisma = 1)
+   ~gaGiveXP(22)
+end
+endif
+
+if (@charisma = 2)
+   ~gaGiveXP(24)
+end
+endif
+
+if (@charisma = 3)
+   ~gaGiveXP(26)
+end
+endif
+
+if (@charisma = 4)
+   ~gaGiveXP(28)
+end
+endif
+
+end

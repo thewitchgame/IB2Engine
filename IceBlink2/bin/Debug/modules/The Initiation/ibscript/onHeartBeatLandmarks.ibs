@@ -1,0 +1,6 @@
+~gaGetGlobalInt(traveltime,@m)
+if (@m > 0)
+~osSetWorldTime(+,@m,false)
+~gaSetGlobalInt(traveltime,0)
+endif
+end

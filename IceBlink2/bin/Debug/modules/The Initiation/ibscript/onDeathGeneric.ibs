@@ -1,0 +1,11 @@
+@1 = ~gcRand1of(180)
+~gaGiveGold(1)
+
+
+if (@1 = 1)
+~gaGiveItem(mothkey00,1)
+~gaShowMessageBox(Key of Dross received!)
+end
+endif
+
+end

@@ -1,0 +1,21 @@
+@i = ~gcCheckGlobalInt(CannotUseMap,=,1)
+@j = ~gcCheckGlobalInt(onmap,=,1)
+
+if (@i = 1)
+~gaShowMessageBox(You cannot use the map right now.)
+   end
+endif
+
+if (@j = 1)
+~gaShowMessageBox(Move to another square to use map.)
+end
+endif
+
+
+~gaSetGlobalInt(CannotUseMap,1)
+~gaShowMessageBox(The eye of the young witch wandered over the map...)
+~ogGetPartyLocation(LoadMapX,LoadMapY,LoadMapArea)
+~gaTransitionPartyToMapLocation(woodsmap00,17,2)
+~gaTogglePartyToken(pointer_token,true)
+
+end

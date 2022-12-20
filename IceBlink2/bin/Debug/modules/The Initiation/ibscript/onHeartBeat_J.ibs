@@ -1,0 +1,16 @@
+
+@v = ~gcCheckLocalInt(thisarea,look,=,1)
+@b = ~gcCheckPartyDistance(newPropTag_98850_248198,1)
+
+if (@v = 1)
+end
+endif
+
+
+if (@b = 1)
+~gaSetLocalInt(thisarea,look,1)
+~gaDoConversationByName(transition_j_con)
+end
+endif
+
+end

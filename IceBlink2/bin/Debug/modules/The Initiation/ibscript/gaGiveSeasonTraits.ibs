@@ -1,0 +1,35 @@
+
+
+
+@winter = ~gcCheckIsRace(-1,race_phlegmatic)
+@spring = ~gcCheckIsRace(-1,race_choleric)
+@summer = ~gcCheckIsRace(-1,race_sanguine)
+@fall = ~gcCheckIsRace(-1,race_melancholy)
+@cycle = ~gcCheckIsRace(-1,race_noseason)
+
+if (@winter = 1)
+~osAddTraitToPlayer(,-1,trait_winter1)
+end
+endif
+
+if (@spring = 1)
+~osAddTraitToPlayer(,-1,trait_spring1)
+end
+endif
+
+if (@summer = 1)
+~osAddTraitToPlayer(,-1,trait_summer1)
+end
+endif
+
+if (@fall = 1)
+~osAddTraitToPlayer(,-1,trait_fall1)
+end
+endif
+
+if (@cycle = 1)
+~osAddTraitToPlayer(,-1,trait_cycle1)
+end
+endif
+
+end

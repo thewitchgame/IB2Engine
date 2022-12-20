@@ -1,0 +1,21 @@
+@1 = ~gcRand1of(3)
+@2 = ~gcRand1of(2)
+@3 = ~gcRand1of(1)
+
+if (@1 = 1)
+~gaCastSpellEncounterTrigger(spell_possumsummon,,1,Possum summoned.)
+end
+endif
+
+if (@2 = 1)
+~gaCastSpellEncounterTrigger(spell_possumsummon,,1,Possum summoned.)
+end
+endif
+
+if (@3 = 1)
+~gaCastSpellEncounterTrigger(spell_possumsummon,,1,Possum summoned.)
+end
+endif
+
+
+end

@@ -36,7 +36,7 @@
               "NodePortraitBitmap": "",
               "NodeNpcName": "",
               "NodeSound": "none",
-              "conversationText": "\"Eldest Lady mentioned I could eat and rest here.\"",
+              "conversationText": "\"I'm hungry. I need something to eat before I start.\"",
               "IsExpanded": true,
               "subNodes": [
                 {
@@ -434,7 +434,7 @@
           "NodeNpcName": "",
           "NodeSound": "none",
           "conversationText": "\"There you are. Sit down. I made some food for you.\"",
-          "IsExpanded": true,
+          "IsExpanded": false,
           "subNodes": [
             {
               "idNum": 13,
@@ -849,7 +849,7 @@
                                       "NodeNpcName": "",
                                       "NodeSound": "none",
                                       "conversationText": "\"What's become of him?\"",
-                                      "IsExpanded": true,
+                                      "IsExpanded": false,
                                       "subNodes": [
                                         {
                                           "idNum": 59,
@@ -1271,7 +1271,7 @@
                                                   "NodePortraitBitmap": "",
                                                   "NodeNpcName": "",
                                                   "NodeSound": "none",
-                                                  "conversationText": "\"Yes. You know the Laws. The Crone doesn't like <i>even</i>. The Crone doesn't like <i>two</i>. But what could we do? Wee Malkin wanted to leave.\"",
+                                                  "conversationText": "\"Yes. You know the Laws. Always three. There was somebody for Nnenne. There had to be. But what could we do? Wee Malkin wanted to leave, so we -- let him leave.\"",
                                                   "IsExpanded": true,
                                                   "subNodes": [],
                                                   "actions": [],
@@ -2199,8 +2199,8 @@
           "NodePortraitBitmap": "",
           "NodeNpcName": "",
           "NodeSound": "none",
-          "conversationText": "\"Time for bed? I hope you don't make <i>munching sounds</i> like Eldest Lady.\"\r\n<p>\r\n<i>Sleeping gives you 50 XP.</i>",
-          "IsExpanded": true,
+          "conversationText": "\"Time for bed? I hope you don't make <i>munching sounds</i> like Eldest Lady.\"\r\n<p>\r\n[Sleeping gives you experience.]",
+          "IsExpanded": false,
           "subNodes": [
             {
               "idNum": 114,

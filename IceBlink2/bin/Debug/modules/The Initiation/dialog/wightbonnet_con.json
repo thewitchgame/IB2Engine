@@ -23,7 +23,7 @@
           "NodePortraitBitmap": "",
           "NodeNpcName": "",
           "NodeSound": "none",
-          "conversationText": "<FirstName> spied the fleshy, doll-like stalk of a wightbonnet mushroom. Its cap was speckled with spots that looked just like blood. <FirstName> knew this meant it was a mature specimen and could be used to refresh a tired will.\r\n<p>\r\n<i>Wightbonnet can be made into a consumable that restores 3 SP. If you have the Natural Philosophy trait, you may be able to harvest more than 1 alkaloid. Alternatively, witches with Folk Magic may be able to craft a unique magic item with it.</i>\r\n<p>\r\n<i>You can also leave the plant alone for a reward of 20 XP.</i>",
+          "conversationText": "<FirstName> spied the doll-like stalk of a wightbonnet mushroom. Speckles on its cap looked just like blood. It was a mature specimen, good for the mind.",
           "IsExpanded": true,
           "subNodes": [
             {
@@ -36,7 +36,7 @@
               "NodePortraitBitmap": "",
               "NodeNpcName": "",
               "NodeSound": "none",
-              "conversationText": "[Natural Philosophy] <FirstName> attempted to harvest the mushroom with the care of a practiced herbalist. (<i>This takes 5 minutes,</i>)",
+              "conversationText": "[Natural Philosophy: 50% chance of success -- Wisdom modifies]  <He/She> carefully gathered what <he/she> could from the patch of wightbonnet.",
               "IsExpanded": true,
               "subNodes": [
                 {
@@ -49,7 +49,7 @@
                   "NodePortraitBitmap": "",
                   "NodeNpcName": "",
                   "NodeSound": "none",
-                  "conversationText": "[Success] <FirstName> was able to harvest three alkaloids.",
+                  "conversationText": "[Success: 5 minutes pass.] <He/She> took three mushrooms.",
                   "IsExpanded": true,
                   "subNodes": [
                     {
@@ -72,6 +72,20 @@
                           "a_parameter_2": "3",
                           "a_parameter_3": null,
                           "a_parameter_4": null
+                        },
+                        {
+                          "a_script": "gaShowMessageBox.cs",
+                          "a_parameter_1": "Wightbonnet (3) received!",
+                          "a_parameter_2": null,
+                          "a_parameter_3": null,
+                          "a_parameter_4": null
+                        },
+                        {
+                          "a_script": "gaSetGlobalInt.cs",
+                          "a_parameter_1": "onmap",
+                          "a_parameter_2": "1",
+                          "a_parameter_3": null,
+                          "a_parameter_4": null
                         }
                       ],
                       "conditions": [],
@@ -81,13 +95,23 @@
                   "actions": [],
                   "conditions": [
                     {
-                      "c_script": "gcPassSkillCheck.cs",
+                      "c_script": "gcCheckAttribute.cs",
                       "c_btnAndOr": "and",
                       "c_and": true,
                       "c_not": false,
                       "c_parameter_1": "-1",
-                      "c_parameter_2": "trait_naturalphil",
-                      "c_parameter_3": "7",
+                      "c_parameter_2": "wis",
+                      "c_parameter_3": ">",
+                      "c_parameter_4": "12"
+                    },
+                    {
+                      "c_script": "gcRand1of.cs",
+                      "c_btnAndOr": "and",
+                      "c_and": true,
+                      "c_not": false,
+                      "c_parameter_1": "5",
+                      "c_parameter_2": null,
+                      "c_parameter_3": null,
                       "c_parameter_4": null
                     }
                   ],
@@ -103,7 +127,7 @@
                   "NodePortraitBitmap": "",
                   "NodeNpcName": "",
                   "NodeSound": "none",
-                  "conversationText": "[Partial Success] <FirstName> was able to harvest two alkaloids.",
+                  "conversationText": "[Success: 5 minutes pass.] <He/She> took two mushrooms.",
                   "IsExpanded": true,
                   "subNodes": [
                     {
@@ -126,6 +150,20 @@
                           "a_parameter_2": "2",
                           "a_parameter_3": null,
                           "a_parameter_4": null
+                        },
+                        {
+                          "a_script": "gaShowMessageBox.cs",
+                          "a_parameter_1": "Wightbonnet (2) received!",
+                          "a_parameter_2": null,
+                          "a_parameter_3": null,
+                          "a_parameter_4": null
+                        },
+                        {
+                          "a_script": "gaSetGlobalInt.cs",
+                          "a_parameter_1": "onmap",
+                          "a_parameter_2": "1",
+                          "a_parameter_3": null,
+                          "a_parameter_4": null
                         }
                       ],
                       "conditions": [],
@@ -135,13 +173,23 @@
                   "actions": [],
                   "conditions": [
                     {
-                      "c_script": "gcPassSkillCheck.cs",
+                      "c_script": "gcCheckAttribute.cs",
                       "c_btnAndOr": "and",
                       "c_and": true,
                       "c_not": false,
                       "c_parameter_1": "-1",
-                      "c_parameter_2": "trait_naturalphil",
-                      "c_parameter_3": "7",
+                      "c_parameter_2": "wis",
+                      "c_parameter_3": ">",
+                      "c_parameter_4": "10"
+                    },
+                    {
+                      "c_script": "gcRand1of.cs",
+                      "c_btnAndOr": "and",
+                      "c_and": true,
+                      "c_not": false,
+                      "c_parameter_1": "2",
+                      "c_parameter_2": null,
+                      "c_parameter_3": null,
                       "c_parameter_4": null
                     }
                   ],
@@ -157,7 +205,7 @@
                   "NodePortraitBitmap": "",
                   "NodeNpcName": "",
                   "NodeSound": "none",
-                  "conversationText": "[Failure] Unfortunately, <FirstName> could only harvest one alkaloid.",
+                  "conversationText": "[Failure: 5 minutes pass.] Unfortunately, <he/she> took only one mushroom.",
                   "IsExpanded": true,
                   "subNodes": [
                     {
@@ -180,6 +228,20 @@
                           "a_parameter_2": "1",
                           "a_parameter_3": null,
                           "a_parameter_4": null
+                        },
+                        {
+                          "a_script": "gaShowMessageBox.cs",
+                          "a_parameter_1": "Wightbonnet received!",
+                          "a_parameter_2": null,
+                          "a_parameter_3": null,
+                          "a_parameter_4": null
+                        },
+                        {
+                          "a_script": "gaSetGlobalInt.cs",
+                          "a_parameter_1": "onmap",
+                          "a_parameter_2": "1",
+                          "a_parameter_3": null,
+                          "a_parameter_4": null
                         }
                       ],
                       "conditions": [],
@@ -194,14 +256,14 @@
               "actions": [
                 {
                   "a_script": "osSetProp.cs",
-                  "a_parameter_1": "thisProp",
+                  "a_parameter_1": "event1",
                   "a_parameter_2": null,
                   "a_parameter_3": "s",
                   "a_parameter_4": "false"
                 },
                 {
                   "a_script": "osSetProp.cs",
-                  "a_parameter_1": "thisProp",
+                  "a_parameter_1": "event1",
                   "a_parameter_2": null,
                   "a_parameter_3": "a",
                   "a_parameter_4": "false"
@@ -238,20 +300,20 @@
               "NodePortraitBitmap": "",
               "NodeNpcName": "",
               "NodeSound": "none",
-              "conversationText": "<FirstName> harvested some wightbonnet. (<i>This takes 5 minutes,</i>)",
+              "conversationText": "<He/She> collected some. [This takes 5 minutes.]",
               "IsExpanded": true,
               "subNodes": [],
               "actions": [
                 {
                   "a_script": "osSetProp.cs",
-                  "a_parameter_1": "thisProp",
+                  "a_parameter_1": "event1",
                   "a_parameter_2": null,
                   "a_parameter_3": "s",
                   "a_parameter_4": "false"
                 },
                 {
                   "a_script": "osSetProp.cs",
-                  "a_parameter_1": "thisProp",
+                  "a_parameter_1": "event1",
                   "a_parameter_2": null,
                   "a_parameter_3": "a",
                   "a_parameter_4": "false"
@@ -267,6 +329,20 @@
                   "a_script": "osSetWorldTime.cs",
                   "a_parameter_1": "+",
                   "a_parameter_2": "5",
+                  "a_parameter_3": "false",
+                  "a_parameter_4": null
+                },
+                {
+                  "a_script": "gaShowMessageBox.cs",
+                  "a_parameter_1": "Wightbonnet received!",
+                  "a_parameter_2": null,
+                  "a_parameter_3": null,
+                  "a_parameter_4": null
+                },
+                {
+                  "a_script": "gaSetGlobalInt.cs",
+                  "a_parameter_1": "onmap",
+                  "a_parameter_2": "1",
                   "a_parameter_3": null,
                   "a_parameter_4": null
                 }
@@ -284,28 +360,35 @@
               "NodePortraitBitmap": "",
               "NodeNpcName": "",
               "NodeSound": "none",
-              "conversationText": "<FirstName> left the wightbonnet alone.",
+              "conversationText": "<He/She> left it alone. [This provides experience.]",
               "IsExpanded": true,
               "subNodes": [],
               "actions": [
                 {
                   "a_script": "osSetProp.cs",
-                  "a_parameter_1": "thisProp",
+                  "a_parameter_1": "event1",
                   "a_parameter_2": null,
                   "a_parameter_3": "s",
                   "a_parameter_4": "false"
                 },
                 {
                   "a_script": "osSetProp.cs",
-                  "a_parameter_1": "thisProp",
+                  "a_parameter_1": "event1",
                   "a_parameter_2": null,
                   "a_parameter_3": "a",
                   "a_parameter_4": "false"
                 },
                 {
-                  "a_script": "gaGiveXP.cs",
-                  "a_parameter_1": "20",
-                  "a_parameter_2": null,
+                  "a_script": "gaSetGlobalInt.cs",
+                  "a_parameter_1": "experience",
+                  "a_parameter_2": "1",
+                  "a_parameter_3": null,
+                  "a_parameter_4": null
+                },
+                {
+                  "a_script": "gaSetGlobalInt.cs",
+                  "a_parameter_1": "onmap",
+                  "a_parameter_2": "1",
                   "a_parameter_3": null,
                   "a_parameter_4": null
                 }
@@ -323,7 +406,7 @@
               "NodePortraitBitmap": "",
               "NodeNpcName": "",
               "NodeSound": "none",
-              "conversationText": "[Folk Magic] The apocryphal tale \"St. Skism and the Crone\" mentioned another use for wightbonnet. If only <FirstName> could remember... (<i>Success takes 30 minutes.</i>)",
+              "conversationText": "[Folk Magic: 85% chance of success -- Wisdom modifies] Wightbonnet had other uses, too.",
               "IsExpanded": true,
               "subNodes": [
                 {
@@ -336,7 +419,7 @@
                   "NodePortraitBitmap": "",
                   "NodeNpcName": "",
                   "NodeSound": "none",
-                  "conversationText": "[Success] Ah yes. The bastard daughter of the saint had sewn wightbonnet into the lining of her robes to outwit the king's inquisitors. Perhaps <FirstName> could do something similar.",
+                  "conversationText": "[Success: 5 minutes pass.] Nasty people said witches kept their minds sharp by cutting off children's heads and sewing them into their robes.\r\n\r\nThere was nothing to such stories (as far as <FirstName> knew), but <he/she> knew an analogous charm. Instead of children's heads, you used the tops of wightbonnet mushrooms.",
                   "IsExpanded": true,
                   "subNodes": [
                     {
@@ -362,7 +445,7 @@
                           "NodePortraitBitmap": "",
                           "NodeNpcName": "",
                           "NodeSound": "none",
-                          "conversationText": "A witch is never without needle, thread, and the power of improvisation. <FirstName> found a good seat on a mossy boulder and set to work. At the end of a half hour, <he/she> had sewn the wightbonnet into the lining of <his/her> robes.\r\n\r\n<i>You have received the Charmed Robes of the Young Witch.</i>",
+                          "conversationText": "Never without needle, thread, and the power of improvisation, <he/she> found a good seat on a rock and set to work. At the end of a half hour, <he/she> had sewn the wightbonnet into the lining of <his/her> own robes.",
                           "IsExpanded": true,
                           "subNodes": [
                             {
@@ -387,8 +470,15 @@
                                   "a_parameter_4": null
                                 },
                                 {
-                                  "a_script": "gaTakeItem.cs",
-                                  "a_parameter_1": "witchrobes01",
+                                  "a_script": "gaShowMessageBox.cs",
+                                  "a_parameter_1": "Charmed Robes of the Young Witch received!",
+                                  "a_parameter_2": null,
+                                  "a_parameter_3": null,
+                                  "a_parameter_4": null
+                                },
+                                {
+                                  "a_script": "gaSetGlobalInt.cs",
+                                  "a_parameter_1": "onmap",
                                   "a_parameter_2": "1",
                                   "a_parameter_3": null,
                                   "a_parameter_4": null
@@ -407,7 +497,14 @@
                         {
                           "a_script": "osSetWorldTime.cs",
                           "a_parameter_1": "+",
-                          "a_parameter_2": "30",
+                          "a_parameter_2": "5",
+                          "a_parameter_3": "false",
+                          "a_parameter_4": null
+                        },
+                        {
+                          "a_script": "gaTakeItem.cs",
+                          "a_parameter_1": "witchrobes01",
+                          "a_parameter_2": "1",
                           "a_parameter_3": null,
                           "a_parameter_4": null
                         }
@@ -417,7 +514,28 @@
                     }
                   ],
                   "actions": [],
-                  "conditions": [],
+                  "conditions": [
+                    {
+                      "c_script": "gcPassSkillCheck.cs",
+                      "c_btnAndOr": "and",
+                      "c_and": true,
+                      "c_not": false,
+                      "c_parameter_1": "-1",
+                      "c_parameter_2": "trait_folkmagic",
+                      "c_parameter_3": "4",
+                      "c_parameter_4": null
+                    },
+                    {
+                      "c_script": "gcCheckHasTrait.cs",
+                      "c_btnAndOr": "or",
+                      "c_and": false,
+                      "c_not": false,
+                      "c_parameter_1": "-1",
+                      "c_parameter_2": "trait_folkmagic3",
+                      "c_parameter_3": null,
+                      "c_parameter_4": null
+                    }
+                  ],
                   "isLink": false
                 },
                 {
@@ -430,7 +548,7 @@
                   "NodePortraitBitmap": "",
                   "NodeNpcName": "",
                   "NodeSound": "none",
-                  "conversationText": "[Failure] <He/She> knew it had <i>something</i> to do with how the bastard daughter of the saint outwitted the inquisition, but the details eluded <him/her>. <He/She> could still make use of the mushroom if <he/she> wished, though.",
+                  "conversationText": "[Failure: Wisdom too low] However, the young witch couldn't remember what they were.",
                   "IsExpanded": true,
                   "subNodes": [
                     {
@@ -443,7 +561,7 @@
                       "NodePortraitBitmap": "",
                       "NodeNpcName": "",
                       "NodeSound": "none",
-                      "conversationText": "[Natural Philosophy] <FirstName> attempted to harvest the mushroom with the care of a practiced herbalist. (<i>This takes 5 minutes,</i>)",
+                      "conversationText": "[Natural Philosophy: 50% chance of success; Wisdom modifies]  <He/She> carefully gathered what <he/she> could.",
                       "IsExpanded": true,
                       "subNodes": [],
                       "actions": [],
@@ -460,7 +578,7 @@
                       "NodePortraitBitmap": "",
                       "NodeNpcName": "",
                       "NodeSound": "none",
-                      "conversationText": "<FirstName> harvested some wightbonnet. (<i>This takes 5 minutes,</i>)",
+                      "conversationText": "<He/She> collected some. [This takes 5 minutes.]",
                       "IsExpanded": true,
                       "subNodes": [],
                       "actions": [],
@@ -468,21 +586,50 @@
                       "isLink": true
                     },
                     {
-                      "idNum": 28,
+                      "idNum": 29,
                       "orderNum": 2,
                       "pcNode": true,
-                      "linkTo": 6,
+                      "linkTo": 0,
                       "ShowOnlyOnce": false,
                       "NodeIsActive": true,
                       "NodePortraitBitmap": "",
                       "NodeNpcName": "",
                       "NodeSound": "none",
-                      "conversationText": "<FirstName> left the wightbonnet alone.",
+                      "conversationText": "Instead, <he/she> left the mushroom alone. [This provides experience.]",
                       "IsExpanded": true,
                       "subNodes": [],
-                      "actions": [],
+                      "actions": [
+                        {
+                          "a_script": "osSetProp.cs",
+                          "a_parameter_1": "event1",
+                          "a_parameter_2": null,
+                          "a_parameter_3": "s",
+                          "a_parameter_4": "false"
+                        },
+                        {
+                          "a_script": "osSetProp.cs",
+                          "a_parameter_1": "event1",
+                          "a_parameter_2": null,
+                          "a_parameter_3": "a",
+                          "a_parameter_4": "false"
+                        },
+                        {
+                          "a_script": "gaSetGlobalInt.cs",
+                          "a_parameter_1": "experience",
+                          "a_parameter_2": "1",
+                          "a_parameter_3": null,
+                          "a_parameter_4": null
+                        },
+                        {
+                          "a_script": "gaSetGlobalInt.cs",
+                          "a_parameter_1": "onmap",
+                          "a_parameter_2": "1",
+                          "a_parameter_3": null,
+                          "a_parameter_4": null
+                        }
+                      ],
                       "conditions": [],
-                      "isLink": true
+                      "isLink": false
                     }
                   ],
                   "actions": [],
@@ -500,14 +647,14 @@
                 },
                 {
                   "a_script": "osSetProp.cs",
-                  "a_parameter_1": "thisProp",
+                  "a_parameter_1": "event1",
                   "a_parameter_2": null,
                   "a_parameter_3": "s",
                   "a_parameter_4": "false"
                 },
                 {
                   "a_script": "osSetProp.cs",
-                  "a_parameter_1": "thisProp",
+                  "a_parameter_1": "event1",
                   "a_parameter_2": null,
                   "a_parameter_3": "a",
                   "a_parameter_4": "false"
@@ -522,6 +669,16 @@
                   "c_parameter_1": "globalwightbonnet",
                   "c_parameter_2": "=",
                   "c_parameter_3": "1",
+                  "c_parameter_4": null
+                },
+                {
+                  "c_script": "gcCheckHasTrait.cs",
+                  "c_btnAndOr": "and",
+                  "c_and": true,
+                  "c_not": false,
+                  "c_parameter_1": "-1",
+                  "c_parameter_2": "trait_folkmagic",
+                  "c_parameter_3": null,
                   "c_parameter_4": null
                 }
               ],
@@ -542,7 +699,7 @@
           "NodePortraitBitmap": "",
           "NodeNpcName": "",
           "NodeSound": "none",
-          "conversationText": "<i>Wightbonnet can be made into a consumable that restores 4 SP. If you have the Natural Philosophy trait, you may be able to harvest more than 1 alkaloid. Witches with Folk Magic who have not already tried to do so may be able to craft a unique magic item with it.</i>",
+          "conversationText": "More wightbonnet grew here.",
           "IsExpanded": true,
           "subNodes": [
             {
@@ -555,7 +712,7 @@
               "NodePortraitBitmap": "",
               "NodeNpcName": "",
               "NodeSound": "none",
-              "conversationText": "[Natural Philosophy] <FirstName> attempted to harvest the mushroom with the care of a practiced herbalist. (<i>This takes 5 minutes,</i>)",
+              "conversationText": "[Natural Philosophy: 50% chance of success; Wisdom modifies]  <He/She> carefully gathered what <he/she> could.",
               "IsExpanded": true,
               "subNodes": [],
               "actions": [],
@@ -572,7 +729,7 @@
               "NodePortraitBitmap": "",
               "NodeNpcName": "",
               "NodeSound": "none",
-              "conversationText": "<FirstName> harvested some wightbonnet. (<i>This takes 5 minutes,</i>)",
+              "conversationText": "<He/She> collected some. [This takes 5 minutes.]",
               "IsExpanded": true,
               "subNodes": [],
               "actions": [],
@@ -589,7 +746,7 @@
               "NodePortraitBitmap": "",
               "NodeNpcName": "",
               "NodeSound": "none",
-              "conversationText": "<FirstName> left the wightbonnet alone.",
+              "conversationText": "<He/She> left it alone. [This provides experience.]",
               "IsExpanded": true,
               "subNodes": [],
               "actions": [],
@@ -611,7 +768,7 @@
   "Narration": false,
   "PartyChat": false,
   "SpeakToMainPcOnly": true,
-  "NpcPortraitBitmap": "prp_bairncap.png",
+  "NpcPortraitBitmap": "it_wightbonnet01.png",
   "DefaultNpcName": "",
-  "NextIdNum": 28
+  "NextIdNum": 29
 }

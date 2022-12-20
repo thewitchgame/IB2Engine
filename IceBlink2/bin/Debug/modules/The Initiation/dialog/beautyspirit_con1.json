@@ -23,7 +23,7 @@
           "NodePortraitBitmap": "",
           "NodeNpcName": "",
           "NodeSound": "none",
-          "conversationText": "\"We sing the song outside the house of gladness.\" ",
+          "conversationText": "\"We sing the song outside the house of gladness,\r\nWith sweetest yellows paint the breath that fills\r\nDesire's hollows.\"",
           "IsExpanded": true,
           "subNodes": [
             {
@@ -49,7 +49,7 @@
                   "NodePortraitBitmap": "",
                   "NodeNpcName": "",
                   "NodeSound": "none",
-                  "conversationText": "\"Its fragrant colors brush the wind that fills\r\nDesire's hollows.\"",
+                  "conversationText": "          \"Why do things that speak\r\nResist?\"",
                   "IsExpanded": true,
                   "subNodes": [
                     {
@@ -75,7 +75,7 @@
                           "NodePortraitBitmap": "",
                           "NodeNpcName": "",
                           "NodeSound": "none",
-                          "conversationText": "          \"Why do things that speak\r\nResist? Lie down in dappled places, mortal,\r\nThe lovely moments tyrants to your tongue.\"",
+                          "conversationText": "         \"Lie down in dappled places, rest,\r\nThe lovely moments tyrants to your will.\"",
                           "IsExpanded": true,
                           "subNodes": [
                             {
@@ -88,7 +88,7 @@
                               "NodePortraitBitmap": "",
                               "NodeNpcName": "",
                               "NodeSound": "none",
-                              "conversationText": "\"I am not here to rest, spirit. I seek a murderer.\"",
+                              "conversationText": "The young witch fought against sleep. \"I'm not here to rest. I have questions, spirit.\"",
                               "IsExpanded": true,
                               "subNodes": [
                                 {
@@ -101,7 +101,7 @@
                                   "NodePortraitBitmap": "",
                                   "NodeNpcName": "",
                                   "NodeSound": "none",
-                                  "conversationText": "\"Then dream awhile -- let music, slumber mingle,\r\nA stranger sense of things come oozing, sliding \r\nFrom our heavy golden-purple clusters...\r\nMore truth in rest than in the waking world --\r\nLess falseness, too, because what's false\r\nComes forth by accident, without design.\"",
+                                  "conversationText": "\"So dream awhile -- let music mix with sleep,\r\nA stranger sense of things come trickling down \r\nThe rose and topaz bunches where we sing...\r\nMore truth in rest than in the waking world --\r\nLess falseness, too, because what's false\r\nComes forth by accident, without design.\"",
                                   "IsExpanded": true,
                                   "subNodes": [
                                     {
@@ -127,7 +127,7 @@
                                           "NodePortraitBitmap": "",
                                           "NodeNpcName": "",
                                           "NodeSound": "none",
-                                          "conversationText": "As the birds sang, <FirstName> began to feel drowsy. The sun was warm, the light in the greenery splendid. A bed of moss sprang up, green and soft-looking. Flowers sprang up, too, flowers with pale, delicate petals.",
+                                          "conversationText": "As the birds sang, the drowsiness <FirstName> had been feeling intensified. The wide meadow receded from <his/her> vision. Golden light filtered through the greenery onto a bed of moss beneath the vine. Flowers with pale, liver-shaped petals sprang up around it.",
                                           "IsExpanded": true,
                                           "subNodes": [
                                             {
@@ -153,11 +153,11 @@
                                                   "NodePortraitBitmap": "black_tile.png",
                                                   "NodeNpcName": "",
                                                   "NodeSound": "none",
-                                                  "conversationText": "The birds changed their tune. Dark terror jolted the young witch, nearly waking <him/her>. A mayfly skimmed the deeps. A child went into the woods and didn't return. A mighty city turned to sand. The birds sang, and the shadows passed.",
+                                                  "conversationText": "The birds changed their tune. Dark terror jolted the young witch, nearly waking <him/her>. A mayfly skimmed the deeps. A child went into the woods. A city died overnight. <FirstName> saw the window of a ruined temple.",
                                                   "IsExpanded": true,
                                                   "subNodes": [
                                                     {
-                                                      "idNum": 20,
+                                                      "idNum": 999,
                                                       "orderNum": 0,
                                                       "pcNode": true,
                                                       "linkTo": 0,
@@ -168,152 +168,16 @@
                                                       "NodeSound": "none",
                                                       "conversationText": "[Continue.]",
                                                       "IsExpanded": true,
-                                                      "subNodes": [
+                                                      "subNodes": [],
+                                                      "actions": [
                                                         {
-                                                          "idNum": 21,
-                                                          "orderNum": 0,
-                                                          "pcNode": false,
-                                                          "linkTo": 0,
-                                                          "ShowOnlyOnce": false,
-                                                          "NodeIsActive": true,
-                                                          "NodePortraitBitmap": "black_tile.png",
-                                                          "NodeNpcName": "",
-                                                          "NodeSound": "none",
-                                                          "conversationText": "Then <FirstName> saw a young man. A cup was in his hands, and he stood on a hill. Ambition glowed in his eyes as he drank from the cup.",
-                                                          "IsExpanded": true,
-                                                          "subNodes": [
-                                                            {
-                                                              "idNum": 22,
-                                                              "orderNum": 0,
-                                                              "pcNode": true,
-                                                              "linkTo": 0,
-                                                              "ShowOnlyOnce": false,
-                                                              "NodeIsActive": true,
-                                                              "NodePortraitBitmap": "",
-                                                              "NodeNpcName": "",
-                                                              "NodeSound": "none",
-                                                              "conversationText": "[Continue.]",
-                                                              "IsExpanded": true,
-                                                              "subNodes": [
-                                                                {
-                                                                  "idNum": 23,
-                                                                  "orderNum": 0,
-                                                                  "pcNode": false,
-                                                                  "linkTo": 0,
-                                                                  "ShowOnlyOnce": false,
-                                                                  "NodeIsActive": true,
-                                                                  "NodePortraitBitmap": "black_tile.png",
-                                                                  "NodeNpcName": "",
-                                                                  "NodeSound": "none",
-                                                                  "conversationText": "The vision faded.",
-                                                                  "IsExpanded": true,
-                                                                  "subNodes": [
-                                                                    {
-                                                                      "idNum": 24,
-                                                                      "orderNum": 0,
-                                                                      "pcNode": true,
-                                                                      "linkTo": 0,
-                                                                      "ShowOnlyOnce": false,
-                                                                      "NodeIsActive": true,
-                                                                      "NodePortraitBitmap": "",
-                                                                      "NodeNpcName": "",
-                                                                      "NodeSound": "none",
-                                                                      "conversationText": "[Continue.]",
-                                                                      "IsExpanded": true,
-                                                                      "subNodes": [
-                                                                        {
-                                                                          "idNum": 25,
-                                                                          "orderNum": 0,
-                                                                          "pcNode": false,
-                                                                          "linkTo": 0,
-                                                                          "ShowOnlyOnce": false,
-                                                                          "NodeIsActive": true,
-                                                                          "NodePortraitBitmap": "",
-                                                                          "NodeNpcName": "",
-                                                                          "NodeSound": "none",
-                                                                          "conversationText": "\"Wee Malkin was his name,\" said the birds. \"Tell the witch\r\n<i>You know it</i>.\"",
-                                                                          "IsExpanded": true,
-                                                                          "subNodes": [
-                                                                            {
-                                                                              "idNum": 26,
-                                                                              "orderNum": 0,
-                                                                              "pcNode": true,
-                                                                              "linkTo": 0,
-                                                                              "ShowOnlyOnce": false,
-                                                                              "NodeIsActive": true,
-                                                                              "NodePortraitBitmap": "",
-                                                                              "NodeNpcName": "",
-                                                                              "NodeSound": "none",
-                                                                              "conversationText": "[Continue.]",
-                                                                              "IsExpanded": true,
-                                                                              "subNodes": [
-                                                                                {
-                                                                                  "idNum": 27,
-                                                                                  "orderNum": 0,
-                                                                                  "pcNode": false,
-                                                                                  "linkTo": 0,
-                                                                                  "ShowOnlyOnce": false,
-                                                                                  "NodeIsActive": true,
-                                                                                  "NodePortraitBitmap": "black_tile.png",
-                                                                                  "NodeNpcName": "",
-                                                                                  "NodeSound": "none",
-                                                                                  "conversationText": "The witch woke up. The spirit was gone.",
-                                                                                  "IsExpanded": true,
-                                                                                  "subNodes": [
-                                                                                    {
-                                                                                      "idNum": 28,
-                                                                                      "orderNum": 0,
-                                                                                      "pcNode": true,
-                                                                                      "linkTo": 0,
-                                                                                      "ShowOnlyOnce": false,
-                                                                                      "NodeIsActive": true,
-                                                                                      "NodePortraitBitmap": "",
-                                                                                      "NodeNpcName": "",
-                                                                                      "NodeSound": "none",
-                                                                                      "conversationText": "[End.]",
-                                                                                      "IsExpanded": true,
-                                                                                      "subNodes": [],
-                                                                                      "actions": [],
-                                                                                      "conditions": [],
-                                                                                      "isLink": false
-                                                                                    }
-                                                                                  ],
-                                                                                  "actions": [],
-                                                                                  "conditions": [],
-                                                                                  "isLink": false
-                                                                                }
-                                                                              ],
-                                                                              "actions": [],
-                                                                              "conditions": [],
-                                                                              "isLink": false
-                                                                            }
-                                                                          ],
-                                                                          "actions": [],
-                                                                          "conditions": [],
-                                                                          "isLink": false
-                                                                        }
-                                                                      ],
-                                                                      "actions": [],
-                                                                      "conditions": [],
-                                                                      "isLink": false
-                                                                    }
-                                                                  ],
-                                                                  "actions": [],
-                                                                  "conditions": [],
-                                                                  "isLink": false
-                                                                }
-                                                              ],
-                                                              "actions": [],
-                                                              "conditions": [],
-                                                              "isLink": false
-                                                            }
-                                                          ],
-                                                          "actions": [],
-                                                          "conditions": [],
-                                                          "isLink": false
+                                                          "a_script": "gaDoConversationByName.cs",
+                                                          "a_parameter_1": "kami_con",
+                                                          "a_parameter_2": null,
+                                                          "a_parameter_3": null,
+                                                          "a_parameter_4": null
                                                         }
                                                       ],
-                                                      "actions": [],
                                                       "conditions": [],
                                                       "isLink": false
                                                     }
@@ -376,7 +240,7 @@
                                                           "NodePortraitBitmap": "",
                                                           "NodeNpcName": "",
                                                           "NodeSound": "none",
-                                                          "conversationText": "The birds changed their tune. Dark terror jolted the young witch, nearly waking <him/her>. A mayfly skimmed the deeps. A child went into the woods and didn't return. A mighty city turned to sand. The birds sang, and the shadows passed.",
+                                                          "conversationText": "The birds changed their tune. Dark terror jolted the young witch, nearly waking <him/her>. A mayfly skimmed the deeps. A child went into the woods. A city died overnight. <FirstName> saw the window of a ruined temple.",
                                                           "IsExpanded": true,
                                                           "subNodes": [],
                                                           "actions": [],
@@ -424,7 +288,7 @@
                                           "NodePortraitBitmap": "",
                                           "NodeNpcName": "",
                                           "NodeSound": "none",
-                                          "conversationText": "As the birds sang, <FirstName> began to feel drowsy. Dim light filtered through the greenery. A bed of moss sprang up, green and soft-looking. Flowers sprang up, too, flowers with pale, delicate petals.",
+                                          "conversationText": "As the birds sang, the drowsiness <FirstName> had been feeling intensified. The wide, starlit meadow receded from <his/her> vision. Dim light filtered through the greenery onto a bed of moss beneath the vine. Flowers with pale, liver-shaped petals sprang up around it.",
                                           "IsExpanded": true,
                                           "subNodes": [
                                             {
@@ -491,7 +355,7 @@
                               "NodePortraitBitmap": "",
                               "NodeNpcName": "",
                               "NodeSound": "none",
-                              "conversationText": "\"No. Leave me be,\" said the young witch.",
+                              "conversationText": "\"I don't feel like resting right now,\" the young witch lied.",
                               "IsExpanded": true,
                               "subNodes": [
                                 {
@@ -530,34 +394,27 @@
                                           "NodePortraitBitmap": "",
                                           "NodeNpcName": "",
                                           "NodeSound": "none",
-                                          "conversationText": "The birds went silent. Then they began to fall from the vine, head after head, and the vine went yellow and wilted.\r\n<p>\r\n\"Why did you disdain our song?\"",
+                                          "conversationText": "The birds went silent. Then they began to fall from the vine, head after head, and the vine went yellow and wilted.\r\n<p>\r\n\"Why did you disdain our song? Sing we mus",
                                           "IsExpanded": true,
-                                          "subNodes": [
-                                            {
-                                              "idNum": 37,
-                                              "orderNum": 0,
-                                              "pcNode": true,
-                                              "linkTo": 28,
-                                              "ShowOnlyOnce": false,
-                                              "NodeIsActive": true,
-                                              "NodePortraitBitmap": "",
-                                              "NodeNpcName": "",
-                                              "NodeSound": "none",
-                                              "conversationText": "[End.]",
-                                              "IsExpanded": true,
-                                              "subNodes": [],
-                                              "actions": [],
-                                              "conditions": [],
-                                              "isLink": true
-                                            }
-                                          ],
+                                          "subNodes": [],
                                           "actions": [],
                                           "conditions": [],
                                           "isLink": false
                                         }
                                       ],
                                       "actions": [],
-                                      "conditions": [],
+                                      "conditions": [
+                                        {
+                                          "c_script": "gcCheckGlobalInt.cs",
+                                          "c_btnAndOr": "and",
+                                          "c_and": true,
+                                          "c_not": false,
+                                          "c_parameter_1": "global_con1",
+                                          "c_parameter_2": "=",
+                                          "c_parameter_3": "99",
+                                          "c_parameter_4": null
+                                        }
+                                      ],
                                       "isLink": false
                                     },
                                     {
@@ -570,7 +427,7 @@
                                       "NodePortraitBitmap": "",
                                       "NodeNpcName": "",
                                       "NodeSound": "none",
-                                      "conversationText": "\"Very well, but I have much to do and llittle time.\"",
+                                      "conversationText": "\"Very well, but I have much to do and little time.\"",
                                       "IsExpanded": true,
                                       "subNodes": [
                                         {
@@ -583,12 +440,101 @@
                                           "NodePortraitBitmap": "",
                                           "NodeNpcName": "",
                                           "NodeSound": "none",
-                                          "conversationText": "\"Then dream awhile -- let music, slumber mingle,\r\nA stranger sense of things come oozing, sliding \r\nFrom our heavy golden-purple clusters...\r\nMore truth in rest than in the waking world --\r\nLess falseness, too, because what's false\r\nComes forth by accident, without design.\"",
+                                          "conversationText": "\"So dream awhile -- let music mix with sleep,\r\nA stranger sense of things come trickling down \r\nThe rose and topaz bunches where we sing...\r\nMore truth in rest than in the waking world --\r\nLess falseness, too, because what's false\r\nComes forth by accident, without design.\"",
                                           "IsExpanded": true,
                                           "subNodes": [],
                                           "actions": [],
                                           "conditions": [],
                                           "isLink": true
+                                        }
+                                      ],
+                                      "actions": [],
+                                      "conditions": [],
+                                      "isLink": false
+                                    },
+                                    {
+                                      "idNum": 52,
+                                      "orderNum": 2,
+                                      "pcNode": true,
+                                      "linkTo": 0,
+                                      "ShowOnlyOnce": false,
+                                      "NodeIsActive": true,
+                                      "NodePortraitBitmap": "",
+                                      "NodeNpcName": "",
+                                      "NodeSound": "none",
+                                      "conversationText": "\"No! Let me go.\"",
+                                      "IsExpanded": true,
+                                      "subNodes": [
+                                        {
+                                          "idNum": 53,
+                                          "orderNum": 0,
+                                          "pcNode": false,
+                                          "linkTo": 0,
+                                          "ShowOnlyOnce": false,
+                                          "NodeIsActive": true,
+                                          "NodePortraitBitmap": "",
+                                          "NodeNpcName": "",
+                                          "NodeSound": "none",
+                                          "conversationText": "\"What are your commands to ours, young witch?\"",
+                                          "IsExpanded": true,
+                                          "subNodes": [
+                                            {
+                                              "idNum": 59,
+                                              "orderNum": 0,
+                                              "pcNode": true,
+                                              "linkTo": 0,
+                                              "ShowOnlyOnce": false,
+                                              "NodeIsActive": true,
+                                              "NodePortraitBitmap": "",
+                                              "NodeNpcName": "",
+                                              "NodeSound": "none",
+                                              "conversationText": "[Continue.]",
+                                              "IsExpanded": true,
+                                              "subNodes": [
+                                                {
+                                                  "idNum": 60,
+                                                  "orderNum": 0,
+                                                  "pcNode": false,
+                                                  "linkTo": 0,
+                                                  "ShowOnlyOnce": false,
+                                                  "NodeIsActive": true,
+                                                  "NodePortraitBitmap": "",
+                                                  "NodeNpcName": "",
+                                                  "NodeSound": "none",
+                                                  "conversationText": "\"Now dream awhile -- let music mix with sleep,\r\nA stranger sense of things come trickling down \r\nThe rose and topaz bunches where we sing...\r\nMore truth in rest than in the waking world --\r\nLess falseness, too, because what's false\r\nComes forth by accident, without design.\"",
+                                                  "IsExpanded": true,
+                                                  "subNodes": [
+                                                    {
+                                                      "idNum": 61,
+                                                      "orderNum": 0,
+                                                      "pcNode": true,
+                                                      "linkTo": 11,
+                                                      "ShowOnlyOnce": false,
+                                                      "NodeIsActive": true,
+                                                      "NodePortraitBitmap": "",
+                                                      "NodeNpcName": "",
+                                                      "NodeSound": "none",
+                                                      "conversationText": "[Continue.]",
+                                                      "IsExpanded": true,
+                                                      "subNodes": [],
+                                                      "actions": [],
+                                                      "conditions": [],
+                                                      "isLink": true
+                                                    }
+                                                  ],
+                                                  "actions": [],
+                                                  "conditions": [],
+                                                  "isLink": false
+                                                }
+                                              ],
+                                              "actions": [],
+                                              "conditions": [],
+                                              "isLink": false
+                                            }
+                                          ],
+                                          "actions": [],
+                                          "conditions": [],
+                                          "isLink": false
                                         }
                                       ],
                                       "actions": [],
@@ -615,7 +561,7 @@
                               "NodePortraitBitmap": "",
                               "NodeNpcName": "",
                               "NodeSound": "none",
-                              "conversationText": "<FirstName> knew better than to tarry long with spirits. <He/She> tried to flee.",
+                              "conversationText": "<FirstName> knew better than to tarry long with spirits. <He/She> turned to go.",
                               "IsExpanded": true,
                               "subNodes": [
                                 {
@@ -661,9 +607,63 @@
                               "NodePortraitBitmap": "",
                               "NodeNpcName": "",
                               "NodeSound": "none",
-                              "conversationText": "\"Another spirit. What do you know about Wee Malkin?\"",
+                              "conversationText": "\"Another spirit. What do you know about Malkin?\"",
                               "IsExpanded": true,
-                              "subNodes": [],
+                              "subNodes": [
+                                {
+                                  "idNum": 55,
+                                  "orderNum": 0,
+                                  "pcNode": false,
+                                  "linkTo": 0,
+                                  "ShowOnlyOnce": false,
+                                  "NodeIsActive": true,
+                                  "NodePortraitBitmap": "",
+                                  "NodeNpcName": "",
+                                  "NodeSound": "none",
+                                  "conversationText": "\"We know our sing and sing it well. The rest\r\nIs yours to dream --\"",
+                                  "IsExpanded": true,
+                                  "subNodes": [
+                                    {
+                                      "idNum": 56,
+                                      "orderNum": 0,
+                                      "pcNode": true,
+                                      "linkTo": 0,
+                                      "ShowOnlyOnce": false,
+                                      "NodeIsActive": true,
+                                      "NodePortraitBitmap": "",
+                                      "NodeNpcName": "",
+                                      "NodeSound": "none",
+                                      "conversationText": "[Continue.]",
+                                      "IsExpanded": true,
+                                      "subNodes": [
+                                        {
+                                          "idNum": 57,
+                                          "orderNum": 0,
+                                          "pcNode": true,
+                                          "linkTo": 8,
+                                          "ShowOnlyOnce": false,
+                                          "NodeIsActive": true,
+                                          "NodePortraitBitmap": "",
+                                          "NodeNpcName": "",
+                                          "NodeSound": "none",
+                                          "conversationText": "\"So dream awhile -- let music mix with sleep,\r\nA stranger sense of things come trickling down \r\nThe rose and topaz bunches where we sing...\r\nMore truth in rest than in the waking world --\r\nLess falseness, too, because what's false\r\nComes forth by accident, without design.\"",
+                                          "IsExpanded": true,
+                                          "subNodes": [],
+                                          "actions": [],
+                                          "conditions": [],
+                                          "isLink": true
+                                        }
+                                      ],
+                                      "actions": [],
+                                      "conditions": [],
+                                      "isLink": false
+                                    }
+                                  ],
+                                  "actions": [],
+                                  "conditions": [],
+                                  "isLink": false
+                                }
+                              ],
                               "actions": [],
                               "conditions": [
                                 {
@@ -695,7 +695,15 @@
                   "isLink": false
                 }
               ],
-              "actions": [],
+              "actions": [
+                {
+                  "a_script": "gaSetGlobalString.cs",
+                  "a_parameter_1": "whichspirit",
+                  "a_parameter_2": "beauty",
+                  "a_parameter_3": null,
+                  "a_parameter_4": null
+                }
+              ],
               "conditions": [],
               "isLink": false
             }
@@ -716,5 +724,5 @@
   "SpeakToMainPcOnly": true,
   "NpcPortraitBitmap": "prp_witchspirit2.png",
   "DefaultNpcName": "",
-  "NextIdNum": 40
+  "NextIdNum": 61
 }

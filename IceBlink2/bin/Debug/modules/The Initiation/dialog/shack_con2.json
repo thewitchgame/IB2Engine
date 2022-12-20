@@ -37,7 +37,7 @@
               "NodeNpcName": "",
               "NodeSound": "none",
               "conversationText": "[Wisdom] Perhaps there was a clue about what was down there nearby. <He/She> looked around.",
-              "IsExpanded": true,
+              "IsExpanded": false,
               "subNodes": [
                 {
                   "idNum": 4,
@@ -424,7 +424,18 @@
                   "a_parameter_4": null
                 }
               ],
-              "conditions": [],
+              "conditions": [
+                {
+                  "c_script": "gcCheckGlobalInt.cs",
+                  "c_btnAndOr": "and",
+                  "c_and": true,
+                  "c_not": false,
+                  "c_parameter_1": "global_con1",
+                  "c_parameter_2": "=",
+                  "c_parameter_3": "99",
+                  "c_parameter_4": null
+                }
+              ],
               "isLink": false
             },
             {
@@ -450,7 +461,7 @@
                   "NodePortraitBitmap": "prp_redcap.png",
                   "NodeNpcName": "",
                   "NodeSound": "none",
-                  "conversationText": "\"Anyone home? We're taking a census.\" said an unwelcome voice.\r\n<p>\r\nFour members of the Congress of Moths came in. One held a quill and a ledger. <FirstName> was paralyzed by surprise.",
+                  "conversationText": "\"Anyone home? We're taking a census.\" said an unwelcome voice.\r\n<p>\r\nA party of the Congress of Moths materialized. One held a quill and a ledger. <FirstName> was paralyzed by surprise.",
                   "IsExpanded": true,
                   "subNodes": [
                     {
@@ -476,7 +487,7 @@
                           "NodePortraitBitmap": "prp_magistrate.png",
                           "NodeNpcName": "",
                           "NodeSound": "none",
-                          "conversationText": "\"Are you living, dead, or moribund?\"",
+                          "conversationText": "\"Are you living, dead, or about to die?\"",
                           "IsExpanded": true,
                           "subNodes": [
                             {
@@ -502,7 +513,7 @@
                                   "NodePortraitBitmap": "prp_redcap.png",
                                   "NodeNpcName": "",
                                   "NodeSound": "none",
-                                  "conversationText": "\"Mark this one down as moribund. Scratch that. Dead!\" ",
+                                  "conversationText": "\"About to die. Scratch that. Dead.\"",
                                   "IsExpanded": true,
                                   "subNodes": [
                                     {
@@ -525,7 +536,7 @@
                                           "linkTo": 0,
                                           "ShowOnlyOnce": false,
                                           "NodeIsActive": true,
-                                          "NodePortraitBitmap": "prp_knott.png",
+                                          "NodePortraitBitmap": "black_tile.png",
                                           "NodeNpcName": "",
                                           "NodeSound": "none",
                                           "conversationText": "The redcap lunged at <FirstName>, but Knott grabbed the creature by her nape before she could push <FirstName> into the hole. Pharaoh jeered.",
@@ -554,7 +565,7 @@
                                                   "NodePortraitBitmap": "prp_magistrate.png",
                                                   "NodeNpcName": "",
                                                   "NodeSound": "none",
-                                                  "conversationText": "\"Hmm.\" The serious-looking fairy was writing. \"'Young witch with bum in air.' Not dead yet -- I'll mark <him/her> as moribund. Hmm.\" The fairy glanced down the hole. \"One dead down there.\"",
+                                                  "conversationText": "\"Hmm.\" The serious-looking fairy was writing. \"'Young witch with bum in air.' Not dead yet -- I'll mark <him/her> as moribund. Hmm.\" The fairy glanced down the hole and crinkled his nose. \"Phew! Something dead down there.\"",
                                                   "IsExpanded": true,
                                                   "subNodes": [
                                                     {
@@ -577,7 +588,7 @@
                                                           "linkTo": 0,
                                                           "ShowOnlyOnce": false,
                                                           "NodeIsActive": true,
-                                                          "NodePortraitBitmap": "prp_congressofmoths2.png",
+                                                          "NodePortraitBitmap": "prp_congressofmoths1.png",
                                                           "NodeNpcName": "",
                                                           "NodeSound": "none",
                                                           "conversationText": "\"A young witch came upon a hole\r\nAnd in <he/she> went, and out her soul --\r\nIf souls there were, but souls there ain't.\r\nA body is enough to taint.\"",
@@ -606,7 +617,7 @@
                                                                   "NodePortraitBitmap": "",
                                                                   "NodeNpcName": "",
                                                                   "NodeSound": "none",
-                                                                  "conversationText": "<FirstName> readied <him/her>self for battle.",
+                                                                  "conversationText": "<FirstName> got ready.",
                                                                   "IsExpanded": true,
                                                                   "subNodes": [
                                                                     {
@@ -883,7 +894,7 @@
                           "NodePortraitBitmap": "prp_redcap.png",
                           "NodeNpcName": "",
                           "NodeSound": "none",
-                          "conversationText": "\"Anyone home? We're taking a census.\" said an unwelcome voice.\r\n<p>\r\nFour members of the Congress of Moths came in. One held a quill and a ledger. <FirstName> was paralyzed by surprise.",
+                          "conversationText": "\"Anyone home? We're taking a census.\" said an unwelcome voice.\r\n<p>\r\nA party of the Congress of Moths materialized. One held a quill and a ledger. <FirstName> was paralyzed by surprise.",
                           "IsExpanded": true,
                           "subNodes": [
                             {
@@ -909,7 +920,7 @@
                                   "NodePortraitBitmap": "prp_magistrate.png",
                                   "NodeNpcName": "",
                                   "NodeSound": "none",
-                                  "conversationText": "\"Are you living, dead, or moribund?\"",
+                                  "conversationText": "\"Are you living, dead, or about to die?\"",
                                   "IsExpanded": true,
                                   "subNodes": [
                                     {
@@ -935,7 +946,7 @@
                                           "NodePortraitBitmap": "prp_redcap.png",
                                           "NodeNpcName": "",
                                           "NodeSound": "none",
-                                          "conversationText": "\"Mark this one down as moribund. Scratch that. Dead!\" ",
+                                          "conversationText": "\"About to die. Scratch that. Dead.\" ",
                                           "IsExpanded": true,
                                           "subNodes": [
                                             {
@@ -958,7 +969,7 @@
                                                   "linkTo": 0,
                                                   "ShowOnlyOnce": false,
                                                   "NodeIsActive": true,
-                                                  "NodePortraitBitmap": "prp_knott.png",
+                                                  "NodePortraitBitmap": "black_tile.png",
                                                   "NodeNpcName": "",
                                                   "NodeSound": "none",
                                                   "conversationText": "The redcap lunged at <FirstName>, but Knott grabbed the creature by her nape before she could push <FirstName> into the hole. Pharaoh jeered.",
@@ -987,7 +998,7 @@
                                                           "NodePortraitBitmap": "prp_magistrate.png",
                                                           "NodeNpcName": "",
                                                           "NodeSound": "none",
-                                                          "conversationText": "\"Hmm.\" The serious-looking fairy was writing. \"'Young witch assessing old shack.' Not dead yet -- I'll mark <him/her> as moribund. Hmm.\" The fairy glanced down the hole. \"One dead down there.\"",
+                                                          "conversationText": "\"Hmm.\" The serious-looking fairy was writing. \"'Young witch assessing old shack.' Not dead yet -- I'll mark <him/her> as moribund. Hmm.\" The fairy glanced down the hole and crinkled his nose. \"Phew! Something dead down there.\"",
                                                           "IsExpanded": true,
                                                           "subNodes": [
                                                             {
@@ -1010,7 +1021,7 @@
                                                                   "linkTo": 0,
                                                                   "ShowOnlyOnce": false,
                                                                   "NodeIsActive": true,
-                                                                  "NodePortraitBitmap": "prp_congressofmoths2.png",
+                                                                  "NodePortraitBitmap": "prp_congressofmoths1.png",
                                                                   "NodeNpcName": "",
                                                                   "NodeSound": "none",
                                                                   "conversationText": "\"A young witch came upon a hole\r\nAnd in <he/she> went, and out her soul --\r\nIf souls there were, but souls there ain't.\r\nA body is enough to taint.\"",
@@ -1694,6 +1705,16 @@
                   "c_parameter_2": ">",
                   "c_parameter_3": "0",
                   "c_parameter_4": null
+                },
+                {
+                  "c_script": "gcCheckGlobalInt.cs",
+                  "c_btnAndOr": "and",
+                  "c_and": true,
+                  "c_not": false,
+                  "c_parameter_1": "global_con1",
+                  "c_parameter_2": "=",
+                  "c_parameter_3": "99",
+                  "c_parameter_4": null
                 }
               ],
               "isLink": false
@@ -1721,7 +1742,7 @@
                   "NodePortraitBitmap": "",
                   "NodeNpcName": "",
                   "NodeSound": "none",
-                  "conversationText": "\"Anyone home? We're taking a census.\" said an unwelcome voice.\r\n<p>\r\nFour members of the Congress of Moths came in. One held a quill and a ledger. <FirstName> was paralyzed by surprise.",
+                  "conversationText": "\"Anyone home? We're taking a census.\" said an unwelcome voice.\r\n<p>\r\nA party of the Congress of Moths materialized. One held a quill and a ledger. <FirstName> was paralyzed by surprise.",
                   "IsExpanded": true,
                   "subNodes": [],
                   "actions": [],
@@ -1810,5 +1831,5 @@
   "SpeakToMainPcOnly": true,
   "NpcPortraitBitmap": "black_tile.png",
   "DefaultNpcName": "",
-  "NextIdNum": 94
+  "NextIdNum": 95
 }

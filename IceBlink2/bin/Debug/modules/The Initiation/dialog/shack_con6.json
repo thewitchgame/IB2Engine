@@ -23,7 +23,7 @@
           "NodePortraitBitmap": "",
           "NodeNpcName": "",
           "NodeSound": "none",
-          "conversationText": "Climbing out of the hole would be difficult and dangerous. The shack seemed to have collapsed. The cavern, meanwhile, extended to the east over dark, gently moving water. Maybe there was an exit that way.",
+          "conversationText": "Climbing out the way <FirstName> came in would be difficult. But the cavern continued east over dark, gently moving water. Maybe there was an exit that way.",
           "IsExpanded": true,
           "subNodes": [
             {
@@ -49,7 +49,7 @@
                   "NodePortraitBitmap": "",
                   "NodeNpcName": "",
                   "NodeSound": "none",
-                  "conversationText": "It was about a foot deep and extremely cold. There was a spring nearby, no doubt. Walking through wouldn't be warm, but it wouldn't be dangerous either.",
+                  "conversationText": "It was about a foot deep and extremely cold. There was a spring nearby, no doubt. Walking through would be chilly but safe.",
                   "IsExpanded": true,
                   "subNodes": [
                     {
@@ -72,7 +72,7 @@
                           "linkTo": 0,
                           "ShowOnlyOnce": false,
                           "NodeIsActive": true,
-                          "NodePortraitBitmap": "",
+                          "NodePortraitBitmap": "prp_knott.png",
                           "NodeNpcName": "",
                           "NodeSound": "none",
                           "conversationText": "Knott followed without complaint.",
@@ -88,7 +88,7 @@
                               "NodePortraitBitmap": "",
                               "NodeNpcName": "",
                               "NodeSound": "none",
-                              "conversationText": "<He/She> couldn't resist dipping <his/her> hands in the icy water. It seemed so clear and pure.",
+                              "conversationText": "<He/She> couldn't resist dipping <his/her> hands in the icy water. It looked clear and pure.",
                               "IsExpanded": true,
                               "subNodes": [
                                 {
@@ -101,7 +101,7 @@
                                   "NodePortraitBitmap": "",
                                   "NodeNpcName": "",
                                   "NodeSound": "none",
-                                  "conversationText": "And so it was. It felt good to let the spring take away a bit of <his/her> journey's filth. <He/She> made a swift, idle motion with one hand under the water and watched the bubbles form around it.",
+                                  "conversationText": "And so it was. <He/She> let the spring take away a bit of the journey's filth and the last hour's uneasiness. <He/She> made a swift, idle motion with one hand under the water and watched the bubbles form around it. The cold of the water was salutary after the chill of Tilen's grave. It was good to have flesh. ",
                                   "IsExpanded": true,
                                   "subNodes": [
                                     {
@@ -146,7 +146,7 @@
                               "linkTo": 0,
                               "ShowOnlyOnce": false,
                               "NodeIsActive": true,
-                              "NodePortraitBitmap": "",
+                              "NodePortraitBitmap": "it_crow.png",
                               "NodeNpcName": "",
                               "NodeSound": "none",
                               "conversationText": "They passed on while Pharaoh supervised from <FirstName>'s shoulder.",
@@ -185,10 +185,10 @@
                                           "linkTo": 0,
                                           "ShowOnlyOnce": false,
                                           "NodeIsActive": true,
-                                          "NodePortraitBitmap": "",
+                                          "NodePortraitBitmap": "prp_knott.png",
                                           "NodeNpcName": "",
                                           "NodeSound": "none",
-                                          "conversationText": "It was indeed a squeeze, but <FirstName> got out without too much trouble. <He/She> looked back to see how Knott would manage with all his bulk. Pharaoh squawked, bobbing his head.",
+                                          "conversationText": "It was a squeeze, but <FirstName> got out without too much trouble. <He/She> looked back to see how Knott would manage with all his bulk. Pharaoh squawked, bobbing his head.",
                                           "IsExpanded": true,
                                           "subNodes": [
                                             {
@@ -214,7 +214,7 @@
                                                   "NodePortraitBitmap": "",
                                                   "NodeNpcName": "",
                                                   "NodeSound": "none",
-                                                  "conversationText": "A normal gourd of no great size floated lazily out from beneath the roots on the spring's gentle ripples. Knott stood in its place a moment later.",
+                                                  "conversationText": "A seemingly normal gourd floated lazily out on gentle ripples. Knott stood in its place a moment later.",
                                                   "IsExpanded": true,
                                                   "subNodes": [
                                                     {
@@ -232,17 +232,24 @@
                                                       "subNodes": [],
                                                       "actions": [
                                                         {
+                                                          "a_script": "gaSetGlobalInt.cs",
+                                                          "a_parameter_1": "CannotUseMap",
+                                                          "a_parameter_2": "0",
+                                                          "a_parameter_3": null,
+                                                          "a_parameter_4": null
+                                                        },
+                                                        {
+                                                          "a_script": "gaSetGlobalInt.cs",
+                                                          "a_parameter_1": "onmap",
+                                                          "a_parameter_2": "1",
+                                                          "a_parameter_3": null,
+                                                          "a_parameter_4": null
+                                                        },
+                                                        {
                                                           "a_script": "gaTransitionPartyToMapLocation.cs",
                                                           "a_parameter_1": "a_woods_i",
                                                           "a_parameter_2": "5",
                                                           "a_parameter_3": "6",
-                                                          "a_parameter_4": null
-                                                        },
-                                                        {
-                                                          "a_script": "gaEnableDisableTrigger.cs",
-                                                          "a_parameter_1": "newTrigger_167279",
-                                                          "a_parameter_2": "false",
-                                                          "a_parameter_3": null,
                                                           "a_parameter_4": null
                                                         }
                                                       ],
@@ -279,7 +286,7 @@
                                       "NodePortraitBitmap": "",
                                       "NodeNpcName": "",
                                       "NodeSound": "none",
-                                      "conversationText": "<He/She> explored the narrow passage.",
+                                      "conversationText": "<He/She> explored the narrow passage. Perhaps the cave had more secrets.",
                                       "IsExpanded": true,
                                       "subNodes": [
                                         {
@@ -292,7 +299,7 @@
                                           "NodePortraitBitmap": "",
                                           "NodeNpcName": "",
                                           "NodeSound": "none",
-                                          "conversationText": "The passage tightened until <FirstName> was forced to crawl. There was nothing to discover at the end of it. <He/She> went back the way <he/she>'d come, ten minutes older and wiser.",
+                                          "conversationText": "The passage tightened until <FirstName> was forced to crawl. There was nothing to discover at the end of it -- a relief, in a way. <He/She> went back the way <he/she>'d come, ten minutes older.",
                                           "IsExpanded": true,
                                           "subNodes": [
                                             {
@@ -355,8 +362,36 @@
                         }
                       ],
                       "actions": [],
-                      "conditions": [],
+                      "conditions": [
+                        {
+                          "c_script": "gcCheckForItem.cs",
+                          "c_btnAndOr": "and",
+                          "c_and": true,
+                          "c_not": false,
+                          "c_parameter_1": "lodestone",
+                          "c_parameter_2": "1",
+                          "c_parameter_3": "false",
+                          "c_parameter_4": null
+                        }
+                      ],
                       "isLink": false
+                    },
+                    {
+                      "idNum": 31,
+                      "orderNum": 1,
+                      "pcNode": true,
+                      "linkTo": 6,
+                      "ShowOnlyOnce": false,
+                      "NodeIsActive": true,
+                      "NodePortraitBitmap": "",
+                      "NodeNpcName": "",
+                      "NodeSound": "none",
+                      "conversationText": "But <FirstName> wasn't done here yet.",
+                      "IsExpanded": true,
+                      "subNodes": [],
+                      "actions": [],
+                      "conditions": [],
+                      "isLink": true
                     }
                   ],
                   "actions": [],
@@ -366,23 +401,33 @@
               ],
               "actions": [
                 {
-                  "a_script": "gaSetGlobalInt.cs",
-                  "a_parameter_1": "global_con4",
-                  "a_parameter_2": "1",
-                  "a_parameter_3": null,
+                  "a_script": "gaSetLocalInt.cs",
+                  "a_parameter_1": "thisarea",
+                  "a_parameter_2": "testedwater",
+                  "a_parameter_3": "1",
                   "a_parameter_4": null
                 }
               ],
               "conditions": [
                 {
-                  "c_script": "gcCheckGlobalInt.cs",
+                  "c_script": "gcCheckForItem.cs",
+                  "c_btnAndOr": "and",
+                  "c_and": true,
+                  "c_not": false,
+                  "c_parameter_1": "lodestone",
+                  "c_parameter_2": "1",
+                  "c_parameter_3": "false",
+                  "c_parameter_4": null
+                },
+                {
+                  "c_script": "gcCheckLocalInt.cs",
                   "c_btnAndOr": "and",
                   "c_and": true,
                   "c_not": true,
-                  "c_parameter_1": "global_con4",
-                  "c_parameter_2": "=",
-                  "c_parameter_3": "1",
-                  "c_parameter_4": null
+                  "c_parameter_1": "thisarea",
+                  "c_parameter_2": "testedwater",
+                  "c_parameter_3": "=",
+                  "c_parameter_4": "1"
                 }
               ],
               "isLink": false
@@ -419,7 +464,18 @@
                 }
               ],
               "actions": [],
-              "conditions": [],
+              "conditions": [
+                {
+                  "c_script": "gcCheckForItem.cs",
+                  "c_btnAndOr": "and",
+                  "c_and": true,
+                  "c_not": false,
+                  "c_parameter_1": "lodestone",
+                  "c_parameter_2": "1",
+                  "c_parameter_3": "false",
+                  "c_parameter_4": null
+                }
+              ],
               "isLink": false
             },
             {
@@ -525,5 +581,5 @@
   "SpeakToMainPcOnly": true,
   "NpcPortraitBitmap": "black_tile.png",
   "DefaultNpcName": "",
-  "NextIdNum": 30
+  "NextIdNum": 31
 }

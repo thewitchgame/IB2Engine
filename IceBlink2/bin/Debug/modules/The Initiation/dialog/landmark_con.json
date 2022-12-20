@@ -23,7 +23,7 @@
           "NodePortraitBitmap": "black_tile.png",
           "NodeNpcName": "",
           "NodeSound": "none",
-          "conversationText": "<i>As you explore, you'll discover new landmarks. Each landmark is added to the \"Map in the Woods\" in your inventory. The witch can use the map to fast travel to these locations. This is usually quicker than getting there by foot, but there's always a small chance the witch will run into trouble or get lost.</i>",
+          "conversationText": "As you explore, you'll discover new landmarks. Each landmark is added to the \"Map in the Woods\" in your inventory.\r\n\r\nThe witch can use the map to fast travel to these locations. This is always quicker than getting there by foot, but still takes some time -- less if <he/she> knows the lore of Woodcraft.",
           "IsExpanded": true,
           "subNodes": [
             {
@@ -40,21 +40,57 @@
               "IsExpanded": true,
               "subNodes": [
                 {
-                  "idNum": 17,
+                  "idNum": 29,
                   "orderNum": 0,
-                  "pcNode": true,
-                  "linkTo": 11,
+                  "pcNode": false,
+                  "linkTo": 0,
                   "ShowOnlyOnce": false,
                   "NodeIsActive": true,
                   "NodePortraitBitmap": "",
                   "NodeNpcName": "",
                   "NodeSound": "none",
-                  "conversationText": "<i>New landmark discovered!</i>",
+                  "conversationText": "Using the map strategically is key to a successful adventure. Every new day begins at the witches' house, so the more landmarks you find, the more efficiently you can explore the woods.",
                   "IsExpanded": true,
-                  "subNodes": [],
+                  "subNodes": [
+                    {
+                      "idNum": 30,
+                      "orderNum": 0,
+                      "pcNode": true,
+                      "linkTo": 0,
+                      "ShowOnlyOnce": false,
+                      "NodeIsActive": true,
+                      "NodePortraitBitmap": "",
+                      "NodeNpcName": "",
+                      "NodeSound": "none",
+                      "conversationText": "[Continue.]",
+                      "IsExpanded": true,
+                      "subNodes": [
+                        {
+                          "idNum": 31,
+                          "orderNum": 0,
+                          "pcNode": true,
+                          "linkTo": 11,
+                          "ShowOnlyOnce": false,
+                          "NodeIsActive": true,
+                          "NodePortraitBitmap": "",
+                          "NodeNpcName": "",
+                          "NodeSound": "none",
+                          "conversationText": "New landmark discovered!",
+                          "IsExpanded": true,
+                          "subNodes": [],
+                          "actions": [],
+                          "conditions": [],
+                          "isLink": true
+                        }
+                      ],
+                      "actions": [],
+                      "conditions": [],
+                      "isLink": false
+                    }
+                  ],
                   "actions": [],
                   "conditions": [],
-                  "isLink": true
+                  "isLink": false
                 }
               ],
               "actions": [],
@@ -76,7 +112,7 @@
           "NodePortraitBitmap": "",
           "NodeNpcName": "",
           "NodeSound": "none",
-          "conversationText": "<i>New landmark discovered!</i>",
+          "conversationText": "New landmark discovered!",
           "IsExpanded": true,
           "subNodes": [
             {
@@ -102,7 +138,7 @@
                   "NodePortraitBitmap": "",
                   "NodeNpcName": "",
                   "NodeSound": "none",
-                  "conversationText": "<i><b>RUINED SHACK</b> added to map.</i>",
+                  "conversationText": "<b>FORSAKEN SHACK</b> added to map.",
                   "IsExpanded": true,
                   "subNodes": [
                     {
@@ -127,9 +163,9 @@
                           "a_parameter_4": null
                         },
                         {
-                          "a_script": "gaSetGlobalString.cs",
-                          "a_parameter_1": "landmark",
-                          "a_parameter_2": "none",
+                          "a_script": "gaEnableDisableTrigger.cs",
+                          "a_parameter_1": "newTrigger_183295",
+                          "a_parameter_2": "true",
                           "a_parameter_3": null,
                           "a_parameter_4": null
                         }
@@ -158,7 +194,7 @@
                   "c_btnAndOr": "and",
                   "c_and": true,
                   "c_not": false,
-                  "c_parameter_1": "landmark",
+                  "c_parameter_1": "XLand",
                   "c_parameter_2": "a_woods_i",
                   "c_parameter_3": null,
                   "c_parameter_4": null
@@ -189,7 +225,7 @@
                   "NodePortraitBitmap": "",
                   "NodeNpcName": "",
                   "NodeSound": "none",
-                  "conversationText": "<i><b>BOG'S EDGE CAVE</b> added to map.</i>",
+                  "conversationText": "<b>WOLF CAVE</b> added to map.",
                   "IsExpanded": true,
                   "subNodes": [
                     {
@@ -214,9 +250,9 @@
                           "a_parameter_4": null
                         },
                         {
-                          "a_script": "gaSetGlobalString.cs",
-                          "a_parameter_1": "landmark",
-                          "a_parameter_2": "none",
+                          "a_script": "gaEnableDisableTrigger.cs",
+                          "a_parameter_1": "newTrigger_183318",
+                          "a_parameter_2": "true",
                           "a_parameter_3": null,
                           "a_parameter_4": null
                         }
@@ -245,7 +281,7 @@
                   "c_btnAndOr": "and",
                   "c_and": true,
                   "c_not": false,
-                  "c_parameter_1": "landmark",
+                  "c_parameter_1": "XLand",
                   "c_parameter_2": "a_woods_n",
                   "c_parameter_3": null,
                   "c_parameter_4": null
@@ -254,8 +290,403 @@
               "isLink": false
             },
             {
-              "idNum": 19,
+              "idNum": 26,
               "orderNum": 2,
+              "pcNode": true,
+              "linkTo": 0,
+              "ShowOnlyOnce": false,
+              "NodeIsActive": true,
+              "NodePortraitBitmap": "",
+              "NodeNpcName": "",
+              "NodeSound": "none",
+              "conversationText": "[Continue.]",
+              "IsExpanded": true,
+              "subNodes": [
+                {
+                  "idNum": 27,
+                  "orderNum": 0,
+                  "pcNode": false,
+                  "linkTo": 0,
+                  "ShowOnlyOnce": false,
+                  "NodeIsActive": true,
+                  "NodePortraitBitmap": "",
+                  "NodeNpcName": "",
+                  "NodeSound": "none",
+                  "conversationText": "<b>ROYAL ENCAMPMENT</b> added to map.",
+                  "IsExpanded": true,
+                  "subNodes": [
+                    {
+                      "idNum": 28,
+                      "orderNum": 0,
+                      "pcNode": true,
+                      "linkTo": 0,
+                      "ShowOnlyOnce": false,
+                      "NodeIsActive": true,
+                      "NodePortraitBitmap": "",
+                      "NodeNpcName": "",
+                      "NodeSound": "none",
+                      "conversationText": "[End.]",
+                      "IsExpanded": true,
+                      "subNodes": [],
+                      "actions": [
+                        {
+                          "a_script": "gaSetGlobalInt.cs",
+                          "a_parameter_1": "royalcamp",
+                          "a_parameter_2": "1",
+                          "a_parameter_3": null,
+                          "a_parameter_4": null
+                        },
+                        {
+                          "a_script": "gaEnableDisableTrigger.cs",
+                          "a_parameter_1": "newTrigger_187161",
+                          "a_parameter_2": "true",
+                          "a_parameter_3": null,
+                          "a_parameter_4": null
+                        }
+                      ],
+                      "conditions": [],
+                      "isLink": false
+                    }
+                  ],
+                  "actions": [],
+                  "conditions": [],
+                  "isLink": false
+                }
+              ],
+              "actions": [],
+              "conditions": [
+                {
+                  "c_script": "gcCheckGlobalString.cs",
+                  "c_btnAndOr": "and",
+                  "c_and": true,
+                  "c_not": false,
+                  "c_parameter_1": "XLand",
+                  "c_parameter_2": "a_woods_encampment",
+                  "c_parameter_3": null,
+                  "c_parameter_4": null
+                }
+              ],
+              "isLink": false
+            },
+            {
+              "idNum": 32,
+              "orderNum": 3,
+              "pcNode": true,
+              "linkTo": 0,
+              "ShowOnlyOnce": false,
+              "NodeIsActive": true,
+              "NodePortraitBitmap": "",
+              "NodeNpcName": "",
+              "NodeSound": "none",
+              "conversationText": "[Continue.]",
+              "IsExpanded": true,
+              "subNodes": [
+                {
+                  "idNum": 33,
+                  "orderNum": 0,
+                  "pcNode": false,
+                  "linkTo": 0,
+                  "ShowOnlyOnce": false,
+                  "NodeIsActive": true,
+                  "NodePortraitBitmap": "",
+                  "NodeNpcName": "",
+                  "NodeSound": "none",
+                  "conversationText": "<b>WATERFALL</b> added to map.",
+                  "IsExpanded": true,
+                  "subNodes": [
+                    {
+                      "idNum": 34,
+                      "orderNum": 0,
+                      "pcNode": true,
+                      "linkTo": 0,
+                      "ShowOnlyOnce": false,
+                      "NodeIsActive": true,
+                      "NodePortraitBitmap": "",
+                      "NodeNpcName": "",
+                      "NodeSound": "none",
+                      "conversationText": "[End.]",
+                      "IsExpanded": true,
+                      "subNodes": [],
+                      "actions": [
+                        {
+                          "a_script": "gaSetGlobalInt.cs",
+                          "a_parameter_1": "thewaterfall",
+                          "a_parameter_2": "1",
+                          "a_parameter_3": null,
+                          "a_parameter_4": null
+                        },
+                        {
+                          "a_script": "gaEnableDisableTrigger.cs",
+                          "a_parameter_1": "newTrigger_283455",
+                          "a_parameter_2": "true",
+                          "a_parameter_3": null,
+                          "a_parameter_4": null
+                        }
+                      ],
+                      "conditions": [],
+                      "isLink": false
+                    }
+                  ],
+                  "actions": [],
+                  "conditions": [],
+                  "isLink": false
+                }
+              ],
+              "actions": [],
+              "conditions": [
+                {
+                  "c_script": "gcCheckGlobalString.cs",
+                  "c_btnAndOr": "and",
+                  "c_and": true,
+                  "c_not": false,
+                  "c_parameter_1": "XLand",
+                  "c_parameter_2": "a_woods_2y",
+                  "c_parameter_3": null,
+                  "c_parameter_4": null
+                }
+              ],
+              "isLink": false
+            },
+            {
+              "idNum": 35,
+              "orderNum": 4,
+              "pcNode": true,
+              "linkTo": 0,
+              "ShowOnlyOnce": false,
+              "NodeIsActive": true,
+              "NodePortraitBitmap": "",
+              "NodeNpcName": "",
+              "NodeSound": "none",
+              "conversationText": "[Continue.]",
+              "IsExpanded": true,
+              "subNodes": [
+                {
+                  "idNum": 36,
+                  "orderNum": 0,
+                  "pcNode": false,
+                  "linkTo": 0,
+                  "ShowOnlyOnce": false,
+                  "NodeIsActive": true,
+                  "NodePortraitBitmap": "",
+                  "NodeNpcName": "",
+                  "NodeSound": "none",
+                  "conversationText": "<b>PLUM BLOSSOM CAVE</b> added to map.",
+                  "IsExpanded": true,
+                  "subNodes": [
+                    {
+                      "idNum": 37,
+                      "orderNum": 0,
+                      "pcNode": true,
+                      "linkTo": 0,
+                      "ShowOnlyOnce": false,
+                      "NodeIsActive": true,
+                      "NodePortraitBitmap": "",
+                      "NodeNpcName": "",
+                      "NodeSound": "none",
+                      "conversationText": "[End.]",
+                      "IsExpanded": true,
+                      "subNodes": [],
+                      "actions": [
+                        {
+                          "a_script": "gaSetGlobalInt.cs",
+                          "a_parameter_1": "plumcavepeg",
+                          "a_parameter_2": "1",
+                          "a_parameter_3": null,
+                          "a_parameter_4": null
+                        },
+                        {
+                          "a_script": "gaEnableDisableTrigger.cs",
+                          "a_parameter_1": "newTrigger_329964",
+                          "a_parameter_2": "true",
+                          "a_parameter_3": null,
+                          "a_parameter_4": null
+                        }
+                      ],
+                      "conditions": [],
+                      "isLink": false
+                    }
+                  ],
+                  "actions": [],
+                  "conditions": [],
+                  "isLink": false
+                }
+              ],
+              "actions": [],
+              "conditions": [
+                {
+                  "c_script": "gcCheckGlobalString.cs",
+                  "c_btnAndOr": "and",
+                  "c_and": true,
+                  "c_not": false,
+                  "c_parameter_1": "XLand",
+                  "c_parameter_2": "a_woods_s",
+                  "c_parameter_3": null,
+                  "c_parameter_4": null
+                }
+              ],
+              "isLink": false
+            },
+            {
+              "idNum": 41,
+              "orderNum": 5,
+              "pcNode": true,
+              "linkTo": 0,
+              "ShowOnlyOnce": false,
+              "NodeIsActive": true,
+              "NodePortraitBitmap": "",
+              "NodeNpcName": "",
+              "NodeSound": "none",
+              "conversationText": "[Continue.]",
+              "IsExpanded": true,
+              "subNodes": [
+                {
+                  "idNum": 42,
+                  "orderNum": 0,
+                  "pcNode": false,
+                  "linkTo": 0,
+                  "ShowOnlyOnce": false,
+                  "NodeIsActive": true,
+                  "NodePortraitBitmap": "",
+                  "NodeNpcName": "",
+                  "NodeSound": "none",
+                  "conversationText": "<b>THE WOODCUTTER'S CABIN</b> added to map.",
+                  "IsExpanded": true,
+                  "subNodes": [
+                    {
+                      "idNum": 43,
+                      "orderNum": 0,
+                      "pcNode": true,
+                      "linkTo": 0,
+                      "ShowOnlyOnce": false,
+                      "NodeIsActive": true,
+                      "NodePortraitBitmap": "",
+                      "NodeNpcName": "",
+                      "NodeSound": "none",
+                      "conversationText": "[End.]",
+                      "IsExpanded": true,
+                      "subNodes": [],
+                      "actions": [
+                        {
+                          "a_script": "gaSetGlobalInt.cs",
+                          "a_parameter_1": "woodcutterpeg",
+                          "a_parameter_2": "1",
+                          "a_parameter_3": null,
+                          "a_parameter_4": null
+                        },
+                        {
+                          "a_script": "gaEnableDisableTrigger.cs",
+                          "a_parameter_1": "newTrigger_330194",
+                          "a_parameter_2": "true",
+                          "a_parameter_3": null,
+                          "a_parameter_4": null
+                        }
+                      ],
+                      "conditions": [],
+                      "isLink": false
+                    }
+                  ],
+                  "actions": [],
+                  "conditions": [],
+                  "isLink": false
+                }
+              ],
+              "actions": [],
+              "conditions": [
+                {
+                  "c_script": "gcCheckGlobalString.cs",
+                  "c_btnAndOr": "and",
+                  "c_and": true,
+                  "c_not": false,
+                  "c_parameter_1": "XLand",
+                  "c_parameter_2": "a_woodcutter",
+                  "c_parameter_3": null,
+                  "c_parameter_4": null
+                }
+              ],
+              "isLink": false
+            },
+            {
+              "idNum": 44,
+              "orderNum": 6,
+              "pcNode": true,
+              "linkTo": 0,
+              "ShowOnlyOnce": false,
+              "NodeIsActive": true,
+              "NodePortraitBitmap": "",
+              "NodeNpcName": "",
+              "NodeSound": "none",
+              "conversationText": "[Continue.]",
+              "IsExpanded": true,
+              "subNodes": [
+                {
+                  "idNum": 45,
+                  "orderNum": 0,
+                  "pcNode": false,
+                  "linkTo": 0,
+                  "ShowOnlyOnce": false,
+                  "NodeIsActive": true,
+                  "NodePortraitBitmap": "",
+                  "NodeNpcName": "",
+                  "NodeSound": "none",
+                  "conversationText": "<b>ORCHID CAVE</b> added to map.",
+                  "IsExpanded": true,
+                  "subNodes": [
+                    {
+                      "idNum": 46,
+                      "orderNum": 0,
+                      "pcNode": true,
+                      "linkTo": 0,
+                      "ShowOnlyOnce": false,
+                      "NodeIsActive": true,
+                      "NodePortraitBitmap": "",
+                      "NodeNpcName": "",
+                      "NodeSound": "none",
+                      "conversationText": "[End.]",
+                      "IsExpanded": true,
+                      "subNodes": [],
+                      "actions": [
+                        {
+                          "a_script": "gaSetGlobalInt.cs",
+                          "a_parameter_1": "orchidpeg",
+                          "a_parameter_2": "1",
+                          "a_parameter_3": null,
+                          "a_parameter_4": null
+                        },
+                        {
+                          "a_script": "gaEnableDisableTrigger.cs",
+                          "a_parameter_1": "newTrigger_330726",
+                          "a_parameter_2": "true",
+                          "a_parameter_3": null,
+                          "a_parameter_4": null
+                        }
+                      ],
+                      "conditions": [],
+                      "isLink": false
+                    }
+                  ],
+                  "actions": [],
+                  "conditions": [],
+                  "isLink": false
+                }
+              ],
+              "actions": [],
+              "conditions": [
+                {
+                  "c_script": "gcCheckGlobalString.cs",
+                  "c_btnAndOr": "and",
+                  "c_and": true,
+                  "c_not": false,
+                  "c_parameter_1": "XLand",
+                  "c_parameter_2": "a_woods_4e",
+                  "c_parameter_3": null,
+                  "c_parameter_4": null
+                }
+              ],
+              "isLink": false
+            },
+            {
+              "idNum": 19,
+              "orderNum": 7,
               "pcNode": true,
               "linkTo": 0,
               "ShowOnlyOnce": false,
@@ -298,5 +729,5 @@
   "SpeakToMainPcOnly": true,
   "NpcPortraitBitmap": "black_tile.png",
   "DefaultNpcName": "",
-  "NextIdNum": 25
+  "NextIdNum": 46
 }

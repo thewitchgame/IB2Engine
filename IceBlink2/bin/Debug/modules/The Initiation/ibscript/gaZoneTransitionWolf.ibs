@@ -1,0 +1,556 @@
+
+
+~gaGetGlobalInt(globalmap,@zone)
+~gaGetGlobalInt(destination,@dest)
+//~gaGetGlobalInt(bogsedgecave,@wolf)
+
+//   if (@wolf = 1)
+
+~gaPlaySound(map)
+
+
+
+@x = ~gcCheckHasTrait(-1,preciseshot)
+
+if (@zone = 0)
+
+   if (@dest = 0)
+      if (@x = 1)
+      ~gaSetGlobalInt(traveltime,10)
+      ~gaDoConversationByName(marker_con)
+      end
+      endif
+
+      if (@x = 0)
+      ~gaSetGlobalInt(traveltime,15)
+      ~gaDoConversationByName(marker_con)
+      end
+      endif
+      endif
+
+   if (@dest = 1)
+      if (@x = 1)
+      ~gaSetGlobalInt(traveltime,14)
+      ~gaDoConversationByName(marker_con)
+      end
+      endif
+
+      if (@x = 0)
+      ~gaSetGlobalInt(traveltime,21)
+      ~gaDoConversationByName(marker_con)
+      end
+      endif
+      endif
+
+   if (@dest = 2)
+      if (@x = 1)
+      ~gaSetGlobalInt(traveltime,18)
+      ~gaDoConversationByName(marker_con)
+      end
+      endif
+
+      if (@x = 0)
+      ~gaSetGlobalInt(traveltime,27)
+      ~gaDoConversationByName(marker_con)
+      end
+      endif
+      endif
+
+   if (@dest = 3)
+      if (@x = 1)
+      ~gaSetGlobalInt(traveltime,22)
+      ~gaDoConversationByName(marker_con)
+      end
+      endif
+
+      if (@x = 0)
+      ~gaSetGlobalInt(traveltime,33)
+      ~gaDoConversationByName(marker_con)
+      end
+      endif
+      endif
+
+   if (@dest = 4)
+      if (@x = 1)
+      ~gaSetGlobalInt(traveltime,22)
+      ~gaDoConversationByName(marker_con)
+      end
+      endif
+
+      if (@x = 0)
+      ~gaSetGlobalInt(traveltime,33)
+      ~gaDoConversationByName(marker_con)
+      end
+      endif
+      endif
+
+   if (@dest = 5)
+      if (@x = 1)
+      ~gaSetGlobalInt(traveltime,45)
+      ~gaDoConversationByName(marker_con)
+      end
+      endif
+
+      if (@x = 0)
+      ~gaSetGlobalInt(traveltime,60)
+      ~gaDoConversationByName(marker_con)
+      end
+      endif
+      endif
+
+   endif
+   
+//zone 1
+
+if (@zone = 1)
+
+   if (@dest = 0)
+      if (@x = 1)
+      ~gaSetGlobalInt(traveltime,14)
+      ~gaDoConversationByName(marker_con)
+      end
+      endif
+
+      if (@x = 0)
+      ~gaSetGlobalInt(traveltime,21)
+      ~gaDoConversationByName(marker_con)
+      end
+      endif
+      endif
+
+   if (@dest = 1)
+      if (@x = 1)
+      ~gaSetGlobalInt(traveltime,10)
+      ~gaDoConversationByName(marker_con)
+      end
+      endif
+
+      if (@x = 0)
+      ~gaSetGlobalInt(traveltime,15)
+      ~gaDoConversationByName(marker_con)
+      end
+      endif
+      endif
+
+   if (@dest = 2)
+      if (@x = 1)
+      ~gaSetGlobalInt(traveltime,14)
+      ~gaDoConversationByName(marker_con)
+      end
+      endif
+
+      if (@x = 0)
+      ~gaSetGlobalInt(traveltime,21)
+      ~gaDoConversationByName(marker_con)
+      end
+      endif
+      endif
+
+   if (@dest = 3)
+      if (@x = 1)
+      ~gaSetGlobalInt(traveltime,18)
+      ~gaDoConversationByName(marker_con)
+      end
+      endif
+
+      if (@x = 0)
+      ~gaSetGlobalInt(traveltime,27)
+      ~gaDoConversationByName(marker_con)
+      end
+      endif
+      endif
+
+   if (@dest = 4)
+      if (@x = 1)
+      ~gaSetGlobalInt(traveltime,18)
+      ~gaDoConversationByName(marker_con)
+      end
+      endif
+
+      if (@x = 0)
+      ~gaSetGlobalInt(traveltime,27)
+      ~gaDoConversationByName(marker_con)
+      end
+      endif
+      endif
+
+   if (@dest = 5)
+      if (@x = 1)
+      ~gaSetGlobalInt(traveltime,36)
+      ~gaDoConversationByName(marker_con)
+      end
+      endif
+
+      if (@x = 0)
+      ~gaSetGlobalInt(traveltime,54)
+      ~gaDoConversationByName(marker_con)
+      end
+      endif
+      endif
+
+   endif
+
+//zone 2
+
+if (@zone = 2)
+
+   if (@dest = 0)
+      if (@x = 1)
+      ~gaSetGlobalInt(traveltime,18)
+      ~gaDoConversationByName(marker_con)
+      end
+      endif
+
+      if (@x = 0)
+      ~gaSetGlobalInt(traveltime,27)
+      ~gaDoConversationByName(marker_con)
+      end
+      endif
+      endif
+
+   if (@dest = 1)
+      if (@x = 1)
+      ~gaSetGlobalInt(traveltime,14)
+      ~gaDoConversationByName(marker_con)
+      end
+      endif
+
+      if (@x = 0)
+      ~gaSetGlobalInt(traveltime,21)
+      ~gaDoConversationByName(marker_con)
+      end
+      endif
+      endif
+
+   if (@dest = 2)
+      if (@x = 1)
+      ~gaSetGlobalInt(traveltime,10)
+      ~gaDoConversationByName(marker_con)
+      end
+      endif
+
+      if (@x = 0)
+      ~gaSetGlobalInt(traveltime,15)
+      ~gaDoConversationByName(marker_con)
+      end
+      endif
+      endif
+
+   if (@dest = 3)
+      if (@x = 1)
+      ~gaSetGlobalInt(traveltime,14)
+      ~gaDoConversationByName(marker_con)
+      end
+      endif
+
+      if (@x = 0)
+      ~gaSetGlobalInt(traveltime,21)
+      ~gaDoConversationByName(marker_con)
+      end
+      endif
+      endif
+
+   if (@dest = 4)
+      if (@x = 1)
+      ~gaSetGlobalInt(traveltime,14)
+      ~gaDoConversationByName(marker_con)
+      end
+      endif
+
+      if (@x = 0)
+      ~gaSetGlobalInt(traveltime,21)
+      ~gaDoConversationByName(marker_con)
+      end
+      endif
+      endif
+
+   if (@dest = 5)
+      if (@x = 1)
+      ~gaSetGlobalInt(traveltime,32)
+      ~gaDoConversationByName(marker_con)
+      end
+      endif
+
+      if (@x = 0)
+      ~gaSetGlobalInt(traveltime,48)
+      ~gaDoConversationByName(marker_con)
+      end
+      endif
+      endif
+
+   endif
+
+
+//zone 3
+
+if (@zone = 3)
+
+   if (@dest = 0)
+      if (@x = 1)
+      ~gaSetGlobalInt(traveltime,22)
+      ~gaDoConversationByName(marker_con)
+      end
+      endif
+
+      if (@x = 0)
+      ~gaSetGlobalInt(traveltime,33)
+      ~gaDoConversationByName(marker_con)
+      end
+      endif
+      endif
+
+   if (@dest = 1)
+      if (@x = 1)
+      ~gaSetGlobalInt(traveltime,18)
+      ~gaDoConversationByName(marker_con)
+      end
+      endif
+
+      if (@x = 0)
+      ~gaSetGlobalInt(traveltime,27)
+      ~gaDoConversationByName(marker_con)
+      end
+      endif
+      endif
+
+   if (@dest = 2)
+      if (@x = 1)
+      ~gaSetGlobalInt(traveltime,14)
+      ~gaDoConversationByName(marker_con)
+      end
+      endif
+
+      if (@x = 0)
+      ~gaSetGlobalInt(traveltime,21)
+      ~gaDoConversationByName(marker_con)
+      end
+      endif
+      endif
+
+   if (@dest = 3)
+      if (@x = 1)
+      ~gaSetGlobalInt(traveltime,10)
+      ~gaDoConversationByName(marker_con)
+      end
+      endif
+
+      if (@x = 0)
+      ~gaSetGlobalInt(traveltime,15)
+      ~gaDoConversationByName(marker_con)
+      end
+      endif
+      endif
+
+   if (@dest = 4)
+      if (@x = 1)
+      ~gaSetGlobalInt(traveltime,18)
+      ~gaDoConversationByName(marker_con)
+      end
+      endif
+
+      if (@x = 0)
+      ~gaSetGlobalInt(traveltime,27)
+      ~gaDoConversationByName(marker_con)
+      end
+      endif
+      endif
+
+   if (@dest = 5)
+      if (@x = 1)
+      ~gaSetGlobalInt(traveltime,36)
+      ~gaDoConversationByName(marker_con)
+      end
+      endif
+
+      if (@x = 0)
+      ~gaSetGlobalInt(traveltime,54)
+      ~gaDoConversationByName(marker_con)
+      end
+      endif
+      endif
+
+   endif
+
+//zone 4
+
+if (@zone = 4)
+
+   if (@dest = 0)
+      if (@x = 1)
+      ~gaSetGlobalInt(traveltime,22)
+      ~gaDoConversationByName(marker_con)
+      end
+      endif
+
+      if (@x = 0)
+      ~gaSetGlobalInt(traveltime,33)
+      ~gaDoConversationByName(marker_con)
+      end
+      endif
+      endif
+
+   if (@dest = 1)
+      if (@x = 1)
+      ~gaSetGlobalInt(traveltime,18)
+      ~gaDoConversationByName(marker_con)
+      end
+      endif
+
+      if (@x = 0)
+      ~gaSetGlobalInt(traveltime,27)
+      ~gaDoConversationByName(marker_con)
+      end
+      endif
+      endif
+
+   if (@dest = 2)
+      if (@x = 1)
+      ~gaSetGlobalInt(traveltime,14)
+      ~gaDoConversationByName(marker_con)
+      end
+      endif
+
+      if (@x = 0)
+      ~gaSetGlobalInt(traveltime,21)
+      ~gaDoConversationByName(marker_con)
+      end
+      endif
+      endif
+
+   if (@dest = 3)
+      if (@x = 1)
+      ~gaSetGlobalInt(traveltime,18)
+      ~gaDoConversationByName(marker_con)
+      end
+      endif
+
+      if (@x = 0)
+      ~gaSetGlobalInt(traveltime,27)
+      ~gaDoConversationByName(marker_con)
+      end
+      endif
+      endif
+
+   if (@dest = 4)
+      if (@x = 1)
+      ~gaSetGlobalInt(traveltime,10)
+      ~gaDoConversationByName(marker_con)
+      end
+      endif
+
+      if (@x = 0)
+      ~gaSetGlobalInt(traveltime,15)
+      ~gaDoConversationByName(marker_con)
+      end
+      endif
+      endif
+
+   if (@dest = 5)
+      if (@x = 1)
+      ~gaSetGlobalInt(traveltime,36)
+      ~gaDoConversationByName(marker_con)
+      end
+      endif
+
+      if (@x = 0)
+      ~gaSetGlobalInt(traveltime,54)
+      ~gaDoConversationByName(marker_con)
+      end
+      endif
+      endif
+
+   endif
+
+//zone 5
+
+if (@zone = 5)
+
+   if (@dest = 0)
+      if (@x = 1)
+      ~gaSetGlobalInt(traveltime,40)
+      ~gaDoConversationByName(marker_con)
+      end
+      endif
+
+      if (@x = 0)
+      ~gaSetGlobalInt(traveltime,60)
+      ~gaDoConversationByName(marker_con)
+      end
+      endif
+      endif
+
+   if (@dest = 1)
+      if (@x = 1)
+      ~gaSetGlobalInt(traveltime,36)
+      ~gaDoConversationByName(marker_con)
+      end
+      endif
+
+      if (@x = 0)
+      ~gaSetGlobalInt(traveltime,54)
+      ~gaDoConversationByName(marker_con)
+      end
+      endif
+      endif
+
+   if (@dest = 2)
+      if (@x = 1)
+      ~gaSetGlobalInt(traveltime,32)
+      ~gaDoConversationByName(marker_con)
+      end
+      endif
+
+      if (@x = 0)
+      ~gaSetGlobalInt(traveltime,48)
+      ~gaDoConversationByName(marker_con)
+      end
+      endif
+      endif
+
+   if (@dest = 3)
+      if (@x = 1)
+      ~gaSetGlobalInt(traveltime,36)
+      ~gaDoConversationByName(marker_con)
+      end
+      endif
+
+      if (@x = 0)
+      ~gaSetGlobalInt(traveltime,54)
+      ~gaDoConversationByName(marker_con)
+      end
+      endif
+      endif
+
+   if (@dest = 4)
+      if (@x = 1)
+      ~gaSetGlobalInt(traveltime,36)
+      ~gaDoConversationByName(marker_con)
+      end
+      endif
+
+      if (@x = 0)
+      ~gaSetGlobalInt(traveltime,54)
+      ~gaDoConversationByName(marker_con)
+      end
+      endif
+      endif
+
+   if (@dest = 5)
+      if (@x = 1)
+      ~gaSetGlobalInt(traveltime,10)
+      ~gaDoConversationByName(marker_con)
+      end
+      endif
+
+      if (@x = 0)
+      ~gaSetGlobalInt(traveltime,15)
+      ~gaDoConversationByName(marker_con)
+      end
+      endif
+      endif
+
+   endif
+
+//endif
+end
+

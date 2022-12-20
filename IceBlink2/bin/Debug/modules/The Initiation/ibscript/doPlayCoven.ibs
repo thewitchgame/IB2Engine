@@ -1,0 +1,35 @@
+
+
+
+
+
+
+
+@j1 = ~gcRand1of(16)
+@j2 = ~gcRand1of(15)
+@j3 = ~gcRand1of(14)
+@j4 = ~gcRand1of(13)
+@q1 = ~gcRand1of(12)
+@q2 = ~gcRand1of(11)
+@q3 = ~gcRand1of(10)
+@q4 = ~gcRand1of(9)
+@k1 = ~gcRand1of(8)
+@k2 = ~gcRand1of(7)
+@k3 = ~gcRand1of(6)
+@k4 = ~gcRand1of(5)
+@a1 = ~gcRand1of(4)
+@a2 = ~gcRand1of(3)
+@a3 = ~gcRand1of(2)
+@a4 = ~gcRand1of(1)
+
+
+~gaGetGlobalInt(jack1,@a)
+
+if (@a= 1)
+@j1 = 99
+endif
+
+if (@1 = 1)
+~gaSetGlobalInt(jack1,1)
+//~osSetTileLayerGraphic() show the card on map
+endif

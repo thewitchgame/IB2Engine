@@ -1,0 +1,3 @@
+~gaSetGlobalInt(experience,2)
+~gaForceRestAndRaiseDead()
+~osSetPlayerSp(,-1,*,0)

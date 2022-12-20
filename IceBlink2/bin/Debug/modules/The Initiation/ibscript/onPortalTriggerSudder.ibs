@@ -1,0 +1,4 @@
+~osSetProp(newPropTag_174690_330612,,s,false)
+~osSetProp(newPropTag_174690_330613,,s,false)
+~osSetProp(newPropTag_174690_330614,,s,false)
+~gaDoConversationByName(precombat_sudder)

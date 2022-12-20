@@ -1,0 +1,15 @@
+~gaGetGlobalInt(endgame,@x)
+
+if (@x = 0)
+end
+else
+~gaEnableDisableTrigger(newTrigger_181311,false)
+~gaEnableDisableTrigger(newTrigger_175014,false)
+~osSetProp(event1_266516,,s,false)
+~osSetProp(newPropTag_174690_175008,,s,false)
+end
+endif
+
+end
+
+

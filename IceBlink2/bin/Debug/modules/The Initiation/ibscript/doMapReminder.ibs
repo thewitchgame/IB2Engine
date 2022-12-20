@@ -1,0 +1,17 @@
+//switch so that instead of checking for day you are checking for the landmark that *has* to be encountered
+@isFought = ~gcCheckGlobalInt(FirstCombat,=,1)
+@isMorning = ~gcCheckIsInHoursWindowDaily(7,11)
+@isDone = ~gcCheckLocalInt(thisarea,reminder,=,1)
+
+if (@isDone = 1)
+end
+endif
+
+if (@isMorning = 1)
+if (@isFought = 1)
+
+~gaSetLocalInt(thisarea,reminder,1)
+~gaDoConversationByName(mapreminder_con)
+
+endif
+endif

@@ -16,7 +16,7 @@ namespace IceBlink2
         public List<string> itemList = new List<string>();
         public int selectedIndex = 0;
 
-        public ItemListSelector(GameView g, List<string> itList, string headertxt)
+        public ItemListSelector(GameView g, List<string> itList, string headertxt) 
         {
             InitializeComponent();
             this.IceBlinkButtonClose.setupAll(g);
@@ -37,12 +37,12 @@ namespace IceBlink2
 
         public void ResizeWindow()
         {
-            this.Height = 70 + itemList.Count * 55;
+            this.Height = 12 + itemList.Count * 55; //was70
             int width = 0;
             width = (int)((float)HeaderText.Length * (float)gv.drawFontReg.Height / 1.3f);
             foreach (string s in itemList)
             {
-                int w = (int)((float)s.Length * (float)gv.drawFontReg.Height / 1.3f);
+                int w = (int)((float)s.Length * (float)gv.drawFontReg.Height / 1.3f); 
                 if (w > width) { width = w; }
             }
             this.Width = width + 30;
@@ -50,7 +50,7 @@ namespace IceBlink2
 
         public void CreateButtons()
         {
-            int yLoc = 70;
+            int yLoc = 70;//was70
             int cnt = 0;
             foreach (string s in itemList)
             {
@@ -63,7 +63,7 @@ namespace IceBlink2
                 newButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
                 newButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
                 //newButton.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-                newButton.Font = gv.drawFontLarge;
+                newButton.Font = gv.drawFontReg;//was drawFontLarge
                 newButton.ForeColor = System.Drawing.Color.White;
                 newButton.Location = new System.Drawing.Point(12, yLoc);
                 newButton.Name = cnt.ToString();

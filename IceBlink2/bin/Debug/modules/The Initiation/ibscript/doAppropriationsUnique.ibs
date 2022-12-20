@@ -1,0 +1,19 @@
+//Can't be set to once only because even if creatures can't trigger the script they still set it off. 
+
+
+~gaGetGlobalInt(box2open,@x)
+
+
+if (@x = 1)
+end
+else
+
+
+~gaSetGlobalInt(box2open,++)
+~gaGiveItem(parm(0),parm(1),parm(2),parm(3))
+~gaShowMessageBox(parm(4))
+end
+endif
+
+
+end

@@ -1,0 +1,38 @@
+~gaGetGlobalInt(global_wisdom,@wisdom)
+
+
+
+if (@wisdom = 99)
+   ~gaCastSpellEncounterTrigger(elfcandle_absorption,true,1,Young witch absorbs SP!)
+   ~osSetPlayerSp(,-1,+,1)
+end
+endif
+
+
+if (@wisdom = 1)
+   ~gaCastSpellEncounterTrigger(elfcandle_absorption,true,1,Young witch absorbs SP!)
+   ~osSetPlayerSp(,-1,+,2)
+end
+endif
+
+
+if (@wisdom = 2)
+   ~gaCastSpellEncounterTrigger(elfcandle_absorption,true,1,Young witch absorbs SP!)
+   ~osSetPlayerSp(,-1,+,3)
+end
+endif
+
+
+if (@wisdom = 3)
+   ~gaCastSpellEncounterTrigger(elfcandle_absorption,true,1,Young witch absorbs SP!)
+   ~osSetPlayerSp(,-1,+,4)
+end
+endif
+
+
+if (@wisdom = 4)
+   ~gaCastSpellEncounterTrigger(elfcandle_absorption,true,1,Young witch absorbs SP!)
+   ~osSetPlayerSp(,-1,+,5)
+end
+endif
+end

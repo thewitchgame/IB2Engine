@@ -49,7 +49,7 @@
                   "NodePortraitBitmap": "",
                   "NodeNpcName": "",
                   "NodeSound": "none",
-                  "conversationText": "In this battle, use your crow or any other tools at your disposal to do 3 damage to the target. Attack using the attack button and selecting the target.",
+                  "conversationText": "In this battle, use your crow or any other tools at your disposal to do 3 damage to the target. Attack using the attack button and selecting the target.\r\n\r\nMany combats have portals. Occupying a portal tile is another way of winning combat.",
                   "IsExpanded": true,
                   "subNodes": [
                     {

@@ -1019,20 +1019,20 @@ namespace IceBlink2
                     /*string textToSpan = "<b><i><big>" + it.name + "</big></i></b><BR>";
                     if ((it.category.Equals("Melee")) || (it.category.Equals("Ranged")))
                     {
-                        textToSpan += "Damage: " + it.damageNumDice + "d" + it.damageDie + "+" + it.damageAdder + "<br>";
-                        textToSpan += "Useable By: " + isUseableBy(it) + "<BR>";
-                        textToSpan += "Attack Bonus: " + it.attackBonus + "<br>";
-                        textToSpan += "Attack Range: " + it.attackRange + "<BR>";	        	
+                       // textToSpan += "Damage: " + it.damageNumDice + "d" + it.damageDie + "+" + it.damageAdder + "<br>";
+                       // textToSpan += "Useable By: " + isUseableBy(it) + "<BR>";
+                        //textToSpan += "Attack Bonus: " + it.attackBonus + "<br>";
+                        //textToSpan += "Attack Range: " + it.attackRange + "<BR>";	        	
                     }    
                     else if (!it.category.Equals("General"))
                     {
-                        textToSpan += "AC Bonus: " + it.armorBonus + "<br>";
-                        textToSpan += "Max Dex Bonus: " + it.maxDexBonus + "<BR>";	       
-                        textToSpan += "Useable By: " + isUseableBy(it) + "<BR>";
+                        //textToSpan += "AC Bonus: " + it.armorBonus + "<br>";
+                        //textToSpan += "Max Dex Bonus: " + it.maxDexBonus + "<BR>";	       
+                        //textToSpan += "Useable By: " + isUseableBy(it) + "<BR>";
                     }
                     else if (it.category.Equals("General"))
                     {
-                        textToSpan += "Useable By: " + isUseableBy(it) + "<BR>";
+                        //textToSpan += "Useable By: " + isUseableBy(it) + "<BR>";
                     }
                     */
 
@@ -1059,20 +1059,20 @@ namespace IceBlink2
                     /*string textToSpan = "<b><i><big>" + it.name + "</big></i></b><BR>";
                     if ((it.category.Equals("Melee")) || (it.category.Equals("Ranged")))
                     {
-                        textToSpan += "Damage: " + it.damageNumDice + "d" + it.damageDie + "+" + it.damageAdder + "<br>";
-                        textToSpan += "Useable By: " + isUseableBy(it) + "<BR>";
-                        textToSpan += "Attack Bonus: " + it.attackBonus + "<br>";
-                        textToSpan += "Attack Range: " + it.attackRange + "<BR>";	        	
+                        //textToSpan += "Damage: " + it.damageNumDice + "d" + it.damageDie + "+" + it.damageAdder + "<br>";
+                        //textToSpan += "Useable By: " + isUseableBy(it) + "<BR>";
+                        //textToSpan += "Attack Bonus: " + it.attackBonus + "<br>";
+                        //textToSpan += "Attack Range: " + it.attackRange + "<BR>";	        	
                     }    
                     else if (!it.category.Equals("General"))
                     {
-                        textToSpan += "AC Bonus: " + it.armorBonus + "<br>";
-                        textToSpan += "Max Dex Bonus: " + it.maxDexBonus + "<BR>";	       
-                        textToSpan += "Useable By: " + isUseableBy(it) + "<BR>";
+                        //textToSpan += "AC Bonus: " + it.armorBonus + "<br>";
+                        //textToSpan += "Max Dex Bonus: " + it.maxDexBonus + "<BR>";	       
+                        //textToSpan += "Useable By: " + isUseableBy(it) + "<BR>";
                     }
                     else if (it.category.Equals("General"))
                     {
-                        textToSpan += "Useable By: " + isUseableBy(it) + "<BR>";
+                        //textToSpan += "Useable By: " + isUseableBy(it) + "<BR>";
                     }
                     */
 
@@ -1099,20 +1099,20 @@ namespace IceBlink2
                     /*string textToSpan = "<b><i><big>" + it.name + "</big></i></b><BR>";
                     if ((it.category.Equals("Melee")) || (it.category.Equals("Ranged")))
                     {
-                        textToSpan += "Damage: " + it.damageNumDice + "d" + it.damageDie + "+" + it.damageAdder + "<br>";
-                        textToSpan += "Useable By: " + isUseableBy(it) + "<BR>";
-                        textToSpan += "Attack Bonus: " + it.attackBonus + "<br>";
-                        textToSpan += "Attack Range: " + it.attackRange + "<BR>";	        	
+                        //textToSpan += "Damage: " + it.damageNumDice + "d" + it.damageDie + "+" + it.damageAdder + "<br>";
+                        //textToSpan += "Useable By: " + isUseableBy(it) + "<BR>";
+                        //textToSpan += "Attack Bonus: " + it.attackBonus + "<br>";
+                        //textToSpan += "Attack Range: " + it.attackRange + "<BR>";	        	
                     }    
                     else if (!it.category.Equals("General"))
                     {
-                        textToSpan += "AC Bonus: " + it.armorBonus + "<br>";
-                        textToSpan += "Max Dex Bonus: " + it.maxDexBonus + "<BR>";	       
-                        textToSpan += "Useable By: " + isUseableBy(it) + "<BR>";
+                        //textToSpan += "AC Bonus: " + it.armorBonus + "<br>";
+                        //textToSpan += "Max Dex Bonus: " + it.maxDexBonus + "<BR>";	       
+                        //textToSpan += "Useable By: " + isUseableBy(it) + "<BR>";
                     }
                     else if (it.category.Equals("General"))
                     {
-                        textToSpan += "Useable By: " + isUseableBy(it) + "<BR>";
+                        //textToSpan += "Useable By: " + isUseableBy(it) + "<BR>";
                     }
                     */
 
@@ -1137,20 +1137,20 @@ namespace IceBlink2
                 /*string textToSpan = "<b><i><big>" + it.name + "</big></i></b><BR>";
 	            if ((it.category.Equals("Melee")) || (it.category.Equals("Ranged")))
 	            {
-	        	    textToSpan += "Damage: " + it.damageNumDice + "d" + it.damageDie + "+" + it.damageAdder + "<br>";
-	        	    textToSpan += "Useable By: " + isUseableBy(it) + "<BR>";
-	                textToSpan += "Attack Bonus: " + it.attackBonus + "<br>";
-	                textToSpan += "Attack Range: " + it.attackRange + "<BR>";	        	
+	        	    //textToSpan += "Damage: " + it.damageNumDice + "d" + it.damageDie + "+" + it.damageAdder + "<br>";
+	        	    //textToSpan += "Useable By: " + isUseableBy(it) + "<BR>";
+	                //textToSpan += "Attack Bonus: " + it.attackBonus + "<br>";
+	                //textToSpan += "Attack Range: " + it.attackRange + "<BR>";	        	
 	            }    
 	            else if (!it.category.Equals("General"))
 	            {
-	        	    textToSpan += "AC Bonus: " + it.armorBonus + "<br>";
-	                textToSpan += "Max Dex Bonus: " + it.maxDexBonus + "<BR>";	       
-	                textToSpan += "Useable By: " + isUseableBy(it) + "<BR>";
+	        	    //textToSpan += "AC Bonus: " + it.armorBonus + "<br>";
+	                //textToSpan += "Max Dex Bonus: " + it.maxDexBonus + "<BR>";	       
+	                //textToSpan += "Useable By: " + isUseableBy(it) + "<BR>";
 	            }
 	            else if (it.category.Equals("General"))
 	            {
-	        	    textToSpan += "Useable By: " + isUseableBy(it) + "<BR>";
+	        	    //textToSpan += "Useable By: " + isUseableBy(it) + "<BR>";
 	            }
                 */
 
@@ -1577,20 +1577,20 @@ namespace IceBlink2
                     string textToSpan = "<b><i><big>" + it.name + "</big></i></b><BR>";
                     if ((it.category.Equals("Melee")) || (it.category.Equals("Ranged")))
                     {
-                        textToSpan += "Damage: " + it.damageNumDice + "d" + it.damageDie + "+" + it.damageAdder + "<br>";
-                        textToSpan += "Useable By: " + isUseableBy(it) + "<BR>";
-                        textToSpan += "Attack Bonus: " + it.attackBonus + "<br>";
-                        textToSpan += "Attack Range: " + it.attackRange + "<BR>";	            
+                        //textToSpan += "Damage: " + it.damageNumDice + "d" + it.damageDie + "+" + it.damageAdder + "<br>";
+                        //textToSpan += "Useable By: " + isUseableBy(it) + "<BR>";
+                        //textToSpan += "Attack Bonus: " + it.attackBonus + "<br>";
+                        //textToSpan += "Attack Range: " + it.attackRange + "<BR>";	            
                     }    
                     else if (!it.category.Equals("General"))
                     {
-                        textToSpan += "AC Bonus: " + it.armorBonus + "<br>";
-                        textToSpan += "Max Dex Bonus: " + it.maxDexBonus + "<BR>";	 
-                        textToSpan += "Useable By: " + isUseableBy(it) + "<BR>";
+                        //textToSpan += "AC Bonus: " + it.armorBonus + "<br>";
+                        //textToSpan += "Max Dex Bonus: " + it.maxDexBonus + "<BR>";	 
+                        //textToSpan += "Useable By: " + isUseableBy(it) + "<BR>";
                     }
                     else if (it.category.Equals("General"))
                     {
-                        textToSpan += "Useable By: " + isUseableBy(it) + "<BR>";
+                        //textToSpan += "Useable By: " + isUseableBy(it) + "<BR>";
                     }
                     */
 
@@ -1616,20 +1616,20 @@ namespace IceBlink2
                     string textToSpan = "<b><i><big>" + it.name + "</big></i></b><BR>";
                     if ((it.category.Equals("Melee")) || (it.category.Equals("Ranged")))
                     {
-                        textToSpan += "Damage: " + it.damageNumDice + "d" + it.damageDie + "+" + it.damageAdder + "<br>";
-                        textToSpan += "Useable By: " + isUseableBy(it) + "<BR>";
-                        textToSpan += "Attack Bonus: " + it.attackBonus + "<br>";
-                        textToSpan += "Attack Range: " + it.attackRange + "<BR>";	            
+                        //textToSpan += "Damage: " + it.damageNumDice + "d" + it.damageDie + "+" + it.damageAdder + "<br>";
+                        //textToSpan += "Useable By: " + isUseableBy(it) + "<BR>";
+                        //textToSpan += "Attack Bonus: " + it.attackBonus + "<br>";
+                        //textToSpan += "Attack Range: " + it.attackRange + "<BR>";	            
                     }    
                     else if (!it.category.Equals("General"))
                     {
-                        textToSpan += "AC Bonus: " + it.armorBonus + "<br>";
-                        textToSpan += "Max Dex Bonus: " + it.maxDexBonus + "<BR>";	 
-                        textToSpan += "Useable By: " + isUseableBy(it) + "<BR>";
+                        //textToSpan += "AC Bonus: " + it.armorBonus + "<br>";
+                        //textToSpan += "Max Dex Bonus: " + it.maxDexBonus + "<BR>";	 
+                        //textToSpan += "Useable By: " + isUseableBy(it) + "<BR>";
                     }
                     else if (it.category.Equals("General"))
                     {
-                        textToSpan += "Useable By: " + isUseableBy(it) + "<BR>";
+                        //textToSpan += "Useable By: " + isUseableBy(it) + "<BR>";
                     }
                     */
 
@@ -1656,20 +1656,20 @@ namespace IceBlink2
                     string textToSpan = "<b><i><big>" + it.name + "</big></i></b><BR>";
                     if ((it.category.Equals("Melee")) || (it.category.Equals("Ranged")))
                     {
-                        textToSpan += "Damage: " + it.damageNumDice + "d" + it.damageDie + "+" + it.damageAdder + "<br>";
-                        textToSpan += "Useable By: " + isUseableBy(it) + "<BR>";
-                        textToSpan += "Attack Bonus: " + it.attackBonus + "<br>";
-                        textToSpan += "Attack Range: " + it.attackRange + "<BR>";	            
+                        //textToSpan += "Damage: " + it.damageNumDice + "d" + it.damageDie + "+" + it.damageAdder + "<br>";
+                        //textToSpan += "Useable By: " + isUseableBy(it) + "<BR>";
+                        //textToSpan += "Attack Bonus: " + it.attackBonus + "<br>";
+                        //textToSpan += "Attack Range: " + it.attackRange + "<BR>";	            
                     }    
                     else if (!it.category.Equals("General"))
                     {
-                        textToSpan += "AC Bonus: " + it.armorBonus + "<br>";
-                        textToSpan += "Max Dex Bonus: " + it.maxDexBonus + "<BR>";	 
-                        textToSpan += "Useable By: " + isUseableBy(it) + "<BR>";
+                        //textToSpan += "AC Bonus: " + it.armorBonus + "<br>";
+                        //textToSpan += "Max Dex Bonus: " + it.maxDexBonus + "<BR>";	 
+                        //textToSpan += "Useable By: " + isUseableBy(it) + "<BR>";
                     }
                     else if (it.category.Equals("General"))
                     {
-                        textToSpan += "Useable By: " + isUseableBy(it) + "<BR>";
+                        //textToSpan += "Useable By: " + isUseableBy(it) + "<BR>";
                     }
                     */
 
@@ -1694,20 +1694,20 @@ namespace IceBlink2
 			    string textToSpan = "<b><i><big>" + it.name + "</big></i></b><BR>";
 	            if ((it.category.Equals("Melee")) || (it.category.Equals("Ranged")))
 	            {
-	        	    textToSpan += "Damage: " + it.damageNumDice + "d" + it.damageDie + "+" + it.damageAdder + "<br>";
-	        	    textToSpan += "Useable By: " + isUseableBy(it) + "<BR>";
-	                textToSpan += "Attack Bonus: " + it.attackBonus + "<br>";
-	                textToSpan += "Attack Range: " + it.attackRange + "<BR>";	            
+	        	    //textToSpan += "Damage: " + it.damageNumDice + "d" + it.damageDie + "+" + it.damageAdder + "<br>";
+	        	    //textToSpan += "Useable By: " + isUseableBy(it) + "<BR>";
+	                //textToSpan += "Attack Bonus: " + it.attackBonus + "<br>";
+	                //textToSpan += "Attack Range: " + it.attackRange + "<BR>";	            
 	            }    
 	            else if (!it.category.Equals("General"))
 	            {
-	        	    textToSpan += "AC Bonus: " + it.armorBonus + "<br>";
-	                textToSpan += "Max Dex Bonus: " + it.maxDexBonus + "<BR>";	 
-	                textToSpan += "Useable By: " + isUseableBy(it) + "<BR>";
+	        	    //textToSpan += "AC Bonus: " + it.armorBonus + "<br>";
+	                //textToSpan += "Max Dex Bonus: " + it.maxDexBonus + "<BR>";	 
+	                //textToSpan += "Useable By: " + isUseableBy(it) + "<BR>";
 	            }
 	            else if (it.category.Equals("General"))
 	            {
-	        	    textToSpan += "Useable By: " + isUseableBy(it) + "<BR>";
+	        	    //textToSpan += "Useable By: " + isUseableBy(it) + "<BR>";
 	            }
                 */
 

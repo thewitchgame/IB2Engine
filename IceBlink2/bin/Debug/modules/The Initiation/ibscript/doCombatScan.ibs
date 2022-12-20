@@ -1,0 +1,14 @@
+~gaGetGlobalInt(what_encounter,@number)
+
+
+
+gosub CombatScan
+end
+
+subroutine CombatScan
+
+
+if (@number = 1)
+   ~gaShowMessageBox(<i>Pharaoh's keen eye appraised the young witch's foes</i>...<b>Swift Redcap</b><br>Fortitude: -5% chance of defending against an effect<br>Reflex: +5% chance of defending against an effect<br>Will: -10% chance of defending against an effect<br>-10% Fire Resistance<br><br><b>Blind Page</b><br>Fortitude: +5% chance of defending against an effect<br>Reflex: +10% chance of defending against an effect<br>Will: -5% chance of defending against an effect<br>-10% Fire Resistance<br><br><b>Elf Candle</b><br>Fortitude: -20% chance of defending against an effect<br>Reflex: -20% chance of defending against an effect<br>Will: -20% chance of defending against an effect<br><br><b>Usher of the Moth Rod</b><br>Fortitude: +20% chance of defending against an effect<br>Reflex: +20% chance of defending against an effect<br>Will: +20% chance of defending against an effect<br>-100% Poison Resistance<br>+50% Resistance to all other forms of damage)
+endif
+

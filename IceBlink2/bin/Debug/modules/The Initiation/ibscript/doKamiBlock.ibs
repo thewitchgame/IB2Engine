@@ -1,0 +1,109 @@
+//Checks to see if PC has done what's necessary to advance to the next conversation with a kami
+//(talked to the witches, talked to the woodcutter's son). Should also disable block if witch has
+//already talked to a certain kami
+
+
+
+@f = ~gcCheckGlobalString(XLand,a_woods_ncave6)
+@g = ~gcCheckGlobalString(XLand,a_woods_3q)
+@h = ~gcCheckGlobalString(XLand,a_woods_2sc)
+//@g mountain
+//@h meadow
+
+@x = ~gcCheckGlobalInt(malkintalk,=,1)
+//malkintalk = 1 always means that a spirit has been spoken to but the task that spirit gave the PC is incomplete
+
+@w = ~gcCheckGlobalInt(wolftalk,=,1)//a_woods_ncave6
+@d = ~gcCheckGlobalInt(deertalk,=,1)
+@b = ~gcCheckGlobalInt(birdtalk,=,1)
+
+
+@z = ~gcCheckLocalInt(thisarea,blocked,=,1)
+
+
+//wolf
+if (@f = 1)
+
+   if (@w = 1)
+   ~gaToggleAreaSquareWalkable(3,2,true,)
+      end
+      endif
+
+   if (@x = 1)
+   ~gaToggleAreaSquareWalkable(3,2,false,)
+   else
+      ~gaToggleAreaSquareWalkable(3,2,true,)
+end
+   endif
+
+   if (@z = 1)
+      end
+      endif
+
+   ~gaDoConversationByName(malkintalk_con)
+endif
+
+
+//deer
+
+
+if (@g = 1)
+
+   if (@d = 1)
+   ~gaToggleAreaSquareWalkable(6,1,true,)
+      end
+      endif
+
+   if (@x = 1)
+   ~gaToggleAreaSquareWalkable(6,1,false,)
+   else
+      ~gaToggleAreaSquareWalkable(6,1,true,)
+end
+   endif
+
+   if (@z = 1)
+      end
+      endif
+
+   ~gaDoConversationByName(malkintalk_glory_con)
+endif
+
+
+
+//bird
+
+if (@h = 1)
+
+   if (@b = 1)
+   ~gaToggleAreaSquareWalkable(13,5,true,)
+      end
+      endif
+
+   if (@x = 1)
+   ~gaToggleAreaSquareWalkable(13,5,false,)
+   else
+      ~gaToggleAreaSquareWalkable(13,5,true,)
+end
+   endif
+
+   if (@z = 1)
+      end
+      endif
+
+   ~gaDoConversationByName(malkintalk2_con)
+endif
+
+
+
+
+
+
+
+
+end
+
+
+
+
+
+

@@ -1,0 +1,112 @@
+//Can't be set to once only because even if creatures can't trigger the script they still set it off. 
+
+
+~gaGetGlobalInt(boxopen,@x)
+
+
+@1 = ~gcRand1of(12)
+@2 = ~gcRand1of(11)
+@3 = ~gcRand1of(10)
+@4 = ~gcRand1of(9)
+@5 = ~gcRand1of(8)
+@6 = ~gcRand1of(7)
+@7 = ~gcRand1of(6)
+@8 = ~gcRand1of(5)
+@9 = ~gcRand1of(4)
+@10 = ~gcRand1of(3)
+@11 = ~gcRand1of(2)
+@12 = ~gcRand1of(1)
+
+
+if (@x = 1)
+end
+endif
+
+
+if (@1 = 1)
+~gaSetGlobalInt(boxopen,++)
+~gaGiveItem(comfort00,1)
+~gaShowMessageBox(Secret Stash received!)
+end
+endif
+
+if (@2 = 1)
+~gaSetGlobalInt(boxopen,++)
+~gaGiveItem(willowwine00,1)
+~gaShowMessageBox(Willow Wine received!)
+end
+endif
+
+if (@3 = 1)
+~gaSetGlobalInt(boxopen,++)
+~gaGiveItem(bearsblood00,1)
+~gaShowMessageBox(Blood of the Bear received!)
+end
+endif
+
+if (@4 = 1)
+~gaSetGlobalInt(boxopen,++)
+~gaGiveItem(dross_kyanite,1)
+~gaShowMessageBox(Kyanite received!)
+end
+endif
+
+if (@5 = 1)
+~gaSetGlobalInt(boxopen,++)
+~gaGiveItem(dross_olivine,1)
+~gaShowMessageBox(Olivine received!)
+end
+endif
+
+if (@6 = 1)
+~gaSetGlobalInt(boxopen,++)
+~gaGiveItem(dross_amber,1)
+~gaShowMessageBox(Amber received!)
+end
+endif
+
+if (@7 = 1)
+~gaSetGlobalInt(boxopen,++)
+~gaGiveItem(dross_purplespinel,1)
+~gaShowMessageBox(Purple spinel received!)
+end
+endif
+
+if (@8 = 1)
+~gaSetGlobalInt(boxopen,++)
+~gaGiveItem(dross_carbuncle,1)
+~gaShowMessageBox(Carbuncle received!)
+end
+endif
+
+if (@9 = 1)
+~gaSetGlobalInt(boxopen,++)
+~gaGiveItem(dross_alexandrite,1)
+~gaShowMessageBox(Alexandrite received!)
+end
+endif
+
+if (@10 = 1)
+~gaSetGlobalInt(boxopen,++)
+~gaGiveItem(faeryscordial00,1)
+~gaShowMessageBox(Greenflask received!)
+end
+endif
+
+if (@11 = 1)
+~gaSetGlobalInt(boxopen,++)
+~gaGiveItem(blueflask00,1)
+~gaShowMessageBox(Blueflask received!)
+end
+endif
+
+if (@12 = 1)
+~gaSetGlobalInt(boxopen,++)
+~gaGiveItem(subpoena00,1)
+~gaShowMessageBox(Subpoena received!)
+end
+endif
+
+
+
+end

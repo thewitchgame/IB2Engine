@@ -14,7 +14,7 @@
       "IsExpanded": true,
       "subNodes": [
         {
-          "idNum": 1,
+          "idNum": 390,
           "orderNum": 0,
           "pcNode": false,
           "linkTo": 0,
@@ -23,7 +23,7 @@
           "NodePortraitBitmap": "",
           "NodeNpcName": "",
           "NodeSound": "none",
-          "conversationText": "A man was skinning a deer outside a cabin. His hands were bloody, and the knife he used to skin had gore on it. He went about his task solemnly, with superior focus, and he seemed not to notice <FirstName> approaching -- until he spoke.",
+          "conversationText": "<FirstName> stepped out of the vision and into the hunter's clearing. No time had passed. He was still skinning the deer. He held the knife in the same position.",
           "IsExpanded": true,
           "subNodes": [
             {
@@ -53,7 +53,7 @@
                   "IsExpanded": true,
                   "subNodes": [
                     {
-                      "idNum": 4,
+                      "idNum": 156,
                       "orderNum": 0,
                       "pcNode": true,
                       "linkTo": 0,
@@ -62,7 +62,86 @@
                       "NodePortraitBitmap": "",
                       "NodeNpcName": "",
                       "NodeSound": "none",
-                      "conversationText": "\"I have.\"",
+                      "conversationText": "\"Who are you?\"",
+                      "IsExpanded": false,
+                      "subNodes": [
+                        {
+                          "idNum": 157,
+                          "orderNum": 0,
+                          "pcNode": false,
+                          "linkTo": 0,
+                          "ShowOnlyOnce": false,
+                          "NodeIsActive": true,
+                          "NodePortraitBitmap": "",
+                          "NodeNpcName": "",
+                          "NodeSound": "none",
+                          "conversationText": "\"My name is Wencel. I'm a hunter.\"",
+                          "IsExpanded": true,
+                          "subNodes": [
+                            {
+                              "idNum": 158,
+                              "orderNum": 0,
+                              "pcNode": true,
+                              "linkTo": 0,
+                              "ShowOnlyOnce": false,
+                              "NodeIsActive": true,
+                              "NodePortraitBitmap": "",
+                              "NodeNpcName": "",
+                              "NodeSound": "none",
+                              "conversationText": "[Continue.]",
+                              "IsExpanded": true,
+                              "subNodes": [
+                                {
+                                  "idNum": 159,
+                                  "orderNum": 0,
+                                  "pcNode": true,
+                                  "linkTo": 7,
+                                  "ShowOnlyOnce": false,
+                                  "NodeIsActive": true,
+                                  "NodePortraitBitmap": "",
+                                  "NodeNpcName": "",
+                                  "NodeSound": "none",
+                                  "conversationText": " \"Permit me to finish this,\" he said, still skinning the deer, \"I have no children, no kin. Nothing to see finished except this last little bit of work.\"",
+                                  "IsExpanded": true,
+                                  "subNodes": [],
+                                  "actions": [],
+                                  "conditions": [],
+                                  "isLink": true
+                                }
+                              ],
+                              "actions": [],
+                              "conditions": [],
+                              "isLink": false
+                            }
+                          ],
+                          "actions": [],
+                          "conditions": [],
+                          "isLink": false
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "a_script": "gaSetGlobalInt.cs",
+                          "a_parameter_1": "global_con6",
+                          "a_parameter_2": "1",
+                          "a_parameter_3": null,
+                          "a_parameter_4": null
+                        }
+                      ],
+                      "conditions": [],
+                      "isLink": false
+                    },
+                    {
+                      "idNum": 4,
+                      "orderNum": 1,
+                      "pcNode": true,
+                      "linkTo": 0,
+                      "ShowOnlyOnce": false,
+                      "NodeIsActive": true,
+                      "NodePortraitBitmap": "",
+                      "NodeNpcName": "",
+                      "NodeSound": "none",
+                      "conversationText": "\"I have,\" the witch said.",
                       "IsExpanded": true,
                       "subNodes": [
                         {
@@ -114,8 +193,8 @@
                                       "NodePortraitBitmap": "",
                                       "NodeNpcName": "",
                                       "NodeSound": "none",
-                                      "conversationText": "\"How do you know so much about my mission?\"",
-                                      "IsExpanded": false,
+                                      "conversationText": "\"You know why I'm here?\"",
+                                      "IsExpanded": true,
                                       "subNodes": [
                                         {
                                           "idNum": 30,
@@ -127,7 +206,7 @@
                                           "NodePortraitBitmap": "",
                                           "NodeNpcName": "",
                                           "NodeSound": "none",
-                                          "conversationText": "\"I've had the same dream for as long as I can remember.\r\n\r\n\"A witch comes to me -- you come to me -- as I skin a deer. We converse. It's not always the same. Sometimes you're cruel, sometimes pitying, sometimes indifferent. I show you an arrow, and then you show me an arrow of the same make, but with blood on it.\r\n\r\n\"You kill me with my skinning knife.\"",
+                                          "conversationText": "\"I've had the same dream for as long as I can remember.\"\r\n\r\n\"A witch comes to me -- you come to me -- as I skin a deer. We converse. It's not always the same. Sometimes you're cruel, sometimes pitying, sometimes indifferent. I show you an arrow, and then you show me an arrow of the same make, but with blood on it.\"\r\n\r\n\"You kill me with my skinning knife.\"",
                                           "IsExpanded": true,
                                           "subNodes": [],
                                           "actions": [],
@@ -275,7 +354,7 @@
                                                       "NodeNpcName": "",
                                                       "NodeSound": "none",
                                                       "conversationText": "\"Why did you kill Nnenne?\"",
-                                                      "IsExpanded": false,
+                                                      "IsExpanded": true,
                                                       "subNodes": [
                                                         {
                                                           "idNum": 66,
@@ -287,7 +366,24 @@
                                                           "NodePortraitBitmap": "",
                                                           "NodeNpcName": "",
                                                           "NodeSound": "none",
-                                                          "conversationText": "The hunter had met everything evenly to this point, but now he looked surprised. There was a pause. <FirstName> had a sensation almost of vertigo as, briefly, <his/her> vision swam.",
+                                                          "conversationText": "There was a pause. The young witch felt suddenly dizzy. Parts of the vision <he/she> had returned -- the hunter, the arrow, Nnenne --, but they were jumbled, stylized, theatrical, the work of an author, not a glimpse of breathing, human conflict.",
+                                                          "IsExpanded": true,
+                                                          "subNodes": [],
+                                                          "actions": [],
+                                                          "conditions": [],
+                                                          "isLink": true
+                                                        },
+                                                        {
+                                                          "idNum": 197,
+                                                          "orderNum": 1,
+                                                          "pcNode": true,
+                                                          "linkTo": 183,
+                                                          "ShowOnlyOnce": false,
+                                                          "NodeIsActive": true,
+                                                          "NodePortraitBitmap": "",
+                                                          "NodeNpcName": "",
+                                                          "NodeSound": "none",
+                                                          "conversationText": "<He/She> saw the vision of this man stalking Nnenne through the woods over again, but, just as with the vision <he/she>'d experienced with the other hunter, it seemed artificial, an imposition on <his/her> imagination.",
                                                           "IsExpanded": true,
                                                           "subNodes": [],
                                                           "actions": [],
@@ -328,7 +424,7 @@
                                                       "NodePortraitBitmap": "",
                                                       "NodeNpcName": "",
                                                       "NodeSound": "none",
-                                                      "conversationText": "\"So you deny killing her. You deny ever killing anybody.\"",
+                                                      "conversationText": "\"So you deny killing her.\"",
                                                       "IsExpanded": true,
                                                       "subNodes": [
                                                         {
@@ -354,7 +450,7 @@
                                                               "NodePortraitBitmap": "",
                                                               "NodeNpcName": "",
                                                               "NodeSound": "none",
-                                                              "conversationText": "\"Do you have any evidence to the contrary?\"",
+                                                              "conversationText": "\"Can you explain why my arrow matches yours?\"",
                                                               "IsExpanded": true,
                                                               "subNodes": [
                                                                 {
@@ -393,7 +489,7 @@
                                                                           "NodePortraitBitmap": "",
                                                                           "NodeNpcName": "",
                                                                           "NodeSound": "none",
-                                                                          "conversationText": "The hunter knelt on the ground, raised his chin, and exposed his throat. \"Do it.\"",
+                                                                          "conversationText": "The hunter knelt on the ground, raised his chin, and exposed his throat. \"Do it.\" Knott, who had been standing quietly nearby, apparently unnoticed, shifted.",
                                                                           "IsExpanded": true,
                                                                           "subNodes": [],
                                                                           "actions": [],
@@ -428,7 +524,7 @@
                                                                           "NodePortraitBitmap": "",
                                                                           "NodeNpcName": "",
                                                                           "NodeSound": "none",
-                                                                          "conversationText": "The hunter knelt on the ground, raised his chin, and exposed his throat. \"Do it.\"",
+                                                                          "conversationText": "The hunter knelt on the ground, raised his chin, and exposed his throat. \"Do it.\" Knott, who had been standing quietly nearby, apparently unnoticed, shifted.",
                                                                           "IsExpanded": true,
                                                                           "subNodes": [],
                                                                           "actions": [],
@@ -450,7 +546,7 @@
                                                                       "NodePortraitBitmap": "",
                                                                       "NodeNpcName": "",
                                                                       "NodeSound": "none",
-                                                                      "conversationText": "The witch sucked in <his/her> breath. \"I can't kill you. Not yet.\"",
+                                                                      "conversationText": "The witch sucked in <his/her> breath. \"I won't kill you. Not yet.\"",
                                                                       "IsExpanded": true,
                                                                       "subNodes": [
                                                                         {
@@ -503,7 +599,7 @@
                                                                                       "NodeNpcName": "",
                                                                                       "NodeSound": "none",
                                                                                       "conversationText": "\"Was false.\"",
-                                                                                      "IsExpanded": false,
+                                                                                      "IsExpanded": true,
                                                                                       "subNodes": [
                                                                                         {
                                                                                           "idNum": 126,
@@ -634,17 +730,17 @@
                                                                                                           "linkTo": 0,
                                                                                                           "ShowOnlyOnce": false,
                                                                                                           "NodeIsActive": true,
-                                                                                                          "NodePortraitBitmap": "",
+                                                                                                          "NodePortraitBitmap": "black_tile.png",
                                                                                                           "NodeNpcName": "",
                                                                                                           "NodeSound": "none",
                                                                                                           "conversationText": "Then <he/she> went <his/her> way.",
                                                                                                           "IsExpanded": true,
                                                                                                           "subNodes": [
                                                                                                             {
-                                                                                                              "idNum": 141,
+                                                                                                              "idNum": 165,
                                                                                                               "orderNum": 0,
                                                                                                               "pcNode": true,
-                                                                                                              "linkTo": 121,
+                                                                                                              "linkTo": 0,
                                                                                                               "ShowOnlyOnce": false,
                                                                                                               "NodeIsActive": true,
                                                                                                               "NodePortraitBitmap": "",
@@ -653,9 +749,17 @@
                                                                                                               "conversationText": "[End.]",
                                                                                                               "IsExpanded": true,
                                                                                                               "subNodes": [],
-                                                                                                              "actions": [],
+                                                                                                              "actions": [
+                                                                                                                {
+                                                                                                                  "a_script": "gaEnableDisableTrigger.cs",
+                                                                                                                  "a_parameter_1": "newTrigger_330600",
+                                                                                                                  "a_parameter_2": "false",
+                                                                                                                  "a_parameter_3": null,
+                                                                                                                  "a_parameter_4": null
+                                                                                                                }
+                                                                                                              ],
                                                                                                               "conditions": [],
-                                                                                                              "isLink": true
+                                                                                                              "isLink": false
                                                                                                             }
                                                                                                           ],
                                                                                                           "actions": [],
@@ -677,7 +781,7 @@
                                                                                                       "NodePortraitBitmap": "",
                                                                                                       "NodeNpcName": "",
                                                                                                       "NodeSound": "none",
-                                                                                                      "conversationText": "This would disappoint the coven, <he/she> knew. <He/She> had better begin making other plans.",
+                                                                                                      "conversationText": "If this man was Nnenne's killer, this would disappoint the coven, <he/she> knew.",
                                                                                                       "IsExpanded": true,
                                                                                                       "subNodes": [
                                                                                                         {
@@ -919,6 +1023,26 @@
                                                                   "c_parameter_2": "=",
                                                                   "c_parameter_3": "1",
                                                                   "c_parameter_4": null
+                                                                },
+                                                                {
+                                                                  "c_script": "gcCheckGlobalInt.cs",
+                                                                  "c_btnAndOr": "and",
+                                                                  "c_and": true,
+                                                                  "c_not": true,
+                                                                  "c_parameter_1": "arrowtalk",
+                                                                  "c_parameter_2": "=",
+                                                                  "c_parameter_3": "1",
+                                                                  "c_parameter_4": null
+                                                                },
+                                                                {
+                                                                  "c_script": "gcCheckGlobalInt.cs",
+                                                                  "c_btnAndOr": "and",
+                                                                  "c_and": true,
+                                                                  "c_not": true,
+                                                                  "c_parameter_1": "suddertalk",
+                                                                  "c_parameter_2": "=",
+                                                                  "c_parameter_3": "1",
+                                                                  "c_parameter_4": null
                                                                 }
                                                               ],
                                                               "isLink": false
@@ -963,7 +1087,7 @@
                                                                   "NodePortraitBitmap": "",
                                                                   "NodeNpcName": "",
                                                                   "NodeSound": "none",
-                                                                  "conversationText": "The hunter knelt on the ground, raised his chin, and exposed his throat. \"Do it.\"",
+                                                                  "conversationText": "The hunter knelt on the ground, raised his chin, and exposed his throat. \"Do it.\" Knott, who had been standing quietly nearby, apparently unnoticed, shifted.",
                                                                   "IsExpanded": true,
                                                                   "subNodes": [
                                                                     {
@@ -989,8 +1113,8 @@
                                                                           "NodePortraitBitmap": "black_tile.png",
                                                                           "NodeNpcName": "",
                                                                           "NodeSound": "none",
-                                                                          "conversationText": "The hunter trembled at the touch of the blade but did not cringe.",
-                                                                          "IsExpanded": false,
+                                                                          "conversationText": "The hunter trembled at the touch of the blade but didn't shrink.",
+                                                                          "IsExpanded": true,
                                                                           "subNodes": [
                                                                             {
                                                                               "idNum": 96,
@@ -1015,7 +1139,7 @@
                                                                                   "NodePortraitBitmap": "black_tile.png",
                                                                                   "NodeNpcName": "",
                                                                                   "NodeSound": "none",
-                                                                                  "conversationText": "At least he had been ready. Perhaps he had wanted it in some way. The blood would come off, <he/she> supposed, with some washing.",
+                                                                                  "conversationText": "<His/Her> thoughts raced. At least he had been ready. He was at peace with his doom, and his guilt justified his death. It had all been necessary. But uppermost was the conviction that <he/she> needed to find a place to wash the blood off <his/her> hands. ",
                                                                                   "IsExpanded": true,
                                                                                   "subNodes": [
                                                                                     {
@@ -1071,6 +1195,34 @@
                                                                                           "a_script": "gaSetGlobalInt.cs",
                                                                                           "a_parameter_1": "global_con6",
                                                                                           "a_parameter_2": "0",
+                                                                                          "a_parameter_3": null,
+                                                                                          "a_parameter_4": null
+                                                                                        },
+                                                                                        {
+                                                                                          "a_script": "osSetProp.cs",
+                                                                                          "a_parameter_1": "newPropTag_168858_169416",
+                                                                                          "a_parameter_2": null,
+                                                                                          "a_parameter_3": "s",
+                                                                                          "a_parameter_4": "false"
+                                                                                        },
+                                                                                        {
+                                                                                          "a_script": "osSetProp.cs",
+                                                                                          "a_parameter_1": "newPropTag_168858_169416",
+                                                                                          "a_parameter_2": null,
+                                                                                          "a_parameter_3": "a",
+                                                                                          "a_parameter_4": "false"
+                                                                                        },
+                                                                                        {
+                                                                                          "a_script": "gaSetGlobalInt.cs",
+                                                                                          "a_parameter_1": "bloodtalk",
+                                                                                          "a_parameter_2": "++",
+                                                                                          "a_parameter_3": null,
+                                                                                          "a_parameter_4": null
+                                                                                        },
+                                                                                        {
+                                                                                          "a_script": "gaEnableDisableTrigger.cs",
+                                                                                          "a_parameter_1": "newTrigger_330600",
+                                                                                          "a_parameter_2": "false",
                                                                                           "a_parameter_3": null,
                                                                                           "a_parameter_4": null
                                                                                         }
@@ -1173,7 +1325,7 @@
                                                                               "NodePortraitBitmap": "",
                                                                               "NodeNpcName": "",
                                                                               "NodeSound": "none",
-                                                                              "conversationText": "The act had been done properly and well, better than <he/she> had imagined.",
+                                                                              "conversationText": "<He/She> had done well.",
                                                                               "IsExpanded": true,
                                                                               "subNodes": [
                                                                                 {
@@ -1186,7 +1338,7 @@
                                                                                   "NodePortraitBitmap": "black_tile.png",
                                                                                   "NodeNpcName": "",
                                                                                   "NodeSound": "none",
-                                                                                  "conversationText": "The Crone had helped. She had sent the hunter dreams to coax him to this easy death. She had foreseen this day and the witch's role in it. There was ",
+                                                                                  "conversationText": "The hunter had foreseen his death in dreams. A vision had shown <FirstName> why he deserved it. His fate was inevitable -- so it seemed, and so the young witch said to <him/her>self.",
                                                                                   "IsExpanded": true,
                                                                                   "subNodes": [
                                                                                     {
@@ -1250,7 +1402,7 @@
                                                                                   "NodePortraitBitmap": "",
                                                                                   "NodeNpcName": "",
                                                                                   "NodeSound": "none",
-                                                                                  "conversationText": "\"It's funny,\" he said, \"looking back, looking around, things seem to me now more beautiful and good than they ever did, not less.\"",
+                                                                                  "conversationText": "\"I never dreamed how bright the colors would be, how the air would smell when it happened,\" the man said sadly. \"But I'm ready.\"",
                                                                                   "IsExpanded": true,
                                                                                   "subNodes": [
                                                                                     {
@@ -1273,10 +1425,10 @@
                                                                                           "linkTo": 0,
                                                                                           "ShowOnlyOnce": false,
                                                                                           "NodeIsActive": true,
-                                                                                          "NodePortraitBitmap": "",
+                                                                                          "NodePortraitBitmap": "black_tile.png",
                                                                                           "NodeNpcName": "",
                                                                                           "NodeSound": "none",
-                                                                                          "conversationText": "Then, with a swift, sudden motion, the witch slit his throat. Bubbles of blood and spit formed on the man's lips. He shuddered. The witch felt life retreat from his muscles, faltering as it went, a routed soldier falling back to a razed city...\r\n\r\n<He/She> let the corpse collapse only after draining it of a pint of blood.",
+                                                                                          "conversationText": "Then, with a swift, sudden motion, <FirstName> slit his throat. Bubbles of blood and spit formed on the man's lips. He shuddered. The witch felt life retreat from his muscles, faltering as it went, a soldier routing from a razed city...\r\n\r\n<He/She> let the corpse collapse only after draining it of a pint of blood.",
                                                                                           "IsExpanded": true,
                                                                                           "subNodes": [
                                                                                             {
@@ -1289,7 +1441,7 @@
                                                                                               "NodePortraitBitmap": "",
                                                                                               "NodeNpcName": "",
                                                                                               "NodeSound": "none",
-                                                                                              "conversationText": "What <he/she> had done was irrevocable and ugly. <He/She> tried to shut it from <his/her> mind but couldn't.",
+                                                                                              "conversationText": "Sorrow overcame <him/her>.",
                                                                                               "IsExpanded": true,
                                                                                               "subNodes": [
                                                                                                 {
@@ -1302,7 +1454,7 @@
                                                                                                   "NodePortraitBitmap": "black_tile.png",
                                                                                                   "NodeNpcName": "",
                                                                                                   "NodeSound": "none",
-                                                                                                  "conversationText": "At least he had been ready. His words at the end -- he had wanted it in some way. The blood would come off, <he/she> supposed, with some washing.",
+                                                                                                  "conversationText": "What <he/she> had done was irrevocable and ugly. <His/Her> thoughts raced. The rationalizations papered over the guilt -- he had been ready; he was at peace with his doom; his guilt justified his death -- but the witch's own guilt bled through.",
                                                                                                   "IsExpanded": true,
                                                                                                   "subNodes": [
                                                                                                     {
@@ -1360,6 +1512,34 @@
                                                                                                           "a_parameter_2": "0",
                                                                                                           "a_parameter_3": null,
                                                                                                           "a_parameter_4": null
+                                                                                                        },
+                                                                                                        {
+                                                                                                          "a_script": "osSetProp.cs",
+                                                                                                          "a_parameter_1": "eventwencel",
+                                                                                                          "a_parameter_2": null,
+                                                                                                          "a_parameter_3": "a",
+                                                                                                          "a_parameter_4": "false"
+                                                                                                        },
+                                                                                                        {
+                                                                                                          "a_script": "osSetProp.cs",
+                                                                                                          "a_parameter_1": "eventwencel",
+                                                                                                          "a_parameter_2": null,
+                                                                                                          "a_parameter_3": "s",
+                                                                                                          "a_parameter_4": "false"
+                                                                                                        },
+                                                                                                        {
+                                                                                                          "a_script": "gaSetGlobalInt.cs",
+                                                                                                          "a_parameter_1": "bloodtalk",
+                                                                                                          "a_parameter_2": "++",
+                                                                                                          "a_parameter_3": null,
+                                                                                                          "a_parameter_4": null
+                                                                                                        },
+                                                                                                        {
+                                                                                                          "a_script": "gaEnableDisableTrigger.cs",
+                                                                                                          "a_parameter_1": "newTrigger_330600",
+                                                                                                          "a_parameter_2": "false",
+                                                                                                          "a_parameter_3": null,
+                                                                                                          "a_parameter_4": null
                                                                                                         }
                                                                                                       ],
                                                                                                       "conditions": [],
@@ -1385,7 +1565,7 @@
                                                                                               "NodePortraitBitmap": "",
                                                                                               "NodeNpcName": "",
                                                                                               "NodeSound": "none",
-                                                                                              "conversationText": "<He/She> had done what Eldest Lady asked. <He/She> put the blood away.",
+                                                                                              "conversationText": "<He/She>'d done what Eldest Lady asked. <He/She> put the blood away.",
                                                                                               "IsExpanded": true,
                                                                                               "subNodes": [
                                                                                                 {
@@ -1398,7 +1578,7 @@
                                                                                                   "NodePortraitBitmap": "black_tile.png",
                                                                                                   "NodeNpcName": "",
                                                                                                   "NodeSound": "none",
-                                                                                                  "conversationText": "Then <he/she> left.",
+                                                                                                  "conversationText": "The hunter had foreseen his death in dreams. A vision had shown <FirstName> why he deserved it. His fate was inevitable -- so it seemed, and so the young witch said to <him/her>self.",
                                                                                                   "IsExpanded": true,
                                                                                                   "subNodes": [
                                                                                                     {
@@ -1438,7 +1618,7 @@
                                                                                               "NodePortraitBitmap": "",
                                                                                               "NodeNpcName": "",
                                                                                               "NodeSound": "none",
-                                                                                              "conversationText": "The act had been done properly and well, better than <he/she> had imagined.",
+                                                                                              "conversationText": "It had been done well.",
                                                                                               "IsExpanded": true,
                                                                                               "subNodes": [
                                                                                                 {
@@ -1451,7 +1631,7 @@
                                                                                                   "NodePortraitBitmap": "black_tile.png",
                                                                                                   "NodeNpcName": "",
                                                                                                   "NodeSound": "none",
-                                                                                                  "conversationText": "The Crone had helped. She had sent the hunter dreams to coax him to this easy death. She had foreseen this day and the witch's role in it.",
+                                                                                                  "conversationText": "The hunter had foreseen his death in dreams. A vision had shown <FirstName> why he deserved it. His fate was inevitable -- so it seemed, and so the young witch said to <him/her>self.",
                                                                                                   "IsExpanded": true,
                                                                                                   "subNodes": [
                                                                                                     {
@@ -1480,6 +1660,86 @@
                                                                                               "actions": [],
                                                                                               "conditions": [],
                                                                                               "isLink": false
+                                                                                            }
+                                                                                          ],
+                                                                                          "actions": [],
+                                                                                          "conditions": [
+                                                                                            {
+                                                                                              "c_script": "gcCheckLocalInt.cs",
+                                                                                              "c_btnAndOr": "and",
+                                                                                              "c_and": true,
+                                                                                              "c_not": true,
+                                                                                              "c_parameter_1": "thisarea",
+                                                                                              "c_parameter_2": "knottkiller",
+                                                                                              "c_parameter_3": "=",
+                                                                                              "c_parameter_4": "1"
+                                                                                            }
+                                                                                          ],
+                                                                                          "isLink": false
+                                                                                        },
+                                                                                        {
+                                                                                          "idNum": 176,
+                                                                                          "orderNum": 1,
+                                                                                          "pcNode": false,
+                                                                                          "linkTo": 0,
+                                                                                          "ShowOnlyOnce": false,
+                                                                                          "NodeIsActive": true,
+                                                                                          "NodePortraitBitmap": "",
+                                                                                          "NodeNpcName": "",
+                                                                                          "NodeSound": "none",
+                                                                                          "conversationText": "Then, with a swift, sudden motion, Knott slit his throat. Bubbles of blood and spit formed on the man's lips. He shuddered. Life retreated from his muscles, faltering as it went, a soldier routing from a razed city...\r\n\r\nKnott held up the corpse until the witch had drained it of a pint of blood. Then he let it fall.",
+                                                                                          "IsExpanded": true,
+                                                                                          "subNodes": [
+                                                                                            {
+                                                                                              "idNum": 177,
+                                                                                              "orderNum": 0,
+                                                                                              "pcNode": true,
+                                                                                              "linkTo": 147,
+                                                                                              "ShowOnlyOnce": false,
+                                                                                              "NodeIsActive": true,
+                                                                                              "NodePortraitBitmap": "",
+                                                                                              "NodeNpcName": "",
+                                                                                              "NodeSound": "none",
+                                                                                              "conversationText": "Sorrow overcame <him/her>.",
+                                                                                              "IsExpanded": true,
+                                                                                              "subNodes": [],
+                                                                                              "actions": [],
+                                                                                              "conditions": [],
+                                                                                              "isLink": true
+                                                                                            },
+                                                                                            {
+                                                                                              "idNum": 178,
+                                                                                              "orderNum": 1,
+                                                                                              "pcNode": true,
+                                                                                              "linkTo": 150,
+                                                                                              "ShowOnlyOnce": false,
+                                                                                              "NodeIsActive": true,
+                                                                                              "NodePortraitBitmap": "",
+                                                                                              "NodeNpcName": "",
+                                                                                              "NodeSound": "none",
+                                                                                              "conversationText": "<He/She>'d done what Eldest Lady asked. <He/She> put the blood away.",
+                                                                                              "IsExpanded": true,
+                                                                                              "subNodes": [],
+                                                                                              "actions": [],
+                                                                                              "conditions": [],
+                                                                                              "isLink": true
+                                                                                            },
+                                                                                            {
+                                                                                              "idNum": 179,
+                                                                                              "orderNum": 2,
+                                                                                              "pcNode": true,
+                                                                                              "linkTo": 153,
+                                                                                              "ShowOnlyOnce": false,
+                                                                                              "NodeIsActive": true,
+                                                                                              "NodePortraitBitmap": "",
+                                                                                              "NodeNpcName": "",
+                                                                                              "NodeSound": "none",
+                                                                                              "conversationText": "It had been done well.",
+                                                                                              "IsExpanded": true,
+                                                                                              "subNodes": [],
+                                                                                              "actions": [],
+                                                                                              "conditions": [],
+                                                                                              "isLink": true
                                                                                             }
                                                                                           ],
                                                                                           "actions": [],
@@ -1520,8 +1780,76 @@
                                                                       "isLink": false
                                                                     },
                                                                     {
-                                                                      "idNum": 70,
+                                                                      "idNum": 173,
                                                                       "orderNum": 1,
+                                                                      "pcNode": true,
+                                                                      "linkTo": 0,
+                                                                      "ShowOnlyOnce": false,
+                                                                      "NodeIsActive": true,
+                                                                      "NodePortraitBitmap": "",
+                                                                      "NodeNpcName": "",
+                                                                      "NodeSound": "none",
+                                                                      "conversationText": "\"Knott,\" <FirstName> said, \"You know what you have to do.\"",
+                                                                      "IsExpanded": true,
+                                                                      "subNodes": [
+                                                                        {
+                                                                          "idNum": 174,
+                                                                          "orderNum": 0,
+                                                                          "pcNode": false,
+                                                                          "linkTo": 0,
+                                                                          "ShowOnlyOnce": false,
+                                                                          "NodeIsActive": true,
+                                                                          "NodePortraitBitmap": "",
+                                                                          "NodeNpcName": "",
+                                                                          "NodeSound": "none",
+                                                                          "conversationText": "The hunter's eyes widened when he saw the gourd approach. \"I thought...\" he began, but then trailed off. \"Ah, what does it matter?\" \r\n\r\nKnott picked up the hunting knife.",
+                                                                          "IsExpanded": true,
+                                                                          "subNodes": [
+                                                                            {
+                                                                              "idNum": 175,
+                                                                              "orderNum": 0,
+                                                                              "pcNode": true,
+                                                                              "linkTo": 142,
+                                                                              "ShowOnlyOnce": false,
+                                                                              "NodeIsActive": true,
+                                                                              "NodePortraitBitmap": "",
+                                                                              "NodeNpcName": "",
+                                                                              "NodeSound": "none",
+                                                                              "conversationText": "[Continue.]",
+                                                                              "IsExpanded": true,
+                                                                              "subNodes": [],
+                                                                              "actions": [],
+                                                                              "conditions": [],
+                                                                              "isLink": true
+                                                                            }
+                                                                          ],
+                                                                          "actions": [],
+                                                                          "conditions": [],
+                                                                          "isLink": false
+                                                                        }
+                                                                      ],
+                                                                      "actions": [
+                                                                        {
+                                                                          "a_script": "gaGiveItem.cs",
+                                                                          "a_parameter_1": "pintofblood1",
+                                                                          "a_parameter_2": "1",
+                                                                          "a_parameter_3": null,
+                                                                          "a_parameter_4": null
+                                                                        },
+                                                                        {
+                                                                          "a_script": "gaSetLocalInt.cs",
+                                                                          "a_parameter_1": "thisarea",
+                                                                          "a_parameter_2": "knottkiller",
+                                                                          "a_parameter_3": "1",
+                                                                          "a_parameter_4": null
+                                                                        }
+                                                                      ],
+                                                                      "conditions": [],
+                                                                      "isLink": false
+                                                                    },
+                                                                    {
+                                                                      "idNum": 70,
+                                                                      "orderNum": 2,
                                                                       "pcNode": true,
                                                                       "linkTo": 0,
                                                                       "ShowOnlyOnce": false,
@@ -1542,7 +1870,7 @@
                                                                           "NodePortraitBitmap": "",
                                                                           "NodeNpcName": "",
                                                                           "NodeSound": "none",
-                                                                          "conversationText": "The hunter waited.",
+                                                                          "conversationText": "The conviction that this man had killed Nnenne still gripped <him/her>. But where did that conviction come from? <FirstName> couldn't tell.\r\n\r\nThe hunter waited.",
                                                                           "IsExpanded": true,
                                                                           "subNodes": [
                                                                             {
@@ -1568,7 +1896,7 @@
                                                                                   "NodePortraitBitmap": "",
                                                                                   "NodeNpcName": "",
                                                                                   "NodeSound": "none",
-                                                                                  "conversationText": "The hunter trembled at the touch of the blade but did not cringe.",
+                                                                                  "conversationText": "The hunter trembled at the touch of the blade but didn't shrink.",
                                                                                   "IsExpanded": true,
                                                                                   "subNodes": [],
                                                                                   "actions": [],
@@ -1581,6 +1909,13 @@
                                                                                   "a_script": "gaGiveItem.cs",
                                                                                   "a_parameter_1": "pintofblood1",
                                                                                   "a_parameter_2": "1",
+                                                                                  "a_parameter_3": null,
+                                                                                  "a_parameter_4": null
+                                                                                },
+                                                                                {
+                                                                                  "a_script": "gaEnableDisableTrigger.cs",
+                                                                                  "a_parameter_1": "newTrigger_330600",
+                                                                                  "a_parameter_2": "false",
                                                                                   "a_parameter_3": null,
                                                                                   "a_parameter_4": null
                                                                                 }
@@ -1598,7 +1933,104 @@
                                                                               "NodePortraitBitmap": "",
                                                                               "NodeNpcName": "",
                                                                               "NodeSound": "none",
-                                                                              "conversationText": "The witch sucked in <his/her> breath. \"I can't kill you. Not yet.\"",
+                                                                              "conversationText": "The witch sucked in <his/her> breath. \"I won't kill you. Not yet.\"",
+                                                                              "IsExpanded": true,
+                                                                              "subNodes": [],
+                                                                              "actions": [],
+                                                                              "conditions": [],
+                                                                              "isLink": true
+                                                                            },
+                                                                            {
+                                                                              "idNum": 205,
+                                                                              "orderNum": 2,
+                                                                              "pcNode": true,
+                                                                              "linkTo": 173,
+                                                                              "ShowOnlyOnce": false,
+                                                                              "NodeIsActive": true,
+                                                                              "NodePortraitBitmap": "",
+                                                                              "NodeNpcName": "",
+                                                                              "NodeSound": "none",
+                                                                              "conversationText": "\"Knott,\" <FirstName> said, \"You know what you have to do.\"",
+                                                                              "IsExpanded": true,
+                                                                              "subNodes": [],
+                                                                              "actions": [],
+                                                                              "conditions": [],
+                                                                              "isLink": true
+                                                                            }
+                                                                          ],
+                                                                          "actions": [],
+                                                                          "conditions": [
+                                                                            {
+                                                                              "c_script": "gcCheckGlobalInt.cs",
+                                                                              "c_btnAndOr": "and",
+                                                                              "c_and": true,
+                                                                              "c_not": true,
+                                                                              "c_parameter_1": "suddertalk",
+                                                                              "c_parameter_2": "=",
+                                                                              "c_parameter_3": "1",
+                                                                              "c_parameter_4": null
+                                                                            }
+                                                                          ],
+                                                                          "isLink": false
+                                                                        },
+                                                                        {
+                                                                          "idNum": 204,
+                                                                          "orderNum": 1,
+                                                                          "pcNode": false,
+                                                                          "linkTo": 0,
+                                                                          "ShowOnlyOnce": false,
+                                                                          "NodeIsActive": true,
+                                                                          "NodePortraitBitmap": "",
+                                                                          "NodeNpcName": "",
+                                                                          "NodeSound": "none",
+                                                                          "conversationText": "The conviction that this man had killed Nnenne still gripped <him/her>. But where did that conviction come from? Hadn't <he/she> felt the same with Sudder? <FirstName> couldn't tell. \r\n\r\nThe hunter waited.",
+                                                                          "IsExpanded": true,
+                                                                          "subNodes": [
+                                                                            {
+                                                                              "idNum": 206,
+                                                                              "orderNum": 0,
+                                                                              "pcNode": true,
+                                                                              "linkTo": 85,
+                                                                              "ShowOnlyOnce": false,
+                                                                              "NodeIsActive": true,
+                                                                              "NodePortraitBitmap": "",
+                                                                              "NodeNpcName": "",
+                                                                              "NodeSound": "none",
+                                                                              "conversationText": "The witch was ready. <He/She> picked up the skinning knife.",
+                                                                              "IsExpanded": true,
+                                                                              "subNodes": [],
+                                                                              "actions": [],
+                                                                              "conditions": [],
+                                                                              "isLink": true
+                                                                            },
+                                                                            {
+                                                                              "idNum": 207,
+                                                                              "orderNum": 1,
+                                                                              "pcNode": true,
+                                                                              "linkTo": 46,
+                                                                              "ShowOnlyOnce": false,
+                                                                              "NodeIsActive": true,
+                                                                              "NodePortraitBitmap": "",
+                                                                              "NodeNpcName": "",
+                                                                              "NodeSound": "none",
+                                                                              "conversationText": "The witch sucked in <his/her> breath. \"I won't kill you. Not yet.\"",
+                                                                              "IsExpanded": true,
+                                                                              "subNodes": [],
+                                                                              "actions": [],
+                                                                              "conditions": [],
+                                                                              "isLink": true
+                                                                            },
+                                                                            {
+                                                                              "idNum": 208,
+                                                                              "orderNum": 2,
+                                                                              "pcNode": true,
+                                                                              "linkTo": 173,
+                                                                              "ShowOnlyOnce": false,
+                                                                              "NodeIsActive": true,
+                                                                              "NodePortraitBitmap": "",
+                                                                              "NodeNpcName": "",
+                                                                              "NodeSound": "none",
+                                                                              "conversationText": "\"Knott,\" <FirstName> said, \"You know what you have to do.\"",
                                                                               "IsExpanded": true,
                                                                               "subNodes": [],
                                                                               "actions": [],
@@ -1617,7 +2049,7 @@
                                                                     },
                                                                     {
                                                                       "idNum": 71,
-                                                                      "orderNum": 2,
+                                                                      "orderNum": 3,
                                                                       "pcNode": true,
                                                                       "linkTo": 46,
                                                                       "ShowOnlyOnce": false,
@@ -1625,7 +2057,7 @@
                                                                       "NodePortraitBitmap": "",
                                                                       "NodeNpcName": "",
                                                                       "NodeSound": "none",
-                                                                      "conversationText": "The witch sucked in <his/her> breath. \"I can't kill you. Not yet.\"",
+                                                                      "conversationText": "The witch sucked in <his/her> breath. \"I won't kill you. Not yet.\"",
                                                                       "IsExpanded": true,
                                                                       "subNodes": [],
                                                                       "actions": [],
@@ -1671,6 +2103,41 @@
                                                                   "c_parameter_4": null
                                                                 }
                                                               ],
+                                                              "isLink": false
+                                                            },
+                                                            {
+                                                              "idNum": 202,
+                                                              "orderNum": 3,
+                                                              "pcNode": true,
+                                                              "linkTo": 0,
+                                                              "ShowOnlyOnce": false,
+                                                              "NodeIsActive": true,
+                                                              "NodePortraitBitmap": "",
+                                                              "NodeNpcName": "",
+                                                              "NodeSound": "none",
+                                                              "conversationText": "\"I see.\"",
+                                                              "IsExpanded": true,
+                                                              "subNodes": [
+                                                                {
+                                                                  "idNum": 203,
+                                                                  "orderNum": 0,
+                                                                  "pcNode": true,
+                                                                  "linkTo": 64,
+                                                                  "ShowOnlyOnce": false,
+                                                                  "NodeIsActive": true,
+                                                                  "NodePortraitBitmap": "",
+                                                                  "NodeNpcName": "",
+                                                                  "NodeSound": "none",
+                                                                  "conversationText": "The hunter knelt on the ground, raised his chin, and exposed his throat. \"Do it.\" Knott, who had been standing quietly nearby, apparently unnoticed, shifted.",
+                                                                  "IsExpanded": true,
+                                                                  "subNodes": [],
+                                                                  "actions": [],
+                                                                  "conditions": [],
+                                                                  "isLink": true
+                                                                }
+                                                              ],
+                                                              "actions": [],
+                                                              "conditions": [],
                                                               "isLink": false
                                                             }
                                                           ],
@@ -1771,7 +2238,7 @@
                                                           "NodePortraitBitmap": "",
                                                           "NodeNpcName": "",
                                                           "NodeSound": "none",
-                                                          "conversationText": "\"I've had the same dream for as long as I can remember.\r\n\r\n\"A witch comes to me -- you come to me -- as I skin a deer. We converse. It's not always the same. Sometimes you're cruel, sometimes pitying, sometimes indifferent. I show you an arrow, and then you show me an arrow of the same make, but with blood on it.\r\n\r\n\"You kill me with my skinning knife.\"",
+                                                          "conversationText": "\"I've had the same dream for as long as I can remember.\"\r\n\r\n\"A witch comes to me -- you come to me -- as I skin a deer. We converse. It's not always the same. Sometimes you're cruel, sometimes pitying, sometimes indifferent. I show you an arrow, and then you show me an arrow of the same make, but with blood on it.\"\r\n\r\n\"You kill me with my skinning knife.\"",
                                                           "IsExpanded": true,
                                                           "subNodes": [],
                                                           "actions": [],
@@ -1813,7 +2280,7 @@
                                                       "NodeNpcName": "",
                                                       "NodeSound": "none",
                                                       "conversationText": "\"The arrows are the same.\"",
-                                                      "IsExpanded": true,
+                                                      "IsExpanded": false,
                                                       "subNodes": [
                                                         {
                                                           "idNum": 95,
@@ -1851,7 +2318,7 @@
                                                                   "NodePortraitBitmap": "",
                                                                   "NodeNpcName": "",
                                                                   "NodeSound": "none",
-                                                                  "conversationText": "The hunter knelt on the ground, raised his chin, and exposed his throat. \"Do it.\"",
+                                                                  "conversationText": "The hunter knelt on the ground, raised his chin, and exposed his throat. \"Do it.\" Knott, who had been standing quietly nearby, apparently unnoticed, shifted.",
                                                                   "IsExpanded": true,
                                                                   "subNodes": [],
                                                                   "actions": [],
@@ -1969,6 +2436,103 @@
                                                         }
                                                       ],
                                                       "isLink": false
+                                                    }
+                                                  ],
+                                                  "actions": [],
+                                                  "conditions": [
+                                                    {
+                                                      "c_script": "gcCheckGlobalInt.cs",
+                                                      "c_btnAndOr": "and",
+                                                      "c_and": true,
+                                                      "c_not": true,
+                                                      "c_parameter_1": "arrowtalk",
+                                                      "c_parameter_2": ">",
+                                                      "c_parameter_3": "0",
+                                                      "c_parameter_4": null
+                                                    }
+                                                  ],
+                                                  "isLink": false
+                                                },
+                                                {
+                                                  "idNum": 192,
+                                                  "orderNum": 1,
+                                                  "pcNode": false,
+                                                  "linkTo": 0,
+                                                  "ShowOnlyOnce": false,
+                                                  "NodeIsActive": true,
+                                                  "NodePortraitBitmap": "",
+                                                  "NodeNpcName": "",
+                                                  "NodeSound": "none",
+                                                  "conversationText": "<FirstName> took out the arrow that killed Nnenne and saw it was the twin of the hunter's. The shaft had the same smoothness, the point the same sharpness, and the feathers -- goose feathers -- the same color and arrangement. Both had been made by the woodcutter's son.\r\n\r\nThe hunter said nothing.",
+                                                  "IsExpanded": true,
+                                                  "subNodes": [
+                                                    {
+                                                      "idNum": 193,
+                                                      "orderNum": 0,
+                                                      "pcNode": true,
+                                                      "linkTo": 36,
+                                                      "ShowOnlyOnce": false,
+                                                      "NodeIsActive": true,
+                                                      "NodePortraitBitmap": "",
+                                                      "NodeNpcName": "",
+                                                      "NodeSound": "none",
+                                                      "conversationText": "\"Why did you kill Nnenne?\"",
+                                                      "IsExpanded": true,
+                                                      "subNodes": [],
+                                                      "actions": [],
+                                                      "conditions": [],
+                                                      "isLink": true
+                                                    },
+                                                    {
+                                                      "idNum": 194,
+                                                      "orderNum": 1,
+                                                      "pcNode": true,
+                                                      "linkTo": 74,
+                                                      "ShowOnlyOnce": false,
+                                                      "NodeIsActive": true,
+                                                      "NodePortraitBitmap": "",
+                                                      "NodeNpcName": "",
+                                                      "NodeSound": "none",
+                                                      "conversationText": "\"You seem very calm.\"",
+                                                      "IsExpanded": true,
+                                                      "subNodes": [],
+                                                      "actions": [],
+                                                      "conditions": [],
+                                                      "isLink": true
+                                                    },
+                                                    {
+                                                      "idNum": 195,
+                                                      "orderNum": 2,
+                                                      "pcNode": true,
+                                                      "linkTo": 76,
+                                                      "ShowOnlyOnce": false,
+                                                      "NodeIsActive": true,
+                                                      "NodePortraitBitmap": "",
+                                                      "NodeNpcName": "",
+                                                      "NodeSound": "none",
+                                                      "conversationText": "\"It almost seems as if you've rehearsed this.\"",
+                                                      "IsExpanded": true,
+                                                      "subNodes": [],
+                                                      "actions": [],
+                                                      "conditions": [],
+                                                      "isLink": true
+                                                    },
+                                                    {
+                                                      "idNum": 196,
+                                                      "orderNum": 3,
+                                                      "pcNode": true,
+                                                      "linkTo": 102,
+                                                      "ShowOnlyOnce": false,
+                                                      "NodeIsActive": true,
+                                                      "NodePortraitBitmap": "",
+                                                      "NodeNpcName": "",
+                                                      "NodeSound": "none",
+                                                      "conversationText": "\"Do you have anything to say to defend yourself?\"",
+                                                      "IsExpanded": true,
+                                                      "subNodes": [],
+                                                      "actions": [],
+                                                      "conditions": [],
+                                                      "isLink": true
                                                     }
                                                   ],
                                                   "actions": [],
@@ -2121,7 +2685,7 @@
                     },
                     {
                       "idNum": 5,
-                      "orderNum": 1,
+                      "orderNum": 2,
                       "pcNode": true,
                       "linkTo": 0,
                       "ShowOnlyOnce": false,
@@ -2130,7 +2694,7 @@
                       "NodeNpcName": "",
                       "NodeSound": "none",
                       "conversationText": "\"If you are the killer I seek, then yes, I've come for you.\"",
-                      "IsExpanded": true,
+                      "IsExpanded": false,
                       "subNodes": [
                         {
                           "idNum": 9,
@@ -2211,7 +2775,7 @@
                     },
                     {
                       "idNum": 6,
-                      "orderNum": 2,
+                      "orderNum": 3,
                       "pcNode": true,
                       "linkTo": 0,
                       "ShowOnlyOnce": false,
@@ -2232,7 +2796,7 @@
                           "NodePortraitBitmap": "",
                           "NodeNpcName": "",
                           "NodeSound": "none",
-                          "conversationText": "\"I've had the same dream for as long as I can remember.\r\n\r\n\"A witch comes to me -- you come to me -- as I skin a deer. We converse. It's not always the same. Sometimes you're cruel, sometimes pitying, sometimes indifferent. I show you an arrow, and then you show me an arrow of the same make, but with blood on it.\r\n\r\n\"You kill me with my skinning knife.\"",
+                          "conversationText": "\"I've had the same dream for as long as I can remember.\"\r\n\r\n\"A witch comes to me -- you come to me -- as I skin a deer. We converse. It's not always the same. Sometimes you're cruel, sometimes pitying, sometimes indifferent. I show you an arrow, and then you show me an arrow of the same make, but with blood on it.\"\r\n\r\n\"You kill me with my skinning knife.\"",
                           "IsExpanded": true,
                           "subNodes": [
                             {
@@ -2326,7 +2890,7 @@
                                       "NodeNpcName": "",
                                       "NodeSound": "none",
                                       "conversationText": "\"Let me see the arrows you hunt with.\"",
-                                      "IsExpanded": false,
+                                      "IsExpanded": true,
                                       "subNodes": [
                                         {
                                           "idNum": 61,
@@ -2380,7 +2944,7 @@
                                       "NodeNpcName": "",
                                       "NodeSound": "none",
                                       "conversationText": "\"And are you at peace with murdering Nnenne?\"",
-                                      "IsExpanded": false,
+                                      "IsExpanded": true,
                                       "subNodes": [
                                         {
                                           "idNum": 58,
@@ -2392,7 +2956,24 @@
                                           "NodePortraitBitmap": "",
                                           "NodeNpcName": "",
                                           "NodeSound": "none",
-                                          "conversationText": "The hunter had met everything evenly to this point, but now he looked surprised. There was a pause. <FirstName> had a sensation almost of vertigo as, briefly, <his/her> vision swam.",
+                                          "conversationText": "There was a pause. The young witch felt suddenly dizzy. Parts of the vision <he/she> had returned -- the hunter, the arrow, Nnenne --, but they were jumbled, stylized, theatrical, the work of an author, not a glimpse of breathing, human conflict.",
+                                          "IsExpanded": true,
+                                          "subNodes": [],
+                                          "actions": [],
+                                          "conditions": [],
+                                          "isLink": true
+                                        },
+                                        {
+                                          "idNum": 199,
+                                          "orderNum": 1,
+                                          "pcNode": true,
+                                          "linkTo": 183,
+                                          "ShowOnlyOnce": false,
+                                          "NodeIsActive": true,
+                                          "NodePortraitBitmap": "",
+                                          "NodeNpcName": "",
+                                          "NodeSound": "none",
+                                          "conversationText": "<He/She> saw the vision of this man stalking Nnenne through the woods over again, but, just as with the vision <he/she>'d experienced with the other hunter, it seemed artificial, an imposition on <his/her> imagination.",
                                           "IsExpanded": true,
                                           "subNodes": [],
                                           "actions": [],
@@ -2446,7 +3027,7 @@
                                           "NodePortraitBitmap": "",
                                           "NodeNpcName": "",
                                           "NodeSound": "none",
-                                          "conversationText": "\"I've had the same dream for as long as I can remember.\r\n\r\n\"A witch comes to me -- you come to me -- as I skin a deer. We converse. It's not always the same. Sometimes you're cruel, sometimes pitying, sometimes indifferent. I show you an arrow, and then you show me an arrow of the same make, but with blood on it.\r\n\r\n\"You kill me with my skinning knife.\"",
+                                          "conversationText": "\"I've had the same dream for as long as I can remember.\"\r\n\r\n\"A witch comes to me -- you come to me -- as I skin a deer. We converse. It's not always the same. Sometimes you're cruel, sometimes pitying, sometimes indifferent. I show you an arrow, and then you show me an arrow of the same make, but with blood on it.\"\r\n\r\n\"You kill me with my skinning knife.\"",
                                           "IsExpanded": true,
                                           "subNodes": [],
                                           "actions": [],
@@ -2500,7 +3081,7 @@
                                           "NodePortraitBitmap": "",
                                           "NodeNpcName": "",
                                           "NodeSound": "none",
-                                          "conversationText": "The hunter knelt on the ground, raised his chin, and exposed his throat. \"Do it.\"",
+                                          "conversationText": "The hunter knelt on the ground, raised his chin, and exposed his throat. \"Do it.\" Knott, who had been standing quietly nearby, apparently unnoticed, shifted.",
                                           "IsExpanded": true,
                                           "subNodes": [],
                                           "actions": [],
@@ -2595,7 +3176,7 @@
                                   "NodePortraitBitmap": "",
                                   "NodeNpcName": "",
                                   "NodeSound": "none",
-                                  "conversationText": "The hunter had met everything evenly to this point, but now he looked surprised. There was a pause. <FirstName> had a sensation almost of vertigo as, briefly, <his/her> vision swam.",
+                                  "conversationText": "There was a pause. The young witch felt suddenly dizzy. Parts of the vision <he/she> had returned -- the hunter, the arrow, Nnenne --, but they were jumbled, stylized, theatrical, the work of an author, not a glimpse of breathing, human conflict.",
                                   "IsExpanded": true,
                                   "subNodes": [
                                     {
@@ -2621,7 +3202,7 @@
                                           "NodePortraitBitmap": "",
                                           "NodeNpcName": "",
                                           "NodeSound": "none",
-                                          "conversationText": "\"Nnenne?\"",
+                                          "conversationText": "\"Nnenne?\" The hunter had been speaking evenly, as if reciting a litany, but his voice changed when he said her name.",
                                           "IsExpanded": true,
                                           "subNodes": [
                                             {
@@ -2647,7 +3228,7 @@
                                                   "NodePortraitBitmap": "",
                                                   "NodeNpcName": "",
                                                   "NodeSound": "none",
-                                                  "conversationText": "\"Nnenne is a person's name. It's the name of someone I've never met. I kill, as you can see --\" he motioned to the deer -- \"but I do not murder.\"",
+                                                  "conversationText": "\"Nnenne is a person's name. It's the name of someone I've never met. I kill, as you can see --\" he motioned to the deer -- \"but I've never killed a person.\"",
                                                   "IsExpanded": true,
                                                   "subNodes": [
                                                     {
@@ -2661,7 +3242,7 @@
                                                       "NodeNpcName": "",
                                                       "NodeSound": "none",
                                                       "conversationText": "\"You deny it, then?\"",
-                                                      "IsExpanded": false,
+                                                      "IsExpanded": true,
                                                       "subNodes": [
                                                         {
                                                           "idNum": 79,
@@ -2739,7 +3320,7 @@
                                                           "NodePortraitBitmap": "",
                                                           "NodeNpcName": "",
                                                           "NodeSound": "none",
-                                                          "conversationText": "The hunter's quiver lay in the grass. He picked it up and drew forth an arrow.",
+                                                          "conversationText": "The hunter's quiver lay in the grass. He picked it up and took out an arrow.",
                                                           "IsExpanded": true,
                                                           "subNodes": [],
                                                           "actions": [],
@@ -2793,7 +3374,7 @@
                                                           "NodePortraitBitmap": "",
                                                           "NodeNpcName": "",
                                                           "NodeSound": "none",
-                                                          "conversationText": "\"I've had the same dream for as long as I can remember.\r\n\r\n\"A witch comes to me -- you come to me -- as I skin a deer. We converse. It's not always the same. Sometimes you're cruel, sometimes pitying, sometimes indifferent. I show you an arrow, and then you show me an arrow of the same make, but with blood on it.\r\n\r\n\"You kill me with my skinning knife.\"",
+                                                          "conversationText": "\"I've had the same dream for as long as I can remember.\"\r\n\r\n\"A witch comes to me -- you come to me -- as I skin a deer. We converse. It's not always the same. Sometimes you're cruel, sometimes pitying, sometimes indifferent. I show you an arrow, and then you show me an arrow of the same make, but with blood on it.\"\r\n\r\n\"You kill me with my skinning knife.\"",
                                                           "IsExpanded": true,
                                                           "subNodes": [],
                                                           "actions": [],
@@ -2880,6 +3461,52 @@
                                     }
                                   ],
                                   "actions": [],
+                                  "conditions": [
+                                    {
+                                      "c_script": "gcCheckGlobalInt.cs",
+                                      "c_btnAndOr": "and",
+                                      "c_and": true,
+                                      "c_not": true,
+                                      "c_parameter_1": "suddertalk",
+                                      "c_parameter_2": "=",
+                                      "c_parameter_3": "1",
+                                      "c_parameter_4": null
+                                    }
+                                  ],
+                                  "isLink": false
+                                },
+                                {
+                                  "idNum": 183,
+                                  "orderNum": 1,
+                                  "pcNode": false,
+                                  "linkTo": 0,
+                                  "ShowOnlyOnce": false,
+                                  "NodeIsActive": true,
+                                  "NodePortraitBitmap": "",
+                                  "NodeNpcName": "",
+                                  "NodeSound": "none",
+                                  "conversationText": "<He/She> saw the vision of this man stalking Nnenne through the woods over again, but, just as with the vision <he/she>'d experienced with the other hunter, it seemed artificial, an imposition on <his/her> imagination.",
+                                  "IsExpanded": true,
+                                  "subNodes": [
+                                    {
+                                      "idNum": 184,
+                                      "orderNum": 0,
+                                      "pcNode": true,
+                                      "linkTo": 19,
+                                      "ShowOnlyOnce": false,
+                                      "NodeIsActive": true,
+                                      "NodePortraitBitmap": "",
+                                      "NodeNpcName": "",
+                                      "NodeSound": "none",
+                                      "conversationText": "[Continue.]",
+                                      "IsExpanded": true,
+                                      "subNodes": [],
+                                      "actions": [],
+                                      "conditions": [],
+                                      "isLink": true
+                                    }
+                                  ],
+                                  "actions": [],
                                   "conditions": [],
                                   "isLink": false
                                 }
@@ -2930,7 +3557,7 @@
                                   "NodePortraitBitmap": "",
                                   "NodeNpcName": "",
                                   "NodeSound": "none",
-                                  "conversationText": "The hunter's quiver lay in the grass. He picked it up and drew forth an arrow.",
+                                  "conversationText": "The hunter's quiver lay in the grass. He picked it up and took out an arrow.",
                                   "IsExpanded": true,
                                   "subNodes": [
                                     {
@@ -2957,6 +3584,23 @@
                                           "NodeNpcName": "",
                                           "NodeSound": "none",
                                           "conversationText": "<FirstName> took out the arrow that killed Nnenne and saw it was the twin of the hunter's. The shaft had the same smoothness, the point the same sharpness, and the feathers -- goose feathers -- the same color and arrangement. But there was blood on the witch's.\r\n<p>\r\nThe hunter said nothing.",
+                                          "IsExpanded": true,
+                                          "subNodes": [],
+                                          "actions": [],
+                                          "conditions": [],
+                                          "isLink": true
+                                        },
+                                        {
+                                          "idNum": 201,
+                                          "orderNum": 1,
+                                          "pcNode": true,
+                                          "linkTo": 192,
+                                          "ShowOnlyOnce": false,
+                                          "NodeIsActive": true,
+                                          "NodePortraitBitmap": "",
+                                          "NodeNpcName": "",
+                                          "NodeSound": "none",
+                                          "conversationText": "<FirstName> took out the arrow that killed Nnenne and saw it was the twin of the hunter's. The shaft had the same smoothness, the point the same sharpness, and the feathers -- goose feathers -- the same color and arrangement. Both had been made by the woodcutter's son.\r\n\r\nThe hunter said nothing.",
                                           "IsExpanded": true,
                                           "subNodes": [],
                                           "actions": [],
@@ -3028,7 +3672,24 @@
                                           "NodePortraitBitmap": "",
                                           "NodeNpcName": "",
                                           "NodeSound": "none",
-                                          "conversationText": "The hunter had met everything evenly to this point, but now he looked surprised. There was a pause. <FirstName> had a sensation almost of vertigo as, briefly, <his/her> vision swam.",
+                                          "conversationText": "There was a pause. The young witch felt suddenly dizzy. Parts of the vision <he/she> had returned -- the hunter, the arrow, Nnenne --, but they were jumbled, stylized, theatrical, the work of an author, not a glimpse of breathing, human conflict.",
+                                          "IsExpanded": true,
+                                          "subNodes": [],
+                                          "actions": [],
+                                          "conditions": [],
+                                          "isLink": true
+                                        },
+                                        {
+                                          "idNum": 198,
+                                          "orderNum": 1,
+                                          "pcNode": true,
+                                          "linkTo": 183,
+                                          "ShowOnlyOnce": false,
+                                          "NodeIsActive": true,
+                                          "NodePortraitBitmap": "",
+                                          "NodeNpcName": "",
+                                          "NodeSound": "none",
+                                          "conversationText": "<He/She> saw the vision of this man stalking Nnenne through the woods over again, but, just as with the vision <he/she>'d experienced with the other hunter, it seemed artificial, an imposition on <his/her> imagination.",
                                           "IsExpanded": true,
                                           "subNodes": [],
                                           "actions": [],
@@ -3036,7 +3697,15 @@
                                           "isLink": true
                                         }
                                       ],
-                                      "actions": [],
+                                      "actions": [
+                                        {
+                                          "a_script": "gaSetGlobalInt.cs",
+                                          "a_parameter_1": "global_con4",
+                                          "a_parameter_2": "1",
+                                          "a_parameter_3": null,
+                                          "a_parameter_4": null
+                                        }
+                                      ],
                                       "conditions": [
                                         {
                                           "c_script": "gcCheckGlobalInt.cs",
@@ -3074,7 +3743,7 @@
                                           "NodePortraitBitmap": "",
                                           "NodeNpcName": "",
                                           "NodeSound": "none",
-                                          "conversationText": "The hunter knelt on the ground, raised his chin, and exposed his throat. \"Do it.\"",
+                                          "conversationText": "The hunter knelt on the ground, raised his chin, and exposed his throat. \"Do it.\" Knott, who had been standing quietly nearby, apparently unnoticed, shifted.",
                                           "IsExpanded": true,
                                           "subNodes": [],
                                           "actions": [],
@@ -3141,7 +3810,41 @@
                                   "NodePortraitBitmap": "",
                                   "NodeNpcName": "",
                                   "NodeSound": "none",
-                                  "conversationText": "The hunter's quiver lay in the grass. He picked it up and drew forth an arrow.",
+                                  "conversationText": "The hunter's quiver lay in the grass. He picked it up and took out an arrow.",
+                                  "IsExpanded": true,
+                                  "subNodes": [],
+                                  "actions": [],
+                                  "conditions": [],
+                                  "isLink": true
+                                },
+                                {
+                                  "idNum": 209,
+                                  "orderNum": 1,
+                                  "pcNode": true,
+                                  "linkTo": 35,
+                                  "ShowOnlyOnce": false,
+                                  "NodeIsActive": true,
+                                  "NodePortraitBitmap": "",
+                                  "NodeNpcName": "",
+                                  "NodeSound": "none",
+                                  "conversationText": "<FirstName> took out the arrow that killed Nnenne and saw it was the twin of the hunter's. The shaft had the same smoothness, the point the same sharpness, and the feathers -- goose feathers -- the same color and arrangement. But there was blood on the witch's.\r\n<p>\r\nThe hunter said nothing.",
+                                  "IsExpanded": true,
+                                  "subNodes": [],
+                                  "actions": [],
+                                  "conditions": [],
+                                  "isLink": true
+                                },
+                                {
+                                  "idNum": 200,
+                                  "orderNum": 2,
+                                  "pcNode": true,
+                                  "linkTo": 192,
+                                  "ShowOnlyOnce": false,
+                                  "NodeIsActive": true,
+                                  "NodePortraitBitmap": "",
+                                  "NodeNpcName": "",
+                                  "NodeSound": "none",
+                                  "conversationText": "<FirstName> took out the arrow that killed Nnenne and saw it was the twin of the hunter's. The shaft had the same smoothness, the point the same sharpness, and the feathers -- goose feathers -- the same color and arrangement. Both had been made by the woodcutter's son.\r\n\r\nThe hunter said nothing.",
                                   "IsExpanded": true,
                                   "subNodes": [],
                                   "actions": [],
@@ -3191,6 +3894,219 @@
                             }
                           ],
                           "actions": [],
+                          "conditions": [
+                            {
+                              "c_script": "gcCheckGlobalInt.cs",
+                              "c_btnAndOr": "and",
+                              "c_and": true,
+                              "c_not": true,
+                              "c_parameter_1": "bloodtalk",
+                              "c_parameter_2": "=",
+                              "c_parameter_3": "2",
+                              "c_parameter_4": null
+                            }
+                          ],
+                          "isLink": false
+                        },
+                        {
+                          "idNum": 166,
+                          "orderNum": 1,
+                          "pcNode": false,
+                          "linkTo": 0,
+                          "ShowOnlyOnce": false,
+                          "NodeIsActive": true,
+                          "NodePortraitBitmap": "",
+                          "NodeNpcName": "",
+                          "NodeSound": "none",
+                          "conversationText": "\"I've had the same dream for as long as I can remember.\"\r\n\r\n\"A witch comes to me -- you come to me -- as I skin a deer.\"",
+                          "IsExpanded": true,
+                          "subNodes": [
+                            {
+                              "idNum": 167,
+                              "orderNum": 0,
+                              "pcNode": true,
+                              "linkTo": 0,
+                              "ShowOnlyOnce": false,
+                              "NodeIsActive": true,
+                              "NodePortraitBitmap": "",
+                              "NodeNpcName": "",
+                              "NodeSound": "none",
+                              "conversationText": "[Continue.]",
+                              "IsExpanded": true,
+                              "subNodes": [
+                                {
+                                  "idNum": 168,
+                                  "orderNum": 0,
+                                  "pcNode": false,
+                                  "linkTo": 0,
+                                  "ShowOnlyOnce": false,
+                                  "NodeIsActive": true,
+                                  "NodePortraitBitmap": "",
+                                  "NodeNpcName": "",
+                                  "NodeSound": "none",
+                                  "conversationText": "The man continued:\r\n\r\n\"We converse. It's not always the same. Sometimes you're cruel, sometimes pitying, sometimes indifferent. I show you an arrow, and then you show me an arrow of the same make, but with blood on it.\r\n\r\n\"You kill me with my skinning knife.\"",
+                                  "IsExpanded": true,
+                                  "subNodes": [
+                                    {
+                                      "idNum": 169,
+                                      "orderNum": 0,
+                                      "pcNode": true,
+                                      "linkTo": 12,
+                                      "ShowOnlyOnce": false,
+                                      "NodeIsActive": true,
+                                      "NodePortraitBitmap": "",
+                                      "NodeNpcName": "",
+                                      "NodeSound": "none",
+                                      "conversationText": "\"You have dreamed a true dream.\"",
+                                      "IsExpanded": true,
+                                      "subNodes": [],
+                                      "actions": [],
+                                      "conditions": [],
+                                      "isLink": true
+                                    },
+                                    {
+                                      "idNum": 170,
+                                      "orderNum": 1,
+                                      "pcNode": true,
+                                      "linkTo": 14,
+                                      "ShowOnlyOnce": false,
+                                      "NodeIsActive": true,
+                                      "NodePortraitBitmap": "",
+                                      "NodeNpcName": "",
+                                      "NodeSound": "none",
+                                      "conversationText": "\"And you've accepted this?\"",
+                                      "IsExpanded": true,
+                                      "subNodes": [],
+                                      "actions": [],
+                                      "conditions": [],
+                                      "isLink": true
+                                    },
+                                    {
+                                      "idNum": 171,
+                                      "orderNum": 2,
+                                      "pcNode": true,
+                                      "linkTo": 15,
+                                      "ShowOnlyOnce": false,
+                                      "NodeIsActive": true,
+                                      "NodePortraitBitmap": "",
+                                      "NodeNpcName": "",
+                                      "NodeSound": "none",
+                                      "conversationText": "\"Did you dream of Nnenne, too, before you killed her?\"",
+                                      "IsExpanded": true,
+                                      "subNodes": [],
+                                      "actions": [],
+                                      "conditions": [],
+                                      "isLink": true
+                                    },
+                                    {
+                                      "idNum": 172,
+                                      "orderNum": 3,
+                                      "pcNode": true,
+                                      "linkTo": 67,
+                                      "ShowOnlyOnce": false,
+                                      "NodeIsActive": true,
+                                      "NodePortraitBitmap": "",
+                                      "NodeNpcName": "",
+                                      "NodeSound": "none",
+                                      "conversationText": "\"You have dreamed a true dream.\"",
+                                      "IsExpanded": true,
+                                      "subNodes": [],
+                                      "actions": [],
+                                      "conditions": [],
+                                      "isLink": true
+                                    }
+                                  ],
+                                  "actions": [
+                                    {
+                                      "a_script": "gaSetLocalInt.cs",
+                                      "a_parameter_1": "thisarea",
+                                      "a_parameter_2": "convo1",
+                                      "a_parameter_3": "1",
+                                      "a_parameter_4": null
+                                    }
+                                  ],
+                                  "conditions": [
+                                    {
+                                      "c_script": "gcCheckLocalInt.cs",
+                                      "c_btnAndOr": "and",
+                                      "c_and": true,
+                                      "c_not": false,
+                                      "c_parameter_1": "thisarea",
+                                      "c_parameter_2": "convo1",
+                                      "c_parameter_3": "=",
+                                      "c_parameter_4": "1"
+                                    }
+                                  ],
+                                  "isLink": false
+                                },
+                                {
+                                  "idNum": 189,
+                                  "orderNum": 1,
+                                  "pcNode": false,
+                                  "linkTo": 0,
+                                  "ShowOnlyOnce": false,
+                                  "NodeIsActive": true,
+                                  "NodePortraitBitmap": "black_tile.png",
+                                  "NodeNpcName": "",
+                                  "NodeSound": "none",
+                                  "conversationText": "Sudder had tried to flee his death, but this hunter had had foreseen his. Did that suggest guilt? Was the pint of blood <FirstName> had already taken the cost of justice?",
+                                  "IsExpanded": true,
+                                  "subNodes": [
+                                    {
+                                      "idNum": 190,
+                                      "orderNum": 0,
+                                      "pcNode": true,
+                                      "linkTo": 0,
+                                      "ShowOnlyOnce": false,
+                                      "NodeIsActive": true,
+                                      "NodePortraitBitmap": "",
+                                      "NodeNpcName": "",
+                                      "NodeSound": "none",
+                                      "conversationText": "[Continue.]",
+                                      "IsExpanded": true,
+                                      "subNodes": [
+                                        {
+                                          "idNum": 191,
+                                          "orderNum": 0,
+                                          "pcNode": true,
+                                          "linkTo": 168,
+                                          "ShowOnlyOnce": false,
+                                          "NodeIsActive": true,
+                                          "NodePortraitBitmap": "",
+                                          "NodeNpcName": "",
+                                          "NodeSound": "none",
+                                          "conversationText": "The man continued:\r\n\r\n\"We converse. It's not always the same. Sometimes you're cruel, sometimes pitying, sometimes indifferent. I show you an arrow, and then you show me an arrow of the same make, but with blood on it.\r\n\r\n\"You kill me with my skinning knife.\"",
+                                          "IsExpanded": true,
+                                          "subNodes": [],
+                                          "actions": [],
+                                          "conditions": [],
+                                          "isLink": true
+                                        }
+                                      ],
+                                      "actions": [
+                                        {
+                                          "a_script": "gaSetLocalInt.cs",
+                                          "a_parameter_1": "thisarea",
+                                          "a_parameter_2": "convo1",
+                                          "a_parameter_3": "1",
+                                          "a_parameter_4": null
+                                        }
+                                      ],
+                                      "conditions": [],
+                                      "isLink": false
+                                    }
+                                  ],
+                                  "actions": [],
+                                  "conditions": [],
+                                  "isLink": false
+                                }
+                              ],
+                              "actions": [],
+                              "conditions": [],
+                              "isLink": false
+                            }
+                          ],
+                          "actions": [],
                           "conditions": [],
                           "isLink": false
                         }
@@ -3209,11 +4125,144 @@
                     }
                   ],
                   "actions": [],
+                  "conditions": [
+                    {
+                      "c_script": "gcCheckGlobalInt.cs",
+                      "c_btnAndOr": "and",
+                      "c_and": true,
+                      "c_not": true,
+                      "c_parameter_1": "bloodtalk",
+                      "c_parameter_2": "=",
+                      "c_parameter_3": "2",
+                      "c_parameter_4": null
+                    }
+                  ],
+                  "isLink": false
+                },
+                {
+                  "idNum": 160,
+                  "orderNum": 1,
+                  "pcNode": false,
+                  "linkTo": 0,
+                  "ShowOnlyOnce": false,
+                  "NodeIsActive": true,
+                  "NodePortraitBitmap": "",
+                  "NodeNpcName": "",
+                  "NodeSound": "none",
+                  "conversationText": "Everything about <his/her> encounter with Sudder now seemed wildly off. How could <he/she> have ever thought that the dour old hunter was the one to do it? The vision had been false. Nunny had lied. The conviction seized <him/her> and did not let go: <i>This</i> was the man.\r\n\r\n\"So you've come for me.\"",
+                  "IsExpanded": true,
+                  "subNodes": [
+                    {
+                      "idNum": 161,
+                      "orderNum": 0,
+                      "pcNode": true,
+                      "linkTo": 156,
+                      "ShowOnlyOnce": false,
+                      "NodeIsActive": true,
+                      "NodePortraitBitmap": "",
+                      "NodeNpcName": "",
+                      "NodeSound": "none",
+                      "conversationText": "\"Who are you?\"",
+                      "IsExpanded": true,
+                      "subNodes": [],
+                      "actions": [],
+                      "conditions": [],
+                      "isLink": true
+                    },
+                    {
+                      "idNum": 162,
+                      "orderNum": 1,
+                      "pcNode": true,
+                      "linkTo": 4,
+                      "ShowOnlyOnce": false,
+                      "NodeIsActive": true,
+                      "NodePortraitBitmap": "",
+                      "NodeNpcName": "",
+                      "NodeSound": "none",
+                      "conversationText": "\"I have,\" the witch said.",
+                      "IsExpanded": true,
+                      "subNodes": [],
+                      "actions": [],
+                      "conditions": [],
+                      "isLink": true
+                    },
+                    {
+                      "idNum": 163,
+                      "orderNum": 2,
+                      "pcNode": true,
+                      "linkTo": 5,
+                      "ShowOnlyOnce": false,
+                      "NodeIsActive": true,
+                      "NodePortraitBitmap": "",
+                      "NodeNpcName": "",
+                      "NodeSound": "none",
+                      "conversationText": "\"If you are the killer I seek, then yes, I've come for you.\"",
+                      "IsExpanded": true,
+                      "subNodes": [],
+                      "actions": [],
+                      "conditions": [],
+                      "isLink": true
+                    },
+                    {
+                      "idNum": 164,
+                      "orderNum": 3,
+                      "pcNode": true,
+                      "linkTo": 6,
+                      "ShowOnlyOnce": false,
+                      "NodeIsActive": true,
+                      "NodePortraitBitmap": "",
+                      "NodeNpcName": "",
+                      "NodeSound": "none",
+                      "conversationText": "\"I didn't know you'd be expecting me.\"",
+                      "IsExpanded": true,
+                      "subNodes": [],
+                      "actions": [],
+                      "conditions": [],
+                      "isLink": true
+                    }
+                  ],
+                  "actions": [],
                   "conditions": [],
                   "isLink": false
                 }
               ],
-              "actions": [],
+              "actions": [
+                {
+                  "a_script": "gaSetGlobalInt.cs",
+                  "a_parameter_1": "experience",
+                  "a_parameter_2": "2",
+                  "a_parameter_3": null,
+                  "a_parameter_4": null
+                },
+                {
+                  "a_script": "gaSetGlobalInt.cs",
+                  "a_parameter_1": "onmap",
+                  "a_parameter_2": "1",
+                  "a_parameter_3": null,
+                  "a_parameter_4": null
+                },
+                {
+                  "a_script": "gaEnableDisableTrigger.cs",
+                  "a_parameter_1": "newTrigger_wencel",
+                  "a_parameter_2": "false",
+                  "a_parameter_3": null,
+                  "a_parameter_4": null
+                },
+                {
+                  "a_script": "gaTogglePartyToken.cs",
+                  "a_parameter_1": "tok_nnenne",
+                  "a_parameter_2": "false",
+                  "a_parameter_3": null,
+                  "a_parameter_4": null
+                },
+                {
+                  "a_script": "gaTransitionPartyToMapLocation.cs",
+                  "a_parameter_1": "a_woods_2c",
+                  "a_parameter_2": "7",
+                  "a_parameter_3": "6",
+                  "a_parameter_4": null
+                }
+              ],
               "conditions": [],
               "isLink": false
             }
@@ -3230,9 +4279,9 @@
   ],
   "ConvoFileName": "wencel_con",
   "Narration": false,
-  "PartyChat": true,
-  "SpeakToMainPcOnly": false,
+  "PartyChat": false,
+  "SpeakToMainPcOnly": true,
   "NpcPortraitBitmap": "prp_wexcloth.png",
   "DefaultNpcName": "",
-  "NextIdNum": 155
+  "NextIdNum": 209
 }

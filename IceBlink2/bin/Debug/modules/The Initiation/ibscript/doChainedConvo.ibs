@@ -1,0 +1,3 @@
+~osSetWorldTime(+,1,false,)
+~gaSetGlobalInt(onmap,1)
+~gaDoConversationByName(parm(0))

@@ -1,0 +1,5 @@
+~gaSetGlobalInt(boxopen,0)
+~gaSetGlobalInt(box2open,0)
+~ogGetPlayerHP(,-1,MaxHP,)
+~gaSetGlobalInt(experience,2)
+~gaForceRestAndRaiseDead()

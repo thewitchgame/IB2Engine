@@ -1,0 +1,60 @@
+~gaSetGlobalInt(bloodtalk,0)
+~gaSetGlobalInt(endgame,0)
+~gaGiveItem(blueflask00,3)
+@i = ~gcCheckAttribute(-1,wis,<,12)
+
+if (@i = 1)
+   ~gaSetGlobalInt(global_wisdom,99)
+~gaDoConversationByName(intro_con)
+   end
+endif
+
+@i = ~gcCheckAttribute(-1,wis,=,12)
+if (@i = 1)
+   ~gaSetGlobalInt(global_wisdom,1)
+~gaDoConversationByName(intro_con)
+   end
+endif
+
+@i = ~gcCheckAttribute(-1,wis,=,13)
+if (@i = 1)
+   ~gaSetGlobalInt(global_wisdom,1)
+~gaDoConversationByName(intro_con)
+   end
+endif
+
+@i = ~gcCheckAttribute(-1,wis,=,14)
+if (@i = 1)
+   ~gaSetGlobalInt(global_wisdom,2)
+~gaDoConversationByName(intro_con)
+   end
+endif
+
+@i = ~gcCheckAttribute(-1,wis,=,15)
+if (@i = 1)
+   ~gaSetGlobalInt(global_wisdom,2)
+~gaDoConversationByName(intro_con)
+   end
+endif
+
+@i = ~gcCheckAttribute(-1,wis,=,16)
+if (@i = 1)
+   ~gaSetGlobalInt(global_wisdom,3)
+~gaDoConversationByName(intro_con)
+   end
+endif
+
+@i = ~gcCheckAttribute(-1,wis,=,17)
+if (@i = 1)
+   ~gaSetGlobalInt(global_wisdom,3)
+~gaDoConversationByName(intro_con)
+   end
+endif
+
+@i = ~gcCheckAttribute(-1,wis,>,17)
+if (@i = 1)
+   ~gaSetGlobalInt(global_wisdom,4)
+~gaDoConversationByName(intro_con)
+   end
+endif
+

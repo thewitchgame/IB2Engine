@@ -1,0 +1,4 @@
+
+   ~gaShowMessageBox(An en elf candle materializes.)
+   ~gaAddCreatureToCurrentEncounter(elfcandle01,3,1,99)
+end

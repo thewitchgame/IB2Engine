@@ -23,7 +23,7 @@
           "NodePortraitBitmap": "",
           "NodeNpcName": "",
           "NodeSound": "none",
-          "conversationText": "As <he/she> wandered through the woods, the young witch couldn't help peering into the shadows and glancing over <his/her> shoulder at slight noises. What gloomy hill or dark grove was destined to be the place <he/she> met the Congress of Moths?",
+          "conversationText": "As <he/she> wandered through the woods, the young witch scrutinized every shadow and turned at every sound. What gloomy hill or dark grove was destined to be the place <he/she> met the Congress of Moths?",
           "IsExpanded": true,
           "subNodes": [
             {
@@ -49,7 +49,7 @@
                   "NodePortraitBitmap": "",
                   "NodeNpcName": "",
                   "NodeSound": "none",
-                  "conversationText": "<He/She> didn't have to wonder long. As the path they were on narrowed, <he/she> and Knott both stopped suddenly, as if they'd agreed to.\r\n<p>\r\nClouds passed over the sun. For a second, <FirstName> saw <him/her>self in a black void, alone, holding a candle over <his/her> heart.",
+                  "conversationText": "<He/She> didn't have to wonder long. As the path they were on narrowed, <he/she> and Knott both stopped suddenly, as if they'd agreed to.\r\n<p>\r\nClouds passed over the sun.",
                   "IsExpanded": true,
                   "subNodes": [
                     {
@@ -72,10 +72,10 @@
                           "linkTo": 0,
                           "ShowOnlyOnce": false,
                           "NodeIsActive": true,
-                          "NodePortraitBitmap": "prp_congress1.png",
+                          "NodePortraitBitmap": "",
                           "NodeNpcName": "",
                           "NodeSound": "none",
-                          "conversationText": "\"There you are!\"",
+                          "conversationText": "Stems and branches burst from the ground and widened around a gyre of colors that looked wrong amid the August trees. It was a door to the Roots of the World, where Namelessness had reared Wickedness and Joy, the strangling twins.",
                           "IsExpanded": true,
                           "subNodes": [
                             {
@@ -92,20 +92,6 @@
                               "IsExpanded": true,
                               "subNodes": [],
                               "actions": [
-                                {
-                                  "a_script": "gaEnableDisableTrigger.cs",
-                                  "a_parameter_1": "newTrigger_167006",
-                                  "a_parameter_2": "false",
-                                  "a_parameter_3": null,
-                                  "a_parameter_4": null
-                                },
-                                {
-                                  "a_script": "gaEnableDisableTrigger.cs",
-                                  "a_parameter_1": "newTrigger_166994",
-                                  "a_parameter_2": "false",
-                                  "a_parameter_3": null,
-                                  "a_parameter_4": null
-                                },
                                 {
                                   "a_script": "gaDoEncounterByTag.cs",
                                   "a_parameter_1": "enc_woodsmap_D",
@@ -134,11 +120,11 @@
                               "pcNode": true,
                               "linkTo": 0,
                               "ShowOnlyOnce": false,
-                              "NodeIsActive": true,
+                              "NodeIsActive": false,
                               "NodePortraitBitmap": "",
                               "NodeNpcName": "",
                               "NodeSound": "none",
-                              "conversationText": "[Skip Combat.]\r\n",
+                              "conversationText": "[Skip Combat.]",
                               "IsExpanded": true,
                               "subNodes": [
                                 {
@@ -151,7 +137,7 @@
                                   "NodePortraitBitmap": "",
                                   "NodeNpcName": "",
                                   "NodeSound": "none",
-                                  "conversationText": "<i>Are you sure?</i>",
+                                  "conversationText": "Are you sure?",
                                   "IsExpanded": true,
                                   "subNodes": [
                                     {
@@ -172,7 +158,7 @@
                                           "a_script": "osSetWorldTime.cs",
                                           "a_parameter_1": "+",
                                           "a_parameter_2": "10",
-                                          "a_parameter_3": null,
+                                          "a_parameter_3": "false",
                                           "a_parameter_4": null
                                         },
                                         {
@@ -219,20 +205,6 @@
                               ],
                               "actions": [
                                 {
-                                  "a_script": "gaEnableDisableTrigger.cs",
-                                  "a_parameter_1": "newTrigger_167006",
-                                  "a_parameter_2": "false",
-                                  "a_parameter_3": null,
-                                  "a_parameter_4": null
-                                },
-                                {
-                                  "a_script": "gaEnableDisableTrigger.cs",
-                                  "a_parameter_1": "newTrigger_166994",
-                                  "a_parameter_2": "false",
-                                  "a_parameter_3": null,
-                                  "a_parameter_4": null
-                                },
-                                {
                                   "a_script": "gaShowMessageBox.cs",
                                   "a_parameter_1": "<br>Combat can always be skipped. Doing so takes 10 minutes of game time. You do not receive experience points for skipped combats.",
                                   "a_parameter_2": null,
@@ -274,10 +246,10 @@
                                   "linkTo": 0,
                                   "ShowOnlyOnce": false,
                                   "NodeIsActive": true,
-                                  "NodePortraitBitmap": "",
+                                  "NodePortraitBitmap": "prp_congressofmoths1.png",
                                   "NodeNpcName": "",
                                   "NodeSound": "none",
-                                  "conversationText": "The Congress had gathered. There were strange murmurs and laughter that echoed as if in a great hall. Eyes glittered beneath the summer trees.",
+                                  "conversationText": "Childish shapes came out brandishing cruel-looking weapons. Eyes glittering like polished stones appraised <FirstName>.",
                                   "IsExpanded": true,
                                   "subNodes": [
                                     {
@@ -303,7 +275,7 @@
                                           "NodePortraitBitmap": "prp_usher.png",
                                           "NodeNpcName": "",
                                           "NodeSound": "none",
-                                          "conversationText": "A tall fairy with a powdered wig nodded curtly at the young witch. He bore a rod in one hand and stood before an upright circle of roots, trunk, and branch -- a passage to what some called Faerylond and others (who knew better) called the Roots of the World. ",
+                                          "conversationText": "A being almost eight feet high but thin as a sapling nodded at the witch, holding his wig as he did. He tapped his rod against the portal.\r\n<p>\r\nThe Congress of Moths attacked.",
                                           "IsExpanded": true,
                                           "subNodes": [
                                             {
@@ -374,15 +346,7 @@
                           "isLink": false
                         }
                       ],
-                      "actions": [
-                        {
-                          "a_script": "gaPlaySound.cs",
-                          "a_parameter_1": "congress",
-                          "a_parameter_2": null,
-                          "a_parameter_3": null,
-                          "a_parameter_4": null
-                        }
-                      ],
+                      "actions": [],
                       "conditions": [],
                       "isLink": false
                     }
@@ -422,7 +386,7 @@
                   "NodePortraitBitmap": "",
                   "NodeNpcName": "",
                   "NodeSound": "none",
-                  "conversationText": "<He/She> didn't have to wonder long. As the path they were on narrowed, <he/she> and Knott both stopped suddenly, as if they'd agreed to.\r\n<p>\r\nClouds passed over the moon. For a second, <FirstName> saw <him/her>self in a black void, alone, holding a candle over <his/her> heart.",
+                  "conversationText": "<He/She> didn't have to wonder long. As the path they were on narrowed, <he/she> and Knott both stopped suddenly, as if they'd agreed to.\r\n<p>\r\nClouds passed over the moon.",
                   "IsExpanded": true,
                   "subNodes": [
                     {
@@ -456,6 +420,150 @@
           "actions": [],
           "conditions": [],
           "isLink": false
+        },
+        {
+          "idNum": 20,
+          "orderNum": 1,
+          "pcNode": false,
+          "linkTo": 0,
+          "ShowOnlyOnce": false,
+          "NodeIsActive": true,
+          "NodePortraitBitmap": "",
+          "NodeNpcName": "",
+          "NodeSound": "none",
+          "conversationText": "Here was another portal. As <he/she> braced for combat, the young witch wondered at the bad luck that had brought <him/her> and the Congress of Moths to these woods at the same time.",
+          "IsExpanded": true,
+          "subNodes": [
+            {
+              "idNum": 22,
+              "orderNum": 0,
+              "pcNode": true,
+              "linkTo": 0,
+              "ShowOnlyOnce": false,
+              "NodeIsActive": true,
+              "NodePortraitBitmap": "",
+              "NodeNpcName": "",
+              "NodeSound": "none",
+              "conversationText": "[End.]",
+              "IsExpanded": true,
+              "subNodes": [],
+              "actions": [
+                {
+                  "a_script": "gaDoEncounterByTag.cs",
+                  "a_parameter_1": "enc_woodmap_e",
+                  "a_parameter_2": null,
+                  "a_parameter_3": null,
+                  "a_parameter_4": null
+                }
+              ],
+              "conditions": [],
+              "isLink": false
+            },
+            {
+              "idNum": 23,
+              "orderNum": 1,
+              "pcNode": true,
+              "linkTo": 0,
+              "ShowOnlyOnce": false,
+              "NodeIsActive": true,
+              "NodePortraitBitmap": "",
+              "NodeNpcName": "",
+              "NodeSound": "none",
+              "conversationText": "[Skip Combat.]\r\n",
+              "IsExpanded": true,
+              "subNodes": [
+                {
+                  "idNum": 24,
+                  "orderNum": 0,
+                  "pcNode": false,
+                  "linkTo": 0,
+                  "ShowOnlyOnce": false,
+                  "NodeIsActive": true,
+                  "NodePortraitBitmap": "",
+                  "NodeNpcName": "",
+                  "NodeSound": "none",
+                  "conversationText": "Are you sure?",
+                  "IsExpanded": true,
+                  "subNodes": [
+                    {
+                      "idNum": 27,
+                      "orderNum": 0,
+                      "pcNode": true,
+                      "linkTo": 0,
+                      "ShowOnlyOnce": false,
+                      "NodeIsActive": true,
+                      "NodePortraitBitmap": "",
+                      "NodeNpcName": "",
+                      "NodeSound": "none",
+                      "conversationText": "[Yes.]",
+                      "IsExpanded": true,
+                      "subNodes": [],
+                      "actions": [
+                        {
+                          "a_script": "osSetWorldTime.cs",
+                          "a_parameter_1": "+",
+                          "a_parameter_2": "10",
+                          "a_parameter_3": "false",
+                          "a_parameter_4": null
+                        },
+                        {
+                          "a_script": "gaDoConversationByName.cs",
+                          "a_parameter_1": "postrandom_con",
+                          "a_parameter_2": null,
+                          "a_parameter_3": null,
+                          "a_parameter_4": null
+                        }
+                      ],
+                      "conditions": [],
+                      "isLink": false
+                    },
+                    {
+                      "idNum": 28,
+                      "orderNum": 1,
+                      "pcNode": true,
+                      "linkTo": 0,
+                      "ShowOnlyOnce": false,
+                      "NodeIsActive": true,
+                      "NodePortraitBitmap": "",
+                      "NodeNpcName": "",
+                      "NodeSound": "none",
+                      "conversationText": "[No.]",
+                      "IsExpanded": true,
+                      "subNodes": [],
+                      "actions": [
+                        {
+                          "a_script": "gaDoEncounterByTag.cs",
+                          "a_parameter_1": "enc_woodmap_e",
+                          "a_parameter_2": null,
+                          "a_parameter_3": null,
+                          "a_parameter_4": null
+                        }
+                      ],
+                      "conditions": [],
+                      "isLink": false
+                    }
+                  ],
+                  "actions": [],
+                  "conditions": [],
+                  "isLink": false
+                }
+              ],
+              "actions": [
+                {
+                  "a_script": "gaShowMessageBox.cs",
+                  "a_parameter_1": "<br>Combat can always be skipped. Doing so takes 10 minutes of game time. You do not receive experience points for skipped combats.",
+                  "a_parameter_2": null,
+                  "a_parameter_3": null,
+                  "a_parameter_4": null
+                }
+              ],
+              "conditions": [],
+              "isLink": false
+            }
+          ],
+          "actions": [],
+          "conditions": [],
+          "isLink": false
         }
       ],
       "actions": [],
@@ -469,5 +577,5 @@
   "SpeakToMainPcOnly": true,
   "NpcPortraitBitmap": "black_tile.png",
   "DefaultNpcName": "",
-  "NextIdNum": 19
+  "NextIdNum": 28
 }

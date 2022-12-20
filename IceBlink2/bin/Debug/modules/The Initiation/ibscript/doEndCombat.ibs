@@ -1,0 +1,3 @@
+~gaForceRestAndRaiseDead()
+~gaSetGlobalInt(Summons, 0)
+

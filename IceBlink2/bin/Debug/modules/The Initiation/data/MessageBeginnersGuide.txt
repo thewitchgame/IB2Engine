@@ -2,24 +2,24 @@ BEGINNER’S GUIDE<br>
 This guide gives you tips on character creation, adventuring, and combat. For more detailed information, consult the Player’s Guide. For less detailed information, play the tutorial!<br>
 <br><br>
 CHARACTER CREATION<br>
-Some of the most important decisions you make are made within the first few minutes of playing the game. How you make your witch can affect the difficulty of encounters, how often they can use powers, and even the story.<br><br>
+Some of the most important decisions you make are made within the first few minutes of playing the game. How you make your witch can affect the difficulty of encounters, how often they can use special powers, and how y.<br><br>
 <br>
 <i>Roll the Right Stats</i><br>
-Use a combination of “Roll Stats” and Temperament choice to tweak the Stats of your characters. More detailed information can be found in the Player’s Guide, but…<br>
-…characters who engage in melee combat often have Strength scores of at least 14. <br>
-…characters who want survivability often have bonuses to Dexterity and Constitution.<br>
-…characters who want frequent success with non-combat traits have Wisdom scores of at least 14.<br>
-…characters who want to get the upper hand in conversations have Charisma scores of at least 14.<br>
-…characters who use Powers frequently often have Intelligence scores of at least 14.<br>
+Use a combination of point allocation and Seasons options to tweak the Stats of your characters. More detailed information can be found in the Player’s Guide, but…<br>
+…characters who engage in melee combat have Strength scores of at least 14. <br>
+…characters who want survivability have bonuses to Dexterity and Constitution.<br>
+…characters who want to use Paths effectively and plan to use tactical combat to regain lost SP have Wisdom scores of at least 14. RECOMMENDED.<br>
+…characters who want to level up quickly have Charisma scores of at least 14.<br>
+…characters who use Powers frequently have Intelligence scores of at least 14. RECOMMENDED. <br>
  <br>
-<i>Aim for Balanced Traits</i><br>
-The witch will often be in situations in which the traits Folk Magic and Natural Philosophy are useful. Success at these moments can prevent damage to HP and SP, grant XP, give access to treasure, and more. A good rule of thumb is to choose at least one of these traits for your witch. Keep in mind that Wisdom is the Stat that regulates the success of these actions.
+<i>Pick the Right Paths</i><br>
+For first-time young witches, Folk Magic and Natural Philosophy provide the most straightforward benefits for high Wisdom and Intelligence characters. Woodcraft, Warding, and Swordplay are useful for witches who want to experiment with different synergies. 
 <br><br>
 ADVENTURING</i><br>
 Interacting with the game world is easy, but keeping in mind a few things about it can improve your experience.<br>
 <br>
 <i>Arm Your Witch</i><br>
-Equip the items you have in your inventory. Many weapons and armor give small bonuses or penalties to Stats. Pay attention to these and optimize your characters accordingly. The witch should begin by equipping the Crow and Kernels.<br>
+Equip the items you have in your inventory. Many weapons and armor give small bonuses or penalties to Stats. Pay attention to these and optimize your characters accordingly. The witch should begin by equipping Pharaoh (the crow) and his kernels.<br>
 <br>
 <i>Save Your Game</i><br>
 Disaster can strike at any time. Save your game often and keep multiple saves.<br>

@@ -23,7 +23,7 @@
           "NodePortraitBitmap": "",
           "NodeNpcName": "",
           "NodeSound": "none",
-          "conversationText": "When hurt, the creatures didn't show fear or pain. They didn't bleed. And when they were destroyed, they simply seemed to pop out of existence, like bubbles.\r\n<p>\r\nBut as the last went down, the young witch saw that this wasn't entirely true. The being vanished, but a tiny moth took its place. <FirstName> was catching <his/her> breath as it fluttered into the forest.",
+          "conversationText": "When hurt, the creatures didn't seem to experience pain. And when they were destroyed, they simply seemed to pop out of existence, like bubbles.\r\n<p>\r\nBut as the last went down, the young witch saw that this wasn't true. A tiny moth took its place after it vanished. <FirstName> was catching <his/her> breath as it fluttered into the forest.",
           "IsExpanded": true,
           "subNodes": [
             {
@@ -53,10 +53,91 @@
                   "a_parameter_2": "0",
                   "a_parameter_3": null,
                   "a_parameter_4": null
+                },
+                {
+                  "a_script": "osSetProp.cs",
+                  "a_parameter_1": "newPropTag_174690_174694",
+                  "a_parameter_2": null,
+                  "a_parameter_3": "s",
+                  "a_parameter_4": "false"
+                },
+                {
+                  "a_script": "osSetProp.cs",
+                  "a_parameter_1": "newPropTag_174690_174718",
+                  "a_parameter_2": null,
+                  "a_parameter_3": "s",
+                  "a_parameter_4": "false"
+                },
+                {
+                  "a_script": "gaGiveGold.cs",
+                  "a_parameter_1": "18",
+                  "a_parameter_2": null,
+                  "a_parameter_3": null,
+                  "a_parameter_4": null
+                },
+                {
+                  "a_script": "gaSetGlobalInt.cs",
+                  "a_parameter_1": "FirstCombat",
+                  "a_parameter_2": "1",
+                  "a_parameter_3": null,
+                  "a_parameter_4": null
+                },
+                {
+                  "a_script": "gaEnableDisableTrigger.cs",
+                  "a_parameter_1": "newTrigger_251409",
+                  "a_parameter_2": "true",
+                  "a_parameter_3": null,
+                  "a_parameter_4": null
                 }
               ],
               "conditions": [],
               "isLink": false
+            }
+          ],
+          "actions": [],
+          "conditions": [
+            {
+              "c_script": "gcCheckGlobalInt.cs",
+              "c_btnAndOr": "and",
+              "c_and": true,
+              "c_not": true,
+              "c_parameter_1": "FirstCombat",
+              "c_parameter_2": "=",
+              "c_parameter_3": "1",
+              "c_parameter_4": null
+            }
+          ],
+          "isLink": false
+        },
+        {
+          "idNum": 3,
+          "orderNum": 1,
+          "pcNode": false,
+          "linkTo": 0,
+          "ShowOnlyOnce": false,
+          "NodeIsActive": true,
+          "NodePortraitBitmap": "",
+          "NodeNpcName": "",
+          "NodeSound": "none",
+          "conversationText": "Another portal closed.",
+          "IsExpanded": true,
+          "subNodes": [
+            {
+              "idNum": 4,
+              "orderNum": 0,
+              "pcNode": true,
+              "linkTo": 2,
+              "ShowOnlyOnce": false,
+              "NodeIsActive": true,
+              "NodePortraitBitmap": "",
+              "NodeNpcName": "",
+              "NodeSound": "none",
+              "conversationText": "[End.]",
+              "IsExpanded": true,
+              "subNodes": [],
+              "actions": [],
+              "conditions": [],
+              "isLink": true
             }
           ],
           "actions": [],
@@ -75,5 +156,5 @@
   "SpeakToMainPcOnly": true,
   "NpcPortraitBitmap": "black_tile.png",
   "DefaultNpcName": "",
-  "NextIdNum": 2
+  "NextIdNum": 4
 }

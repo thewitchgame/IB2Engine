@@ -1,0 +1,12 @@
+@d = ~gcCheckGlobalInt(birdtalk,=,1)
+
+~gaSetGlobalInt(onmap,1)
+
+
+if (@d = 1)
+~gaTransitionPartyToMapLocation(a_woods_2sNOSPIRIT,1,5)
+else
+~gaTransitionPartyToMapLocation(a_woods_2s,0,5)
+endif
+
+end

@@ -1,0 +1,59 @@
+
+
+
+//Parms for real usher, false usher, real usher's SP, false usher's SP, real portal location (random), real portal location (random), needs two options
+
+@randomusher = ~gcRand1of(2)
+@randomusher2 = ~gcRand1of(1)
+
+
+
+
+
+//real usher and portal are on the left
+
+
+
+if (@randomusher = 1)
+~osSetCreatureCombatLocation(false_usher,,9,10)
+~osSetCreatureCombatLocation(real_usher,,5,9)
+~osSetCreatureSp(real_usher,,-,21)
+~osSetCreatureSp(false_usher,,-,21)
+~gaSetGlobalInt(boxopen,0)
+~gaSetGlobalInt(box2open,0)
+~gaSetGlobalInt(Summons,++)
+~gaSetGlobalInt(experience,2)
+~gaForceRestAndRaiseDead()
+~gaSetGlobalInt(falseusher1,0)
+~osSetProp(left_portal,,a,true)
+~osSetProp(right_portal,,a,false)
+
+
+
+end
+endif
+
+if (@randomusher2 = 1)
+~osSetCreatureCombatLocation(false_usher,,5,9)
+~osSetCreatureCombatLocation(real_usher,,9,10)
+~osSetCreatureSp(real_usher,,-,21)
+~osSetCreatureSp(false_usher,,-,21)
+~gaSetGlobalInt(boxopen,0)
+~gaSetGlobalInt(box2open,0)
+~gaSetGlobalInt(Summons,++)
+~gaSetGlobalInt(experience,2)
+~gaForceRestAndRaiseDead()
+~gaSetGlobalInt(falseusher1,1)
+~osSetProp(right_portal,,a,true)
+~osSetProp(left_portal,,a,false)
+end
+endif
+
+
+
+
+
+
+
+
+end

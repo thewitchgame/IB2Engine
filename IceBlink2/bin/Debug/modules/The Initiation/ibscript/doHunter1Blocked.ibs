@@ -1,0 +1,16 @@
+@blood2 = ~gcCheckForItem(pintofblood2,1,,)
+
+
+~osSetProp(newPropTag_168858_169416,,s,true)
+~osSetProp(newPropTag_168858_169416,,a,true)
+
+
+if (@blood2 = 1)
+
+~osSetProp(newPropTag_168858_169416,,s,false)
+~osSetProp(newPropTag_168858_169416,,a,false)
+end
+endif
+
+end
+

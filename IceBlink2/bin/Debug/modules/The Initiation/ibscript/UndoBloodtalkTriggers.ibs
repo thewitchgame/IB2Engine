@@ -1,0 +1,16 @@
+~gaGetGlobalInt(suddertalk,@sudder)
+~gaGetGlobalInt(wenceltalk,@wencel)
+~gaSetGlobalInt(CannotUseMap,0)
+
+
+if (@sudder = 1)
+~gaEnableDisableTrigger(newTrigger_330600,false)
+endif
+
+//if (@wencel = 1)
+//~gaEnableDisableTrigger(newTrigger_273828,false)
+//endif
+
+if (@wencel = 1)
+~gaEnableDisableTrigger(newTrigger_wencel,false)
+endif

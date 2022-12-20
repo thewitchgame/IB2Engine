@@ -1,0 +1,12 @@
+~gaGetGlobalInt(global_con1,@x)
+
+
+if (@x = 1)
+end
+endif
+
+
+~gaSetGlobalInt(global_con1,1)
+~gaGiveItem(thornapple00,1)
+~gaShowMessageBox(Bloody Thornapple received!)
+end

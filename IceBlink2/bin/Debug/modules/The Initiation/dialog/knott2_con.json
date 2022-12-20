@@ -195,7 +195,7 @@
                           "NodePortraitBitmap": "",
                           "NodeNpcName": "",
                           "NodeSound": "none",
-                          "conversationText": "The soil drank it eagerly. As <FirstName> watched, <he/she> heard the witches chanting from the house:",
+                          "conversationText": "As <FirstName> watched the soil drink it down, <he/she> heard the witches chanting from the house:",
                           "IsExpanded": true,
                           "subNodes": [
                             {
@@ -247,7 +247,7 @@
                                           "NodePortraitBitmap": "",
                                           "NodeNpcName": "",
                                           "NodeSound": "none",
-                                          "conversationText": "A shoot emerged, then a vine, and then an unfurling of leaves and buds and orange flowers. One flower was so big it rose up and covered the sun.",
+                                          "conversationText": "A shoot emerged, then a vine, and then came leaves and buds and orange flowers. One flower was so big it rose up and obscured the sun.",
                                           "IsExpanded": true,
                                           "subNodes": [
                                             {
@@ -273,7 +273,7 @@
                                                   "NodePortraitBitmap": "",
                                                   "NodeNpcName": "",
                                                   "NodeSound": "none",
-                                                  "conversationText": "It wilted and fell like drapery over something upright on the grave. The object was about as tall as <FirstName> but far bulkier. The witches were silent. <FirstName> felt their eyes on <him/her>.",
+                                                  "conversationText": "The flower wilted and fell like drapery over something upright on the grave. It was about as tall as <FirstName> but far bulkier. The witches were silent. <FirstName> felt their eyes on <him/her>.",
                                                   "IsExpanded": true,
                                                   "subNodes": [
                                                     {
@@ -299,7 +299,7 @@
                                                           "NodePortraitBitmap": "",
                                                           "NodeNpcName": "",
                                                           "NodeSound": "none",
-                                                          "conversationText": "Shreds fell. Beneath was an organic wall of mottled green and great yellow ridges.",
+                                                          "conversationText": "Shreds fell. Beneath was an organic wall of mottled green with great yellow ridges.",
                                                           "IsExpanded": true,
                                                           "subNodes": [
                                                             {
@@ -325,7 +325,7 @@
                                                                   "NodePortraitBitmap": "prp_knott.png",
                                                                   "NodeNpcName": "",
                                                                   "NodeSound": "none",
-                                                                  "conversationText": "The object moved. The rest of the flower fell away. In its place stood an almost human figure dressed in a burlap jacket and carrying a staff. Its chest rose and fell, but it made no sound of breathing. How could it? It had no eyes, no ears, no nose, no mouth. It was a giant gourd.\r\n<p>\r\nThe witches came out of the house.",
+                                                                  "conversationText": "The object moved. The rest of the flower fell away. In its place stood an almost human figure dressed in a burlap jacket and carrying a staff. Its chest rose and fell, but it made no sound of breathing. How could it? It had no nose or mouth. It was a giant gourd.\r\n<p>\r\nThe witches came out of the house.",
                                                                   "IsExpanded": true,
                                                                   "subNodes": [
                                                                     {
@@ -364,8 +364,8 @@
                                                                               "NodePortraitBitmap": "",
                                                                               "NodeNpcName": "",
                                                                               "NodeSound": "none",
-                                                                              "conversationText": "[Folk Magic] <FirstName> stared, aghast, at the being before <him/her>. <He/She> had doubted that magic of this sort was possible.",
-                                                                              "IsExpanded": true,
+                                                                              "conversationText": "[Folk Magic] <FirstName> was amazed. <He/She>'d had no idea that magic of this sort was possible.",
+                                                                              "IsExpanded": false,
                                                                               "subNodes": [
                                                                                 {
                                                                                   "idNum": 47,
@@ -429,7 +429,7 @@
                                                                                                   "NodePortraitBitmap": "prp_eldestlady.png",
                                                                                                   "NodeNpcName": "",
                                                                                                   "NodeSound": "none",
-                                                                                                  "conversationText": "\"So I do: Shut up, Puppy.\"",
+                                                                                                  "conversationText": "\"Quiet, dog.\"",
                                                                                                   "IsExpanded": true,
                                                                                                   "subNodes": [
                                                                                                     {
@@ -571,15 +571,8 @@
                                                                               ],
                                                                               "actions": [
                                                                                 {
-                                                                                  "a_script": "gaGiveXP.cs",
-                                                                                  "a_parameter_1": "20",
-                                                                                  "a_parameter_2": null,
-                                                                                  "a_parameter_3": null,
-                                                                                  "a_parameter_4": null
-                                                                                },
-                                                                                {
                                                                                   "a_script": "gaPlaySound.cs",
-                                                                                  "a_parameter_1": "crow_xp",
+                                                                                  "a_parameter_1": "xp",
                                                                                   "a_parameter_2": null,
                                                                                   "a_parameter_3": null,
                                                                                   "a_parameter_4": null
@@ -597,20 +590,20 @@
                                                                                   "c_parameter_4": null
                                                                                 },
                                                                                 {
-                                                                                  "c_script": "gcCheckGlobalInt.cs",
+                                                                                  "c_script": "gaSetGlobalInt.cs",
                                                                                   "c_btnAndOr": "and",
                                                                                   "c_and": true,
                                                                                   "c_not": false,
-                                                                                  "c_parameter_1": "global_charisma",
-                                                                                  "c_parameter_2": "=",
-                                                                                  "c_parameter_3": "0",
+                                                                                  "c_parameter_1": "experience",
+                                                                                  "c_parameter_2": "1",
+                                                                                  "c_parameter_3": null,
                                                                                   "c_parameter_4": null
                                                                                 }
                                                                               ],
                                                                               "isLink": false
                                                                             },
                                                                             {
-                                                                              "idNum": 182,
+                                                                              "idNum": 43,
                                                                               "orderNum": 1,
                                                                               "pcNode": true,
                                                                               "linkTo": 0,
@@ -619,292 +612,8 @@
                                                                               "NodePortraitBitmap": "",
                                                                               "NodeNpcName": "",
                                                                               "NodeSound": "none",
-                                                                              "conversationText": "[Folk Magic] <FirstName> stared, aghast, at the being before <him/her>. <He/She> had doubted that magic of this sort was possible.",
-                                                                              "IsExpanded": true,
-                                                                              "subNodes": [
-                                                                                {
-                                                                                  "idNum": 186,
-                                                                                  "orderNum": 0,
-                                                                                  "pcNode": true,
-                                                                                  "linkTo": 47,
-                                                                                  "ShowOnlyOnce": false,
-                                                                                  "NodeIsActive": true,
-                                                                                  "NodePortraitBitmap": "",
-                                                                                  "NodeNpcName": "",
-                                                                                  "NodeSound": "none",
-                                                                                  "conversationText": "Eldest Lady saw <his/her> wonder. \"I am called 'Eldest Lady' for a reason. I do more than give bad winds to sailors and backaches to farmers.\"",
-                                                                                  "IsExpanded": true,
-                                                                                  "subNodes": [],
-                                                                                  "actions": [],
-                                                                                  "conditions": [],
-                                                                                  "isLink": true
-                                                                                }
-                                                                              ],
-                                                                              "actions": [
-                                                                                {
-                                                                                  "a_script": "gaGiveXP.cs",
-                                                                                  "a_parameter_1": "22",
-                                                                                  "a_parameter_2": null,
-                                                                                  "a_parameter_3": null,
-                                                                                  "a_parameter_4": null
-                                                                                },
-                                                                                {
-                                                                                  "a_script": "gaPlaySound.cs",
-                                                                                  "a_parameter_1": "crow_xp",
-                                                                                  "a_parameter_2": null,
-                                                                                  "a_parameter_3": null,
-                                                                                  "a_parameter_4": null
-                                                                                }
-                                                                              ],
-                                                                              "conditions": [
-                                                                                {
-                                                                                  "c_script": "gcCheckHasTrait.cs",
-                                                                                  "c_btnAndOr": "and",
-                                                                                  "c_and": true,
-                                                                                  "c_not": false,
-                                                                                  "c_parameter_1": "-1",
-                                                                                  "c_parameter_2": "trait_folkmagic",
-                                                                                  "c_parameter_3": null,
-                                                                                  "c_parameter_4": null
-                                                                                },
-                                                                                {
-                                                                                  "c_script": "gcCheckGlobalInt.cs",
-                                                                                  "c_btnAndOr": "and",
-                                                                                  "c_and": true,
-                                                                                  "c_not": false,
-                                                                                  "c_parameter_1": "global_charisma",
-                                                                                  "c_parameter_2": "=",
-                                                                                  "c_parameter_3": "1",
-                                                                                  "c_parameter_4": null
-                                                                                }
-                                                                              ],
-                                                                              "isLink": false
-                                                                            },
-                                                                            {
-                                                                              "idNum": 183,
-                                                                              "orderNum": 2,
-                                                                              "pcNode": true,
-                                                                              "linkTo": 0,
-                                                                              "ShowOnlyOnce": false,
-                                                                              "NodeIsActive": true,
-                                                                              "NodePortraitBitmap": "",
-                                                                              "NodeNpcName": "",
-                                                                              "NodeSound": "none",
-                                                                              "conversationText": "[Folk Magic] <FirstName> stared, aghast, at the being before <him/her>. <He/She> had doubted that magic of this sort was possible.",
-                                                                              "IsExpanded": true,
-                                                                              "subNodes": [
-                                                                                {
-                                                                                  "idNum": 187,
-                                                                                  "orderNum": 0,
-                                                                                  "pcNode": true,
-                                                                                  "linkTo": 47,
-                                                                                  "ShowOnlyOnce": false,
-                                                                                  "NodeIsActive": true,
-                                                                                  "NodePortraitBitmap": "",
-                                                                                  "NodeNpcName": "",
-                                                                                  "NodeSound": "none",
-                                                                                  "conversationText": "Eldest Lady saw <his/her> wonder. \"I am called 'Eldest Lady' for a reason. I do more than give bad winds to sailors and backaches to farmers.\"",
-                                                                                  "IsExpanded": true,
-                                                                                  "subNodes": [],
-                                                                                  "actions": [],
-                                                                                  "conditions": [],
-                                                                                  "isLink": true
-                                                                                }
-                                                                              ],
-                                                                              "actions": [
-                                                                                {
-                                                                                  "a_script": "gaGiveXP.cs",
-                                                                                  "a_parameter_1": "24",
-                                                                                  "a_parameter_2": null,
-                                                                                  "a_parameter_3": null,
-                                                                                  "a_parameter_4": null
-                                                                                },
-                                                                                {
-                                                                                  "a_script": "gaPlaySound.cs",
-                                                                                  "a_parameter_1": "crow_xp",
-                                                                                  "a_parameter_2": null,
-                                                                                  "a_parameter_3": null,
-                                                                                  "a_parameter_4": null
-                                                                                }
-                                                                              ],
-                                                                              "conditions": [
-                                                                                {
-                                                                                  "c_script": "gcCheckHasTrait.cs",
-                                                                                  "c_btnAndOr": "and",
-                                                                                  "c_and": true,
-                                                                                  "c_not": false,
-                                                                                  "c_parameter_1": "-1",
-                                                                                  "c_parameter_2": "trait_folkmagic",
-                                                                                  "c_parameter_3": null,
-                                                                                  "c_parameter_4": null
-                                                                                },
-                                                                                {
-                                                                                  "c_script": "gcCheckGlobalInt.cs",
-                                                                                  "c_btnAndOr": "and",
-                                                                                  "c_and": true,
-                                                                                  "c_not": false,
-                                                                                  "c_parameter_1": "global_charisma",
-                                                                                  "c_parameter_2": "=",
-                                                                                  "c_parameter_3": "2",
-                                                                                  "c_parameter_4": null
-                                                                                }
-                                                                              ],
-                                                                              "isLink": false
-                                                                            },
-                                                                            {
-                                                                              "idNum": 184,
-                                                                              "orderNum": 3,
-                                                                              "pcNode": true,
-                                                                              "linkTo": 0,
-                                                                              "ShowOnlyOnce": false,
-                                                                              "NodeIsActive": true,
-                                                                              "NodePortraitBitmap": "",
-                                                                              "NodeNpcName": "",
-                                                                              "NodeSound": "none",
-                                                                              "conversationText": "[Folk Magic] <FirstName> stared, aghast, at the being before <him/her>. <He/She> had doubted that magic of this sort was possible.",
-                                                                              "IsExpanded": true,
-                                                                              "subNodes": [
-                                                                                {
-                                                                                  "idNum": 188,
-                                                                                  "orderNum": 0,
-                                                                                  "pcNode": true,
-                                                                                  "linkTo": 47,
-                                                                                  "ShowOnlyOnce": false,
-                                                                                  "NodeIsActive": true,
-                                                                                  "NodePortraitBitmap": "",
-                                                                                  "NodeNpcName": "",
-                                                                                  "NodeSound": "none",
-                                                                                  "conversationText": "Eldest Lady saw <his/her> wonder. \"I am called 'Eldest Lady' for a reason. I do more than give bad winds to sailors and backaches to farmers.\"",
-                                                                                  "IsExpanded": true,
-                                                                                  "subNodes": [],
-                                                                                  "actions": [],
-                                                                                  "conditions": [],
-                                                                                  "isLink": true
-                                                                                }
-                                                                              ],
-                                                                              "actions": [
-                                                                                {
-                                                                                  "a_script": "gaGiveXP.cs",
-                                                                                  "a_parameter_1": "26",
-                                                                                  "a_parameter_2": null,
-                                                                                  "a_parameter_3": null,
-                                                                                  "a_parameter_4": null
-                                                                                },
-                                                                                {
-                                                                                  "a_script": "gaPlaySound.cs",
-                                                                                  "a_parameter_1": "crow_xp",
-                                                                                  "a_parameter_2": null,
-                                                                                  "a_parameter_3": null,
-                                                                                  "a_parameter_4": null
-                                                                                }
-                                                                              ],
-                                                                              "conditions": [
-                                                                                {
-                                                                                  "c_script": "gcCheckHasTrait.cs",
-                                                                                  "c_btnAndOr": "and",
-                                                                                  "c_and": true,
-                                                                                  "c_not": false,
-                                                                                  "c_parameter_1": "-1",
-                                                                                  "c_parameter_2": "trait_folkmagic",
-                                                                                  "c_parameter_3": null,
-                                                                                  "c_parameter_4": null
-                                                                                },
-                                                                                {
-                                                                                  "c_script": "gcCheckGlobalInt.cs",
-                                                                                  "c_btnAndOr": "and",
-                                                                                  "c_and": true,
-                                                                                  "c_not": false,
-                                                                                  "c_parameter_1": "global_charisma",
-                                                                                  "c_parameter_2": "=",
-                                                                                  "c_parameter_3": "3",
-                                                                                  "c_parameter_4": null
-                                                                                }
-                                                                              ],
-                                                                              "isLink": false
-                                                                            },
-                                                                            {
-                                                                              "idNum": 185,
-                                                                              "orderNum": 4,
-                                                                              "pcNode": true,
-                                                                              "linkTo": 0,
-                                                                              "ShowOnlyOnce": false,
-                                                                              "NodeIsActive": true,
-                                                                              "NodePortraitBitmap": "",
-                                                                              "NodeNpcName": "",
-                                                                              "NodeSound": "none",
-                                                                              "conversationText": "[Folk Magic] <FirstName> stared, aghast, at the being before <him/her>. <He/She> had doubted that magic of this sort was possible.",
-                                                                              "IsExpanded": true,
-                                                                              "subNodes": [
-                                                                                {
-                                                                                  "idNum": 189,
-                                                                                  "orderNum": 0,
-                                                                                  "pcNode": true,
-                                                                                  "linkTo": 47,
-                                                                                  "ShowOnlyOnce": false,
-                                                                                  "NodeIsActive": true,
-                                                                                  "NodePortraitBitmap": "",
-                                                                                  "NodeNpcName": "",
-                                                                                  "NodeSound": "none",
-                                                                                  "conversationText": "Eldest Lady saw <his/her> wonder. \"I am called 'Eldest Lady' for a reason. I do more than give bad winds to sailors and backaches to farmers.\"",
-                                                                                  "IsExpanded": true,
-                                                                                  "subNodes": [],
-                                                                                  "actions": [],
-                                                                                  "conditions": [],
-                                                                                  "isLink": true
-                                                                                }
-                                                                              ],
-                                                                              "actions": [
-                                                                                {
-                                                                                  "a_script": "gaGiveXP.cs",
-                                                                                  "a_parameter_1": "28",
-                                                                                  "a_parameter_2": null,
-                                                                                  "a_parameter_3": null,
-                                                                                  "a_parameter_4": null
-                                                                                },
-                                                                                {
-                                                                                  "a_script": "gaPlaySound.cs",
-                                                                                  "a_parameter_1": "crow_xp",
-                                                                                  "a_parameter_2": null,
-                                                                                  "a_parameter_3": null,
-                                                                                  "a_parameter_4": null
-                                                                                }
-                                                                              ],
-                                                                              "conditions": [
-                                                                                {
-                                                                                  "c_script": "gcCheckHasTrait.cs",
-                                                                                  "c_btnAndOr": "and",
-                                                                                  "c_and": true,
-                                                                                  "c_not": false,
-                                                                                  "c_parameter_1": "-1",
-                                                                                  "c_parameter_2": "trait_folkmagic",
-                                                                                  "c_parameter_3": null,
-                                                                                  "c_parameter_4": null
-                                                                                },
-                                                                                {
-                                                                                  "c_script": "gcCheckGlobalInt.cs",
-                                                                                  "c_btnAndOr": "and",
-                                                                                  "c_and": true,
-                                                                                  "c_not": false,
-                                                                                  "c_parameter_1": "global_charisma",
-                                                                                  "c_parameter_2": "=",
-                                                                                  "c_parameter_3": "4",
-                                                                                  "c_parameter_4": null
-                                                                                }
-                                                                              ],
-                                                                              "isLink": false
-                                                                            },
-                                                                            {
-                                                                              "idNum": 43,
-                                                                              "orderNum": 5,
-                                                                              "pcNode": true,
-                                                                              "linkTo": 0,
-                                                                              "ShowOnlyOnce": false,
-                                                                              "NodeIsActive": true,
-                                                                              "NodePortraitBitmap": "",
-                                                                              "NodeNpcName": "",
-                                                                              "NodeSound": "none",
                                                                               "conversationText": "\"Knott? That's its name?\"",
-                                                                              "IsExpanded": true,
+                                                                              "IsExpanded": false,
                                                                               "subNodes": [
                                                                                 {
                                                                                   "idNum": 51,
@@ -917,7 +626,7 @@
                                                                                   "NodeNpcName": "",
                                                                                   "NodeSound": "none",
                                                                                   "conversationText": "\"Yes. <i>His</i> name.\"",
-                                                                                  "IsExpanded": false,
+                                                                                  "IsExpanded": true,
                                                                                   "subNodes": [
                                                                                     {
                                                                                       "idNum": 52,
@@ -994,7 +703,7 @@
                                                                                                           "NodePortraitBitmap": "prp_middleone.png",
                                                                                                           "NodeNpcName": "",
                                                                                                           "NodeSound": "none",
-                                                                                                          "conversationText": "\"And the milk of animal kindness,\" said Middle One in a pained tone.",
+                                                                                                          "conversationText": "\"And the milk of animal kindness,\" said Middle One in a pained voice.",
                                                                                                           "IsExpanded": true,
                                                                                                           "subNodes": [
                                                                                                             {
@@ -1098,7 +807,7 @@
                                                                             },
                                                                             {
                                                                               "idNum": 44,
-                                                                              "orderNum": 6,
+                                                                              "orderNum": 2,
                                                                               "pcNode": true,
                                                                               "linkTo": 0,
                                                                               "ShowOnlyOnce": false,
@@ -1177,7 +886,7 @@
                                                                             },
                                                                             {
                                                                               "idNum": 46,
-                                                                              "orderNum": 7,
+                                                                              "orderNum": 3,
                                                                               "pcNode": true,
                                                                               "linkTo": 0,
                                                                               "ShowOnlyOnce": false,
@@ -1186,7 +895,7 @@
                                                                               "NodeNpcName": "",
                                                                               "NodeSound": "none",
                                                                               "conversationText": "\"I do not need such a servant.\"",
-                                                                              "IsExpanded": true,
+                                                                              "IsExpanded": false,
                                                                               "subNodes": [
                                                                                 {
                                                                                   "idNum": 61,
@@ -1198,7 +907,7 @@
                                                                                   "NodePortraitBitmap": "prp_2witches.png",
                                                                                   "NodeNpcName": "",
                                                                                   "NodeSound": "none",
-                                                                                  "conversationText": "The witches laughed.",
+                                                                                  "conversationText": "The witches laughed. Middle One laughed like someone who'd suddenly learned they'd made a big fuss over nothing.",
                                                                                   "IsExpanded": true,
                                                                                   "subNodes": [
                                                                                     {
@@ -1224,7 +933,7 @@
                                                                                           "NodePortraitBitmap": "prp_middleone.png",
                                                                                           "NodeNpcName": "",
                                                                                           "NodeSound": "none",
-                                                                                          "conversationText": "\"Who does need a walking gourd?\"",
+                                                                                          "conversationText": "\"<He/She>'s right, of course! After all that, too. Who needs a walking gourd? Oh, sister, our brains are full of strange ideas. We've lived alone too long.\"",
                                                                                           "IsExpanded": true,
                                                                                           "subNodes": [
                                                                                             {
@@ -1250,7 +959,7 @@
                                                                                                   "NodePortraitBitmap": "prp_eldestlady.png",
                                                                                                   "NodeNpcName": "",
                                                                                                   "NodeSound": "none",
-                                                                                                  "conversationText": "\"We do, Middle One. We'd like our new witch to live long enough to join the coven.\"",
+                                                                                                  "conversationText": "\"That's why <FirstName> needs Knott. We'd like <him/her> to live long enough to join us.\"",
                                                                                                   "IsExpanded": true,
                                                                                                   "subNodes": [
                                                                                                     {
@@ -1347,7 +1056,7 @@
                                                                                                           "NodePortraitBitmap": "prp_eldestlady.png",
                                                                                                           "NodeNpcName": "",
                                                                                                           "NodeSound": "none",
-                                                                                                          "conversationText": "Eldest Lady nodded. \"Let him be your shield.\"\r\n<p>\r\n<i>Knott has joined your party.</i>",
+                                                                                                          "conversationText": "Eldest Lady nodded. \"Let him be your shield.\"",
                                                                                                           "IsExpanded": true,
                                                                                                           "subNodes": [
                                                                                                             {
@@ -1373,7 +1082,15 @@
                                                                                                           "isLink": false
                                                                                                         }
                                                                                                       ],
-                                                                                                      "actions": [],
+                                                                                                      "actions": [
+                                                                                                        {
+                                                                                                          "a_script": "gaShowMessageBox.cs",
+                                                                                                          "a_parameter_1": "Knott has joined you.",
+                                                                                                          "a_parameter_2": null,
+                                                                                                          "a_parameter_3": null,
+                                                                                                          "a_parameter_4": null
+                                                                                                        }
+                                                                                                      ],
                                                                                                       "conditions": [],
                                                                                                       "isLink": false
                                                                                                     }
@@ -1399,18 +1116,7 @@
                                                                                     }
                                                                                   ],
                                                                                   "actions": [],
-                                                                                  "conditions": [
-                                                                                    {
-                                                                                      "c_script": "gcCheckGlobalInt.cs",
-                                                                                      "c_btnAndOr": "and",
-                                                                                      "c_and": true,
-                                                                                      "c_not": false,
-                                                                                      "c_parameter_1": null,
-                                                                                      "c_parameter_2": null,
-                                                                                      "c_parameter_3": null,
-                                                                                      "c_parameter_4": null
-                                                                                    }
-                                                                                  ],
+                                                                                  "conditions": [],
                                                                                   "isLink": false
                                                                                 }
                                                                               ],
@@ -1439,7 +1145,7 @@
                                                                             },
                                                                             {
                                                                               "idNum": 58,
-                                                                              "orderNum": 8,
+                                                                              "orderNum": 4,
                                                                               "pcNode": true,
                                                                               "linkTo": 0,
                                                                               "ShowOnlyOnce": false,
@@ -1460,7 +1166,7 @@
                                                                                   "NodePortraitBitmap": "prp_eldestlady.png",
                                                                                   "NodeNpcName": "",
                                                                                   "NodeSound": "none",
-                                                                                  "conversationText": "\"No, no. She's dead and gone. But a witch in a grave is still a witch in a way, until the world reclaims her body completely. Knott couldn't have grown on a parson's grave.\"",
+                                                                                  "conversationText": "\"No, no. She's dead and gone. But a witch in a grave is still a witch in a way, until the world reclaims her body completely. Knott couldn't have grown on a monk's grave.\"",
                                                                                   "IsExpanded": true,
                                                                                   "subNodes": [
                                                                                     {
@@ -1486,7 +1192,7 @@
                                                                                           "NodePortraitBitmap": "prp_middleone.png",
                                                                                           "NodeNpcName": "",
                                                                                           "NodeSound": "none",
-                                                                                          "conversationText": "\"Or a peasant's. Or a pheasant's. Or a cook's, haberdasher's, turkey's, jailor's --\"",
+                                                                                          "conversationText": "\"A holy man's all hole and no seed.\"",
                                                                                           "IsExpanded": true,
                                                                                           "subNodes": [
                                                                                             {
@@ -1617,7 +1323,7 @@
                                                                             },
                                                                             {
                                                                               "idNum": 81,
-                                                                              "orderNum": 9,
+                                                                              "orderNum": 5,
                                                                               "pcNode": true,
                                                                               "linkTo": 0,
                                                                               "ShowOnlyOnce": false,
@@ -1638,7 +1344,7 @@
                                                                                   "NodePortraitBitmap": "prp_eldestlady.png",
                                                                                   "NodeNpcName": "",
                                                                                   "NodeSound": "none",
-                                                                                  "conversationText": "\"Good, good. Let him be your shield.\"\r\n<p>\r\n<i>Knott has joined your party.</i>",
+                                                                                  "conversationText": "\"Good, good. Let him be your shield.\"",
                                                                                   "IsExpanded": true,
                                                                                   "subNodes": [
                                                                                     {
@@ -1690,7 +1396,7 @@
                                                                                                   "NodePortraitBitmap": "prp_eldestlady.png",
                                                                                                   "NodeNpcName": "",
                                                                                                   "NodeSound": "none",
-                                                                                                  "conversationText": "\"The woods are dangerous. Not just hunters, understand. The Congress of Moths is here, too.\"\r\n<p>\r\nPharaoh croaked.",
+                                                                                                  "conversationText": "\"The woods are dangerous. Not just hunters. The Congress of Moths is here, too.\"\r\n<p>\r\nPharaoh croaked.",
                                                                                                   "IsExpanded": true,
                                                                                                   "subNodes": [
                                                                                                     {
@@ -1716,7 +1422,7 @@
                                                                                                           "NodePortraitBitmap": "prp_eldestlady.png",
                                                                                                           "NodeNpcName": "",
                                                                                                           "NodeSound": "none",
-                                                                                                          "conversationText": "\"Who knows? Their malice is fickle. Their flights know no season.\"",
+                                                                                                          "conversationText": "\"Their malice is fickle. Their flights know no season.\"",
                                                                                                           "IsExpanded": true,
                                                                                                           "subNodes": [
                                                                                                             {
@@ -1794,7 +1500,7 @@
                                                                                                                                   "NodePortraitBitmap": "prp_middleone.png",
                                                                                                                                   "NodeNpcName": "",
                                                                                                                                   "NodeSound": "none",
-                                                                                                                                  "conversationText": "\"I only meant to say,\" said Middle One, \"that the Children might have come to plague the woods because of our sister's murder.\"",
+                                                                                                                                  "conversationText": "\"I only meant to say,\" said Middle One, \"that they might have come to plague the woods because of our sister's murder.\"",
                                                                                                                                   "IsExpanded": true,
                                                                                                                                   "subNodes": [
                                                                                                                                     {
@@ -1833,7 +1539,7 @@
                                                                                                                                               "NodePortraitBitmap": "",
                                                                                                                                               "NodeNpcName": "",
                                                                                                                                               "NodeSound": "none",
-                                                                                                                                              "conversationText": "\"What <i>is</i> the Congress of Moths, exactly?\"",
+                                                                                                                                              "conversationText": "\"So the Congress of Moths is real? I didn't believe the stories.\"",
                                                                                                                                               "IsExpanded": true,
                                                                                                                                               "subNodes": [
                                                                                                                                                 {
@@ -1846,7 +1552,7 @@
                                                                                                                                                   "NodePortraitBitmap": "",
                                                                                                                                                   "NodeNpcName": "",
                                                                                                                                                   "NodeSound": "none",
-                                                                                                                                                  "conversationText": "\"And you call yourself a witch! They are the Children of the Wooden Crone. Folk who know less call them fairies.\"",
+                                                                                                                                                  "conversationText": "\"A pox on the ignorance of today's witches. Yes, yes. Real and dangerous.\"",
                                                                                                                                                   "IsExpanded": true,
                                                                                                                                                   "subNodes": [],
                                                                                                                                                   "actions": [],
@@ -1991,7 +1697,7 @@
                                                                                                       "NodePortraitBitmap": "",
                                                                                                       "NodeNpcName": "",
                                                                                                       "NodeSound": "none",
-                                                                                                      "conversationText": "\"The Congress of Moths? They are real, then?\"",
+                                                                                                      "conversationText": "\"The Congress of Moths is real?\"",
                                                                                                       "IsExpanded": true,
                                                                                                       "subNodes": [
                                                                                                         {
@@ -2004,7 +1710,7 @@
                                                                                                           "NodePortraitBitmap": "prp_eldestlady.png",
                                                                                                           "NodeNpcName": "",
                                                                                                           "NodeSound": "none",
-                                                                                                          "conversationText": "\"And you call yourself a witch! They are the Children of the Wooden Crone. Folk who know less call them fairies.\"",
+                                                                                                          "conversationText": "\"A pox on the ignorance of today's witches. Yes, yes. Real and dangerous.\"",
                                                                                                           "IsExpanded": true,
                                                                                                           "subNodes": [
                                                                                                             {
@@ -2030,7 +1736,7 @@
                                                                                                                   "NodePortraitBitmap": "prp_middleone.png",
                                                                                                                   "NodeNpcName": "",
                                                                                                                   "NodeSound": "none",
-                                                                                                                  "conversationText": "\"Mockers, turncoats, monsters, cutthroats. Lovely little things.\"",
+                                                                                                                  "conversationText": "\"Jolly in murder, hateful in mirth.\"",
                                                                                                                   "IsExpanded": true,
                                                                                                                   "subNodes": [
                                                                                                                     {
@@ -2053,14 +1759,14 @@
                                                                                                                           "linkTo": 0,
                                                                                                                           "ShowOnlyOnce": false,
                                                                                                                           "NodeIsActive": true,
-                                                                                                                          "NodePortraitBitmap": "",
+                                                                                                                          "NodePortraitBitmap": "prp_eldestlady.png",
                                                                                                                           "NodeNpcName": "",
                                                                                                                           "NodeSound": "none",
-                                                                                                                          "conversationText": "UNUSED",
+                                                                                                                          "conversationText": "\"Reveling in mystery, doling out affliction to any who cross their paths.\"",
                                                                                                                           "IsExpanded": true,
                                                                                                                           "subNodes": [
                                                                                                                             {
-                                                                                                                              "idNum": 107,
+                                                                                                                              "idNum": 193,
                                                                                                                               "orderNum": 0,
                                                                                                                               "pcNode": true,
                                                                                                                               "linkTo": 0,
@@ -2069,24 +1775,24 @@
                                                                                                                               "NodePortraitBitmap": "",
                                                                                                                               "NodeNpcName": "",
                                                                                                                               "NodeSound": "none",
-                                                                                                                              "conversationText": "[Continue.]",
+                                                                                                                              "conversationText": "\"Why are they here?\"",
                                                                                                                               "IsExpanded": true,
                                                                                                                               "subNodes": [
                                                                                                                                 {
-                                                                                                                                  "idNum": 108,
+                                                                                                                                  "idNum": 194,
                                                                                                                                   "orderNum": 0,
                                                                                                                                   "pcNode": false,
                                                                                                                                   "linkTo": 0,
                                                                                                                                   "ShowOnlyOnce": false,
                                                                                                                                   "NodeIsActive": true,
-                                                                                                                                  "NodePortraitBitmap": "",
+                                                                                                                                  "NodePortraitBitmap": "prp_eldestlady.png",
                                                                                                                                   "NodeNpcName": "",
                                                                                                                                   "NodeSound": "none",
-                                                                                                                                  "conversationText": "\"They tear us to pieces.\"",
+                                                                                                                                  "conversationText": "\"They would sooner kill you than explain themselves.\"",
                                                                                                                                   "IsExpanded": true,
                                                                                                                                   "subNodes": [
                                                                                                                                     {
-                                                                                                                                      "idNum": 109,
+                                                                                                                                      "idNum": 195,
                                                                                                                                       "orderNum": 0,
                                                                                                                                       "pcNode": true,
                                                                                                                                       "linkTo": 0,
@@ -2095,11 +1801,11 @@
                                                                                                                                       "NodePortraitBitmap": "",
                                                                                                                                       "NodeNpcName": "",
                                                                                                                                       "NodeSound": "none",
-                                                                                                                                      "conversationText": "\"And why are they here?\"",
+                                                                                                                                      "conversationText": "[Continue.]",
                                                                                                                                       "IsExpanded": true,
                                                                                                                                       "subNodes": [
                                                                                                                                         {
-                                                                                                                                          "idNum": 111,
+                                                                                                                                          "idNum": 196,
                                                                                                                                           "orderNum": 0,
                                                                                                                                           "pcNode": true,
                                                                                                                                           "linkTo": 92,
@@ -2108,7 +1814,7 @@
                                                                                                                                           "NodePortraitBitmap": "",
                                                                                                                                           "NodeNpcName": "",
                                                                                                                                           "NodeSound": "none",
-                                                                                                                                          "conversationText": "\"Who knows? Their malice is fickle. Their flights know no season.\"",
+                                                                                                                                          "conversationText": "\"Their malice is fickle. Their flights know no season.\"",
                                                                                                                                           "IsExpanded": true,
                                                                                                                                           "subNodes": [],
                                                                                                                                           "actions": [],
@@ -2116,27 +1822,8 @@
                                                                                                                                           "isLink": true
                                                                                                                                         }
                                                                                                                                       ],
-                                                                                                                                      "actions": [
-                                                                                                                                        {
-                                                                                                                                          "a_script": "gaSetGlobalInt.cs",
-                                                                                                                                          "a_parameter_1": "global_con4",
-                                                                                                                                          "a_parameter_2": "1",
-                                                                                                                                          "a_parameter_3": null,
-                                                                                                                                          "a_parameter_4": null
-                                                                                                                                        }
-                                                                                                                                      ],
-                                                                                                                                      "conditions": [
-                                                                                                                                        {
-                                                                                                                                          "c_script": "gcCheckGlobalInt.cs",
-                                                                                                                                          "c_btnAndOr": "and",
-                                                                                                                                          "c_and": true,
-                                                                                                                                          "c_not": true,
-                                                                                                                                          "c_parameter_1": "global_con4",
-                                                                                                                                          "c_parameter_2": "=",
-                                                                                                                                          "c_parameter_3": "1",
-                                                                                                                                          "c_parameter_4": null
-                                                                                                                                        }
-                                                                                                                                      ],
+                                                                                                                                      "actions": [],
+                                                                                                                                      "conditions": [],
                                                                                                                                       "isLink": false
                                                                                                                                     }
                                                                                                                                   ],
@@ -2145,9 +1832,45 @@
                                                                                                                                   "isLink": false
                                                                                                                                 }
                                                                                                                               ],
+                                                                                                                              "actions": [
+                                                                                                                                {
+                                                                                                                                  "a_script": "gaSetGlobalInt.cs",
+                                                                                                                                  "a_parameter_1": "global_con4",
+                                                                                                                                  "a_parameter_2": "1",
+                                                                                                                                  "a_parameter_3": null,
+                                                                                                                                  "a_parameter_4": null
+                                                                                                                                }
+                                                                                                                              ],
+                                                                                                                              "conditions": [
+                                                                                                                                {
+                                                                                                                                  "c_script": "gcCheckGlobalInt.cs",
+                                                                                                                                  "c_btnAndOr": "and",
+                                                                                                                                  "c_and": true,
+                                                                                                                                  "c_not": true,
+                                                                                                                                  "c_parameter_1": "global_con4",
+                                                                                                                                  "c_parameter_2": "=",
+                                                                                                                                  "c_parameter_3": "1",
+                                                                                                                                  "c_parameter_4": null
+                                                                                                                                }
+                                                                                                                              ],
+                                                                                                                              "isLink": false
+                                                                                                                            },
+                                                                                                                            {
+                                                                                                                              "idNum": 197,
+                                                                                                                              "orderNum": 1,
+                                                                                                                              "pcNode": true,
+                                                                                                                              "linkTo": 113,
+                                                                                                                              "ShowOnlyOnce": false,
+                                                                                                                              "NodeIsActive": true,
+                                                                                                                              "NodePortraitBitmap": "",
+                                                                                                                              "NodeNpcName": "",
+                                                                                                                              "NodeSound": "none",
+                                                                                                                              "conversationText": "\"I'm ready. I'll be careful.\"",
+                                                                                                                              "IsExpanded": true,
+                                                                                                                              "subNodes": [],
                                                                                                                               "actions": [],
                                                                                                                               "conditions": [],
-                                                                                                                              "isLink": false
+                                                                                                                              "isLink": true
                                                                                                                             }
                                                                                                                           ],
                                                                                                                           "actions": [],
@@ -2156,53 +1879,8 @@
                                                                                                                         }
                                                                                                                       ],
                                                                                                                       "actions": [],
-                                                                                                                      "conditions": [
-                                                                                                                        {
-                                                                                                                          "c_script": "gcCheckGlobalInt.cs",
-                                                                                                                          "c_btnAndOr": "and",
-                                                                                                                          "c_and": true,
-                                                                                                                          "c_not": false,
-                                                                                                                          "c_parameter_1": "global_con99",
-                                                                                                                          "c_parameter_2": "=",
-                                                                                                                          "c_parameter_3": "1",
-                                                                                                                          "c_parameter_4": null
-                                                                                                                        }
-                                                                                                                      ],
+                                                                                                                      "conditions": [],
                                                                                                                       "isLink": false
-                                                                                                                    },
-                                                                                                                    {
-                                                                                                                      "idNum": 140,
-                                                                                                                      "orderNum": 1,
-                                                                                                                      "pcNode": true,
-                                                                                                                      "linkTo": 109,
-                                                                                                                      "ShowOnlyOnce": false,
-                                                                                                                      "NodeIsActive": true,
-                                                                                                                      "NodePortraitBitmap": "",
-                                                                                                                      "NodeNpcName": "",
-                                                                                                                      "NodeSound": "none",
-                                                                                                                      "conversationText": "\"And why are they here?\"",
-                                                                                                                      "IsExpanded": true,
-                                                                                                                      "subNodes": [],
-                                                                                                                      "actions": [],
-                                                                                                                      "conditions": [],
-                                                                                                                      "isLink": true
-                                                                                                                    },
-                                                                                                                    {
-                                                                                                                      "idNum": 141,
-                                                                                                                      "orderNum": 2,
-                                                                                                                      "pcNode": true,
-                                                                                                                      "linkTo": 113,
-                                                                                                                      "ShowOnlyOnce": false,
-                                                                                                                      "NodeIsActive": true,
-                                                                                                                      "NodePortraitBitmap": "",
-                                                                                                                      "NodeNpcName": "",
-                                                                                                                      "NodeSound": "none",
-                                                                                                                      "conversationText": "\"I'm ready. I'll be careful.\"",
-                                                                                                                      "IsExpanded": true,
-                                                                                                                      "subNodes": [],
-                                                                                                                      "actions": [],
-                                                                                                                      "conditions": [],
-                                                                                                                      "isLink": true
                                                                                                                     }
                                                                                                                   ],
                                                                                                                   "actions": [],
@@ -2292,7 +1970,7 @@
                                                                                                                   "NodePortraitBitmap": "prp_middleone.png",
                                                                                                                   "NodeNpcName": "",
                                                                                                                   "NodeSound": "none",
-                                                                                                                  "conversationText": "\"July 26th. Morning. The breeze is in the southeast, and I anticipate fine weather for the next week.\"",
+                                                                                                                  "conversationText": "\"August 5th. Morning. The breeze is in the southeast, and I anticipate fine weather for the next week.\"",
                                                                                                                   "IsExpanded": true,
                                                                                                                   "subNodes": [
                                                                                                                     {
@@ -2318,7 +1996,7 @@
                                                                                                                           "NodePortraitBitmap": "prp_eldestlady.png",
                                                                                                                           "NodeNpcName": "",
                                                                                                                           "NodeSound": "none",
-                                                                                                                          "conversationText": "\"Good. The season favors you. Return to us with the hunter's blood by the end of the month. Do not dawdle.\"",
+                                                                                                                          "conversationText": "\"Return to us with the hunter's blood on the eleventh of August. Do not dawdle.\"",
                                                                                                                           "IsExpanded": true,
                                                                                                                           "subNodes": [
                                                                                                                             {
@@ -2344,7 +2022,7 @@
                                                                                                                                   "NodePortraitBitmap": "prp_eldestlady.png",
                                                                                                                                   "NodeNpcName": "",
                                                                                                                                   "NodeSound": "none",
-                                                                                                                                  "conversationText": "\"Then you fail. Our sabbath begins at midnight on the first of August, and the blood must bind you to us then or never. If you fail, we'll have to wait another year to complete the coven with someone else.\"",
+                                                                                                                                  "conversationText": "\"Then you fail. Our sabbath begins at noon on that day, and the blood must bind you to us then or never. If you fail, we'll have to wait another year to complete the coven with someone else. And we're <i>old</i>, <FirstName>. The coven sustains us. Without it, we can't know that we'll last that long.\"",
                                                                                                                                   "IsExpanded": true,
                                                                                                                                   "subNodes": [
                                                                                                                                     {
@@ -2370,7 +2048,7 @@
                                                                                                                                           "NodePortraitBitmap": "",
                                                                                                                                           "NodeNpcName": "",
                                                                                                                                           "NodeSound": "none",
-                                                                                                                                          "conversationText": "\"You are free to return if you need food or rest. I'll see you again in five days' time.\"",
+                                                                                                                                          "conversationText": "\"Come back around seven. You'll eat and sleep here. Be punctual; we are old and accustomed to our habits.\"",
                                                                                                                                           "IsExpanded": true,
                                                                                                                                           "subNodes": [],
                                                                                                                                           "actions": [],
@@ -2432,7 +2110,7 @@
                                                                                                                                   "NodePortraitBitmap": "prp_eldestlady.png",
                                                                                                                                   "NodeNpcName": "",
                                                                                                                                   "NodeSound": "none",
-                                                                                                                                  "conversationText": "\"You are free to return if you need food or rest. I'll see you again in five days' time.\"",
+                                                                                                                                  "conversationText": "\"Come back around seven. You'll eat and sleep here. Be punctual; we are old and accustomed to our habits.\"",
                                                                                                                                   "IsExpanded": true,
                                                                                                                                   "subNodes": [
                                                                                                                                     {
@@ -2458,7 +2136,7 @@
                                                                                                                                           "NodePortraitBitmap": "",
                                                                                                                                           "NodeNpcName": "",
                                                                                                                                           "NodeSound": "none",
-                                                                                                                                          "conversationText": "The three of them went into the house. Knott followed close behind. The two older witches said farewell to <FirstName>, and soon <he/she> was standing outside. The grim walking gourd stood beside <him/her>. Pharaoh eyed the forest.",
+                                                                                                                                          "conversationText": "The three witches went into the house. Knott followed close behind. The two older witches said farewell to <FirstName>, and soon <he/she> was standing outside. The grim walking gourd stood beside <him/her>. Pharaoh eyed the forest.",
                                                                                                                                           "IsExpanded": true,
                                                                                                                                           "subNodes": [
                                                                                                                                             {
@@ -2484,7 +2162,7 @@
                                                                                                                                                   "NodePortraitBitmap": "",
                                                                                                                                                   "NodeNpcName": "",
                                                                                                                                                   "NodeSound": "none",
-                                                                                                                                                  "conversationText": "<His/Her> preconceptions seemed naive.",
+                                                                                                                                                  "conversationText": "<He/She> thought back.",
                                                                                                                                                   "IsExpanded": true,
                                                                                                                                                   "subNodes": [
                                                                                                                                                     {
@@ -2536,7 +2214,7 @@
                                                                                                                                                                   "NodePortraitBitmap": "",
                                                                                                                                                                   "NodeNpcName": "",
                                                                                                                                                                   "NodeSound": "none",
-                                                                                                                                                                  "conversationText": "Instead, <he/she> had been roughly welcomed, ordered to procure the blood of a murderer, and cast into peril.\r\n<p>\r\n<He/She> looked at the late July sun and how it lit the meadows through which <he/she> had come. <He/She> looked at the woods and the night still lingering there. Then <he/she> set off.",
+                                                                                                                                                                  "conversationText": "Instead, <he/she>'d been roughly welcomed, ordered to procure the blood of a murderer, and cast into peril.\r\n<p>\r\n<He/She> looked at the August sun and how it lit the meadows through which <he/she>'d come. <He/She> looked at the woods and the night still lingering there. Then <he/she> set off.",
                                                                                                                                                                   "IsExpanded": true,
                                                                                                                                                                   "subNodes": [
                                                                                                                                                                     {
@@ -2643,138 +2321,11 @@
                                                                                                                                                                           "a_parameter_2": null,
                                                                                                                                                                           "a_parameter_3": null,
                                                                                                                                                                           "a_parameter_4": null
-                                                                                                                                                                        }
-                                                                                                                                                                      ],
-                                                                                                                                                                      "conditions": [
-                                                                                                                                                                        {
-                                                                                                                                                                          "c_script": "gcCheckHasTrait.cs",
-                                                                                                                                                                          "c_btnAndOr": "and",
-                                                                                                                                                                          "c_and": true,
-                                                                                                                                                                          "c_not": true,
-                                                                                                                                                                          "c_parameter_1": "-1",
-                                                                                                                                                                          "c_parameter_2": "preciseshot",
-                                                                                                                                                                          "c_parameter_3": null,
-                                                                                                                                                                          "c_parameter_4": null
-                                                                                                                                                                        }
-                                                                                                                                                                      ],
-                                                                                                                                                                      "isLink": false
-                                                                                                                                                                    },
-                                                                                                                                                                    {
-                                                                                                                                                                      "idNum": 192,
-                                                                                                                                                                      "orderNum": 1,
-                                                                                                                                                                      "pcNode": true,
-                                                                                                                                                                      "linkTo": 0,
-                                                                                                                                                                      "ShowOnlyOnce": false,
-                                                                                                                                                                      "NodeIsActive": true,
-                                                                                                                                                                      "NodePortraitBitmap": "",
-                                                                                                                                                                      "NodeNpcName": "",
-                                                                                                                                                                      "NodeSound": "none",
-                                                                                                                                                                      "conversationText": "[End.]",
-                                                                                                                                                                      "IsExpanded": true,
-                                                                                                                                                                      "subNodes": [],
-                                                                                                                                                                      "actions": [
-                                                                                                                                                                        {
-                                                                                                                                                                          "a_script": "gaSetGlobalInt.cs",
-                                                                                                                                                                          "a_parameter_1": "global_con1",
-                                                                                                                                                                          "a_parameter_2": "0",
-                                                                                                                                                                          "a_parameter_3": null,
-                                                                                                                                                                          "a_parameter_4": null
                                                                                                                                                                         },
                                                                                                                                                                         {
-                                                                                                                                                                          "a_script": "gaSetGlobalInt.cs",
-                                                                                                                                                                          "a_parameter_1": "global_con2",
-                                                                                                                                                                          "a_parameter_2": "0",
-                                                                                                                                                                          "a_parameter_3": null,
-                                                                                                                                                                          "a_parameter_4": null
-                                                                                                                                                                        },
-                                                                                                                                                                        {
-                                                                                                                                                                          "a_script": "gaSetGlobalInt.cs",
-                                                                                                                                                                          "a_parameter_1": "global_con3",
-                                                                                                                                                                          "a_parameter_2": "0",
-                                                                                                                                                                          "a_parameter_3": null,
-                                                                                                                                                                          "a_parameter_4": null
-                                                                                                                                                                        },
-                                                                                                                                                                        {
-                                                                                                                                                                          "a_script": "gaSetGlobalInt.cs",
-                                                                                                                                                                          "a_parameter_1": "global_con4",
-                                                                                                                                                                          "a_parameter_2": "0",
-                                                                                                                                                                          "a_parameter_3": null,
-                                                                                                                                                                          "a_parameter_4": null
-                                                                                                                                                                        },
-                                                                                                                                                                        {
-                                                                                                                                                                          "a_script": "gaSetGlobalInt.cs",
-                                                                                                                                                                          "a_parameter_1": "global_con8",
-                                                                                                                                                                          "a_parameter_2": "0",
-                                                                                                                                                                          "a_parameter_3": null,
-                                                                                                                                                                          "a_parameter_4": null
-                                                                                                                                                                        },
-                                                                                                                                                                        {
-                                                                                                                                                                          "a_script": "gaSetGlobalInt.cs",
-                                                                                                                                                                          "a_parameter_1": "global_con5",
-                                                                                                                                                                          "a_parameter_2": "0",
-                                                                                                                                                                          "a_parameter_3": null,
-                                                                                                                                                                          "a_parameter_4": null
-                                                                                                                                                                        },
-                                                                                                                                                                        {
-                                                                                                                                                                          "a_script": "gaSetGlobalInt.cs",
-                                                                                                                                                                          "a_parameter_1": "global_con6",
-                                                                                                                                                                          "a_parameter_2": "0",
-                                                                                                                                                                          "a_parameter_3": null,
-                                                                                                                                                                          "a_parameter_4": null
-                                                                                                                                                                        },
-                                                                                                                                                                        {
-                                                                                                                                                                          "a_script": "gaSetGlobalInt.cs",
-                                                                                                                                                                          "a_parameter_1": "global_con7",
-                                                                                                                                                                          "a_parameter_2": "0",
-                                                                                                                                                                          "a_parameter_3": null,
-                                                                                                                                                                          "a_parameter_4": null
-                                                                                                                                                                        },
-                                                                                                                                                                        {
-                                                                                                                                                                          "a_script": "gaTransitionPartyToMapLocation.cs",
-                                                                                                                                                                          "a_parameter_1": "a_woods_a2",
-                                                                                                                                                                          "a_parameter_2": "10",
-                                                                                                                                                                          "a_parameter_3": "4",
-                                                                                                                                                                          "a_parameter_4": null
-                                                                                                                                                                        },
-                                                                                                                                                                        {
-                                                                                                                                                                          "a_script": "gaAddPartyMember.cs",
-                                                                                                                                                                          "a_parameter_1": "newt",
+                                                                                                                                                                          "a_script": "gaShowMessageBox.cs",
+                                                                                                                                                                          "a_parameter_1": "<I><b>NEW JOURNAL ENTRY</b></i><br>The Three Hunters: Bloodbound<br><br>Eldest Lady and Middle One sent the young witch and Knott on a grim errand -- to find the hunter who used goose-fletched arrows and to return with a pint of that hunter's blood before noon on August 11. They would use the blood to bind the young witch to their coven.",
                                                                                                                                                                           "a_parameter_2": null,
-                                                                                                                                                                          "a_parameter_3": null,
-                                                                                                                                                                          "a_parameter_4": null
-                                                                                                                                                                        },
-                                                                                                                                                                        {
-                                                                                                                                                                          "a_script": "gaAddJournalEntryByTag.cs",
-                                                                                                                                                                          "a_parameter_1": "jr_mainquest",
-                                                                                                                                                                          "a_parameter_2": "main02",
-                                                                                                                                                                          "a_parameter_3": null,
-                                                                                                                                                                          "a_parameter_4": null
-                                                                                                                                                                        },
-                                                                                                                                                                        {
-                                                                                                                                                                          "a_script": "gaGiveItem.cs",
-                                                                                                                                                                          "a_parameter_1": "goosefletchedarrow01",
-                                                                                                                                                                          "a_parameter_2": "1",
-                                                                                                                                                                          "a_parameter_3": null,
-                                                                                                                                                                          "a_parameter_4": null
-                                                                                                                                                                        },
-                                                                                                                                                                        {
-                                                                                                                                                                          "a_script": "gaForceRestAndRaiseDead.cs",
-                                                                                                                                                                          "a_parameter_1": null,
-                                                                                                                                                                          "a_parameter_2": null,
-                                                                                                                                                                          "a_parameter_3": null,
-                                                                                                                                                                          "a_parameter_4": null
-                                                                                                                                                                        },
-                                                                                                                                                                        {
-                                                                                                                                                                          "a_script": "gaGiveItem.cs",
-                                                                                                                                                                          "a_parameter_1": "witch_shortbow",
-                                                                                                                                                                          "a_parameter_2": "1",
-                                                                                                                                                                          "a_parameter_3": null,
-                                                                                                                                                                          "a_parameter_4": null
-                                                                                                                                                                        },
-                                                                                                                                                                        {
-                                                                                                                                                                          "a_script": "gaGiveItem.cs",
-                                                                                                                                                                          "a_parameter_1": "witcharrow01",
-                                                                                                                                                                          "a_parameter_2": "5",
                                                                                                                                                                           "a_parameter_3": null,
                                                                                                                                                                           "a_parameter_4": null
                                                                                                                                                                         }
@@ -2851,7 +2402,7 @@
                                                                                                                                                                   "NodePortraitBitmap": "",
                                                                                                                                                                   "NodeNpcName": "",
                                                                                                                                                                   "NodeSound": "none",
-                                                                                                                                                                  "conversationText": "Instead, <he/she> had been roughly welcomed, ordered to procure the blood of a murderer, and cast into peril.\r\n<p>\r\n<He/She> looked at the late July sun and how it lit the meadows through which <he/she> had come. <He/She> looked at the woods and the night still lingering there. Then <he/she> set off.",
+                                                                                                                                                                  "conversationText": "Instead, <he/she>'d been roughly welcomed, ordered to procure the blood of a murderer, and cast into peril.\r\n<p>\r\n<He/She> looked at the August sun and how it lit the meadows through which <he/she>'d come. <He/She> looked at the woods and the night still lingering there. Then <he/she> set off.",
                                                                                                                                                                   "IsExpanded": true,
                                                                                                                                                                   "subNodes": [],
                                                                                                                                                                   "actions": [],
@@ -2883,7 +2434,7 @@
                                                                                                                                                       "NodePortraitBitmap": "",
                                                                                                                                                       "NodeNpcName": "",
                                                                                                                                                       "NodeSound": "none",
-                                                                                                                                                      "conversationText": "<He/She> had imagined a large coven full of beautiful young people.",
+                                                                                                                                                      "conversationText": "<He/She> had imagined a collective of four or five covens full of beautiful young people.",
                                                                                                                                                       "IsExpanded": true,
                                                                                                                                                       "subNodes": [
                                                                                                                                                         {
@@ -2922,7 +2473,7 @@
                                                                                                                                                                   "NodePortraitBitmap": "",
                                                                                                                                                                   "NodeNpcName": "",
                                                                                                                                                                   "NodeSound": "none",
-                                                                                                                                                                  "conversationText": "Instead, <he/she> had been roughly welcomed, ordered to procure the blood of a murderer, and cast into peril.\r\n<p>\r\n<He/She> looked at the late July sun and how it lit the meadows through which <he/she> had come. <He/She> looked at the woods and the night still lingering there. Then <he/she> set off.",
+                                                                                                                                                                  "conversationText": "Instead, <he/she>'d been roughly welcomed, ordered to procure the blood of a murderer, and cast into peril.\r\n<p>\r\n<He/She> looked at the August sun and how it lit the meadows through which <he/she>'d come. <He/She> looked at the woods and the night still lingering there. Then <he/she> set off.",
                                                                                                                                                                   "IsExpanded": true,
                                                                                                                                                                   "subNodes": [],
                                                                                                                                                                   "actions": [],
@@ -2964,7 +2515,7 @@
                                                                                                                                               "NodePortraitBitmap": "",
                                                                                                                                               "NodeNpcName": "",
                                                                                                                                               "NodeSound": "none",
-                                                                                                                                              "conversationText": "<FirstName> had tried not to form expectations about the witches.",
+                                                                                                                                              "conversationText": "<FirstName> had tried not to form expectations about Eldest Lady and Middle One.",
                                                                                                                                               "IsExpanded": true,
                                                                                                                                               "subNodes": [
                                                                                                                                                 {
@@ -2977,7 +2528,7 @@
                                                                                                                                                   "NodePortraitBitmap": "",
                                                                                                                                                   "NodeNpcName": "",
                                                                                                                                                   "NodeSound": "none",
-                                                                                                                                                  "conversationText": "The Wooden Crone, after all, delighted in upsetting expectations.",
+                                                                                                                                                  "conversationText": "After all, more often than not witches were supposed to upset them.",
                                                                                                                                                   "IsExpanded": true,
                                                                                                                                                   "subNodes": [
                                                                                                                                                     {
@@ -2990,7 +2541,7 @@
                                                                                                                                                       "NodePortraitBitmap": "",
                                                                                                                                                       "NodeNpcName": "",
                                                                                                                                                       "NodeSound": "none",
-                                                                                                                                                      "conversationText": "Still, it was hard not to recall <his/her> daydreams.",
+                                                                                                                                                      "conversationText": "But it was hard not to recall <his/her> daydreams.",
                                                                                                                                                       "IsExpanded": true,
                                                                                                                                                       "subNodes": [
                                                                                                                                                         {
@@ -3003,7 +2554,7 @@
                                                                                                                                                           "NodePortraitBitmap": "",
                                                                                                                                                           "NodeNpcName": "",
                                                                                                                                                           "NodeSound": "none",
-                                                                                                                                                          "conversationText": "Perhaps comparing these fantasies with the truth would be instructive.",
+                                                                                                                                                          "conversationText": "<He/She> thought back.",
                                                                                                                                                           "IsExpanded": true,
                                                                                                                                                           "subNodes": [
                                                                                                                                                             {
@@ -3050,83 +2601,12 @@
                                                                                                                                                               "NodePortraitBitmap": "",
                                                                                                                                                               "NodeNpcName": "",
                                                                                                                                                               "NodeSound": "none",
-                                                                                                                                                              "conversationText": "<He/She> had imagined a large coven full of beautiful young people.",
+                                                                                                                                                              "conversationText": "<He/She> had imagined a collective of four or five covens full of beautiful young people.",
                                                                                                                                                               "IsExpanded": true,
                                                                                                                                                               "subNodes": [],
                                                                                                                                                               "actions": [],
                                                                                                                                                               "conditions": [],
                                                                                                                                                               "isLink": true
-                                                                                                                                                            }
-                                                                                                                                                          ],
-                                                                                                                                                          "actions": [],
-                                                                                                                                                          "conditions": [],
-                                                                                                                                                          "isLink": false
-                                                                                                                                                        }
-                                                                                                                                                      ],
-                                                                                                                                                      "actions": [],
-                                                                                                                                                      "conditions": [],
-                                                                                                                                                      "isLink": false
-                                                                                                                                                    },
-                                                                                                                                                    {
-                                                                                                                                                      "idNum": 166,
-                                                                                                                                                      "orderNum": 1,
-                                                                                                                                                      "pcNode": true,
-                                                                                                                                                      "linkTo": 0,
-                                                                                                                                                      "ShowOnlyOnce": false,
-                                                                                                                                                      "NodeIsActive": true,
-                                                                                                                                                      "NodePortraitBitmap": "",
-                                                                                                                                                      "NodeNpcName": "",
-                                                                                                                                                      "NodeSound": "none",
-                                                                                                                                                      "conversationText": "Meanwhile, <FirstName> had never become attached to extravagant hopes.",
-                                                                                                                                                      "IsExpanded": true,
-                                                                                                                                                      "subNodes": [
-                                                                                                                                                        {
-                                                                                                                                                          "idNum": 178,
-                                                                                                                                                          "orderNum": 0,
-                                                                                                                                                          "pcNode": false,
-                                                                                                                                                          "linkTo": 0,
-                                                                                                                                                          "ShowOnlyOnce": false,
-                                                                                                                                                          "NodeIsActive": true,
-                                                                                                                                                          "NodePortraitBitmap": "",
-                                                                                                                                                          "NodeNpcName": "",
-                                                                                                                                                          "NodeSound": "none",
-                                                                                                                                                          "conversationText": "For the moment, at least, <he/she> and the Wooden Crone had an excellent understanding... Then <FirstName> checked <him/her>self. The Crone was not to be understood.",
-                                                                                                                                                          "IsExpanded": true,
-                                                                                                                                                          "subNodes": [
-                                                                                                                                                            {
-                                                                                                                                                              "idNum": 179,
-                                                                                                                                                              "orderNum": 0,
-                                                                                                                                                              "pcNode": true,
-                                                                                                                                                              "linkTo": 0,
-                                                                                                                                                              "ShowOnlyOnce": false,
-                                                                                                                                                              "NodeIsActive": true,
-                                                                                                                                                              "NodePortraitBitmap": "",
-                                                                                                                                                              "NodeNpcName": "",
-                                                                                                                                                              "NodeSound": "none",
-                                                                                                                                                              "conversationText": "[Continue.]",
-                                                                                                                                                              "IsExpanded": true,
-                                                                                                                                                              "subNodes": [
-                                                                                                                                                                {
-                                                                                                                                                                  "idNum": 180,
-                                                                                                                                                                  "orderNum": 0,
-                                                                                                                                                                  "pcNode": true,
-                                                                                                                                                                  "linkTo": 176,
-                                                                                                                                                                  "ShowOnlyOnce": false,
-                                                                                                                                                                  "NodeIsActive": true,
-                                                                                                                                                                  "NodePortraitBitmap": "",
-                                                                                                                                                                  "NodeNpcName": "",
-                                                                                                                                                                  "NodeSound": "none",
-                                                                                                                                                                  "conversationText": "<He/She> looked at the late July sun and how it lit the meadows through which <he/she> had come. <He/She> looked at the woods and the night still lingering there. Then <he/she> set off.",
-                                                                                                                                                                  "IsExpanded": true,
-                                                                                                                                                                  "subNodes": [],
-                                                                                                                                                                  "actions": [],
-                                                                                                                                                                  "conditions": [],
-                                                                                                                                                                  "isLink": true
-                                                                                                                                                                }
-                                                                                                                                                              ],
-                                                                                                                                                              "actions": [],
-                                                                                                                                                              "conditions": [],
-                                                                                                                                                              "isLink": false
                                                                                                                                                             }
                                                                                                                                                           ],
                                                                                                                                                           "actions": [],
@@ -3158,7 +2638,7 @@
                                                                                                                                               "NodePortraitBitmap": "",
                                                                                                                                               "NodeNpcName": "",
                                                                                                                                               "NodeSound": "none",
-                                                                                                                                              "conversationText": "<FirstName> was ready to begin.",
+                                                                                                                                              "conversationText": "<He/She> was ready to begin.",
                                                                                                                                               "IsExpanded": true,
                                                                                                                                               "subNodes": [
                                                                                                                                                 {
@@ -3171,7 +2651,7 @@
                                                                                                                                                   "NodePortraitBitmap": "",
                                                                                                                                                   "NodeNpcName": "",
                                                                                                                                                   "NodeSound": "none",
-                                                                                                                                                  "conversationText": "<He/She> looked at the late July sun and how it lit the meadows through which <he/she> had come. <He/She> looked at the woods and the night still lingering there. Then <he/she> set off.",
+                                                                                                                                                  "conversationText": "<He/She> looked at the August sun and how it lit the meadows through which <he/she> had come. <He/She> looked at the woods and the night still lingering there. Then <he/she> set off.",
                                                                                                                                                   "IsExpanded": true,
                                                                                                                                                   "subNodes": [
                                                                                                                                                     {
@@ -3201,79 +2681,11 @@
                                                                                                                                                           "a_parameter_2": null,
                                                                                                                                                           "a_parameter_3": null,
                                                                                                                                                           "a_parameter_4": null
-                                                                                                                                                        }
-                                                                                                                                                      ],
-                                                                                                                                                      "conditions": [],
-                                                                                                                                                      "isLink": false
-                                                                                                                                                    }
-                                                                                                                                                  ],
-                                                                                                                                                  "actions": [],
-                                                                                                                                                  "conditions": [
-                                                                                                                                                    {
-                                                                                                                                                      "c_script": "gcCheckHasTrait.cs",
-                                                                                                                                                      "c_btnAndOr": "and",
-                                                                                                                                                      "c_and": true,
-                                                                                                                                                      "c_not": true,
-                                                                                                                                                      "c_parameter_1": "-1",
-                                                                                                                                                      "c_parameter_2": "preciseshot",
-                                                                                                                                                      "c_parameter_3": null,
-                                                                                                                                                      "c_parameter_4": null
-                                                                                                                                                    }
-                                                                                                                                                  ],
-                                                                                                                                                  "isLink": false
-                                                                                                                                                },
-                                                                                                                                                {
-                                                                                                                                                  "idNum": 190,
-                                                                                                                                                  "orderNum": 1,
-                                                                                                                                                  "pcNode": false,
-                                                                                                                                                  "linkTo": 0,
-                                                                                                                                                  "ShowOnlyOnce": false,
-                                                                                                                                                  "NodeIsActive": true,
-                                                                                                                                                  "NodePortraitBitmap": "",
-                                                                                                                                                  "NodeNpcName": "",
-                                                                                                                                                  "NodeSound": "none",
-                                                                                                                                                  "conversationText": "<He/She> looked at the late July sun and how it lit the meadows through which <he/she> had come. <He/She> looked at the woods and the night still lingering there. Then <he/she> set off.",
-                                                                                                                                                  "IsExpanded": true,
-                                                                                                                                                  "subNodes": [
-                                                                                                                                                    {
-                                                                                                                                                      "idNum": 191,
-                                                                                                                                                      "orderNum": 0,
-                                                                                                                                                      "pcNode": true,
-                                                                                                                                                      "linkTo": 0,
-                                                                                                                                                      "ShowOnlyOnce": false,
-                                                                                                                                                      "NodeIsActive": true,
-                                                                                                                                                      "NodePortraitBitmap": "",
-                                                                                                                                                      "NodeNpcName": "",
-                                                                                                                                                      "NodeSound": "none",
-                                                                                                                                                      "conversationText": "[End.]",
-                                                                                                                                                      "IsExpanded": true,
-                                                                                                                                                      "subNodes": [],
-                                                                                                                                                      "actions": [
+                                                                                                                                                        },
                                                                                                                                                         {
-                                                                                                                                                          "a_script": "gaAddPartyMember.cs",
-                                                                                                                                                          "a_parameter_1": "newt",
+                                                                                                                                                          "a_script": "gaShowMessageBox.cs",
+                                                                                                                                                          "a_parameter_1": "<I><b>NEW JOURNAL ENTRY</b></i><br>The Three Hunters: Bloodbound<br><br>Eldest Lady and Middle One sent the young witch and Knott on a grim errand -- to find the hunter who used goose-fletched arrows and to return with a pint of that hunter's blood before noon on August 11. They would use the blood to bind the young witch to their coven.",
                                                                                                                                                           "a_parameter_2": null,
-                                                                                                                                                          "a_parameter_3": null,
-                                                                                                                                                          "a_parameter_4": null
-                                                                                                                                                        },
-                                                                                                                                                        {
-                                                                                                                                                          "a_script": "gaForceRestAndRaiseDead.cs",
-                                                                                                                                                          "a_parameter_1": null,
-                                                                                                                                                          "a_parameter_2": null,
-                                                                                                                                                          "a_parameter_3": null,
-                                                                                                                                                          "a_parameter_4": null
-                                                                                                                                                        },
-                                                                                                                                                        {
-                                                                                                                                                          "a_script": "gaGiveItem.cs",
-                                                                                                                                                          "a_parameter_1": "witch_shortbow",
-                                                                                                                                                          "a_parameter_2": "1",
-                                                                                                                                                          "a_parameter_3": null,
-                                                                                                                                                          "a_parameter_4": null
-                                                                                                                                                        },
-                                                                                                                                                        {
-                                                                                                                                                          "a_script": "gaGiveItem.cs",
-                                                                                                                                                          "a_parameter_1": "witcharrow01",
-                                                                                                                                                          "a_parameter_2": "5",
                                                                                                                                                           "a_parameter_3": null,
                                                                                                                                                           "a_parameter_4": null
                                                                                                                                                         }
@@ -3389,6 +2801,13 @@
                                                                                                                                           "a_parameter_2": "1",
                                                                                                                                           "a_parameter_3": null,
                                                                                                                                           "a_parameter_4": null
+                                                                                                                                        },
+                                                                                                                                        {
+                                                                                                                                          "a_script": "gaSetGlobalInt.cs",
+                                                                                                                                          "a_parameter_1": "onmap",
+                                                                                                                                          "a_parameter_2": "1",
+                                                                                                                                          "a_parameter_3": null,
+                                                                                                                                          "a_parameter_4": null
                                                                                                                                         }
                                                                                                                                       ],
                                                                                                                                       "conditions": [],
@@ -3460,7 +2879,15 @@
                                                                                   "isLink": false
                                                                                 }
                                                                               ],
-                                                                              "actions": [],
+                                                                              "actions": [
+                                                                                {
+                                                                                  "a_script": "gaShowMessageBox.cs",
+                                                                                  "a_parameter_1": "Knott has joined you.",
+                                                                                  "a_parameter_2": null,
+                                                                                  "a_parameter_3": null,
+                                                                                  "a_parameter_4": null
+                                                                                }
+                                                                              ],
                                                                               "conditions": [],
                                                                               "isLink": false
                                                                             }
@@ -3573,7 +3000,29 @@
                                   "isLink": false
                                 }
                               ],
-                              "actions": [],
+                              "actions": [
+                                {
+                                  "a_script": "gaTakeItem.cs",
+                                  "a_parameter_1": "pitcherwater",
+                                  "a_parameter_2": "1",
+                                  "a_parameter_3": null,
+                                  "a_parameter_4": null
+                                },
+                                {
+                                  "a_script": "gaTakeItem.cs",
+                                  "a_parameter_1": "gourdseed",
+                                  "a_parameter_2": "1",
+                                  "a_parameter_3": null,
+                                  "a_parameter_4": null
+                                },
+                                {
+                                  "a_script": "gaTakeItem.cs",
+                                  "a_parameter_1": "witchestrowel",
+                                  "a_parameter_2": "1",
+                                  "a_parameter_3": null,
+                                  "a_parameter_4": null
+                                }
+                              ],
                               "conditions": [],
                               "isLink": false
                             }
@@ -3588,6 +3037,13 @@
                           "a_script": "gaSetGlobalInt.cs",
                           "a_parameter_1": "global_planting",
                           "a_parameter_2": "3",
+                          "a_parameter_3": null,
+                          "a_parameter_4": null
+                        },
+                        {
+                          "a_script": "gaPlaySound.cs",
+                          "a_parameter_1": "pitcher",
+                          "a_parameter_2": null,
                           "a_parameter_3": null,
                           "a_parameter_4": null
                         }
@@ -3616,7 +3072,7 @@
                       "NodePortraitBitmap": "",
                       "NodeNpcName": "",
                       "NodeSound": "none",
-                      "conversationText": "[Leave.]",
+                      "conversationText": "[End.]",
                       "IsExpanded": true,
                       "subNodes": [],
                       "actions": [
@@ -3836,7 +3292,7 @@
                   "NodePortraitBitmap": "",
                   "NodeNpcName": "",
                   "NodeSound": "none",
-                  "conversationText": "The soil drank it eagerly. As <FirstName> watched, <he/she> heard the witches chanting from the house:",
+                  "conversationText": "As <FirstName> watched the soil drink it down, <he/she> heard the witches chanting from the house:",
                   "IsExpanded": true,
                   "subNodes": [],
                   "actions": [],
@@ -4048,5 +3504,5 @@
   "SpeakToMainPcOnly": true,
   "NpcPortraitBitmap": "black_tile.png",
   "DefaultNpcName": "",
-  "NextIdNum": 192
+  "NextIdNum": 198
 }

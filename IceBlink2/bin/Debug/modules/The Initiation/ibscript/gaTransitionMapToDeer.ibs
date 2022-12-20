@@ -1,0 +1,13 @@
+
+@d = ~gcCheckGlobalInt(deertalk,=,1)
+
+~gaSetGlobalInt(onmap,1)
+
+
+if (@d = 1)
+~gaTransitionPartyToMapLocation(a_woods_3r2,3,6)
+else
+~gaTransitionPartyToMapLocation(a_woods_3r,3,15)
+endif
+
+end

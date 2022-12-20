@@ -342,6 +342,8 @@ namespace IceBlink2
             setupMusicPlayers();
             //TODOinitializeCombatMusic();
             
+            //default to Malkin
+            fixedModule = "The Initiation";
 
             if (fixedModule.Equals("")) //this is the IceBlink Engine app
             {

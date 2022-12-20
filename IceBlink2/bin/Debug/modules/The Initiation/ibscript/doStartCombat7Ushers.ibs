@@ -1,0 +1,17 @@
+
+
+
+~osSetCreatureSp(ushersea1,,-,21)
+~osSetCreatureSp(ushersea2,,-,21)
+~osSetCreatureSp(ushersea3,,-,21)
+~osSetCreatureSp(ushersea4,,-,21)
+~osSetCreatureSp(ushersea5,,-,21)
+~osSetCreatureSp(ushersea6,,-,21)
+~osSetCreatureSp(ushersea7,,-,21)
+~gaSetGlobalInt(onmap,1)
+~gaSetGlobalInt(boxopen,0)
+~gaSetGlobalInt(box2open,0)
+~ogGetPlayerHP(,-1,MaxHP,)
+~gaSetGlobalInt(Summons,++)
+~gaSetGlobalInt(experience,2)
+~gaForceRestAndRaiseDead()

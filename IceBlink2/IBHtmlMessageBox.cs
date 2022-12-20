@@ -31,12 +31,14 @@ namespace IceBlink2
         public int scrollButtonYLoc = 0;
         public int startY = 0;
         public int moveDeltaY = 0;
-        public int tbHeight = 200;
-        public int tbWidth = 300;
+        //public int tbHeight = 200; changed this to what's below; changed public float size too
+        //public int tbWidth = 300;
+        public int tbHeight = 300;
+        public int tbWidth = 200;
         public int tbXloc = 10;
         public int tbYloc = 10;
-        public float fontHeightToWidthRatio = 1.0f;
-
+        //public float fontHeightToWidthRatio = 1.0f;
+        public float fontHeightToWidthRatio = .8f;
         public IBHtmlMessageBox(GameView g, string htmlstring)
         {
             InitializeComponent();            

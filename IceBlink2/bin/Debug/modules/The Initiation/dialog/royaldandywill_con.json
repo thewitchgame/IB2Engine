@@ -23,7 +23,7 @@
           "NodePortraitBitmap": "",
           "NodeNpcName": "",
           "NodeSound": "none",
-          "conversationText": "Growing amid the dead leaves and pine needles was a distinctive plant with small leaves and a drooping, lotus-like flower of pale gold. It was royal dandywill, a gem of the marshes and wet woods. It had rare restorative powers.\r\n<p>\r\n<i>Royal Dandywill can be made into a consumable that restores 4 HP and 2 SP. If you have the Natural Philosophy trait, you may be able to harvest more than 1 alkaloid. Alternatively, witches with Folk Magic may be able to craft a unique magic item with it.</i>\r\n<p>\r\n<i>You can also leave the plant alone for a reward of 20 XP.</i>",
+          "conversationText": "<FirstName> saw a distinctive plant growing amid the dead leaves and pine needles. It had pinnate leaves and golden, phlox-like flowers. It was royal dandywill, a prized flower of Dudow's woods.",
           "IsExpanded": true,
           "subNodes": [
             {
@@ -36,7 +36,7 @@
               "NodePortraitBitmap": "",
               "NodeNpcName": "",
               "NodeSound": "none",
-              "conversationText": "[Natural Philosophy] <FirstName> attempted to harvest the mushroom with the care of a practiced herbalist. (<i>This takes 5 minutes,</i>)",
+              "conversationText": "[Natural Philosophy: 50% chance of success -- Wisdom modifies] <He/She> carefully gathered the useful parts of the plant. [This takes 5 minutes.]",
               "IsExpanded": true,
               "subNodes": [
                 {
@@ -49,7 +49,7 @@
                   "NodePortraitBitmap": "",
                   "NodeNpcName": "",
                   "NodeSound": "none",
-                  "conversationText": "[Success] <FirstName> was able to harvest three alkaloids.",
+                  "conversationText": "[Success] <He/She> took three clusters of flowerheads.",
                   "IsExpanded": true,
                   "subNodes": [
                     {
@@ -68,15 +68,22 @@
                       "actions": [
                         {
                           "a_script": "gaGiveItem.cs",
-                          "a_parameter_1": "wightbonnet01",
+                          "a_parameter_1": "royaldandywill01s",
                           "a_parameter_2": "3",
                           "a_parameter_3": null,
                           "a_parameter_4": null
                         },
                         {
-                          "a_script": "gaMoveRosterMemberToParty.cs",
-                          "a_parameter_1": "newt",
+                          "a_script": "gaShowMessageBox.cs",
+                          "a_parameter_1": "Royal Dandywill (3) received!",
                           "a_parameter_2": null,
+                          "a_parameter_3": null,
+                          "a_parameter_4": null
+                        },
+                        {
+                          "a_script": "gaSetGlobalInt.cs",
+                          "a_parameter_1": "onmap",
+                          "a_parameter_2": "1",
                           "a_parameter_3": null,
                           "a_parameter_4": null
                         }
@@ -88,13 +95,23 @@
                   "actions": [],
                   "conditions": [
                     {
-                      "c_script": "gcPassSkillCheck.cs",
+                      "c_script": "gcCheckAttribute.cs",
                       "c_btnAndOr": "and",
                       "c_and": true,
                       "c_not": false,
                       "c_parameter_1": "-1",
-                      "c_parameter_2": "trait_naturalphil",
-                      "c_parameter_3": "7",
+                      "c_parameter_2": "wis",
+                      "c_parameter_3": ">",
+                      "c_parameter_4": "15"
+                    },
+                    {
+                      "c_script": "gcRand1of.cs",
+                      "c_btnAndOr": "and",
+                      "c_and": true,
+                      "c_not": false,
+                      "c_parameter_1": "5",
+                      "c_parameter_2": null,
+                      "c_parameter_3": null,
                       "c_parameter_4": null
                     }
                   ],
@@ -110,7 +127,7 @@
                   "NodePortraitBitmap": "",
                   "NodeNpcName": "",
                   "NodeSound": "none",
-                  "conversationText": "[Partial Success] <FirstName> was able to harvest two alkaloids.",
+                  "conversationText": "[Success] <He/She> took two clusters of flowerheads.",
                   "IsExpanded": true,
                   "subNodes": [
                     {
@@ -129,15 +146,22 @@
                       "actions": [
                         {
                           "a_script": "gaGiveItem.cs",
-                          "a_parameter_1": "wightbonnet01",
+                          "a_parameter_1": "royaldandywill01s",
                           "a_parameter_2": "2",
                           "a_parameter_3": null,
                           "a_parameter_4": null
                         },
                         {
-                          "a_script": "gaMoveRosterMemberToParty.cs",
-                          "a_parameter_1": "newt",
+                          "a_script": "gaShowMessageBox.cs",
+                          "a_parameter_1": "Royal Dandywill (2) received!",
                           "a_parameter_2": null,
+                          "a_parameter_3": null,
+                          "a_parameter_4": null
+                        },
+                        {
+                          "a_script": "gaSetGlobalInt.cs",
+                          "a_parameter_1": "onmap",
+                          "a_parameter_2": "1",
                           "a_parameter_3": null,
                           "a_parameter_4": null
                         }
@@ -149,13 +173,23 @@
                   "actions": [],
                   "conditions": [
                     {
-                      "c_script": "gcPassSkillCheck.cs",
+                      "c_script": "gcCheckAttribute.cs",
                       "c_btnAndOr": "and",
                       "c_and": true,
                       "c_not": false,
                       "c_parameter_1": "-1",
-                      "c_parameter_2": "trait_naturalphil",
-                      "c_parameter_3": "7",
+                      "c_parameter_2": "wis",
+                      "c_parameter_3": ">",
+                      "c_parameter_4": "12"
+                    },
+                    {
+                      "c_script": "gcRand1of.cs",
+                      "c_btnAndOr": "and",
+                      "c_and": true,
+                      "c_not": false,
+                      "c_parameter_1": "2",
+                      "c_parameter_2": null,
+                      "c_parameter_3": null,
                       "c_parameter_4": null
                     }
                   ],
@@ -171,7 +205,7 @@
                   "NodePortraitBitmap": "",
                   "NodeNpcName": "",
                   "NodeSound": "none",
-                  "conversationText": "[Failure] Unfortunately, <FirstName> could only harvest one alkaloid.",
+                  "conversationText": "[Failure] Unfortunately, <he/she> found only one good flowerhead.",
                   "IsExpanded": true,
                   "subNodes": [
                     {
@@ -189,16 +223,23 @@
                       "subNodes": [],
                       "actions": [
                         {
-                          "a_script": "gaGiveItem.cs",
-                          "a_parameter_1": "wightbonnet01",
+                          "a_script": "gaShowMessageBox.cs",
+                          "a_parameter_1": "Royal Dandywill received!",
+                          "a_parameter_2": null,
+                          "a_parameter_3": null,
+                          "a_parameter_4": null
+                        },
+                        {
+                          "a_script": "gaSetGlobalInt.cs",
+                          "a_parameter_1": "onmap",
                           "a_parameter_2": "1",
                           "a_parameter_3": null,
                           "a_parameter_4": null
                         },
                         {
-                          "a_script": "gaMoveRosterMemberToParty.cs",
-                          "a_parameter_1": "newt",
-                          "a_parameter_2": null,
+                          "a_script": "gaGiveItem.cs",
+                          "a_parameter_1": "royaldandywill01s",
+                          "a_parameter_2": "1",
                           "a_parameter_3": null,
                           "a_parameter_4": null
                         }
@@ -215,14 +256,14 @@
               "actions": [
                 {
                   "a_script": "osSetProp.cs",
-                  "a_parameter_1": "thisProp",
+                  "a_parameter_1": "event1",
                   "a_parameter_2": null,
                   "a_parameter_3": "s",
                   "a_parameter_4": "false"
                 },
                 {
                   "a_script": "osSetProp.cs",
-                  "a_parameter_1": "thisProp",
+                  "a_parameter_1": "event1",
                   "a_parameter_2": null,
                   "a_parameter_3": "a",
                   "a_parameter_4": "false"
@@ -231,7 +272,7 @@
                   "a_script": "osSetWorldTime.cs",
                   "a_parameter_1": "+",
                   "a_parameter_2": "5",
-                  "a_parameter_3": null,
+                  "a_parameter_3": "false",
                   "a_parameter_4": null
                 }
               ],
@@ -250,7 +291,7 @@
               "isLink": false
             },
             {
-              "idNum": 3,
+              "idNum": 20,
               "orderNum": 1,
               "pcNode": true,
               "linkTo": 0,
@@ -259,106 +300,7 @@
               "NodePortraitBitmap": "",
               "NodeNpcName": "",
               "NodeSound": "none",
-              "conversationText": "<FirstName> harvested some wightbonnet. (<i>This takes 5 minutes,</i>)",
-              "IsExpanded": true,
-              "subNodes": [],
-              "actions": [
-                {
-                  "a_script": "osSetProp.cs",
-                  "a_parameter_1": "thisProp",
-                  "a_parameter_2": null,
-                  "a_parameter_3": "s",
-                  "a_parameter_4": "false"
-                },
-                {
-                  "a_script": "osSetProp.cs",
-                  "a_parameter_1": "thisProp",
-                  "a_parameter_2": null,
-                  "a_parameter_3": "a",
-                  "a_parameter_4": "false"
-                },
-                {
-                  "a_script": "gaGiveItem.cs",
-                  "a_parameter_1": "wightbonnet01",
-                  "a_parameter_2": "1",
-                  "a_parameter_3": null,
-                  "a_parameter_4": null
-                },
-                {
-                  "a_script": "osSetWorldTime.cs",
-                  "a_parameter_1": "+",
-                  "a_parameter_2": "5",
-                  "a_parameter_3": null,
-                  "a_parameter_4": null
-                },
-                {
-                  "a_script": "gaMoveRosterMemberToParty.cs",
-                  "a_parameter_1": "newt",
-                  "a_parameter_2": null,
-                  "a_parameter_3": null,
-                  "a_parameter_4": null
-                }
-              ],
-              "conditions": [],
-              "isLink": false
-            },
-            {
-              "idNum": 6,
-              "orderNum": 2,
-              "pcNode": true,
-              "linkTo": 0,
-              "ShowOnlyOnce": false,
-              "NodeIsActive": true,
-              "NodePortraitBitmap": "",
-              "NodeNpcName": "",
-              "NodeSound": "none",
-              "conversationText": "<FirstName> left the wightbonnet alone.",
-              "IsExpanded": true,
-              "subNodes": [],
-              "actions": [
-                {
-                  "a_script": "osSetProp.cs",
-                  "a_parameter_1": "thisProp",
-                  "a_parameter_2": null,
-                  "a_parameter_3": "s",
-                  "a_parameter_4": "false"
-                },
-                {
-                  "a_script": "osSetProp.cs",
-                  "a_parameter_1": "thisProp",
-                  "a_parameter_2": null,
-                  "a_parameter_3": "a",
-                  "a_parameter_4": "false"
-                },
-                {
-                  "a_script": "gaGiveXP.cs",
-                  "a_parameter_1": "20",
-                  "a_parameter_2": null,
-                  "a_parameter_3": null,
-                  "a_parameter_4": null
-                },
-                {
-                  "a_script": "gaMoveRosterMemberToParty.cs",
-                  "a_parameter_1": "newt",
-                  "a_parameter_2": null,
-                  "a_parameter_3": null,
-                  "a_parameter_4": null
-                }
-              ],
-              "conditions": [],
-              "isLink": false
-            },
-            {
-              "idNum": 20,
-              "orderNum": 3,
-              "pcNode": true,
-              "linkTo": 0,
-              "ShowOnlyOnce": false,
-              "NodeIsActive": true,
-              "NodePortraitBitmap": "",
-              "NodeNpcName": "",
-              "NodeSound": "none",
-              "conversationText": "[Folk Magic] The apocryphal tale \"St. Skism and the Crone\" mentioned another use for wightbonnet. If only <FirstName> could remember... (<i>Success takes 30 minutes.</i>)",
+              "conversationText": "[Folk Magic: 70% chance of success -- Wisdom modifies] There were many legends about dandywill.",
               "IsExpanded": true,
               "subNodes": [
                 {
@@ -371,7 +313,7 @@
                   "NodePortraitBitmap": "",
                   "NodeNpcName": "",
                   "NodeSound": "none",
-                  "conversationText": "[Success] Ah yes. The bastard daughter of the saint had sewn wightbonnet into the lining of her robes to outwit the king's inquisitors. Perhaps <FirstName> could do something similar.",
+                  "conversationText": "[Success: 5 minutes pass.] The Order of the Dandywill had served the crown when Dudow was young. Eager to prove themselves, these knights made a perilous bargain with the spirits of the woods. No story recorded its terms, but every knight in the order had a brilliant -- but short -- career. When the last knight died, the order died with them.\r\n\r\nA superstition attached to the order's namesake honored the memory of these warriors. A simple blade rubbed with the juices of royal dandywill would never dull, the belief said, and could pierce almost any armor.",
                   "IsExpanded": true,
                   "subNodes": [
                     {
@@ -397,7 +339,7 @@
                           "NodePortraitBitmap": "",
                           "NodeNpcName": "",
                           "NodeSound": "none",
-                          "conversationText": "A witch is never without needle, thread, and the power of improvisation. <FirstName> found a good seat on a mossy boulder and set to work. At the end of a half hour, <he/she> had sewn the wightbonnet into the lining of <his/her> robes.\r\n\r\n<i>You have received the Charmed Robes of the Young Witch.</i>",
+                          "conversationText": "<FirstName> picked some dandywill and rubbed it along the blade of the plain dagger <he/she>'d brought from home. <He/She> touched the point, lightly, with the tip of <his/her> finger, and it pricked far more easily and deeply than it should have.",
                           "IsExpanded": true,
                           "subNodes": [
                             {
@@ -416,23 +358,37 @@
                               "actions": [
                                 {
                                   "a_script": "gaGiveItem.cs",
-                                  "a_parameter_1": "youngwitchrobes02",
+                                  "a_parameter_1": "dandydagger00",
                                   "a_parameter_2": "1",
                                   "a_parameter_3": null,
                                   "a_parameter_4": null
                                 },
                                 {
                                   "a_script": "gaTakeItem.cs",
-                                  "a_parameter_1": "witchrobes01",
+                                  "a_parameter_1": "witchdagger01",
                                   "a_parameter_2": "1",
                                   "a_parameter_3": null,
                                   "a_parameter_4": null
                                 },
                                 {
-                                  "a_script": "gaMoveRosterMemberToParty.cs",
-                                  "a_parameter_1": "newt",
+                                  "a_script": "gaSetGlobalInt.cs",
+                                  "a_parameter_1": "onmap",
+                                  "a_parameter_2": "1",
+                                  "a_parameter_3": null,
+                                  "a_parameter_4": null
+                                },
+                                {
+                                  "a_script": "gaShowMessageBox.cs",
+                                  "a_parameter_1": "Dagger of the Dandywill received!",
                                   "a_parameter_2": null,
                                   "a_parameter_3": null,
+                                  "a_parameter_4": null
+                                },
+                                {
+                                  "a_script": "osSetWorldTime.cs",
+                                  "a_parameter_1": "+",
+                                  "a_parameter_2": "5",
+                                  "a_parameter_3": "false",
                                   "a_parameter_4": null
                                 }
                               ],
@@ -445,21 +401,34 @@
                           "isLink": false
                         }
                       ],
-                      "actions": [
-                        {
-                          "a_script": "osSetWorldTime.cs",
-                          "a_parameter_1": "+",
-                          "a_parameter_2": "30",
-                          "a_parameter_3": null,
-                          "a_parameter_4": null
-                        }
-                      ],
+                      "actions": [],
                       "conditions": [],
                       "isLink": false
                     }
                   ],
                   "actions": [],
-                  "conditions": [],
+                  "conditions": [
+                    {
+                      "c_script": "gcPassSkillCheckSilent.cs",
+                      "c_btnAndOr": "and",
+                      "c_and": true,
+                      "c_not": false,
+                      "c_parameter_1": "-1",
+                      "c_parameter_2": "trait_folkmagic",
+                      "c_parameter_3": "7",
+                      "c_parameter_4": null
+                    },
+                    {
+                      "c_script": "gcCheckHasTrait.cs",
+                      "c_btnAndOr": "or",
+                      "c_and": false,
+                      "c_not": false,
+                      "c_parameter_1": "-1",
+                      "c_parameter_2": "trait_folkmagic3",
+                      "c_parameter_3": null,
+                      "c_parameter_4": null
+                    }
+                  ],
                   "isLink": false
                 },
                 {
@@ -472,7 +441,7 @@
                   "NodePortraitBitmap": "",
                   "NodeNpcName": "",
                   "NodeSound": "none",
-                  "conversationText": "[Failure] <He/She> knew it had <i>something</i> to do with how the bastard daughter of the saint outwitted the inquisition, but the details eluded <him/her>. <He/She> could still make use of the mushroom if <he/she> wished, though.",
+                  "conversationText": "[Failure] As far as <FirstName> knew, none were true.",
                   "IsExpanded": true,
                   "subNodes": [
                     {
@@ -485,7 +454,7 @@
                       "NodePortraitBitmap": "",
                       "NodeNpcName": "",
                       "NodeSound": "none",
-                      "conversationText": "[Natural Philosophy] <FirstName> attempted to harvest the mushroom with the care of a practiced herbalist. (<i>This takes 5 minutes,</i>)",
+                      "conversationText": "[Natural Philosophy: 50% chance of success -- Wisdom modifies] <He/She> carefully gathered the useful parts of the plant. [This takes 5 minutes.]",
                       "IsExpanded": true,
                       "subNodes": [],
                       "actions": [],
@@ -502,7 +471,7 @@
                       "NodePortraitBitmap": "",
                       "NodeNpcName": "",
                       "NodeSound": "none",
-                      "conversationText": "<FirstName> harvested some wightbonnet. (<i>This takes 5 minutes,</i>)",
+                      "conversationText": "<He/She> collected some. [This takes 5 minutes.]",
                       "IsExpanded": true,
                       "subNodes": [],
                       "actions": [],
@@ -519,7 +488,7 @@
                       "NodePortraitBitmap": "",
                       "NodeNpcName": "",
                       "NodeSound": "none",
-                      "conversationText": "<FirstName> left the wightbonnet alone.",
+                      "conversationText": "<He/She> left the plant alone. [This provides experience.]",
                       "IsExpanded": true,
                       "subNodes": [],
                       "actions": [],
@@ -534,30 +503,23 @@
               ],
               "actions": [
                 {
-                  "a_script": "gaSetGlobalInt.cs",
-                  "a_parameter_1": "globalwightbonnet",
-                  "a_parameter_2": "1",
-                  "a_parameter_3": null,
-                  "a_parameter_4": null
-                },
-                {
                   "a_script": "osSetProp.cs",
-                  "a_parameter_1": "thisProp",
+                  "a_parameter_1": "event1",
                   "a_parameter_2": null,
                   "a_parameter_3": "s",
                   "a_parameter_4": "false"
                 },
                 {
                   "a_script": "osSetProp.cs",
-                  "a_parameter_1": "thisProp",
+                  "a_parameter_1": "event1",
                   "a_parameter_2": null,
                   "a_parameter_3": "a",
                   "a_parameter_4": "false"
                 },
                 {
-                  "a_script": "gaMoveRosterMemberToParty.cs",
-                  "a_parameter_1": "newt",
-                  "a_parameter_2": null,
+                  "a_script": "gaSetGlobalInt.cs",
+                  "a_parameter_1": "globaldandywill",
+                  "a_parameter_2": "1",
                   "a_parameter_3": null,
                   "a_parameter_4": null
                 }
@@ -568,12 +530,135 @@
                   "c_btnAndOr": "and",
                   "c_and": true,
                   "c_not": true,
-                  "c_parameter_1": "globalwightbonnet",
+                  "c_parameter_1": "globaldandywill",
                   "c_parameter_2": "=",
                   "c_parameter_3": "1",
                   "c_parameter_4": null
+                },
+                {
+                  "c_script": "gcCheckHasTrait.cs",
+                  "c_btnAndOr": "and",
+                  "c_and": true,
+                  "c_not": false,
+                  "c_parameter_1": "-1",
+                  "c_parameter_2": "trait_folkmagic",
+                  "c_parameter_3": null,
+                  "c_parameter_4": null
                 }
               ],
+              "isLink": false
+            },
+            {
+              "idNum": 3,
+              "orderNum": 2,
+              "pcNode": true,
+              "linkTo": 0,
+              "ShowOnlyOnce": false,
+              "NodeIsActive": true,
+              "NodePortraitBitmap": "",
+              "NodeNpcName": "",
+              "NodeSound": "none",
+              "conversationText": "<He/She> collected some. [This takes 5 minutes.]",
+              "IsExpanded": true,
+              "subNodes": [],
+              "actions": [
+                {
+                  "a_script": "osSetProp.cs",
+                  "a_parameter_1": "event1",
+                  "a_parameter_2": null,
+                  "a_parameter_3": "s",
+                  "a_parameter_4": "false"
+                },
+                {
+                  "a_script": "osSetProp.cs",
+                  "a_parameter_1": "event1",
+                  "a_parameter_2": null,
+                  "a_parameter_3": "a",
+                  "a_parameter_4": "false"
+                },
+                {
+                  "a_script": "osSetWorldTime.cs",
+                  "a_parameter_1": "+",
+                  "a_parameter_2": "5",
+                  "a_parameter_3": "false",
+                  "a_parameter_4": null
+                },
+                {
+                  "a_script": "gaShowMessageBox.cs",
+                  "a_parameter_1": "Royal Dandywill received!",
+                  "a_parameter_2": null,
+                  "a_parameter_3": null,
+                  "a_parameter_4": null
+                },
+                {
+                  "a_script": "gaGiveItem.cs",
+                  "a_parameter_1": "royaldandywill01s",
+                  "a_parameter_2": "1",
+                  "a_parameter_3": null,
+                  "a_parameter_4": null
+                },
+                {
+                  "a_script": "gaSetGlobalInt.cs",
+                  "a_parameter_1": "onmap",
+                  "a_parameter_2": "1",
+                  "a_parameter_3": null,
+                  "a_parameter_4": null
+                }
+              ],
+              "conditions": [],
+              "isLink": false
+            },
+            {
+              "idNum": 6,
+              "orderNum": 3,
+              "pcNode": true,
+              "linkTo": 0,
+              "ShowOnlyOnce": false,
+              "NodeIsActive": true,
+              "NodePortraitBitmap": "",
+              "NodeNpcName": "",
+              "NodeSound": "none",
+              "conversationText": "<He/She> left the plant alone. [This provides experience.]",
+              "IsExpanded": true,
+              "subNodes": [],
+              "actions": [
+                {
+                  "a_script": "osSetProp.cs",
+                  "a_parameter_1": "event1",
+                  "a_parameter_2": null,
+                  "a_parameter_3": "s",
+                  "a_parameter_4": "false"
+                },
+                {
+                  "a_script": "osSetProp.cs",
+                  "a_parameter_1": "event1",
+                  "a_parameter_2": null,
+                  "a_parameter_3": "a",
+                  "a_parameter_4": "false"
+                },
+                {
+                  "a_script": "gaSetGlobalInt.cs",
+                  "a_parameter_1": "experience",
+                  "a_parameter_2": "1",
+                  "a_parameter_3": null,
+                  "a_parameter_4": null
+                },
+                {
+                  "a_script": "gaPlaySound.cs",
+                  "a_parameter_1": "xp",
+                  "a_parameter_2": null,
+                  "a_parameter_3": null,
+                  "a_parameter_4": null
+                },
+                {
+                  "a_script": "gaSetGlobalInt.cs",
+                  "a_parameter_1": "onmap",
+                  "a_parameter_2": "1",
+                  "a_parameter_3": null,
+                  "a_parameter_4": null
+                }
+              ],
+              "conditions": [],
               "isLink": false
             }
           ],
@@ -591,7 +676,7 @@
           "NodePortraitBitmap": "",
           "NodeNpcName": "",
           "NodeSound": "none",
-          "conversationText": "<i>Wightbonnet can be made into a consumable that restores 4 SP. If you have the Natural Philosophy trait, you may be able to harvest more than 1 alkaloid. Witches with Folk Magic who have not already tried to do so may be able to craft a unique magic item with it.</i>",
+          "conversationText": "More royal dandywill grew here.",
           "IsExpanded": true,
           "subNodes": [
             {
@@ -604,7 +689,7 @@
               "NodePortraitBitmap": "",
               "NodeNpcName": "",
               "NodeSound": "none",
-              "conversationText": "[Natural Philosophy] <FirstName> attempted to harvest the mushroom with the care of a practiced herbalist. (<i>This takes 5 minutes,</i>)",
+              "conversationText": "[Natural Philosophy: 50% chance of success -- Wisdom modifies] <He/She> carefully gathered the useful parts of the plant. [This takes 5 minutes.]",
               "IsExpanded": true,
               "subNodes": [],
               "actions": [],
@@ -621,7 +706,7 @@
               "NodePortraitBitmap": "",
               "NodeNpcName": "",
               "NodeSound": "none",
-              "conversationText": "<FirstName> harvested some wightbonnet. (<i>This takes 5 minutes,</i>)",
+              "conversationText": "<He/She> collected some. [This takes 5 minutes.]",
               "IsExpanded": true,
               "subNodes": [],
               "actions": [],
@@ -638,7 +723,7 @@
               "NodePortraitBitmap": "",
               "NodeNpcName": "",
               "NodeSound": "none",
-              "conversationText": "<FirstName> left the wightbonnet alone.",
+              "conversationText": "<He/She> left the plant alone. [This provides experience.]",
               "IsExpanded": true,
               "subNodes": [],
               "actions": [],
@@ -660,7 +745,7 @@
   "Narration": false,
   "PartyChat": false,
   "SpeakToMainPcOnly": true,
-  "NpcPortraitBitmap": "prp_royaldandywill.png",
+  "NpcPortraitBitmap": "it_royaldandywill.png",
   "DefaultNpcName": "",
   "NextIdNum": 28
 }

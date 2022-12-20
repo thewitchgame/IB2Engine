@@ -1,0 +1,5 @@
+~gaEnableDisableTrigger(newTrigger_183237,false)
+~gaTogglePartyToken(pointer_token,false)
+~gaTransitionPartyToMapLocation(LoadMapArea,LoadMapX,LoadMapY)
+~gaSetGlobalInt(onmap,1)
+~gaSetGlobalInt(CannotUseMap,0)

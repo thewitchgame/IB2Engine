@@ -1,0 +1,19 @@
+~gaGetGlobalInt(falseusher1,@x)
+
+
+~gaShowMessageBox(Candy exploded everywhere. The usher was made of paper. This portal was false.)
+~gaGiveItem(hardcandy00,1)
+~gaShowMessageBox(Candy received!)
+
+if (@x = 0)
+~gaSetGlobalString(fakeportalis,right)//false usher on the right: falseusher1 set to ZERO
+end
+endif
+
+if (@x = 1)
+~gaSetGlobalString(fakeportalis,left)//false usher on the left: falseusher1 set to ONE
+end
+endif
+
+
+end

@@ -23,7 +23,7 @@
           "NodePortraitBitmap": "",
           "NodeNpcName": "",
           "NodeSound": "none",
-          "conversationText": "Once you open the party screen, you \"equip\" items -- wear or get them ready for use -- by clicking the icon that best corresponds to the item.\r\n<p>\r\nIf you intend to skip battles, equipping items is generally not important.",
+          "conversationText": "Once you open the party screen, you equip items -- wear or get them ready for use -- by selecting the icon where that kind of object goes and clicking the icon again to see eligible items for that slot.\r\n\r\nIf you intend to skip battles, equipping items is not important.",
           "IsExpanded": true,
           "subNodes": [
             {
@@ -49,7 +49,7 @@
                   "NodePortraitBitmap": "",
                   "NodeNpcName": "",
                   "NodeSound": "none",
-                  "conversationText": "People don't usually wear crows, but the witch can use <his/her> crow familiar as a weapon in battle. You equip weapons by clicking the first hand icon. Do the same for the crow.",
+                  "conversationText": "To equip a weapon, click the first (main) hand icon while the witch is the active party member. Then click it again to select a weapon.",
                   "IsExpanded": true,
                   "subNodes": [
                     {
@@ -75,7 +75,7 @@
                           "NodePortraitBitmap": "",
                           "NodeNpcName": "",
                           "NodeSound": "none",
-                          "conversationText": "Equip the robes by clicking the torso icon.",
+                          "conversationText": "Equip the robes by clicking the torso icon and using the same process.",
                           "IsExpanded": true,
                           "subNodes": [
                             {

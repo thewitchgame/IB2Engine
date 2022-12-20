@@ -1,0 +1,13 @@
+
+~gaGetGlobalInt(global_con1,@x)
+
+
+if (@x = 1)
+end
+endif
+
+
+~gaSetGlobalInt(global_con1,1)
+~gaGiveItem(dross_alexandrite,1)
+~gaShowMessageBox(Alexandrite received!)
+end

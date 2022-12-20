@@ -336,7 +336,7 @@ namespace IceBlink2
             //rückwärts
 
                 /*
-                textToSpan += "Useable By: " + isUseableBy(it) + "<BR>";
+                //textToSpan += "Useable By: " + isUseableBy(it) + "<BR>";
                 textToSpan += "Two-Handed Weapon: ";
                 if (it.twoHanded) { textToSpan += "Yes<BR>"; }
                 else { textToSpan += "No<BR>"; }
@@ -357,9 +357,9 @@ namespace IceBlink2
         /*
             else if (!it.category.Equals("General"))
             {
-                textToSpan += "AC Bonus: " + it.armorBonus + "<BR>";
-                textToSpan += "Max Dex Bonus: " + it.maxDexBonus + "<BR>";
-                textToSpan += "Useable By: " + isUseableBy(it) + "<BR>";
+                //textToSpan += "AC Bonus: " + it.armorBonus + "<BR>";
+                //textToSpan += "Max Dex Bonus: " + it.maxDexBonus + "<BR>";
+                //textToSpan += "Useable By: " + isUseableBy(it) + "<BR>";
                 textToSpan += "<BR>";
                 if (!it.descFull.Equals(""))
                 {
@@ -372,7 +372,7 @@ namespace IceBlink2
             }
             else if (it.category.Equals("General"))
             {
-                textToSpan += "Useable By: " + isUseableBy(it) + "<BR>";
+                //textToSpan += "Useable By: " + isUseableBy(it) + "<BR>";
                 textToSpan += "<BR>";
                 if (!it.descFull.Equals(""))
                 {

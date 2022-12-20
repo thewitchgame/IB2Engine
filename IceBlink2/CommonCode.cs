@@ -590,9 +590,9 @@ namespace IceBlink2
 
         public void doVerifyReturnToMain()
         {
-            List<string> actionList = new List<string> { "Yes, Return To Main Menu", "No, Keep Playing" };
+            List<string> actionList = new List<string> { "Exit game.", "Keep playing." };
 
-            using (ItemListSelector itSel = new ItemListSelector(gv, actionList, "Are you sure you wish to exit to Main Menu?"))
+            using (ItemListSelector itSel = new ItemListSelector(gv, actionList, ""))
             {
                 itSel.IceBlinkButtonClose.Enabled = true;
                 itSel.IceBlinkButtonClose.Visible = true;
@@ -618,7 +618,7 @@ namespace IceBlink2
                 if (itSel.selectedIndex == 0)
                 {
                     //go to launcher screen  
-                    if (gv.fixedModule.Equals("")) //this is the IceBlink Engine app  
+               /*     if (gv.fixedModule.Equals("")) //this is the IceBlink Engine app  
                     {
                         //gv.createScreens();
                         if (gv.screenLauncher == null)
@@ -648,20 +648,25 @@ namespace IceBlink2
                         gv.resetGame();
                         gv.cc.LoadSaveListItems();
                         gv.screenType = "title";
-                    }
+                    }*/
+gv.resetGame();
+                    gv.screenType = "title";
+                    
+                    return;
+
                 }
                 if (itSel.selectedIndex == 1)
                 {
-                    //keep playing 
+                    //keep playing
                 }
             }
         }
 
         public void doSavesDialog()
         {
-            List<string> saveList = new List<string> { slot0, slot1, slot2, slot3, slot4, slot5, "Return to Main Menu" };
+            List<string> saveList = new List<string> {slot0, slot1, slot2, slot3, slot4, slot5, "Exit game." };
 
-            using (ItemListSelector itSel = new ItemListSelector(gv, saveList, "Choose a slot to save game."))
+            using (ItemListSelector itSel = new ItemListSelector(gv, saveList, ""))//savegame language
             {
                 itSel.IceBlinkButtonClose.Enabled = true;
                 itSel.IceBlinkButtonClose.Visible = true;
@@ -683,7 +688,7 @@ namespace IceBlink2
                 else if (itSel.selectedIndex == 1)
                 {
                     Player pc = gv.mod.playerList[0];
-                    gv.mod.saveName = pc.name + ", Level:" + pc.classLevel + ", XP:" + pc.XP + ", WorldTime:" + gv.mod.WorldTime;
+                    gv.mod.saveName = pc.name + ", Level:" + pc.classLevel + ", XP:" + pc.XP;  // + ", WorldTime:" + gv.mod.WorldTime;
                     slot1 = gv.mod.saveName;
                     try
                     {
@@ -699,7 +704,7 @@ namespace IceBlink2
                 else if (itSel.selectedIndex == 2)
                 {
                     Player pc = gv.mod.playerList[0];
-                    gv.mod.saveName = pc.name + ", Level:" + pc.classLevel + ", XP:" + pc.XP + ", WorldTime:" + gv.mod.WorldTime;
+                    gv.mod.saveName = pc.name + ", Level:" + pc.classLevel + ", XP:" + pc.XP; // + ", WorldTime:" + gv.mod.WorldTime;
                     slot2 = gv.mod.saveName;
                     try
                     {
@@ -715,7 +720,7 @@ namespace IceBlink2
                 else if (itSel.selectedIndex == 3)
                 {
                     Player pc = gv.mod.playerList[0];
-                    gv.mod.saveName = pc.name + ", Level:" + pc.classLevel + ", XP:" + pc.XP + ", WorldTime:" + gv.mod.WorldTime;
+                    gv.mod.saveName = pc.name + ", Level:" + pc.classLevel + ", XP:" + pc.XP; // + ", WorldTime:" + gv.mod.WorldTime;
                     slot3 = gv.mod.saveName;
                     try
                     {
@@ -731,7 +736,7 @@ namespace IceBlink2
                 else if (itSel.selectedIndex == 4)
                 {
                     Player pc = gv.mod.playerList[0];
-                    gv.mod.saveName = pc.name + ", Level:" + pc.classLevel + ", XP:" + pc.XP + ", WorldTime:" + gv.mod.WorldTime;
+                    gv.mod.saveName = pc.name + ", Level:" + pc.classLevel + ", XP:" + pc.XP; // + ", WorldTime:" + gv.mod.WorldTime;
                     slot4 = gv.mod.saveName;
                     try
                     {
@@ -747,7 +752,7 @@ namespace IceBlink2
                 else if (itSel.selectedIndex == 5)
                 {
                     Player pc = gv.mod.playerList[0];
-                    gv.mod.saveName = pc.name + ", Level:" + pc.classLevel + ", XP:" + pc.XP + ", WorldTime:" + gv.mod.WorldTime;
+                    gv.mod.saveName = pc.name + ", Level:" + pc.classLevel + ", XP:" + pc.XP; // + ", WorldTime:" + gv.mod.WorldTime;
                     slot5 = gv.mod.saveName;
                     try
                     {
@@ -4254,7 +4259,9 @@ namespace IceBlink2
 
         public string GetModulePath()
         {
-            return gv.mainDirectory + "\\modules\\" + gv.mod.moduleName;
+          //  return gv.mainDirectory + "\\modules\\" + gv.mod.moduleName;
+             var modName = gv.mod.moduleName.Equals("none") ? "" : gv.mod.moduleName;
+            return gv.mainDirectory + "\\modules\\" + modName;
         }
 
         //GENERAL
@@ -20497,7 +20504,7 @@ namespace IceBlink2
                     textToSpan += "" + "<BR>";
                 }
 
-                if (it.requiredLevel != 0)
+                /*if (it.requiredLevel != 0)
                 {
                     if (lineCount < 10)
                     {
@@ -20700,7 +20707,7 @@ namespace IceBlink2
                             ammoName = itA.name;
                         }
                     }
-                    */
+                    
 
                     if (lineCount < 10)
                     {
@@ -21282,12 +21289,12 @@ namespace IceBlink2
                     lineCount++;
                     textToSpan += "Value: " + it.value + "<BR>";
                 }
-
+*/
                 if (!showFullInfo)
                 {
                     if (lineCount < 10)
                     {
-                        textToSpan += "Press INFO for item description " + "<BR>";
+                        textToSpan += "Click INFO for more information." + "<BR>";
                     }
                     else
                     {
@@ -21297,7 +21304,7 @@ namespace IceBlink2
                 //rückwärts
 
                 /*
-                textToSpan += "Useable By: " + isUseableBy(it) + "<BR>";
+                //textToSpan += "Useable By: " + isUseableBy(it) + "<BR>";
                 textToSpan += "Two-Handed Weapon: ";
                 if (it.twoHanded) { textToSpan += "Yes<BR>"; }
                 else { textToSpan += "No<BR>"; }

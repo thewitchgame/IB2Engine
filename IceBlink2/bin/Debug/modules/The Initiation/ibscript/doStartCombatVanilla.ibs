@@ -1,0 +1,5 @@
+~gaSetGlobalInt(boxopen,0)
+~gaSetGlobalInt(box2open,0)
+~gaSetGlobalInt(Summons,++)
+~gaSetGlobalInt(experience,1)
+~gaForceRestAndRaiseDead()

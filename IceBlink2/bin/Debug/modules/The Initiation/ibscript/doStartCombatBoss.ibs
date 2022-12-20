@@ -1,0 +1,7 @@
+~osSetCreatureSp(parm(0),parm(1),parm(2),parm(3))
+~gaSetGlobalInt(boxopen,0)
+~gaSetGlobalInt(box2open,0)
+~ogGetPlayerHP(,-1,MaxHP,)
+~gaSetGlobalInt(Summons,++)
+~gaSetGlobalInt(experience,2)
+~gaForceRestAndRaiseDead()

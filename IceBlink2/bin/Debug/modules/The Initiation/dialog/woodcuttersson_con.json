@@ -101,7 +101,7 @@
                                   "NodePortraitBitmap": "",
                                   "NodeNpcName": "",
                                   "NodeSound": "none",
-                                  "conversationText": "He only looked <FirstName> up and down in response. Finally, he spoke. \r\n<p>\r\n\"Who are you?\"",
+                                  "conversationText": "\"Who are you?\"",
                                   "IsExpanded": true,
                                   "subNodes": [],
                                   "actions": [],
@@ -136,7 +136,7 @@
                                   "NodePortraitBitmap": "",
                                   "NodeNpcName": "",
                                   "NodeSound": "none",
-                                  "conversationText": "He only looked <FirstName> up and down in response. Finally, he spoke. \r\n<p>\r\n\"Who are you?\"",
+                                  "conversationText": "\"Who are you?\"",
                                   "IsExpanded": true,
                                   "subNodes": [],
                                   "actions": [],
@@ -181,7 +181,7 @@
                           "NodePortraitBitmap": "",
                           "NodeNpcName": "",
                           "NodeSound": "none",
-                          "conversationText": "He only looked <FirstName> up and down in response. Finally, he spoke. \r\n<p>\r\n\"Who are you?\"",
+                          "conversationText": "\"Who are you?\"",
                           "IsExpanded": true,
                           "subNodes": [
                             {
@@ -233,7 +233,7 @@
                                           "NodePortraitBitmap": "",
                                           "NodeNpcName": "",
                                           "NodeSound": "none",
-                                          "conversationText": "\"What's that?\" the boy asked, pointing to something on the ground.\r\n<p>\r\nThere lay a perfectly normal gourd. \"Aha,\" thought <FirstName> to <him/her>self. \"Eldest Lady took care to keep Knott secret from ordinary folk.\"",
+                                          "conversationText": "\"What's that?\" the boy asked, pointing to something on the ground.\r\n<p>\r\nThere lay a perfectly normal gourd. \"Aha,\" thought <FirstName> to <him/her>self. \"Eldest Lady took care to keep Knott secret.\"",
                                           "IsExpanded": true,
                                           "subNodes": [
                                             {
@@ -259,7 +259,7 @@
                                                   "NodePortraitBitmap": "",
                                                   "NodeNpcName": "",
                                                   "NodeSound": "none",
-                                                  "conversationText": "\"It's rotten,\" he said. It didn't seem that way to <FirstName>. If anything, it looked healthier and more vibrant than other gourds <he/she> remembered. Perhaps the child had never seen a gourd before.",
+                                                  "conversationText": "\"It's rotten,\" he said, though the gourd didn't look rotten at all. Perhaps the child had never seen one.",
                                                   "IsExpanded": true,
                                                   "subNodes": [
                                                     {
@@ -285,7 +285,7 @@
                                                           "NodePortraitBitmap": "",
                                                           "NodeNpcName": "",
                                                           "NodeSound": "none",
-                                                          "conversationText": "\"I should go,\" the boy said abruptly, studying the sun through the trees. \"Dad'll be angry that I'm taking so long.\"",
+                                                          "conversationText": "\"I should go,\" he said abruptly, studying the sun through the trees. \"If Dad comes back, he'll be angry I'm not home.\"",
                                                           "IsExpanded": true,
                                                           "subNodes": [
                                                             {
@@ -618,7 +618,7 @@
                                                                               "NodePortraitBitmap": "",
                                                                               "NodeNpcName": "",
                                                                               "NodeSound": "none",
-                                                                              "conversationText": "\"What about the fairies?\"",
+                                                                              "conversationText": "\"The Congress of Moths is out here, you know.\"",
                                                                               "IsExpanded": true,
                                                                               "subNodes": [
                                                                                 {
@@ -631,7 +631,7 @@
                                                                                   "NodePortraitBitmap": "",
                                                                                   "NodeNpcName": "",
                                                                                   "NodeSound": "none",
-                                                                                  "conversationText": "\"Fairies? Oh -- them. They don't bother me.\"",
+                                                                                  "conversationText": "\"Congress of...? Oh -- them. They don't bother me.\"",
                                                                                   "IsExpanded": true,
                                                                                   "subNodes": [
                                                                                     {
@@ -906,7 +906,7 @@
                                                           "NodePortraitBitmap": "",
                                                           "NodeNpcName": "",
                                                           "NodeSound": "none",
-                                                          "conversationText": "\"I should go,\" he said, studying the moon through the trees. \"Dad'll be angry that I'm taking so long.\"",
+                                                          "conversationText": "\"I should go,\" he said, studying the moon through the trees. \"If Dad comes back, he'll be angry I'm not home.\"",
                                                           "IsExpanded": true,
                                                           "subNodes": [
                                                             {
@@ -995,7 +995,7 @@
                                                           "NodePortraitBitmap": "",
                                                           "NodeNpcName": "",
                                                           "NodeSound": "none",
-                                                          "conversationText": "\"It's rotten,\" he said. It didn't seem that way to <FirstName>. If anything, it looked healthier and more vibrant than other gourds <he/she> remembered. Perhaps the child had never seen a gourd before.",
+                                                          "conversationText": "\"It's rotten,\" he said, though the gourd didn't look rotten at all. Perhaps the child had never seen one.",
                                                           "IsExpanded": true,
                                                           "subNodes": [],
                                                           "actions": [],
@@ -1040,7 +1040,7 @@
                                                   "NodePortraitBitmap": "",
                                                   "NodeNpcName": "",
                                                   "NodeSound": "none",
-                                                  "conversationText": "\"Oh. You tell riddles.\"\r\n<p>\r\n<FirstName> hadn't meant to tell a riddle. <He/She> wondered what the boy meant.\r\n<p>\r\nHe bent down a little, getting a better look at the gourd.",
+                                                  "conversationText": "\"Is that some kind of riddle?\"\r\n<p>\r\nHe bent down a little, getting a better look at the gourd.",
                                                   "IsExpanded": true,
                                                   "subNodes": [
                                                     {
@@ -1066,7 +1066,7 @@
                                                           "NodePortraitBitmap": "",
                                                           "NodeNpcName": "",
                                                           "NodeSound": "none",
-                                                          "conversationText": "\"It's rotten,\" he said. It didn't seem that way to <FirstName>. If anything, it looked healthier and more vibrant than other gourds <he/she> remembered. Perhaps the child had never seen a gourd before.",
+                                                          "conversationText": "\"It's rotten,\" he said, though the gourd didn't look rotten at all. Perhaps the child had never seen one.",
                                                           "IsExpanded": true,
                                                           "subNodes": [],
                                                           "actions": [],
@@ -1111,7 +1111,7 @@
                                                   "NodePortraitBitmap": "",
                                                   "NodeNpcName": "",
                                                   "NodeSound": "none",
-                                                  "conversationText": "\"It's rotten,\" he said. It didn't seem that way to <FirstName>. If anything, it looked healthier and more vibrant than other gourds <he/she> remembered. Perhaps the child had never seen a gourd before.",
+                                                  "conversationText": "\"It's rotten,\" he said, though the gourd didn't look rotten at all. Perhaps the child had never seen one.",
                                                   "IsExpanded": true,
                                                   "subNodes": [],
                                                   "actions": [],
@@ -1298,7 +1298,7 @@
                                           "NodePortraitBitmap": "",
                                           "NodeNpcName": "",
                                           "NodeSound": "none",
-                                          "conversationText": "\"No. Not my business.\" He spoke very firmly for someone so young.",
+                                          "conversationText": "\"No. Not my business.\"",
                                           "IsExpanded": true,
                                           "subNodes": [
                                             {
@@ -1324,7 +1324,7 @@
                                                   "NodePortraitBitmap": "",
                                                   "NodeNpcName": "",
                                                   "NodeSound": "none",
-                                                  "conversationText": "\"What's that?\" the boy asked, pointing to something on the ground.\r\n<p>\r\nThere lay a perfectly normal gourd. \"Aha,\" thought <FirstName> to <him/her>self. \"Eldest Lady took care to keep Knott secret from ordinary folk.\"",
+                                                  "conversationText": "\"What's that?\" the boy asked, pointing to something on the ground.\r\n<p>\r\nThere lay a perfectly normal gourd. \"Aha,\" thought <FirstName> to <him/her>self. \"Eldest Lady took care to keep Knott secret.\"",
                                                   "IsExpanded": true,
                                                   "subNodes": [],
                                                   "actions": [],
@@ -1411,6 +1411,86 @@
                             }
                           ],
                           "actions": [],
+                          "conditions": [
+                            {
+                              "c_script": "gcCheckGlobalInt.cs",
+                              "c_btnAndOr": "and",
+                              "c_and": true,
+                              "c_not": false,
+                              "c_parameter_1": "global_con1",
+                              "c_parameter_2": "=",
+                              "c_parameter_3": "1",
+                              "c_parameter_4": null
+                            }
+                          ],
+                          "isLink": false
+                        },
+                        {
+                          "idNum": 95,
+                          "orderNum": 1,
+                          "pcNode": false,
+                          "linkTo": 0,
+                          "ShowOnlyOnce": false,
+                          "NodeIsActive": true,
+                          "NodePortraitBitmap": "",
+                          "NodeNpcName": "",
+                          "NodeSound": "none",
+                          "conversationText": "He continued staring.",
+                          "IsExpanded": true,
+                          "subNodes": [
+                            {
+                              "idNum": 96,
+                              "orderNum": 0,
+                              "pcNode": true,
+                              "linkTo": 0,
+                              "ShowOnlyOnce": false,
+                              "NodeIsActive": true,
+                              "NodePortraitBitmap": "",
+                              "NodeNpcName": "",
+                              "NodeSound": "none",
+                              "conversationText": "[Continue.]",
+                              "IsExpanded": true,
+                              "subNodes": [
+                                {
+                                  "idNum": 97,
+                                  "orderNum": 0,
+                                  "pcNode": true,
+                                  "linkTo": 13,
+                                  "ShowOnlyOnce": false,
+                                  "NodeIsActive": true,
+                                  "NodePortraitBitmap": "",
+                                  "NodeNpcName": "",
+                                  "NodeSound": "none",
+                                  "conversationText": "\"Who are you?\"",
+                                  "IsExpanded": true,
+                                  "subNodes": [],
+                                  "actions": [],
+                                  "conditions": [],
+                                  "isLink": true
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "a_script": "gaSetGlobalInt.cs",
+                                  "a_parameter_1": "global_con1",
+                                  "a_parameter_2": "1",
+                                  "a_parameter_3": null,
+                                  "a_parameter_4": null
+                                }
+                              ],
+                              "conditions": [],
+                              "isLink": false
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "a_script": "gaSetGlobalInt.cs",
+                              "a_parameter_1": "global_con1",
+                              "a_parameter_2": "1",
+                              "a_parameter_3": null,
+                              "a_parameter_4": null
+                            }
+                          ],
                           "conditions": [],
                           "isLink": false
                         }
@@ -1442,7 +1522,7 @@
                           "NodePortraitBitmap": "",
                           "NodeNpcName": "",
                           "NodeSound": "none",
-                          "conversationText": "He only looked <FirstName> up and down in response. Finally, he spoke. \r\n<p>\r\n\"Who are you?\"",
+                          "conversationText": "\"Who are you?\"",
                           "IsExpanded": true,
                           "subNodes": [],
                           "actions": [],
@@ -1481,5 +1561,5 @@
   "SpeakToMainPcOnly": true,
   "NpcPortraitBitmap": "prp_woodcutterson.png",
   "DefaultNpcName": "",
-  "NextIdNum": 93
+  "NextIdNum": 97
 }

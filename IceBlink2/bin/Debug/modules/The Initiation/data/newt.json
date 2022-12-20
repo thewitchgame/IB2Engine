@@ -7,13 +7,17 @@
   "combatLocY": 0,
   "moveDistance": 5,
   "knownSpellsTags": [
-    "knott_wallop_spell",
+    "spell_deeproots",
+    "knott_growth_spell",
+    "spell_forceofwill",
     "knott_rind_spell",
-    "knott_growth_spell"
+    "knott_wallop_spell"
   ],
   "knownSpellsList": [],
   "knownTraitsTags": [
-    "trait_forceofwill"
+    "trait_overgrowth",
+    "trait_rind",
+    "trait_secretseed"
   ],
   "knownTraitsList": [],
   "effectsList": [],
@@ -58,7 +62,7 @@
   },
   "BodyRefs": {
     "resref": "knott_burlapsack",
-    "tag": "newTag_166223_166517",
+    "tag": "newTag_166223_314185",
     "name": "Burlap Sack Jacket",
     "canNotBeUnequipped": false,
     "isLightSource": false,
@@ -67,7 +71,7 @@
   },
   "MainHandRefs": {
     "resref": "witchstaff01",
-    "tag": "newTag_165298_166525",
+    "tag": "newTag_165298_314232",
     "name": "Quarterstaff",
     "canNotBeUnequipped": false,
     "isLightSource": false,
@@ -126,15 +130,9 @@
   "damageTypeResistanceTotalFire": 0,
   "damageTypeResistanceTotalMagic": 0,
   "damageTypeResistanceTotalPoison": 0,
-  "knownUsableTraitsTags": [
-    "spell_forceofwill"
-  ],
-  "knownOutsideCombatUsableTraitsTags": [
-    "spell_forceofwill"
-  ],
-  "knownInCombatUsableTraitsTags": [
-    "spell_forceofwill"
-  ],
+  "knownUsableTraitsTags": [],
+  "knownOutsideCombatUsableTraitsTags": [],
+  "knownInCombatUsableTraitsTags": [],
   "pcTags": [],
   "name": "Knott",
   "tag": "newt",
@@ -148,9 +146,9 @@
   "baseReflex": 0,
   "baseStr": 15,
   "baseDex": 8,
-  "baseInt": 6,
+  "baseInt": 9,
   "baseCha": 5,
-  "baseCon": 16,
+  "baseCon": 12,
   "baseWis": 5,
   "ACBase": 14,
   "XP": 0

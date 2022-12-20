@@ -1,1 +1,348 @@
-~gaPlaySound(walk)
+~gaSetGlobalInt(global_con1,0)
+~gaSetGlobalInt(global_con2,0)
+~gaSetGlobalInt(global_con3,0)
+~gaSetGlobalInt(global_con4,0)
+~gaSetGlobalInt(global_con5,0)
+~gaSetGlobalInt(global_con6,0)
+~gaSetGlobalInt(global_con7,0)
+~gaSetGlobalInt(global_con8,0)
+~gaSetGlobalInt(global_con9,0)
+~gaSetGlobalInt(global_con10,0)
+~gaSetGlobalInt(onmap,0)
+
+~gaGetGlobalInt(experience,@XP)
+~gaGetGlobalInt(stamp,@x)
+//~gaGetGlobalInt(traveltime,@m)
+~ogGetPartyLocation(XParty,YParty,XLand)
+
+//@d = ~gcCheckForGold(4)
+//@dc = ~gcCheckForGold(99)
+//@dd = ~gcCheckForGold(149)
+//@taxam = ~gcCheckGlobalInt(taxam,=,0)
+//@taxnoon = ~gcCheckGlobalInt(taxnoon,=,0)
+//@taxpm = ~gcCheckGlobalInt(taxpm,=,0)
+
+//@dm = ~gcCheckIsInHoursWindowDaily(9,10)
+//@dn = ~gcCheckIsInHoursWindowDaily(12,1)
+//@da = ~gcCheckIsInHoursWindowDaily(4,5)
+
+
+@i = ~gcCheckIsInHoursWindowDaily(13,15)
+@id = ~gcCheckIsInHoursWindowDaily(20,21)
+
+@n = ~gcCheckIsInHoursWindowDaily(23,6)
+@o = ~gcCheckGlobalInt(daytime,=,1)
+
+@x = ~gcCheckGlobalInt(stamp,=,1)
+@y = ~gcCheckGlobalInt(CannotUseMap,=,1)
+
+
+//if (@dm = 1)
+//if (@taxam = 1)
+//if (@dd = 1)
+//   ~gaTakeGold(20)
+//~gaSetGlobalInt(taxam,1)
+//endif
+//if (@dc = 1)
+//   ~gaTakeGold(10)
+//~gaSetGlobalInt(taxam,1)
+//endif
+//if (@d = 1)
+//   ~gaTakeGold(2)
+//~gaSetGlobalInt(taxam,1)
+//endif
+//endif
+//endif
+
+
+//if (@dn = 1)
+//if (@taxnoon = 1)
+//if (@dd = 1)
+//   ~gaTakeGold(20)
+//~gaSetGlobalInt(taxnoon,1)
+//endif
+//if (@dc = 1)
+//   ~gaTakeGold(10)
+//~gaSetGlobalInt(taxnoon,1)
+//endif
+//if (@d = 1)
+//   ~gaTakeGold(2)
+//~gaSetGlobalInt(taxnoon,1)
+//endif
+//endif
+//endif
+
+//if (@dp = 1)
+//if (@taxpm = 1)
+//if (@dd = 1)
+//   ~gaTakeGold(20)
+//~gaSetGlobalInt(taxpm,1)
+//endif
+//if (@dc = 1)
+//   ~gaTakeGold(10)
+//~gaSetGlobalInt(taxpm,1)
+//endif
+//if (@d = 1)
+//   ~gaTakeGold(2)
+//~gaSetGlobalInt(taxpm,1)
+//endif
+//endif
+//endif
+
+
+
+@w = ~gcCheckAttribute(-1,wis,<,12)
+if (@w = 1)
+   ~gaSetGlobalInt(global_wisdom,99)
+endif
+
+@w = ~gcCheckAttribute(-1,wis,=,12)
+if (@w = 1)
+   ~gaSetGlobalInt(global_wisdom,1)
+endif
+
+@w = ~gcCheckAttribute(-1,wis,=,13)
+if (@w = 1)
+   ~gaSetGlobalInt(global_wisdom,1)
+endif
+
+@w = ~gcCheckAttribute(-1,wis,=,14)
+if (@w = 1)
+   ~gaSetGlobalInt(global_wisdom,2)
+endif
+
+@w = ~gcCheckAttribute(-1,wis,=,15)
+if (@w = 1)
+   ~gaSetGlobalInt(global_wisdom,2)
+endif
+
+@w = ~gcCheckAttribute(-1,wis,=,16)
+if (@w = 1)
+   ~gaSetGlobalInt(global_wisdom,3)
+endif
+
+@w = ~gcCheckAttribute(-1,wis,=,17)
+if (@w = 1)
+   ~gaSetGlobalInt(global_wisdom,3)
+endif
+
+@w = ~gcCheckAttribute(-1,wis,>,17)
+if (@w = 1)
+   ~gaSetGlobalInt(global_wisdom,4)
+endif
+
+
+
+@c = ~gcCheckAttribute(-1,cha,<,12)
+if (@c = 1)
+   ~gaSetGlobalInt(global_charisma,99)
+endif
+
+@c = ~gcCheckAttribute(-1,cha,=,12)
+if (@c = 1)
+   ~gaSetGlobalInt(global_charisma,1)
+endif
+
+@c = ~gcCheckAttribute(-1,cha,=,13)
+if (@c = 1)
+   ~gaSetGlobalInt(global_charisma,1)
+endif
+
+@c = ~gcCheckAttribute(-1,cha,=,14)
+if (@c = 1)
+   ~gaSetGlobalInt(global_charisma,2)
+endif
+
+@c = ~gcCheckAttribute(-1,cha,=,15)
+if (@c = 1)
+   ~gaSetGlobalInt(global_charisma,2)
+endif
+
+@c = ~gcCheckAttribute(-1,cha,=,16)
+if (@c = 1)
+   ~gaSetGlobalInt(global_charisma,3)
+endif
+
+@c = ~gcCheckAttribute(-1,cha,=,17)
+if (@c = 1)
+   ~gaSetGlobalInt(global_charisma,3)
+endif
+
+@c = ~gcCheckAttribute(-1,cha,>,17)
+if (@c = 1)
+   ~gaSetGlobalInt(global_charisma,4)
+endif
+
+
+
+~gaGetGlobalInt(global_charisma,@charisma)
+
+if (@XP = 1)
+
+if (@charisma = 0)
+   ~gaGiveXP(27)
+   ~gaPlaySound(xp)
+   ~gaShowFloatyTextOnMainMap(27 XP,yellow,XParty,YParty)
+   ~gaSetGlobalInt(experience,0)
+endif
+
+
+if (@charisma = 1)
+   ~gaGiveXP(30)
+   ~gaPlaySound(xp)
+   ~gaShowFloatyTextOnMainMap(30 XP,yellow,XParty,YParty)
+   ~gaSetGlobalInt(experience,0)
+endif
+
+if (@charisma = 2)
+   ~gaGiveXP(33)
+   ~gaPlaySound(xp)
+~gaShowFloatyTextOnMainMap(33 XP,yellow,XParty,YParty)
+~gaSetGlobalInt(experience,0)
+endif
+
+if (@charisma = 3)
+   ~gaGiveXP(36)
+~gaPlaySound(xp)
+~gaShowFloatyTextOnMainMap(36 XP,yellow,XParty,YParty)
+~gaSetGlobalInt(experience,0)
+endif
+
+if (@charisma = 99)
+   ~gaGiveXP(24)
+~gaPlaySound(xp)
+~gaShowFloatyTextOnMainMap(24 XP,yellow,XParty,YParty)
+~gaSetGlobalInt(experience,0)
+endif
+
+
+if (@charisma = 4)
+   ~gaGiveXP(39)
+~gaPlaySound(xp)
+~gaShowFloatyTextOnMainMap(39 XP,yellow,XParty,YParty)
+~gaSetGlobalInt(experience,0)
+endif
+endif
+
+if (@XP = 2)
+
+if (@charisma = 0)
+   ~gaGiveXP(51)
+~gaPlaySound(xp)
+~gaShowFloatyTextOnMainMap(51 XP,yellow,XParty,YParty)
+~gaSetGlobalInt(experience,0)
+endif
+
+
+if (@charisma = 1)
+   ~gaGiveXP(57)
+~gaPlaySound(xp)
+~gaShowFloatyTextOnMainMap(57 XP,yellow,XParty,YParty)
+~gaSetGlobalInt(experience,0)
+endif
+
+if (@charisma = 2)
+   ~gaGiveXP(63)
+~gaPlaySound(xp)
+~gaShowFloatyTextOnMainMap(63 XP,yellow,XParty,YParty)
+~gaSetGlobalInt(experience,0)
+endif
+
+if (@charisma = 3)
+   ~gaGiveXP(69)
+~gaPlaySound(xp)
+~gaShowFloatyTextOnMainMap(69 XP,yellow,XParty,YParty)
+~gaSetGlobalInt(experience,0)
+endif
+
+if (@charisma = 99)
+   ~gaGiveXP(45)
+~gaPlaySound(xp)
+~gaShowFloatyTextOnMainMap(45 XP,yellow,XParty,YParty)
+~gaSetGlobalInt(experience,0)
+endif
+
+if (@charisma = 4)
+   ~gaGiveXP(75)
+~gaPlaySound(xp)
+~gaShowFloatyTextOnMainMap(75 XP,yellow,XParty,YParty)
+~gaSetGlobalInt(experience,0)1
+endif
+endif 
+
+if (@XP = 3)
+
+if (@charisma = 0)
+   ~gaGiveXP(126)
+   ~gaPlaySound(xp)
+   ~gaShowFloatyTextOnMainMap(126 XP,yellow,XParty,YParty)
+   ~gaSetGlobalInt(experience,0)
+endif
+
+
+if (@charisma = 1)
+   ~gaGiveXP(135)
+   ~gaPlaySound(xp)
+   ~gaShowFloatyTextOnMainMap(135 XP,yellow,XParty,YParty)
+   ~gaSetGlobalInt(experience,0)
+endif
+
+if (@charisma = 2)
+   ~gaGiveXP(144)
+   ~gaPlaySound(xp)
+~gaShowFloatyTextOnMainMap(144 XP,yellow,XParty,YParty)
+~gaSetGlobalInt(experience,0)
+endif
+
+if (@charisma = 3)
+   ~gaGiveXP(153)
+~gaPlaySound(xp)
+~gaShowFloatyTextOnMainMap(153 XP,yellow,XParty,YParty)
+~gaSetGlobalInt(experience,0)
+endif
+
+if (@charisma = 99)
+   ~gaGiveXP(117)
+~gaPlaySound(xp)
+~gaShowFloatyTextOnMainMap(117 XP,yellow,XParty,YParty)
+~gaSetGlobalInt(experience,0)
+endif
+
+
+if (@charisma = 4)
+   ~gaGiveXP(162)
+~gaPlaySound(xp)
+~gaShowFloatyTextOnMainMap(162 XP,yellow,XParty,YParty)
+~gaSetGlobalInt(experience,0)
+endif
+endif
+
+
+if (@n = 1)
+   if (@y = 1)//cannot use map
+   end
+   endif
+   if (@o = 1)
+   ~gaPlaySound(map)
+   ~gaDoConversationByName(evening_con)
+   end
+   endif
+endif
+
+
+
+if (@i = 1)
+   if (@y = 1)
+   end
+   endif
+   if (@x = 1)
+   ~gaDoConversationByName(drossshop_con)
+   end
+   endif
+else
+
+~gaSetGlobalInt(stamp,1)
+endif
+end
+
+

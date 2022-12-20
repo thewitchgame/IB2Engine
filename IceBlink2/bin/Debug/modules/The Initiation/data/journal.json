@@ -5,17 +5,17 @@
     "Entries": [
       {
         "EntryTitle": "Finish the Tutorial",
-        "EntryText": "The young witch was eager to meet the witches of the coven. It wouldn't be long now...",
+        "EntryText": "***Entry 1/2. Use left and right arrows to find other entries.***<br><br>The young witch was eager to meet the witches of the coven. It wouldn't be long now...",
         "Tag": "01",
         "EntryId": 0,
         "EndPoint": false
       },
       {
         "EntryTitle": "Tutorial Complete",
-        "EntryText": "The young witch had finally made it to the witches' house.",
+        "EntryText": "***Entry 2/2. Use left and right arrows to find other entries.***<br><br>The young witch had finally made it to the witches' house.",
         "Tag": "02",
         "EntryId": 0,
-        "EndPoint": true
+        "EndPoint": false
       }
     ]
   },
@@ -24,51 +24,218 @@
     "Tag": "jr_mainquest",
     "Entries": [
       {
-        "EntryTitle": "The Three Hunters",
-        "EntryText": "Eldest Lady and Middle One sent the young witch and Knott on a grim errand -- to find the hunter who used goose-fletched arrows and to return with a pint of that hunter's blood before August 1 (July 31 at midnight). They would use the blood to bind the young witch to their coven.",
+        "EntryTitle": "Bloodbound",
+        "EntryText": "***Entry 2/x. Use left and right arrows to find other entries.***<br><br>Eldest Lady and Middle One sent the young witch and Knott on a grim errand -- to find the hunter who used goose-fletched arrows and to return with a pint of that hunter's blood before noon on August 11. They would use the blood to bind the young witch to their coven.",
         "Tag": "main02",
         "EntryId": 0,
         "EndPoint": false
       },
       {
         "EntryTitle": "Planting the Seed",
-        "EntryText": "The coven sent the young witch into their back yard. There rested the body of the witch who'd been shot. The young witch was told to plant a seed in the soil of her grave. ",
+        "EntryText": "***Entry 1/x. Use left and right arrows to find other entries.***<br><br>Eldest Lady and Middle One sent the young witch into their backyard. There rested the body of the witch who'd been shot. The young witch was told to plant a seed in the soil of her grave. ",
         "Tag": "main01",
+        "EntryId": 0,
+        "EndPoint": false
+      },
+      {
+        "EntryTitle": "Eris",
+        "EntryText": "***Entry 3/x. Use left and right arrows to find other entries.***<br><br>The young witch found a letter to Nnenne from someone named Eris. In it, Eris said they were worried about Nnenne and out searching for her. Eris would be back on Thursday.",
+        "Tag": "main03",
+        "EntryId": 0,
+        "EndPoint": false
+      },
+      {
+        "EntryTitle": "Seek the Congress of Moths",
+        "EntryText": "***Entry 6/x. Use left and right arrows to find other entries.***<br><br>After confronting Eldest Lady about Malkin's transformation into a tree, the young witch was told that this knowledge changed nothing and that the kami were trying to sow distrust between them. Nnenne still needed to be avenged for the coven-binding to happen. Soon after, the young witch had a vision of the kami. They said: \"Seek the Congress of Moths. Find their hidden door. It opens in the western woods. They know who killed your witch.\"",
+        "Tag": "main06",
+        "EntryId": 0,
+        "EndPoint": false
+      },
+      {
+        "EntryTitle": "How Nnenne Died",
+        "EntryText": "quest entry text",
+        "Tag": "main07",
         "EntryId": 0,
         "EndPoint": false
       }
     ]
   },
   {
-    "Name": "The Three Spirits",
+    "Name": "The Three Kami",
     "Tag": "jr_spiritquest",
     "Entries": [
       {
-        "EntryTitle": "Wee Malkin Was His Name",
-        "EntryText": "After meeting a spirit in the woods, the young witch had a vision. In it, a young man stood on top of a hill and drank from a cup. The spirit said the man's name was \"Wee Malkin\" and told the young witch to mention it to Middle One.",
+        "EntryTitle": "Malkin Was His Name",
+        "EntryText": "***Entry 1/x. Use left and right arrows to find other entries.***<br><br>The young witch received a vision from a spirit about a young man named Malkin. The spirit told the young witch to mention his name to \"the witch\" -- presumably Eldest Lady.",
         "Tag": "spirit01",
         "EntryId": 0,
         "EndPoint": false
       },
       {
         "EntryTitle": "The Woodcutter's Son",
-        "EntryText": "A second spirit showed the young witch another vision of Wee Malkin. In it, Wee Malkin received a cup from Eldest Lady and Middle One and was told to seek wisdom from the spirits. After the vision faded, the spirit told the young witch that the woodcutter's son knew how to find Wee Malkin.",
+        "EntryText": "***Entry 3/x. Use left and right arrows to find other entries.***<br><br>A second spirit showed the young witch another vision of Malkin. In it, Malkin admitted to reading Eldest Lady's grimoire and was told to seek help understanding it from the kami. After the vision faded, the spirit told the young witch that the woodcutter's son could tell them more about Malkin.",
         "Tag": "spirit03",
         "EntryId": 0,
         "EndPoint": false
       },
       {
-        "EntryTitle": "Middle One's Information",
-        "EntryText": "The young witch asked Middle One about Wee Malkin. The older witch was not forthcoming, but the young witch did learn that Wee Malkin had been in the coven before Nnenne. Perhaps others in the woods knew more.",
+        "EntryTitle": "What the Witches Said",
+        "EntryText": "***Entry 2/x. Use left and right arrows to find other entries.***<br><br>According to Eldest Lady, Malkin had been part of the coven before Nnenne. It was unclear why the kami brought him up. Perhaps another spirit would be willing to tell the young witch more.",
         "Tag": "spirit02",
+        "EntryId": 0,
+        "EndPoint": false
+      },
+      {
+        "EntryTitle": "The Third Kami",
+        "EntryText": "***Entry 4/x. Use left and right arrows to find other entries.***<br><br>The woodcutter's son led the young witch to a tree where he had dreamed about Malkin, but he couldn't tell the witch anything about Malkin himself. After their conversation, the spirits said to look for the third kami to learn more.",
+        "Tag": "spirit04",
+        "EntryId": 0,
+        "EndPoint": false
+      },
+      {
+        "EntryTitle": "Malkin's Tale",
+        "EntryText": "***Entry 5/x. Use left and right arrows to find other entries.***<br><br>The third spirit showed the young witch what happened to Malkin when he approached the kami with Eldest Lady's grimoire: they turned him into a tree. It's the same tree the woodcutter's son visits. The spirit blamed Eldest Lady's trickery and Malkin's hubris for this turn of events. The young witch needed to confront Eldest Lady and Middle One with this knowledge.",
+        "Tag": "spirit05",
+        "EntryId": 0,
+        "EndPoint": false
+      },
+      {
+        "EntryTitle": "Eldest Lady's Claim",
+        "EntryText": "***Entry 6/x. Use left and right arrows to find other entries.***<br><br>Eldest Lady revealed that her own knowledge about Malkin's supposed evil came from her discussions with the kami. When the young witch challenged Eldest Lady about this, part of Eldest Lady's true power was revealed. She insisted she was the equal of the kami and could not be tricked by them.",
+        "Tag": "spirit06",
+        "EntryId": 0,
+        "EndPoint": false
+      },
+      {
+        "EntryTitle": "The Kami's Command",
+        "EntryText": "***Entry 7/x. Use left and right arrows to find other entries.***<br><br>sdsdsd",
+        "Tag": "entryTag346952",
         "EntryId": 0,
         "EndPoint": false
       }
     ]
   },
   {
-    "Name": "Boons",
-    "Tag": "jr_boons",
-    "Entries": []
+    "Name": "The Four Ronin",
+    "Tag": "jr_ronin",
+    "Entries": [
+      {
+        "EntryTitle": "The Four Ronin",
+        "EntryText": "***Entry 1/5. Use left and right arrows to find other entries.***<br><br>The young witch had discovered a tomb belonging to a ronin. A disembodied voice instructed the young witch to take the sword with which the ronin was entombed. A battle with the tomb's guardians ensued. After that, the disembodied voice said, \"Find my siblings, the other ronin. They, too, will offer you their swords, and if you take them properly, in the way doing most honor to our lord, a greater boon.\"",
+        "Tag": "ronin00",
+        "EntryId": 0,
+        "EndPoint": false
+      },
+      {
+        "EntryTitle": "Plum Blossom Sword",
+        "EntryText": "***Entry 2/5. Use left and right arrows to find other entries.***<br><br>The young witch found the plum blossom sword entombed with a ronin.",
+        "Tag": "ronin01",
+        "EntryId": 0,
+        "EndPoint": false
+      },
+      {
+        "EntryTitle": "Orchid Sword",
+        "EntryText": "***Entry 3/5. Use left and right arrows to find other entries.***<br><br>The young witch found the orchid sword entombed with a ronin.",
+        "Tag": "ronin02",
+        "EntryId": 0,
+        "EndPoint": false
+      },
+      {
+        "EntryTitle": "Bamboo Sword",
+        "EntryText": "***Entry 4/5. Use left and right arrows to find other entries.***<br><br>The young witch found the bamboo sword entombed with a ronin.",
+        "Tag": "ronin03",
+        "EntryId": 0,
+        "EndPoint": false
+      },
+      {
+        "EntryTitle": "Chrysanthemum Sword",
+        "EntryText": "***Entry 5/5. Use left and right arrows to find other entries.***<br><br>The young witch found the chrysanthemum sword entombed with a ronin.",
+        "Tag": "ronin04",
+        "EntryId": 0,
+        "EndPoint": false
+      }
+    ]
+  },
+  {
+    "Name": "The Magician",
+    "Tag": "jr_desperado",
+    "Entries": [
+      {
+        "EntryTitle": "Mnesse",
+        "EntryText": "***Entry 1/5. Use left and right arrows to find other entries.***<br><br>The witch encountered a small company that included a magician and her escort, one of whom was a witch hunter. The magician, a woman named Mnesse, seemed to be hunting for someone named Zaurus. After the young witch defeated them in battle, Mnesse retreated, once again mentioning Zaurus.",
+        "Tag": "desp01",
+        "EntryId": 0,
+        "EndPoint": false
+      },
+      {
+        "EntryTitle": "The Ambush",
+        "EntryText": "***Entry 2/5. Use left and right arrows to find other entries.***<br><br>The young witch was attacked by Mnesse and her band again. Mnesse still seemed to be hunting Zaurus. Phaedrus wasn't with her. After the battle, Mnesse threatened to \"unravel\" the witch's mind, inflicting a great deal of pain before she left.",
+        "Tag": "desp02",
+        "EntryId": 0,
+        "EndPoint": false
+      }
+    ]
+  },
+  {
+    "Name": "The Message to Enzibar",
+    "Tag": "jr_message",
+    "Entries": [
+      {
+        "EntryTitle": "The Marvelous Coincidence",
+        "EntryText": "***Use left and right arrows to find other entries.***<br><br>The young witch met the Minister of Peace, encamped with the rest of a royal escort in the middle of the woods. He said that the witch's coming was a \"marvelous coincidence\" and that he wanted to talk in private.",
+        "Tag": "mess01",
+        "EntryId": 0,
+        "EndPoint": false
+      },
+      {
+        "EntryTitle": "The Vision",
+        "EntryText": "***Use left and right arrows to find other entries.***<br><br>The young witch had a vision and described it to the Minister of Peace and Astimund. The minister asked the witch to come back the next day in case the king wanted to hear it from the witch's own lips.",
+        "Tag": "mess02",
+        "EntryId": 0,
+        "EndPoint": false
+      },
+      {
+        "EntryTitle": "The Vision",
+        "EntryText": "***Use left and right arrows to find other entries.***<br><br>The young witch had a vision and described it to the Minister of Peace and Astimund.",
+        "Tag": "mess99",
+        "EntryId": 0,
+        "EndPoint": false
+      },
+      {
+        "EntryTitle": "The Ambassador's Plea",
+        "EntryText": "***Use left and right arrows to find other entries.***<br><br>Astimund revealed a plan to sabotage the minister's letter to Princess Zidae that would buy time for his diplomatic mission. The witch was to play a crucial role in his plan but rejected the offer. Why get involved in this political intrigue? The young witch agreed not to tell anyone Astimund's plan, however.",
+        "Tag": "mess12",
+        "EntryId": 0,
+        "EndPoint": false
+      },
+      {
+        "EntryTitle": "The Ambassador's Deceit",
+        "EntryText": "***Use left and right arrows to find other entries.***<br><br>Astimund revealed a plan to sabotage the minister's letter to Princess Zidae that would buy time for his diplomatic mission. The witch was to play a crucial role in his plan but rejected the offer, saying that the Minister of Peace deserved to know about his deceitful plan.",
+        "Tag": "mess13",
+        "EntryId": 0,
+        "EndPoint": false
+      },
+      {
+        "EntryTitle": "The Witch's Neutrality",
+        "EntryText": "***Use left and right arrows to find other entries.***<br><br>The young witch decided not to tell the minister about the ambassador's scheme after all. Time would sort the situation out without the witch's involvement .",
+        "Tag": "mess100",
+        "EntryId": 0,
+        "EndPoint": false
+      },
+      {
+        "EntryTitle": "The Ambassador Flees",
+        "EntryText": "***Use left and right arrows to find other entries.***<br><br>The young witch told the minister about Astimund's scheme. Then they discovered that the ambassador had fled -- most likely to Wan. Now the affair was out of the young witch's hands -- wasn't it?",
+        "Tag": "mess101",
+        "EntryId": 0,
+        "EndPoint": false
+      },
+      {
+        "EntryTitle": "The Forgeries",
+        "EntryText": "***Use left and right arrows to find other entries.***<br><br>Astimund revealed a plan to sabotage the minister's communications with Princess Zidae, buying time for his diplomatic mission. The witch agreed to play a crucial role in this plan by traveling to the Bonnyjoy Inn and making sure two fake messages were delivered. The witch would also have to ensure that a message that had already left the camp was seized without the messenger's knowledge. The other could be sent to Enzibar via the innkeeper.",
+        "Tag": "mess14",
+        "EntryId": 0,
+        "EndPoint": false
+      }
+    ]
   }
 ]

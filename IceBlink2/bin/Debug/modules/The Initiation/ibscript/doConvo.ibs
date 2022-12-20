@@ -1,1 +1,5 @@
+
+~gaSetGlobalInt(onmap,1)
+
+~gaForceRestAndRaiseDead()
 ~gaDoConversationByName(parm(0))

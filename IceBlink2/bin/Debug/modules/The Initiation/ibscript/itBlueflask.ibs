@@ -1,0 +1,2 @@
+   ~gaCastSpellEncounterTrigger(blueflask_spell,true,1,Blueflask quaffed.)
+~osSetCreatureHp(thiscreature,,+,9)

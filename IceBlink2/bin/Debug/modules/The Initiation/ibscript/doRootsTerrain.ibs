@@ -1,0 +1,51 @@
+
+
+@fire = ~gcRand1of(7)
+@acid = ~gcRand1of(6)
+@electricity = ~gcRand1of(5)
+@magic = ~gcRand1of(4)
+@physical = ~gcRand1of(3)
+@ice = ~gcRand1of(2)
+@poison = ~gcRand1of(1)
+
+if (@fire = 1)
+
+~gaCastSpellEncounterTrigger(spell_rootsfire,true,1,The roots awaken.)
+end
+endif
+
+if (@acid = 1)
+
+~gaCastSpellEncounterTrigger(spell_rootsacid,true,1,The roots awaken.)
+end
+endif
+
+if (@electricity = 1)
+
+~gaCastSpellEncounterTrigger(spell_rootselectric,true,1,The roots awaken.)
+end
+endif
+
+if (@magic = 1)
+
+~gaCastSpellEncounterTrigger(spell_rootsmagic,true,1,The roots awaken.)
+end
+endif
+
+if (@physical = 1)
+
+~gaCastSpellEncounterTrigger(spell_rootsphysical,true,1,The roots awaken.)
+end
+endif
+
+if (@ice = 1)
+
+~gaCastSpellEncounterTrigger(spell_rootsice,true,1,The roots awaken.)
+end
+endif
+
+if (@poison = 1)
+
+~gaCastSpellEncounterTrigger(spell_rootspoison,true,1,The roots awaken.)
+end
+endif

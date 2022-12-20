@@ -1,0 +1,8 @@
+@r = ~gcCheckForItem(witchrobes01,1,true,)
+
+if (@r = 1)
+end
+endif
+
+~gaShowMessageBox(Equip the Robes of the Young Witch to proceed!)
+~gaTransitionPartyToMapLocation(a_tutorial_b,2,7,)

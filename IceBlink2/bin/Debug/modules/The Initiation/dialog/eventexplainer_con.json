@@ -20,10 +20,10 @@
           "linkTo": 0,
           "ShowOnlyOnce": false,
           "NodeIsActive": true,
-          "NodePortraitBitmap": "prp_event.png",
+          "NodePortraitBitmap": "",
           "NodeNpcName": "",
           "NodeSound": "none",
-          "conversationText": "Walking to a square with this icon leads to a special event. Sometimes these events are random and sometimes they aren't. Some events are hidden (no icon).",
+          "conversationText": "Walking to a tile with a glowing sphere triggers an interaction with the game world. Sometimes these interactions are random and sometimes they aren't. Sometimes they lead to combat encounters and sometimes to narrative encounters.",
           "IsExpanded": true,
           "subNodes": [
             {
@@ -49,7 +49,7 @@
                   "NodePortraitBitmap": "",
                   "NodeNpcName": "",
                   "NodeSound": "none",
-                  "conversationText": "It's always a good idea to save your game before special events. Some events lead to combat, some to rewards, and some to nothing at all -- and some have the potential to end the game!",
+                  "conversationText": "It's always a good idea to save your game before these interactions. They may have the potential to end the game.",
                   "IsExpanded": true,
                   "subNodes": [
                     {
@@ -66,6 +66,13 @@
                       "IsExpanded": true,
                       "subNodes": [],
                       "actions": [
+                        {
+                          "a_script": "gaSetGlobalInt.cs",
+                          "a_parameter_1": "onmap",
+                          "a_parameter_2": "1",
+                          "a_parameter_3": null,
+                          "a_parameter_4": null
+                        },
                         {
                           "a_script": "gaRemovePropByIndex.cs",
                           "a_parameter_1": "0",
@@ -100,9 +107,9 @@
   ],
   "ConvoFileName": "eventexplainer_con",
   "Narration": false,
-  "PartyChat": true,
-  "SpeakToMainPcOnly": false,
-  "NpcPortraitBitmap": "prp_event.png",
+  "PartyChat": false,
+  "SpeakToMainPcOnly": true,
+  "NpcPortraitBitmap": "black_tile.png",
   "DefaultNpcName": "",
   "NextIdNum": 4
 }

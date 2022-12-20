@@ -1,0 +1,9 @@
+
+~gaTransitionPartyToMapLocation(parm(0),parm(1),parm(2),parm(3))
+
+~gaSetGlobalInt(CannotUseMap,1)
+~gaSetGlobalInt(onmap,1)
+
+end
+
+

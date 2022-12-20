@@ -1,0 +1,20 @@
+@i = ~gcCheckGlobalInt(CannotUseMap,=,1)
+@j = ~gcCheckGlobalInt(onmap,=,1)
+
+if (@i = 1)
+~gaShowMessageBox(You cannot use the map right now.)
+   end
+endif
+
+if (@j = 1)
+~gaShowMessageBox(Move to another square to use map.)
+end
+endif
+
+
+~gaSetGlobalInt(CannotUseMap,1)
+~ogGetPartyLocation(LoadMapX,LoadMapY,LoadMapArea)
+~gaDoConversationByName(newmap_con)
+
+
+end

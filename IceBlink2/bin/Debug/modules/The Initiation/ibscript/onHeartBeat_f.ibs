@@ -1,0 +1,22 @@
+
+
+@v = ~gcCheckLocalInt(thisarea,look,=,1)
+@b = ~gcCheckPartyDistance(newPropTag_98850_246355,1)
+@h = ~gcCheckIsInHoursWindowDaily(20,5)
+
+if (@h = 1)
+end
+endif
+
+if (@v = 1)
+end
+endif
+
+
+if (@b = 1)
+~gaSetLocalInt(thisarea,look,1)
+~gaDoConversationByName(a_woods_f_con)
+end
+endif
+
+end

@@ -23,7 +23,7 @@
           "NodePortraitBitmap": "",
           "NodeNpcName": "",
           "NodeSound": "none",
-          "conversationText": "A delicate plant with cream-colored, bell-shaped flowers grew in <FirstName>'s path. <He/She> recognized it as bishop's satchel. The flower did nothing, but the roots contained an alkaloid with minor restorative powers. \r\n<p>\r\n<i>Bishop's satchel can be made into a consumable that restores 4 HP and 2 SP. If you have the Natural Philosophy trait, you may be able to harvest more than 1 alkaloid. Alternatively, witches with Folk Magic may be able to craft a unique magic item with it.</i>\r\n<p>\r\n<i>You can also leave the plant alone for a reward of 20 XP.</i>",
+          "conversationText": "A delicate plant with cream-colored, bell-shaped flowers grew in <FirstName>'s path. <He/She> recognized it as bishop's satchel. The flowers had healing powers.",
           "IsExpanded": true,
           "subNodes": [
             {
@@ -36,7 +36,7 @@
               "NodePortraitBitmap": "",
               "NodeNpcName": "",
               "NodeSound": "none",
-              "conversationText": "[Natural Philosophy] <FirstName> attempted to harvest the plant with the care of a practiced herbalist. (<i>This takes 5 minutes,</i>)",
+              "conversationText": "[Natural Philosophy: 50% chance of success -- Wisdom modifies] <He/She> carefully gathered the useful parts of the plant.",
               "IsExpanded": true,
               "subNodes": [
                 {
@@ -49,7 +49,7 @@
                   "NodePortraitBitmap": "",
                   "NodeNpcName": "",
                   "NodeSound": "none",
-                  "conversationText": "[Success] <FirstName> was able to harvest three alkaloids.",
+                  "conversationText": "[Success: 5 minutes pass.] <He/She> took three flowers.",
                   "IsExpanded": true,
                   "subNodes": [
                     {
@@ -72,6 +72,20 @@
                           "a_parameter_2": "3",
                           "a_parameter_3": null,
                           "a_parameter_4": null
+                        },
+                        {
+                          "a_script": "gaShowMessageBox.cs",
+                          "a_parameter_1": "Bishop's Satchel (3) received!",
+                          "a_parameter_2": null,
+                          "a_parameter_3": null,
+                          "a_parameter_4": null
+                        },
+                        {
+                          "a_script": "gaSetGlobalInt.cs",
+                          "a_parameter_1": "onmap",
+                          "a_parameter_2": "1",
+                          "a_parameter_3": null,
+                          "a_parameter_4": null
                         }
                       ],
                       "conditions": [],
@@ -81,13 +95,23 @@
                   "actions": [],
                   "conditions": [
                     {
-                      "c_script": "gcPassSkillCheck.cs",
+                      "c_script": "gcCheckAttribute.cs",
                       "c_btnAndOr": "and",
                       "c_and": true,
                       "c_not": false,
                       "c_parameter_1": "-1",
-                      "c_parameter_2": "trait_naturalphil",
-                      "c_parameter_3": "7",
+                      "c_parameter_2": "wis",
+                      "c_parameter_3": ">",
+                      "c_parameter_4": "11"
+                    },
+                    {
+                      "c_script": "gcRand1of.cs",
+                      "c_btnAndOr": "and",
+                      "c_and": true,
+                      "c_not": false,
+                      "c_parameter_1": "5",
+                      "c_parameter_2": null,
+                      "c_parameter_3": null,
                       "c_parameter_4": null
                     }
                   ],
@@ -103,7 +127,7 @@
                   "NodePortraitBitmap": "",
                   "NodeNpcName": "",
                   "NodeSound": "none",
-                  "conversationText": "[Partial Success] <FirstName> was able to harvest two alkaloids.",
+                  "conversationText": "[Success: 5 minutes pass.] <He/She> took two flowers.",
                   "IsExpanded": true,
                   "subNodes": [
                     {
@@ -126,6 +150,20 @@
                           "a_parameter_2": "2",
                           "a_parameter_3": null,
                           "a_parameter_4": null
+                        },
+                        {
+                          "a_script": "gaShowMessageBox.cs",
+                          "a_parameter_1": "Bishop's Satchel (2) received!",
+                          "a_parameter_2": null,
+                          "a_parameter_3": null,
+                          "a_parameter_4": null
+                        },
+                        {
+                          "a_script": "gaSetGlobalInt.cs",
+                          "a_parameter_1": "onmap",
+                          "a_parameter_2": "1",
+                          "a_parameter_3": null,
+                          "a_parameter_4": null
                         }
                       ],
                       "conditions": [],
@@ -135,13 +173,23 @@
                   "actions": [],
                   "conditions": [
                     {
-                      "c_script": "gcPassSkillCheck.cs",
+                      "c_script": "gcCheckAttribute.cs",
                       "c_btnAndOr": "and",
                       "c_and": true,
                       "c_not": false,
                       "c_parameter_1": "-1",
-                      "c_parameter_2": "trait_naturalphil",
-                      "c_parameter_3": "7",
+                      "c_parameter_2": "wis",
+                      "c_parameter_3": ">",
+                      "c_parameter_4": "10"
+                    },
+                    {
+                      "c_script": "gcRand1of.cs",
+                      "c_btnAndOr": "and",
+                      "c_and": true,
+                      "c_not": false,
+                      "c_parameter_1": "2",
+                      "c_parameter_2": null,
+                      "c_parameter_3": null,
                       "c_parameter_4": null
                     }
                   ],
@@ -157,7 +205,7 @@
                   "NodePortraitBitmap": "",
                   "NodeNpcName": "",
                   "NodeSound": "none",
-                  "conversationText": "[Failure] Unfortunately, <FirstName> could only harvest one alkaloid.",
+                  "conversationText": "[Failure: 5 minutes pass.] Unfortunately <he/she> found only one good flower.",
                   "IsExpanded": true,
                   "subNodes": [
                     {
@@ -180,6 +228,20 @@
                           "a_parameter_2": "1",
                           "a_parameter_3": null,
                           "a_parameter_4": null
+                        },
+                        {
+                          "a_script": "gaShowMessageBox.cs",
+                          "a_parameter_1": "Bishop's Satchel received!",
+                          "a_parameter_2": null,
+                          "a_parameter_3": null,
+                          "a_parameter_4": null
+                        },
+                        {
+                          "a_script": "gaSetGlobalInt.cs",
+                          "a_parameter_1": "onmap",
+                          "a_parameter_2": "1",
+                          "a_parameter_3": null,
+                          "a_parameter_4": null
                         }
                       ],
                       "conditions": [],
@@ -194,23 +256,23 @@
               "actions": [
                 {
                   "a_script": "osSetProp.cs",
-                  "a_parameter_1": "thisProp",
+                  "a_parameter_1": "event1",
                   "a_parameter_2": null,
-                  "a_parameter_3": "s",
+                  "a_parameter_3": "a",
                   "a_parameter_4": "false"
                 },
                 {
                   "a_script": "osSetProp.cs",
-                  "a_parameter_1": "thisProp",
+                  "a_parameter_1": "event1",
                   "a_parameter_2": null,
-                  "a_parameter_3": "a",
+                  "a_parameter_3": "s",
                   "a_parameter_4": "false"
                 },
                 {
                   "a_script": "osSetWorldTime.cs",
                   "a_parameter_1": "+",
                   "a_parameter_2": "5",
-                  "a_parameter_3": null,
+                  "a_parameter_3": "false",
                   "a_parameter_4": null
                 }
               ],
@@ -238,7 +300,7 @@
               "NodePortraitBitmap": "",
               "NodeNpcName": "",
               "NodeSound": "none",
-              "conversationText": "[Folk Magic] <FirstName> also seemed to remember a curious bit of wisdom <he/she>'d heard about the flower. (<i>Success takes 30 minutes.</i>)",
+              "conversationText": "[Folk Magic: 90% chance of success -- Wisdom modifies] <He/She> tried to recall a legend <he/she>'d heard about it.",
               "IsExpanded": true,
               "subNodes": [
                 {
@@ -251,7 +313,7 @@
                   "NodePortraitBitmap": "",
                   "NodeNpcName": "",
                   "NodeSound": "none",
-                  "conversationText": "[Success] A farmer's daughter had once told <him/her> that if you pluck two bishop's satchel blossoms, place them in your boots, and forget them, you'll be blessed with health and wisdom. It seemed worth trying.",
+                  "conversationText": "[Success: 5 minutes pass.] <He/She> remembered. If you plucked bishop's satchel and put it in one of your shoes, you would be blessed with health and wisdom as soon as you forgot it. It was worth a try.",
                   "IsExpanded": true,
                   "subNodes": [
                     {
@@ -277,7 +339,7 @@
                           "NodePortraitBitmap": "",
                           "NodeNpcName": "",
                           "NodeSound": "none",
-                          "conversationText": "It's not easy to forget something you are supposed to forget, but at the end of a half hour of contemplating the shadows, musty breezes, and rustles of the forest, <FirstName> had indeed forgotten.\r\n\r\n<i>You have received the Boots of the Flattened Flowers.</i>",
+                          "conversationText": "It's not easy to forget something you're supposed to forget, but at the end of a few moments of willed distraction, the young witch had forgotten the flowers in <his/her> boots.",
                           "IsExpanded": true,
                           "subNodes": [
                             {
@@ -300,6 +362,27 @@
                                   "a_parameter_2": "1",
                                   "a_parameter_3": null,
                                   "a_parameter_4": null
+                                },
+                                {
+                                  "a_script": "gaShowMessageBox.cs",
+                                  "a_parameter_1": "Boots of the Flattened Flowers received!",
+                                  "a_parameter_2": null,
+                                  "a_parameter_3": null,
+                                  "a_parameter_4": null
+                                },
+                                {
+                                  "a_script": "osSetWorldTime.cs",
+                                  "a_parameter_1": "+",
+                                  "a_parameter_2": "5",
+                                  "a_parameter_3": "false",
+                                  "a_parameter_4": null
+                                },
+                                {
+                                  "a_script": "gaSetGlobalInt.cs",
+                                  "a_parameter_1": "onmap",
+                                  "a_parameter_2": "1",
+                                  "a_parameter_3": null,
+                                  "a_parameter_4": null
                                 }
                               ],
                               "conditions": [],
@@ -311,15 +394,7 @@
                           "isLink": false
                         }
                       ],
-                      "actions": [
-                        {
-                          "a_script": "osSetWorldTime.cs",
-                          "a_parameter_1": "+",
-                          "a_parameter_2": "30",
-                          "a_parameter_3": null,
-                          "a_parameter_4": null
-                        }
-                      ],
+                      "actions": [],
                       "conditions": [],
                       "isLink": false
                     }
@@ -327,13 +402,23 @@
                   "actions": [],
                   "conditions": [
                     {
-                      "c_script": "gcPassSkillCheck.cs",
+                      "c_script": "gcPassSkillCheckSilent.cs",
                       "c_btnAndOr": "and",
                       "c_and": true,
                       "c_not": false,
                       "c_parameter_1": "-1",
                       "c_parameter_2": "trait_folkmagic",
-                      "c_parameter_3": "7",
+                      "c_parameter_3": "3",
+                      "c_parameter_4": null
+                    },
+                    {
+                      "c_script": "gcCheckHasTrait.cs",
+                      "c_btnAndOr": "or",
+                      "c_and": false,
+                      "c_not": false,
+                      "c_parameter_1": "-1",
+                      "c_parameter_2": "trait_folkmagic3",
+                      "c_parameter_3": null,
                       "c_parameter_4": null
                     }
                   ],
@@ -349,7 +434,7 @@
                   "NodePortraitBitmap": "",
                   "NodeNpcName": "",
                   "NodeSound": "none",
-                  "conversationText": "[Failure] What was it, though? Were you supposed to rub it on your boots? Hang it above the pantry door? <He/She> couldn't remember. At least <he/she> could still put the flower to its common use, if <he/she> wished.",
+                  "conversationText": "[Failure] Whatever it was eluded <him/her>. ",
                   "IsExpanded": true,
                   "subNodes": [
                     {
@@ -362,7 +447,7 @@
                       "NodePortraitBitmap": "",
                       "NodeNpcName": "",
                       "NodeSound": "none",
-                      "conversationText": "[Natural Philosophy] <FirstName> attempted to harvest the plant with the care of a practiced herbalist. (<i>This takes 5 minutes,</i>)",
+                      "conversationText": "[Natural Philosophy: 50% chance of success; Wisdom modifies] <He/She> carefully gathered the useful parts of the plant.",
                       "IsExpanded": true,
                       "subNodes": [],
                       "actions": [],
@@ -379,7 +464,7 @@
                       "NodePortraitBitmap": "",
                       "NodeNpcName": "",
                       "NodeSound": "none",
-                      "conversationText": "<FirstName> harvested some bishop's satchel. (<i>This takes 5 minutes,</i>)",
+                      "conversationText": "<He/She> collected some. [This takes 5 minutes.]",
                       "IsExpanded": true,
                       "subNodes": [],
                       "actions": [],
@@ -396,28 +481,35 @@
                       "NodePortraitBitmap": "",
                       "NodeNpcName": "",
                       "NodeSound": "none",
-                      "conversationText": "But <FirstName> left the bishop's satchel alone.",
+                      "conversationText": "<He/She> left the bishop's satchel alone. [This provides experience.]",
                       "IsExpanded": true,
                       "subNodes": [],
                       "actions": [
                         {
                           "a_script": "osSetProp.cs",
-                          "a_parameter_1": "thisProp",
+                          "a_parameter_1": "event1",
                           "a_parameter_2": null,
                           "a_parameter_3": "s",
                           "a_parameter_4": "false"
                         },
                         {
                           "a_script": "osSetProp.cs",
-                          "a_parameter_1": "thisProp",
+                          "a_parameter_1": "event1",
                           "a_parameter_2": null,
                           "a_parameter_3": "a",
                           "a_parameter_4": "false"
                         },
                         {
-                          "a_script": "gaGiveXP.cs",
-                          "a_parameter_1": "20",
-                          "a_parameter_2": null,
+                          "a_script": "gaSetGlobalInt.cs",
+                          "a_parameter_1": "experience",
+                          "a_parameter_2": "1",
+                          "a_parameter_3": null,
+                          "a_parameter_4": null
+                        },
+                        {
+                          "a_script": "gaSetGlobalInt.cs",
+                          "a_parameter_1": "onmap",
+                          "a_parameter_2": "1",
                           "a_parameter_3": null,
                           "a_parameter_4": null
                         }
@@ -441,14 +533,14 @@
                 },
                 {
                   "a_script": "osSetProp.cs",
-                  "a_parameter_1": "thisProp",
+                  "a_parameter_1": "event1",
                   "a_parameter_2": null,
                   "a_parameter_3": "s",
                   "a_parameter_4": "false"
                 },
                 {
                   "a_script": "osSetProp.cs",
-                  "a_parameter_1": "thisProp",
+                  "a_parameter_1": "event1",
                   "a_parameter_2": null,
                   "a_parameter_3": "a",
                   "a_parameter_4": "false"
@@ -488,20 +580,20 @@
               "NodePortraitBitmap": "",
               "NodeNpcName": "",
               "NodeSound": "none",
-              "conversationText": "<FirstName> harvested some bishop's satchel. (<i>This takes 5 minutes,</i>)",
+              "conversationText": "<He/She> collected some. [This takes 5 minutes.]",
               "IsExpanded": true,
               "subNodes": [],
               "actions": [
                 {
                   "a_script": "osSetProp.cs",
-                  "a_parameter_1": "thisProp",
+                  "a_parameter_1": "event1",
                   "a_parameter_2": null,
                   "a_parameter_3": "s",
                   "a_parameter_4": "false"
                 },
                 {
                   "a_script": "osSetProp.cs",
-                  "a_parameter_1": "thisProp",
+                  "a_parameter_1": "event1",
                   "a_parameter_2": null,
                   "a_parameter_3": "a",
                   "a_parameter_4": "false"
@@ -514,10 +606,24 @@
                   "a_parameter_4": null
                 },
                 {
+                  "a_script": "gaShowMessageBox.cs",
+                  "a_parameter_1": "Bishop's Satchel received!",
+                  "a_parameter_2": null,
+                  "a_parameter_3": null,
+                  "a_parameter_4": null
+                },
+                {
+                  "a_script": "gaSetGlobalInt.cs",
+                  "a_parameter_1": "onmap",
+                  "a_parameter_2": "1",
+                  "a_parameter_3": null,
+                  "a_parameter_4": null
+                },
+                {
                   "a_script": "osSetWorldTime.cs",
                   "a_parameter_1": "+",
                   "a_parameter_2": "5",
-                  "a_parameter_3": null,
+                  "a_parameter_3": "false",
                   "a_parameter_4": null
                 }
               ],
@@ -534,28 +640,35 @@
               "NodePortraitBitmap": "",
               "NodeNpcName": "",
               "NodeSound": "none",
-              "conversationText": "<FirstName> left the bishop's satchel alone.",
+              "conversationText": "<He/She> left it alone. [This provides experience.]",
               "IsExpanded": true,
               "subNodes": [],
               "actions": [
                 {
                   "a_script": "osSetProp.cs",
-                  "a_parameter_1": "thisProp",
+                  "a_parameter_1": "event1",
                   "a_parameter_2": null,
                   "a_parameter_3": "s",
                   "a_parameter_4": "false"
                 },
                 {
                   "a_script": "osSetProp.cs",
-                  "a_parameter_1": "thisProp",
+                  "a_parameter_1": "event1",
                   "a_parameter_2": null,
                   "a_parameter_3": "a",
                   "a_parameter_4": "false"
                 },
                 {
-                  "a_script": "gaGiveXP.cs",
-                  "a_parameter_1": "20",
-                  "a_parameter_2": null,
+                  "a_script": "gaSetGlobalInt.cs",
+                  "a_parameter_1": "experience",
+                  "a_parameter_2": "1",
+                  "a_parameter_3": null,
+                  "a_parameter_4": null
+                },
+                {
+                  "a_script": "gaSetGlobalInt.cs",
+                  "a_parameter_1": "onmap",
+                  "a_parameter_2": "1",
                   "a_parameter_3": null,
                   "a_parameter_4": null
                 }
@@ -578,7 +691,7 @@
           "NodePortraitBitmap": "",
           "NodeNpcName": "",
           "NodeSound": "none",
-          "conversationText": "<i>Bishop's satchel can be made into a consumable that restores 4 HP and 2 SP. If you have the Natural Philosophy trait, you may be able to harvest more than 1 alkaloid. Witches with Folk Magic who have not already tried to do so may be able to craft a unique magic item with it.</i>\r\n<p>\r\n<i>You can also leave the plant alone for a reward of 20 XP.</i>",
+          "conversationText": "More bishop's satchel grew here.",
           "IsExpanded": true,
           "subNodes": [
             {
@@ -591,7 +704,7 @@
               "NodePortraitBitmap": "",
               "NodeNpcName": "",
               "NodeSound": "none",
-              "conversationText": "[Natural Philosophy] <FirstName> attempted to harvest the plant with the care of a practiced herbalist. (<i>This takes 5 minutes,</i>)",
+              "conversationText": "[Natural Philosophy: 50% chance of success; Wisdom modifies] <He/She> carefully gathered the useful parts of the plant.",
               "IsExpanded": true,
               "subNodes": [],
               "actions": [],
@@ -608,7 +721,7 @@
               "NodePortraitBitmap": "",
               "NodeNpcName": "",
               "NodeSound": "none",
-              "conversationText": "[Folk Magic] <FirstName> also seemed to remember a curious bit of wisdom <he/she>'d heard about the flower. (<i>Success takes 30 minutes.</i>)",
+              "conversationText": "[Folk Magic: 90% chance of success; Wisdom modifies] <He/She> tried to recall a legend <he/she>'d heard about it.",
               "IsExpanded": true,
               "subNodes": [],
               "actions": [],
@@ -625,7 +738,7 @@
               "NodePortraitBitmap": "",
               "NodeNpcName": "",
               "NodeSound": "none",
-              "conversationText": "<FirstName> harvested some bishop's satchel. (<i>This takes 5 minutes,</i>)",
+              "conversationText": "<He/She> collected some. [This takes 5 minutes.]",
               "IsExpanded": true,
               "subNodes": [],
               "actions": [],
@@ -642,7 +755,7 @@
               "NodePortraitBitmap": "",
               "NodeNpcName": "",
               "NodeSound": "none",
-              "conversationText": "<FirstName> left the bishop's satchel alone.",
+              "conversationText": "<He/She> left it alone. [This provides experience.]",
               "IsExpanded": true,
               "subNodes": [],
               "actions": [],
@@ -664,7 +777,7 @@
   "Narration": false,
   "PartyChat": false,
   "SpeakToMainPcOnly": true,
-  "NpcPortraitBitmap": "prp_bishopssatchel.png",
+  "NpcPortraitBitmap": "it_bishopssatchel01.png",
   "DefaultNpcName": "",
-  "NextIdNum": 30
+  "NextIdNum": 34
 }

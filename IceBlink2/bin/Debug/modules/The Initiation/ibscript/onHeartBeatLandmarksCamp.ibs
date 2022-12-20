@@ -1,0 +1,87 @@
+~gaGetGlobalInt(traveltime,@m)
+~gaGetGlobalInt(kingtalk,@k)
+
+@b = ~gcCheckIsInDaysWindowWeekly(5,6)
+@c = ~gcCheckIsInDaysWindowWeekly(6,7)
+@d = ~gcCheckIsInDaysWindowWeekly(0,1)
+@e = ~gcCheckIsInDaysWindowWeekly(1,2)
+@f = ~gcCheckIsInDaysWindowWeekly(2,3)
+@g = ~gcCheckIsInDaysWindowWeekly(3,4)
+
+//These scripts check to see what day of the week it is. It should be at least one day after the witch tells the minister her vision. The conversation this initiates leads to the King's Death. That conversation should set the kingtalk variable to 10.
+if (@m > 0)
+~osSetWorldTime(+,@m,false)
+~gaSetGlobalInt(traveltime,0)
+endif
+
+
+
+if (@b = 1)
+if (@k < 3)
+   ~gaEnableDisableTrigger(newTrigger_242442,true)
+   ~osSetProp(newPropTag_242438_242439,,s,true)//minisiter
+   ~osSetProp(newPropTag_173973_174071,,s,true)//astimund
+endif
+endif
+
+if (@c = 1)
+if (@k < 4)
+   ~gaEnableDisableTrigger(newTrigger_242442,true)
+   ~osSetProp(newPropTag_242438_242439,,s,true)
+   ~osSetProp(newPropTag_173973_174071,,s,true)
+endif
+endif
+
+if (@d = 1)
+if (@k < 5)
+   ~gaEnableDisableTrigger(newTrigger_242442,true)
+   ~osSetProp(newPropTag_242438_242439,,s,true)
+   ~osSetProp(newPropTag_173973_174071,,s,true)
+endif
+endif
+
+if (@e = 1)
+if (@k < 6)
+   ~gaEnableDisableTrigger(newTrigger_242442,true)
+   ~osSetProp(newPropTag_242438_242439,,s,true)
+   ~osSetProp(newPropTag_173973_174071,,s,true)
+endif
+endif
+
+if (@f = 1)
+if (@k < 7)
+   ~gaEnableDisableTrigger(newTrigger_242442,true)
+   ~osSetProp(newPropTag_242438_242439,,s,true)
+   ~osSetProp(newPropTag_173973_174071,,s,true)
+endif
+endif
+
+if (@g = 1)
+if (@k < 8)
+   ~gaEnableDisableTrigger(newTrigger_242442,true)
+   ~osSetProp(newPropTag_242438_242439,,s,true)
+   ~osSetProp(newPropTag_173973_174071,,s,true)
+endif
+endif
+
+if (@k = 13)
+   ~osSetProp(newPropTag_173973_174071,,s,false)
+   ~osSetProp(newPropTag_242438_242439,,s,false)
+   ~osSetProp(newPropTag_242438_276455,,s,true)//unique minister tag
+   ~gaEnableDisableTrigger(newTrigger_276454,true)
+   ~gaEnableDisableTriggerEvent(newTrigger_276454,1,true,)//this is the unique trigger at the king's tent, where the minister is now standing.
+
+endif
+
+if (@k = 14)
+   ~osSetProp(newPropTag_173973_174071,,s,false)
+   ~osSetProp(newPropTag_242438_242439,,s,false)
+   ~osSetProp(newPropTag_242438_276455,,s,true)//unique minister tag
+   ~gaEnableDisableTrigger(newTrigger_276454,true)
+   ~gaEnableDisableTriggerEvent(newTrigger_276454,2,true,)//this is the unique trigger at the king's tent, where the minister is now standing.
+
+endif
+
+
+
+end
