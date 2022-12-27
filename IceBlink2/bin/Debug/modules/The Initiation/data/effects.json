@@ -2522,7 +2522,7 @@
   {
     "traitWorksOnlyWhen": [],
     "traitWorksNeverWhen": [],
-    "name": "Cycle Attunement II...+10% Physical Resistance",
+    "name": "Cycle Attunement II...+10% Normal Resistance",
     "thisEffectUsesFullSizeIcon": false,
     "squareIndicatorFilename": "none",
     "durationOnSquareInUnits": 0,
@@ -7982,7 +7982,7 @@
   {
     "traitWorksOnlyWhen": [],
     "traitWorksNeverWhen": [],
-    "name": "Hex...1 Physical Damage/Round",
+    "name": "Hex...1 Normal Damage/Round",
     "thisEffectUsesFullSizeIcon": false,
     "squareIndicatorFilename": "fx_webbed",
     "durationOnSquareInUnits": 0,
@@ -8297,7 +8297,7 @@
   {
     "traitWorksOnlyWhen": [],
     "traitWorksNeverWhen": [],
-    "name": "Hex...-50% Non-Physical Resistances, -2 Reflex",
+    "name": "Hex...-50% Non-Normal Resistances, -2 Reflex",
     "thisEffectUsesFullSizeIcon": false,
     "squareIndicatorFilename": "fx_webbed",
     "durationOnSquareInUnits": 0,
@@ -8717,7 +8717,7 @@
   {
     "traitWorksOnlyWhen": [],
     "traitWorksNeverWhen": [],
-    "name": "Hex...-50% Physical Resistance",
+    "name": "Hex...-50% Normal Resistance",
     "thisEffectUsesFullSizeIcon": false,
     "squareIndicatorFilename": "fx_webbed",
     "durationOnSquareInUnits": 0,
@@ -12812,7 +12812,7 @@
   {
     "traitWorksOnlyWhen": [],
     "traitWorksNeverWhen": [],
-    "name": "Physical Damage,,,Masque of the Seven Colors",
+    "name": "Normal Damage...Masque of the Seven Colors",
     "thisEffectUsesFullSizeIcon": false,
     "squareIndicatorFilename": "fx_webbed",
     "durationOnSquareInUnits": 0,
@@ -12917,7 +12917,7 @@
   {
     "traitWorksOnlyWhen": [],
     "traitWorksNeverWhen": [],
-    "name": "Physical Damage...Arrow",
+    "name": "Normal Damage...Arrow",
     "thisEffectUsesFullSizeIcon": false,
     "squareIndicatorFilename": "fx_webbed",
     "durationOnSquareInUnits": 0,
@@ -13022,7 +13022,7 @@
   {
     "traitWorksOnlyWhen": [],
     "traitWorksNeverWhen": [],
-    "name": "Physical Damage...Roller-Fletched Arrow",
+    "name": "Normal Damage...Roller-Fletched Arrow",
     "thisEffectUsesFullSizeIcon": false,
     "squareIndicatorFilename": "fx_webbed",
     "durationOnSquareInUnits": 0,
@@ -13127,7 +13127,7 @@
   {
     "traitWorksOnlyWhen": [],
     "traitWorksNeverWhen": [],
-    "name": "Physical Damage...Blast",
+    "name": "Normal Damage...Blast",
     "thisEffectUsesFullSizeIcon": false,
     "squareIndicatorFilename": "fx_webbed",
     "durationOnSquareInUnits": 0,
@@ -13232,7 +13232,7 @@
   {
     "traitWorksOnlyWhen": [],
     "traitWorksNeverWhen": [],
-    "name": "Physical Damage...Dagger of the Dandywill",
+    "name": "Normal Damage...Dagger of the Dandywill",
     "thisEffectUsesFullSizeIcon": false,
     "squareIndicatorFilename": "fx_webbed",
     "durationOnSquareInUnits": 0,
@@ -13337,7 +13337,7 @@
   {
     "traitWorksOnlyWhen": [],
     "traitWorksNeverWhen": [],
-    "name": "Physical Damage...Goose-Fletched Arrow",
+    "name": "Normal Damage...Goose-Fletched Arrow",
     "thisEffectUsesFullSizeIcon": false,
     "squareIndicatorFilename": "fx_webbed",
     "durationOnSquareInUnits": 0,
@@ -13442,7 +13442,7 @@
   {
     "traitWorksOnlyWhen": [],
     "traitWorksNeverWhen": [],
-    "name": "Physical Damage...Headbutt",
+    "name": "Normal Damage...Headbutt",
     "thisEffectUsesFullSizeIcon": false,
     "squareIndicatorFilename": "fx_webbed",
     "durationOnSquareInUnits": 0,
@@ -13547,7 +13547,7 @@
   {
     "traitWorksOnlyWhen": [],
     "traitWorksNeverWhen": [],
-    "name": "Physical Damage...Major Arrow of Kleos",
+    "name": "Normal Damage...Major Arrow of Kleos",
     "thisEffectUsesFullSizeIcon": false,
     "squareIndicatorFilename": "fx_webbed",
     "durationOnSquareInUnits": 0,
@@ -13652,7 +13652,7 @@
   {
     "traitWorksOnlyWhen": [],
     "traitWorksNeverWhen": [],
-    "name": "Physical Damage...Bloody Thornapple",
+    "name": "Normal Damage...Bloody Thornapple",
     "thisEffectUsesFullSizeIcon": false,
     "squareIndicatorFilename": "fx_webbed",
     "durationOnSquareInUnits": 0,
@@ -13862,7 +13862,7 @@
   {
     "traitWorksOnlyWhen": [],
     "traitWorksNeverWhen": [],
-    "name": "Pig Onion...+50% Physical Resistance",
+    "name": "Pig Onion...+50% Normal Resistance",
     "thisEffectUsesFullSizeIcon": false,
     "squareIndicatorFilename": "fx_webbed",
     "durationOnSquareInUnits": 0,
@@ -18381,7 +18381,7 @@
   {
     "traitWorksOnlyWhen": [],
     "traitWorksNeverWhen": [],
-    "name": "Terrain...-50% Physical Resistance",
+    "name": "Terrain...-50% Normal Resistance",
     "thisEffectUsesFullSizeIcon": false,
     "squareIndicatorFilename": "fx_terrain",
     "durationOnSquareInUnits": 0,
@@ -18591,7 +18591,7 @@
   {
     "traitWorksOnlyWhen": [],
     "traitWorksNeverWhen": [],
-    "name": "Test the Elements...-50% Resistances (except Physical, Magic)",
+    "name": "Test the Elements...-50% Resistances (except Normal, Magic)",
     "thisEffectUsesFullSizeIcon": false,
     "squareIndicatorFilename": "fx_webbed",
     "durationOnSquareInUnits": 0,
@@ -21741,7 +21741,7 @@
   {
     "traitWorksOnlyWhen": [],
     "traitWorksNeverWhen": [],
-    "name": "Natural Philosophy III...+10% All Resistances Except Magic, Physical",
+    "name": "Natural Philosophy III...+10% All Resistances Except Magic, Normal",
     "thisEffectUsesFullSizeIcon": false,
     "squareIndicatorFilename": "none",
     "durationOnSquareInUnits": 0,
@@ -23841,7 +23841,7 @@
   {
     "traitWorksOnlyWhen": [],
     "traitWorksNeverWhen": [],
-    "name": "Physical Damage...Hex",
+    "name": "Normal Damage...Hex",
     "thisEffectUsesFullSizeIcon": false,
     "squareIndicatorFilename": "fx_webbed",
     "durationOnSquareInUnits": 0,

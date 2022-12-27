@@ -1729,6 +1729,7 @@ namespace IceBlink2
             }
         }
         public void startMusic()
+        //
         {
             try
             {
@@ -2302,11 +2303,11 @@ namespace IceBlink2
         {
             if (text == "NA")
             {
-                DrawText(text, xLoc, yLoc, FontWeight.Normal, SharpDX.DirectWrite.FontStyle.Normal, 1.0f, SharpDX.Color.Red, false);
+                DrawText(text, xLoc, yLoc, FontWeight.Normal, SharpDX.DirectWrite.FontStyle.Normal, 1.0f, SharpDX.Color.Black, false);
             }
             else if (text.Contains("Points available"))
             {
-                DrawText(text, xLoc, yLoc, FontWeight.Normal, SharpDX.DirectWrite.FontStyle.Normal, 1.0f, SharpDX.Color.Lime, false);
+                DrawText(text, xLoc, yLoc, FontWeight.Normal, SharpDX.DirectWrite.FontStyle.Normal, 1.0f, SharpDX.Color.Aqua, false);
             }
             else
             {

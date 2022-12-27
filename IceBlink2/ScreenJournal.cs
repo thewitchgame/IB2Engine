@@ -68,8 +68,8 @@ namespace IceBlink2
 			    ctrlLeftArrow.Img = gv.cc.LoadBitmap("btn_small"); // BitmapFactory.decodeResource(gv.getResources(), R.drawable.btn_small);
 			    ctrlLeftArrow.Img2 = gv.cc.LoadBitmap("ctrl_left_arrow"); // BitmapFactory.decodeResource(gv.getResources(), R.drawable.ctrl_left_arrow);
 			    ctrlLeftArrow.Glow = gv.cc.LoadBitmap("btn_small_glow"); // BitmapFactory.decodeResource(gv.getResources(), R.drawable.arrow_glow);
-			    ctrlLeftArrow.X = 10 * gv.squareSize + xShift;
-			    ctrlLeftArrow.Y = pH * 34;
+			    ctrlLeftArrow.X = 12 * gv.squareSize; //10 * gv.squareSize + xShift;
+			    ctrlLeftArrow.Y = 3 * gv.squareSize + pH * 4; //pH * 34;
                 ctrlLeftArrow.Height = (int)(gv.ibbheight * gv.screenDensity);
                 ctrlLeftArrow.Width = (int)(gv.ibbwidthR * gv.screenDensity);
 		    }
@@ -79,8 +79,8 @@ namespace IceBlink2
 			    ctrlRightArrow.Img = gv.cc.LoadBitmap("btn_small"); // BitmapFactory.decodeResource(gv.getResources(), R.drawable.btn_small);
 			    ctrlRightArrow.Img2 = gv.cc.LoadBitmap("ctrl_right_arrow"); // BitmapFactory.decodeResource(gv.getResources(), R.drawable.ctrl_right_arrow);
 			    ctrlRightArrow.Glow = gv.cc.LoadBitmap("btn_small_glow"); // BitmapFactory.decodeResource(gv.getResources(), R.drawable.arrow_glow);
-			    ctrlRightArrow.X = 11 * gv.squareSize + pW * 2 + xShift;
-			    ctrlRightArrow.Y = pH * 34;
+			    ctrlRightArrow.X = 12 * gv.squareSize; //11 * gv.squareSize + pW * 2 + xShift;
+			    ctrlRightArrow.Y = 4 * gv.squareSize + pH * 5; //pH * 34;
                 ctrlRightArrow.Height = (int)(gv.ibbheight * gv.screenDensity);
                 ctrlRightArrow.Width = (int)(gv.ibbwidthR * gv.screenDensity);			
 		    }				
@@ -498,7 +498,7 @@ namespace IceBlink2
 
                 for (int i = minQuestNumber; i <= maxQuestNumber; i++)
                 {
-                    if (journalScreenQuestIndex == i) { color = Color.Lime; }
+                    if (journalScreenQuestIndex == i) { color = Color.Red; }
                     else { color = Color.Black; }
                     gv.DrawText(gv.mod.partyJournalQuests[i].Name, locX, locY += spacing, 1.0f, color);
                 }    

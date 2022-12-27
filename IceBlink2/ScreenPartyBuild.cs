@@ -149,7 +149,7 @@ namespace IceBlink2
                 btnAdd = new IbbButton(gv, 1.0f);
                 btnAdd.Img = gv.cc.LoadBitmap("btn_large"); // BitmapFactory.decodeResource(gv.getResources(), R.drawable.btn_large);
                 btnAdd.Glow = gv.cc.LoadBitmap("btn_large_glow"); // BitmapFactory.decodeResource(gv.getResources(), R.drawable.btn_large_glow);
-                btnAdd.Text = "Add Character";
+                btnAdd.Text = "This one did.";
                 btnAdd.X = center - (int)(gv.ibbwidthL * gv.screenDensity) - pW * 1;
                 btnAdd.Y = 2 * gv.squareSize + pH;
                 btnAdd.Height = (int)(gv.ibbheight * gv.screenDensity);
@@ -160,7 +160,7 @@ namespace IceBlink2
                 btnRemove = new IbbButton(gv, 1.0f);
                 btnRemove.Img = gv.cc.LoadBitmap("btn_large"); // BitmapFactory.decodeResource(gv.getResources(), R.drawable.btn_large);
                 btnRemove.Glow = gv.cc.LoadBitmap("btn_large_glow"); // BitmapFactory.decodeResource(gv.getResources(), R.drawable.btn_large_glow);
-                btnRemove.Text = "Remove Character";
+                btnRemove.Text = "Not this one.";
                 btnRemove.X = center + pW * 1;
                 btnRemove.Y = 2 * gv.squareSize + pH;
                 btnRemove.Height = (int)(gv.ibbheight * gv.screenDensity);
@@ -203,7 +203,7 @@ namespace IceBlink2
             if (btnCreate == null)
             {
                 btnCreate = new IbbButton(gv, 1.0f);
-                btnCreate.Text = "CREATE CHARACTER";
+                btnCreate.Text = "Make your witch.";
                 btnCreate.Img = gv.cc.LoadBitmap("btn_large"); // BitmapFactory.decodeResource(gv.getResources(), R.drawable.btn_large);
                 btnCreate.Glow = gv.cc.LoadBitmap("btn_large_glow"); // BitmapFactory.decodeResource(gv.getResources(), R.drawable.btn_large_glow);
                 btnCreate.X = center - (int)((gv.ibbwidthL / 2) * gv.screenDensity);
@@ -273,7 +273,7 @@ namespace IceBlink2
             int leftStartY = 5 * gv.squareSize + (pH * 6);
             
             //Draw screen title name
-            string text = "Party Members [" + gv.mod.numberOfPlayerMadePcsAllowed + " player made PC(s) allowed, " + gv.mod.numberOfPlayerMadePcsRequired +  " required]";
+            string text = "The coven called. Who answered?";
             // Measure string.
             float stringSize = gv.cc.MeasureString(text, SharpDX.DirectWrite.FontWeight.Normal, SharpDX.DirectWrite.FontStyle.Normal, gv.drawFontRegHeight);
             int ulX = (gv.screenWidth / 2) - ((int)stringSize / 2);

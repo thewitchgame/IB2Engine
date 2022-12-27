@@ -630,7 +630,7 @@ namespace IceBlink2
                 btnStr.Y = 2 * gv.squareSize + gv.squareSize / 2;
                 btnStr.Height = (int)(gv.ibbheight * gv.screenDensity);
                 btnStr.Width = (int)(gv.ibbwidthR * gv.screenDensity);
-                btnStr.Text = "Str";
+                btnStr.Text = "STR";
             }
 
             if (btnClass == null)
@@ -966,7 +966,7 @@ namespace IceBlink2
             int tokenRectPad = pW * 1;
 
             //Page Title
-            gv.DrawText("CREATE CHARACTER", pW * 40 + gv.squareSize, pH * 1);
+            gv.DrawText("The coven called. Who answered?", pW * 40 + gv.squareSize, pH * 1);
 
             Color color = Color.White;
 
@@ -985,7 +985,7 @@ namespace IceBlink2
                     //string infoText = ", Points available: " + gv.mod.counterPointsToDistributeLeft;
                     string infoText = "Min: " + gv.mod.attributeMinValue;
                     infoText += ", Max: " + gv.mod.attributeMaxValue;
-                    if (gv.mod.numberOfPhysicalAtttributesBelowBaseAllowed < 3)
+ /*                   if (gv.mod.numberOfPhysicalAtttributesBelowBaseAllowed < 3)
                     {
                         infoText += ", Physical below " + gv.mod.attributeBaseValue + " allowed: " + gv.mod.numberOfPhysicalAtttributesBelowBaseAllowed;
                     }
@@ -993,7 +993,7 @@ namespace IceBlink2
                     {
                         infoText += ", Mental below " + gv.mod.attributeBaseValue + " allowed: " + gv.mod.numberOfMentalAtttributesBelowBaseAllowed;
                     }
-
+*/
                     gv.DrawText(infoText, locX + pW, locY += (spacing));
                 }
                 else if (gv.mod.useHybridRollPointDistribution)
@@ -1252,7 +1252,7 @@ namespace IceBlink2
                     //string infoText = "Points available: " + gv.mod.counterPointsToDistributeLeft;
                     string infoText = "Min: " + gv.mod.attributeMinValue;
                     infoText += ", Max: " + gv.mod.attributeMaxValue;
-                    if (gv.mod.numberOfPhysicalAtttributesBelowBaseAllowed < 3)
+/*                    if (gv.mod.numberOfPhysicalAtttributesBelowBaseAllowed < 3)
                     {
                         infoText += ", Physical below " + gv.mod.attributeBaseValue + ": " + gv.mod.numberOfPhysicalAtttributesBelowBaseAllowed;
                     }
@@ -1260,7 +1260,7 @@ namespace IceBlink2
                     {
                         infoText += ", Mental below " + gv.mod.attributeBaseValue + ": " + gv.mod.numberOfMentalAtttributesBelowBaseAllowed;
                     }
-
+*/
                     gv.DrawText(infoText, locX + pW, locY += (spacing));
                 }
                 else if (gv.mod.useHybridRollPointDistribution)
@@ -1353,8 +1353,8 @@ namespace IceBlink2
                         gv.DrawText(" (" + ((pc.strength - 10) / 2) + ")", locX + 15 * pW, locY);
                     }
 
-                gv.DrawText("AC: " + actext, tabX2, locY2 += (spacing * 3));
-                gv.DrawText("BAB: " + pc.baseAttBonus + ", Melee to hit/damage: " + (pc.baseAttBonus + ((pc.strength - 10) / 2)) + "/" + ((pc.strength - 10) / 2) + ", Ranged to hit: " + (pc.baseAttBonus + ((pc.dexterity - 10) / 2)), tabX2, locY2 += spacing);
+                gv.DrawText("Armor Class: " + actext, tabX2, locY2 += (spacing * 3));
+                gv.DrawText("Attack Bonus: " + pc.baseAttBonus + " | Melee to Hit/Damage: " + (pc.baseAttBonus + ((pc.strength - 10) / 2)) + "/" + ((pc.strength - 10) / 2) + " | Ranged to Hit: " + (pc.baseAttBonus + ((pc.dexterity - 10) / 2)), tabX2, locY2 += spacing);
                 //DEX             
                 gv.DrawText("DEX:", locX + pW, locY += (spacing));
                 gv.DrawText(pc.baseDex.ToString(), locX + 3 * pW * 2, locY);
@@ -1561,32 +1561,33 @@ namespace IceBlink2
             btnRace.Draw();
             if (pc.isMale)
             {
-                btnGender.Text = "Male";
+                btnGender.Text = "He/Him";
             }
             else
             {
-                btnGender.Text = "Female";
+                btnGender.Text = "She/Her";
             }
             btnGender.Draw();
             if (gv.mod.useManualPointDistribution || gv.mod.useHybridRollPointDistribution)
             {
                 if (checkPhysical("Str"))
                 {
-                    btnStrMinus.Text = "- (" + calculateAttributeChangeCost("Str", false).ToString() + ")";
+ //                   btnStrMinus.Text = "- (" + calculateAttributeChangeCost("Str", false).ToString() + ")";
+                    btnStrMinus.Text = "Less";
                 }
                 else
                 {
-                    btnStrMinus.Text = "NA";
+                    btnStrMinus.Text = "No less";
                 }
                 btnStrMinus.Draw();
                 btnStr.Draw();
                 if (pc.baseStr < gv.mod.attributeMaxValue)
                 {
-                    btnStrPlus.Text = "+ (" + calculateAttributeChangeCost("Str", true).ToString() + ")";
+                    btnStrPlus.Text = "More";
                 }
                 else
                 {
-                    btnStrPlus.Text = "NA";
+                    btnStrPlus.Text = "No more";
                 }
                 btnStrPlus.Draw();
                 if (checkPhysical("Dex"))
@@ -1595,7 +1596,7 @@ namespace IceBlink2
                 }
                 else
                 {
-                    btnDexMinus.Text = "NA";
+                    btnDexMinus.Text = "NO MORE";
                 }
                 btnDexMinus.Draw();
 
@@ -1606,7 +1607,7 @@ namespace IceBlink2
                 }
                 else
                 {
-                    btnDexPlus.Text = "NA";
+                    btnDexPlus.Text = "NO MORE";
                 }
                 btnDexPlus.Draw();
                 if (checkPhysical("Con"))
@@ -1615,7 +1616,7 @@ namespace IceBlink2
                 }
                 else
                 {
-                    btnConMinus.Text = "NA";
+                    btnConMinus.Text = "NO MORE";
                 }
                 btnConMinus.Draw();
                 btnCon.Draw();
@@ -1625,7 +1626,7 @@ namespace IceBlink2
                 }
                 else
                 {
-                    btnConPlus.Text = "NA";
+                    btnConPlus.Text = "NO MORE";
                 }
                 btnConPlus.Draw();
                 if (checkMental("Int"))
@@ -1634,7 +1635,7 @@ namespace IceBlink2
                 }
                 else
                 {
-                    btnIntMinus.Text = "NA";
+                    btnIntMinus.Text = "NO MORE";
                 }
                 btnIntMinus.Draw();
                 btnInt.Draw();
@@ -1644,7 +1645,7 @@ namespace IceBlink2
                 }
                 else
                 {
-                    btnIntPlus.Text = "NA";
+                    btnIntPlus.Text = "NO MORE";
                 }
                 btnIntPlus.Draw();
                 if (checkMental("Wis"))
@@ -1653,7 +1654,7 @@ namespace IceBlink2
                 }
                 else
                 {
-                    btnWisMinus.Text = "NA";
+                    btnWisMinus.Text = "NO MORE";
                 }
                 btnWisMinus.Draw();
                 btnWis.Draw();
@@ -1663,7 +1664,7 @@ namespace IceBlink2
                 }
                 else
                 {
-                    btnWisPlus.Text = "NA";
+                    btnWisPlus.Text = "NO MORE";
                 }
                 btnWisPlus.Draw();
                 if (checkMental("Cha"))
@@ -1672,7 +1673,7 @@ namespace IceBlink2
                 }
                 else
                 {
-                    btnChaMinus.Text = "NA";
+                    btnChaMinus.Text = "NO MORE";
                 }
                 btnChaMinus.Draw();
                 btnCha.Draw();
@@ -1682,7 +1683,7 @@ namespace IceBlink2
                 }
                 else
                 {
-                    btnChaPlus.Text = "NA";
+                    btnChaPlus.Text = "NO MORE";
                 }
                 btnChaPlus.Draw();
             }

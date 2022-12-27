@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Media;
 using System.Text;
 using System.Windows.Forms;
 using Bitmap = SharpDX.Direct2D1.Bitmap;
@@ -20,24 +21,21 @@ namespace IceBlink2
 	    private IbbButton btnAbout = null;
         private IbbButton btnExit = null;
 
+
+
+
+
+
         public ScreenTitle(Module m, GameView g)
 	    {
 		    //gv.mod = m;
 		    gv = g;
 		    setControlsStart();
 	    }
+//  \\default\\NewModule\\music\\" + soundName + ".mp3"))
 
-
-//public WMPLib.WindowsMediaPlayer titleMusic = new WMPLib.WindowsMediaPlayer();
-
-
-  //      titleMusic.URL = (this.mainDirectory + "\\modules\\" + this.mod.moduleName + "\\music\\" + Walk of the Young Witch + ".mp3");
-
-  //      titleMusic.settings.setMode("loop", true);
-
-    //    titleMusic.controls.play();
-
-
+//if (File.Exists(this.mainDirectory + "\\modules\\" + this.mod.moduleName + "\\music\\" + mod.currentArea.AreaMusic))
+//areaMusic.URL = 
 
 	    public void setControlsStart()
 	    {

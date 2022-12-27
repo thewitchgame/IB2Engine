@@ -20019,12 +20019,12 @@ gv.resetGame();
                     {
                         if (src.playerClass.labelForCastAction != "none" && src.playerClass.labelForCastAction != "CAST")
                         {
-                            gv.cc.addLogText("<font color='lime'>" + src.name + " <font color='white'>" + src.playerClass.labelForCastAction + " " + spell.name + "</font><BR>");
+                            gv.cc.addLogText("<font color='aqua'>" + src.name + " <font color='white'>" + src.playerClass.labelForCastAction + " " + spell.name + "</font><BR>");
                         }
                         else
                         {
 
-                            gv.cc.addLogText("<font color='lime'>" + src.name + " <font color='white'>creates " + spell.name + "</font><BR>");
+                            gv.cc.addLogText("<font color='aqua'>" + src.name + " <font color='white'>uses " + spell.name + "</font><BR>");
 
                         }
                     }
@@ -20032,11 +20032,11 @@ gv.resetGame();
                     {
                         if (src.playerClass.labelForUseTraitAction != "none" && src.playerClass.labelForUseTraitAction != "USE")
                         {
-                            gv.cc.addLogText("<font color='lime'>" + src.name + " <font color='white'>" + src.playerClass.labelForUseTraitAction + " " + spell.name + "</font><BR>");
+                            gv.cc.addLogText("<font color='aqua'>" + src.name + " <font color='white'>" + src.playerClass.labelForUseTraitAction + " " + spell.name + "</font><BR>");
                         }
                         else
                         {
-                            gv.cc.addLogText("<font color='lime'>" + src.name + " <font color='white'>creates " + spell.name + "</font><BR>");
+                            gv.cc.addLogText("<font color='aqua'>" + src.name + " <font color='white'>uses " + spell.name + "</font><BR>");
                         }
                     }
                 }
@@ -20204,22 +20204,22 @@ gv.resetGame();
                     {
                         if (src.playerClass.labelForCastAction != "none" && src.playerClass.labelForCastAction != "CAST")
                         {
-                            gv.cc.addLogText("<font color='lime'>" + src.name + " <font color='white'>" + src.playerClass.labelForCastAction + " " + traitName + "</font><BR>");
+                            gv.cc.addLogText("<font color='aqua'>" + src.name + " <font color='white'>" + src.playerClass.labelForCastAction + " " + traitName + "</font><BR>");
                         }
                         else
                         {
-                            gv.cc.addLogText("<font color='lime'>" + src.name + " <font color='white'>creates " + traitName + "</font><BR>");
+                            gv.cc.addLogText("<font color='aqua'>" + src.name + " <font color='white'>uses " + traitName + "</font><BR>");
                         }
                     }
                     else
                     {
                         if (src.playerClass.labelForUseTraitAction != "none" && src.playerClass.labelForUseTraitAction != "USE")
                         {
-                            gv.cc.addLogText("<font color='lime'>" + src.name + " <font color='white'>" + src.playerClass.labelForUseTraitAction + " " + traitName + "</font><BR>");
+                            gv.cc.addLogText("<font color='aqua'>" + src.name + " <font color='white'>" + src.playerClass.labelForUseTraitAction + " " + traitName + "</font><BR>");
                         }
                         else
                         {
-                            gv.cc.addLogText("<font color='lime'>" + src.name + " <font color='white'>creates " + traitName + "</font><BR>");
+                            gv.cc.addLogText("<font color='aqua'>" + src.name + " <font color='white'>uses " + traitName + "</font><BR>");
                         }
                     }
                 }
