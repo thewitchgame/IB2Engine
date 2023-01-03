@@ -502,7 +502,7 @@ namespace IceBlink2
             //tabX2 = 0;
             float locY2 = leftStartY - spacing * 3;
             //STR              
-            gv.DrawText("STR:", locX + pW, locY);
+            gv.DrawText("Strength:", locX + pW, locY);
             gv.DrawText(pc.baseStr.ToString(), locX + 3 * pW * 2, locY);
             if (pc.strength - pc.baseStr >= 0)
             {

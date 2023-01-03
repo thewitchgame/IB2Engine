@@ -24933,12 +24933,12 @@ namespace IceBlink2
                 Player pc = (Player)(actor);
                 gv.cc.floatyTextActorInfoName = pc.name;
                 //(pc.dexterity - 10) / 2) *5
-                gv.cc.floatyTextActorInfoMoveOrder = "Ord. " + (pc.moveOrder+1);
-                gv.cc.floatyTextActorInfoInitiative = "Ini " + ((pc.dexterity - 10) / 2) * 5;
-                gv.cc.floatyTextActorInfoAC = "AC " + pc.AC;
-                gv.cc.floatyTextActorInfoMovementRange = "Moves " + pc.moveDistance;
-                gv.cc.floatyTextActorInfoHP = "HP " + pc.hp + "/" + pc.hpMax;
-                gv.cc.floatyTextActorInfoSP = "SP " + pc.sp + "/" + pc.spMax;
+                gv.cc.floatyTextActorInfoMoveOrder = "Turn: " + (pc.moveOrder+1);
+                gv.cc.floatyTextActorInfoInitiative = "Initiative: " + ((pc.dexterity - 10) / 2) * 5;
+                gv.cc.floatyTextActorInfoAC = "AC: " + pc.AC;
+                //gv.cc.floatyTextActorInfoMovementRange = "Moves " + pc.moveDistance;
+                gv.cc.floatyTextActorInfoHP = "HP: " + pc.hp + "/" + pc.hpMax;
+                gv.cc.floatyTextActorInfoSP = "SP: " + pc.sp + "/" + pc.spMax;
 
                 int numAtt = 1;
                 numAtt = gv.sf.CalcNumberOfAttacks(pc);
@@ -25079,7 +25079,7 @@ namespace IceBlink2
                 //{
                     //weaponTags.Remove(2);
                 //}
-
+/*
                 if (weaponTags == "")
                 {
                     weaponTags = "none";
@@ -25089,12 +25089,12 @@ namespace IceBlink2
                 {
                     gv.cc.floatyTextActorInfoWeaponTags = "Perks: " + weaponTags.Remove(weaponTags.Length -2);
                 }
-             
+  */           
 
 
-                gv.cc.floatyTextActorInfoNumberOfAttacks = "#A " + numAtt;
+//                gv.cc.floatyTextActorInfoNumberOfAttacks = "#A " + numAtt;
 
-                if (autoHit)
+  /*              if (autoHit)
                 {
                     gv.cc.floatyTextActorInfoToHit = "Autohit";
                 }
@@ -25173,39 +25173,41 @@ namespace IceBlink2
                 }
                 //gv.cc.floatyTextActorInfoOnDeathScriptName
                 //gv.cc.floatyTextActorInfoAttackRange = "";
+*/
+             
 
                 if (pc.fortitude < 0)
                 {
-                    gv.cc.floatyTextActorInfoSaves = "Fort " + pc.fortitude;
+                    gv.cc.floatyTextActorInfoSaves = "Fortitude: " + pc.fortitude;
                 }
                 else
                 {
-                    gv.cc.floatyTextActorInfoSaves = "Fort " + "+" + pc.fortitude;
+                    gv.cc.floatyTextActorInfoSaves = "Fortitude: " + "+" + pc.fortitude;
                 }
                 if (pc.reflex < 0)
                 {
-                    gv.cc.floatyTextActorInfoSaves2 = "Ref " + pc.reflex;
+                    gv.cc.floatyTextActorInfoSaves2 = "Reflex: " + pc.reflex;
                 }
                 else
                 {
-                    gv.cc.floatyTextActorInfoSaves2 = "Ref " + "+" + pc.reflex;
+                    gv.cc.floatyTextActorInfoSaves2 = "Reflex: " + "+" + pc.reflex;
                 }
                 if (pc.will < 0)
                 {
-                    gv.cc.floatyTextActorInfoSaves3 = "Will " + pc.will;
+                    gv.cc.floatyTextActorInfoSaves3 = "Will: " + pc.will;
                 }
                 else
                 {
-                    gv.cc.floatyTextActorInfoSaves3 = "Will " + "+" + pc.will;
+                    gv.cc.floatyTextActorInfoSaves3 = "Will: " + "+" + pc.will;
                 }
-                gv.cc.floatyTextActorInfoResistances1 = "N% " + pc.damageTypeResistanceTotalNormal;
-                gv.cc.floatyTextActorInfoResistances2 = "M% " + pc.damageTypeResistanceTotalMagic;
-                gv.cc.floatyTextActorInfoResistances3 = "P% " + pc.damageTypeResistanceTotalPoison;
-                gv.cc.floatyTextActorInfoResistances4 = "F% " + pc.damageTypeResistanceTotalFire;
-                gv.cc.floatyTextActorInfoResistances5 = "C% " + pc.damageTypeResistanceTotalCold;
-                gv.cc.floatyTextActorInfoResistances6 = "A% " + pc.damageTypeResistanceTotalAcid;
-                gv.cc.floatyTextActorInfoResistances7 = "E% " + pc.damageTypeResistanceTotalElectricity;
-                gv.cc.floatyTextActorInfoAttackRange = "Range " + gv.mod.getItemByResRefForInfo(pc.MainHandRefs.resref).attackRange;
+                gv.cc.floatyTextActorInfoResistances1 = "Normal: " + pc.damageTypeResistanceTotalNormal + "%";
+                gv.cc.floatyTextActorInfoResistances2 = "Magic: " + pc.damageTypeResistanceTotalMagic + "%";
+                gv.cc.floatyTextActorInfoResistances3 = "Poison: " + pc.damageTypeResistanceTotalPoison + "%";
+                gv.cc.floatyTextActorInfoResistances4 = "Fire: " + pc.damageTypeResistanceTotalFire + "%";
+                gv.cc.floatyTextActorInfoResistances5 = "Cold: " + pc.damageTypeResistanceTotalCold + "%";
+                gv.cc.floatyTextActorInfoResistances6 = "Acid: " + pc.damageTypeResistanceTotalAcid + "%";
+                gv.cc.floatyTextActorInfoResistances7 = "Electricity: " + pc.damageTypeResistanceTotalElectricity + "%";
+/*                gv.cc.floatyTextActorInfoAttackRange = "Range " + gv.mod.getItemByResRefForInfo(pc.MainHandRefs.resref).attackRange;
                 if ((gv.mod.getItemByResRefForInfo(pc.MainHandRefs.resref).category.Equals("Ranged")))
                 {
                     gv.cc.floatyTextActorInfoAttackType = "Ranged";
@@ -25214,7 +25216,7 @@ namespace IceBlink2
                 {
                     gv.cc.floatyTextActorInfoAttackType = "Melee";
                 }
-                gv.cc.floatyTextActorInfoRMB1 = "Press RMB to show current";
+  */             gv.cc.floatyTextActorInfoRMB1 = "Press RMB to show current";
                 gv.cc.floatyTextActorInfoRMB2 = "temporary effects";
 
                 //To do: must set all creature exclusive innfo to "" here
@@ -25267,11 +25269,11 @@ namespace IceBlink2
                 //showMoveOrder = true;
                 Creature crt = (Creature)(actor);
                 gv.cc.floatyTextActorInfoName = crt.cr_name;
-                gv.cc.floatyTextActorInfoAC = "AC " +crt.getAc();
-                gv.cc.floatyTextActorInfoInitiative = "Ini " + crt.initiativeBonus;
-                gv.cc.floatyTextActorInfoMoveOrder = "Ord. " + (crt.moveOrder+1);
-                gv.cc.floatyTextActorInfoNumberOfAttacks = "#A " + crt.getNumberOfAttacks();
-                if (crt.getAttackBonus() > 0)
+                gv.cc.floatyTextActorInfoAC = "AC: " +crt.getAc();
+                gv.cc.floatyTextActorInfoInitiative = "Initiative: " + crt.initiativeBonus;
+                gv.cc.floatyTextActorInfoMoveOrder = "Turn: " + (crt.moveOrder+1);
+                //gv.cc.floatyTextActorInfoNumberOfAttacks = "#A " + crt.getNumberOfAttacks();
+  /*              if (crt.getAttackBonus() > 0)
                 {
                     gv.cc.floatyTextActorInfoToHit = "To hit +" + crt.getAttackBonus();
                 }
@@ -25279,8 +25281,8 @@ namespace IceBlink2
                 {
                     gv.cc.floatyTextActorInfoToHit = "To hit " + crt.getAttackBonus();
                 }
-
-                gv.cc.floatyTextActorInfoHP = "HP " + crt.hp + "/" + crt.hpMax;
+*/
+                gv.cc.floatyTextActorInfoHP = "HP: " + crt.hp + "/" + crt.hpMax;
 
                 int spMax = 0;
                 foreach (Creature crt2 in gv.mod.currentEncounter.encounterCreatureList)
@@ -25294,8 +25296,8 @@ namespace IceBlink2
                     }
 
                 }
-                gv.cc.floatyTextActorInfoSP = "SP " + crt.sp + "/" + spMax;
-                gv.cc.floatyTextActorInfoAttackType = crt.cr_category;
+                gv.cc.floatyTextActorInfoSP = "SP: " + crt.sp + "/" + spMax;
+/*                gv.cc.floatyTextActorInfoAttackType = crt.cr_category;
                 gv.cc.floatyTextActorInfoAttackRange = "Range " + crt.cr_attRange;
                 if (crt.cr_damageAdder >= 0)
                 {
@@ -25321,49 +25323,49 @@ namespace IceBlink2
                 {
                     gv.cc.floatyTextActorInfoOnScoringHitSpellName = "On hit: " + crt.onScoringHit;
                 }
-
+*/
 
                 if (crt.getFortitude() < 0)
                 {
-                    gv.cc.floatyTextActorInfoSaves = "Fort " + crt.getFortitude();
+                    gv.cc.floatyTextActorInfoSaves = "Fortitude: " + crt.getFortitude();
                 }
                 else
                 {
-                    gv.cc.floatyTextActorInfoSaves = "Fort " + "+" + crt.getFortitude();
+                    gv.cc.floatyTextActorInfoSaves = "Fortitude: " + "+" + crt.getFortitude();
                 }
                 if (crt.getReflex() < 0)
                 {
-                    gv.cc.floatyTextActorInfoSaves2 = "Ref " + crt.getReflex();
+                    gv.cc.floatyTextActorInfoSaves2 = "Reflex: " + crt.getReflex();
                 }
                 else
                 {
-                    gv.cc.floatyTextActorInfoSaves2 = "Ref " + "+" + crt.getReflex();
+                    gv.cc.floatyTextActorInfoSaves2 = "Reflex: " + "+" + crt.getReflex();
                 }
                 if (crt.getWill() < 0)
                 {
-                    gv.cc.floatyTextActorInfoSaves3 = "Will " + crt.getWill();
+                    gv.cc.floatyTextActorInfoSaves3 = "Will: " + crt.getWill();
                 }
                 else
                 {
-                    gv.cc.floatyTextActorInfoSaves3 = "Will " + "+" + crt.getWill();
+                    gv.cc.floatyTextActorInfoSaves3 = "Will: " + "+" + crt.getWill();
                 }
-                gv.cc.floatyTextActorInfoResistances1 = "N% " + crt.getDamageTypeResistanceValueNormal();
-                gv.cc.floatyTextActorInfoResistances2 = "M% " + crt.getDamageTypeResistanceValueMagic();
-                gv.cc.floatyTextActorInfoResistances3 = "P% " + crt.getDamageTypeResistanceValuePoison();
-                gv.cc.floatyTextActorInfoResistances4 = "F% " + crt.getDamageTypeResistanceValueFire();
-                gv.cc.floatyTextActorInfoResistances5 = "C% " + crt.getDamageTypeResistanceValueCold();
-                gv.cc.floatyTextActorInfoResistances6 = "A% " + crt.getDamageTypeResistanceValueAcid();
-                gv.cc.floatyTextActorInfoResistances7 = "E% " + crt.getDamageTypeResistanceValueElectricity();
+                gv.cc.floatyTextActorInfoResistances1 = "Normal: " + crt.getDamageTypeResistanceValueNormal() + "%";
+                gv.cc.floatyTextActorInfoResistances2 = "Magic: " + crt.getDamageTypeResistanceValueMagic() + "%";
+                gv.cc.floatyTextActorInfoResistances3 = "Poison: " + crt.getDamageTypeResistanceValuePoison() + "%";
+                gv.cc.floatyTextActorInfoResistances4 = "Fire: " + crt.getDamageTypeResistanceValueFire() + "%";
+                gv.cc.floatyTextActorInfoResistances5 = "Cold: " + crt.getDamageTypeResistanceValueCold() + "%";
+                gv.cc.floatyTextActorInfoResistances6 = "Acid: " + crt.getDamageTypeResistanceValueAcid() + "%";
+                gv.cc.floatyTextActorInfoResistances7 = "Electricity: " + crt.getDamageTypeResistanceValueElectricity() + "%";
 
                 //CreatureTypeTags: Undead, Lycan, Animal, etc. (efefcts use these),alreday i via local ints
                 //CreatureREquiredWeaponTypes: Silver, lesserMagic, greaterMagic, dragonGlass/Obsidian, Holy, Unholy, to do on cretaures and items
 
-                gv.cc.floatyTextActorInfoRegenerationHP = "HPReg " + crt.hpRegenerationPerRound;
-                gv.cc.floatyTextActorInfoRegenerationSP = "SPReg " + crt.spRegenerationPerRound;
-                gv.cc.floatyTextActorInfoSpellsKnown1 = "";
-                gv.cc.floatyTextActorInfoSpellsKnown2 = "";
-                gv.cc.floatyTextActorInfoSpellsKnown3 = "";
-                int counter = 0;
+//                gv.cc.floatyTextActorInfoRegenerationHP = "HPReg " + crt.hpRegenerationPerRound;
+//                gv.cc.floatyTextActorInfoRegenerationSP = "SPReg " + crt.spRegenerationPerRound;
+//                gv.cc.floatyTextActorInfoSpellsKnown1 = "";
+//                gv.cc.floatyTextActorInfoSpellsKnown2 = "";
+//                gv.cc.floatyTextActorInfoSpellsKnown3 = "";
+/*                int counter = 0;
                 foreach (String spell in crt.knownSpellsTags)
                 {
                     counter++;
@@ -25490,7 +25492,7 @@ namespace IceBlink2
                 {
                     //gv.cc.floatyTextActorInfoHitBy.Remove(gv.cc.floatyTextActorInfoHitBy.Length-10, 3);
                 }
-                */
+                
 
                 counter = 0;
                 gv.cc.floatyTextActorInfoCreatureTags = "Type: ";
@@ -25537,7 +25539,7 @@ namespace IceBlink2
                 gv.cc.floatyTextActorInfoOnDeathScriptName = "On death: " + crt.onDeathIBScript;
 
                 gv.cc.floatyTextActorInfoRMB1 = "Press RMB to show current";
-                gv.cc.floatyTextActorInfoRMB2 = "temporary effects";
+                gv.cc.floatyTextActorInfoRMB2 = "temporary effects";*/
             }
             else if (actor is Trigger)
             {
@@ -25554,8 +25556,8 @@ namespace IceBlink2
                     {
                         gv.cc.floatyTextActorInfoText = trg.mouseOverText;
                     }
-                    if (trg.Enabled)
-                    {
+               //     if (trg.Enabled)
+               /*     {
                         gv.cc.floatyTextActorInfoEnabledState = "Enabled";
                     }
                     else
@@ -25822,7 +25824,7 @@ namespace IceBlink2
                         gv.cc.floatyTextActorInfoOnlyWhileOnSquare = "";
                         gv.cc.floatyTextActorInfoOnlyCasterLevel = "";
                     }
-
+*/
                     //hide the normal info when efects are shown
                     gv.cc.floatyTextActorInfoMoveOrder = "";
                     gv.cc.floatyTextActorInfoInitiative = "";
