@@ -37,12 +37,12 @@ namespace IceBlink2
 
         public void ResizeWindow()
         {
-            this.Height = 12 + itemList.Count * 55; //was70
+            this.Height = 12 + itemList.Count * 70; //was70
             int width = 0;
-            width = (int)((float)HeaderText.Length * (float)gv.drawFontReg.Height / 1.3f);
+            width = (int)((float)HeaderText.Length * (float)gv.drawFontReg.Height / 1f);
             foreach (string s in itemList)
             {
-                int w = (int)((float)s.Length * (float)gv.drawFontReg.Height / 1.3f); 
+                int w = (int)((float)s.Length * (float)gv.drawFontReg.Height / 1f); 
                 if (w > width) { width = w; }
             }
             this.Width = width + 30;

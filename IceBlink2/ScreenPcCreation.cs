@@ -379,7 +379,7 @@ namespace IceBlink2
                 btnDex.Y = 3 * gv.squareSize + gv.squareSize / 2 + pH;
                 btnDex.Height = (int)(gv.ibbheight * gv.screenDensity);
                 btnDex.Width = (int)(gv.ibbwidthR * gv.screenDensity);
-                btnDex.Text = "Dex";
+                btnDex.Text = "DEX";
             }
 
             if (btnDexPlus == null)
@@ -429,7 +429,7 @@ namespace IceBlink2
                 btnCon.Y = 4 * gv.squareSize + gv.squareSize / 2 + 2 * pH;
                 btnCon.Height = (int)(gv.ibbheight * gv.screenDensity);
                 btnCon.Width = (int)(gv.ibbwidthR * gv.screenDensity);
-                btnCon.Text = "Con";
+                btnCon.Text = "CON";
             }
 
             if (btnConPlus == null)
@@ -479,7 +479,7 @@ namespace IceBlink2
                 btnInt.Y = 5 * gv.squareSize + gv.squareSize / 2 + 3 * pH;
                 btnInt.Height = (int)(gv.ibbheight * gv.screenDensity);
                 btnInt.Width = (int)(gv.ibbwidthR * gv.screenDensity);
-                btnInt.Text = "Int";
+                btnInt.Text = "INT";
             }
 
 
@@ -530,7 +530,7 @@ namespace IceBlink2
                 btnWis.Y = 6 * gv.squareSize + gv.squareSize / 2 + 4 * pH;
                 btnWis.Height = (int)(gv.ibbheight * gv.screenDensity);
                 btnWis.Width = (int)(gv.ibbwidthR * gv.screenDensity);
-                btnWis.Text = "Wis";
+                btnWis.Text = "WIS";
             }
 
             if (btnWisPlus == null)
@@ -580,7 +580,7 @@ namespace IceBlink2
                 btnCha.Y = 7 * gv.squareSize + gv.squareSize / 2 + 5 * pH;
                 btnCha.Height = (int)(gv.ibbheight * gv.screenDensity);
                 btnCha.Width = (int)(gv.ibbwidthR * gv.screenDensity);
-                btnCha.Text = "Cha";
+                btnCha.Text = "CHA";
             }
 
             if (btnChaPlus == null)
@@ -1168,9 +1168,9 @@ namespace IceBlink2
                 {
                     gv.DrawText(" (" + ((pc.intelligence - 10) / 2) + ")", locX + 15 * pW, locY);
                 }
-                gv.DrawText("FORT: " + pc.fortitude + ", Acid: " + pc.damageTypeResistanceTotalAcid + "%" + ", Cold: " + pc.damageTypeResistanceTotalCold + "%" + ", Normal: " + pc.damageTypeResistanceTotalNormal + "%", tabX2, locY2 += spacing);
-                gv.DrawText("REF:   " + pc.reflex + ", Electricity: " + pc.damageTypeResistanceTotalElectricity + "%" + ", Fire: " + pc.damageTypeResistanceTotalFire + "%", tabX2, locY2 += spacing);
-                gv.DrawText("WILL: " + pc.will + ", Magic: " + pc.damageTypeResistanceTotalMagic + "%" + ", Poison: " + pc.damageTypeResistanceTotalPoison + "%", tabX2, locY2 += spacing);
+                gv.DrawText("FORT: " + pc.fortitude + " | Acid: " + pc.damageTypeResistanceTotalAcid + "%" + " | Cold: " + pc.damageTypeResistanceTotalCold + "%" + " | Normal: " + pc.damageTypeResistanceTotalNormal + "%", tabX2, locY2 += spacing);
+                gv.DrawText("REF: " + pc.reflex + " | Electricity: " + pc.damageTypeResistanceTotalElectricity + "%" + " | Fire: " + pc.damageTypeResistanceTotalFire + "%", tabX2, locY2 += spacing);
+                gv.DrawText("WILL: " + pc.will + " | Magic: " + pc.damageTypeResistanceTotalMagic + "%" + " | Poison: " + pc.damageTypeResistanceTotalPoison + "%", tabX2, locY2 += spacing);
                 //WIS             
                 gv.DrawText("WIS:", locX + pW, locY += (spacing));
                 gv.DrawText(pc.baseWis.ToString(), locX + 3 * pW * 2, locY);
@@ -1441,9 +1441,9 @@ namespace IceBlink2
                 {
                     gv.DrawText(" (" + ((pc.intelligence - 10) / 2) + ")", locX + 15 * pW, locY);
                 }
-                gv.DrawText("FORT: " + pc.fortitude + ", Acid: " + pc.damageTypeResistanceTotalAcid + "%" + ", Cold: " + pc.damageTypeResistanceTotalCold + "%" + ", Normal: " + pc.damageTypeResistanceTotalNormal + "%", tabX2, locY2 += spacing);
-                gv.DrawText("REF: " + pc.reflex + ", Electricity: " + pc.damageTypeResistanceTotalElectricity + "%" + ", Fire: " + pc.damageTypeResistanceTotalFire + "%", tabX2, locY2 += spacing);
-                gv.DrawText("WILL: " + pc.will + ", Magic: " + pc.damageTypeResistanceTotalMagic + "%" + ", Poison: " + pc.damageTypeResistanceTotalPoison + "%", tabX2, locY2 += spacing);
+                gv.DrawText("FORT: " + pc.fortitude + " | Acid: " + pc.damageTypeResistanceTotalAcid + "%" + " | Cold: " + pc.damageTypeResistanceTotalCold + "%" + " | Normal: " + pc.damageTypeResistanceTotalNormal + "%", tabX2, locY2 += spacing);
+                gv.DrawText("REF: " + pc.reflex + " | Electricity: " + pc.damageTypeResistanceTotalElectricity + "%" + " | Fire: " + pc.damageTypeResistanceTotalFire + "%", tabX2, locY2 += spacing);
+                gv.DrawText("WILL: " + pc.will + " | Magic: " + pc.damageTypeResistanceTotalMagic + "%" + " | Poison: " + pc.damageTypeResistanceTotalPoison + "%", tabX2, locY2 += spacing);
                 //WIS             
                 gv.DrawText("WIS: ", locX + pW, locY += (spacing));
                 gv.DrawText(pc.baseWis.ToString(), locX + 3 * pW * 2, locY);
@@ -1592,98 +1592,108 @@ namespace IceBlink2
                 btnStrPlus.Draw();
                 if (checkPhysical("Dex"))
                 {
-                    btnDexMinus.Text = "- (" + calculateAttributeChangeCost("Dex", false).ToString() + ")";
+                   // btnDexMinus.Text = "- (" + calculateAttributeChangeCost("Dex", false).ToString() + ")";
+                    btnDexMinus.Text = "Less";
                 }
                 else
                 {
-                    btnDexMinus.Text = "NO MORE";
+                    btnDexMinus.Text = "No less";
                 }
                 btnDexMinus.Draw();
 
                 btnDex.Draw();
                 if (pc.baseDex < gv.mod.attributeMaxValue)
                 {
-                    btnDexPlus.Text = "+ (" + calculateAttributeChangeCost("Dex", true).ToString() + ")";
+ //                   btnDexPlus.Text = "+ (" + calculateAttributeChangeCost("Dex", true).ToString() + ")";
+                    btnDexPlus.Text = "More";
                 }
                 else
                 {
-                    btnDexPlus.Text = "NO MORE";
+                    btnDexPlus.Text = "No more";
                 }
                 btnDexPlus.Draw();
                 if (checkPhysical("Con"))
                 {
-                    btnConMinus.Text = "- (" + calculateAttributeChangeCost("Con", false).ToString() + ")";
+                    //btnConMinus.Text = "- (" + calculateAttributeChangeCost("Con", false).ToString() + ")";
+                    btnConMinus.Text = "Less";
                 }
                 else
                 {
-                    btnConMinus.Text = "NO MORE";
+                    btnConMinus.Text = "No less";
                 }
                 btnConMinus.Draw();
                 btnCon.Draw();
                 if (pc.baseCon < gv.mod.attributeMaxValue)
                 {
-                    btnConPlus.Text = "+ (" + calculateAttributeChangeCost("Con", true).ToString() + ")";
+                    //btnConPlus.Text = "+ (" + calculateAttributeChangeCost("Con", true).ToString() + ")";
+                    btnConPlus.Text = "More";
                 }
                 else
                 {
-                    btnConPlus.Text = "NO MORE";
+                    btnConPlus.Text = "No more";
                 }
                 btnConPlus.Draw();
                 if (checkMental("Int"))
                 {
-                    btnIntMinus.Text = "- (" + calculateAttributeChangeCost("Int", false).ToString() + ")";
+//                    btnIntMinus.Text = "- (" + calculateAttributeChangeCost("Int", false).ToString() + ")";
+                    btnIntMinus.Text = "Less";
                 }
                 else
                 {
-                    btnIntMinus.Text = "NO MORE";
+                    btnIntMinus.Text = "No less";
                 }
                 btnIntMinus.Draw();
                 btnInt.Draw();
                 if (pc.baseInt < gv.mod.attributeMaxValue)
                 {
-                    btnIntPlus.Text = "+ (" + calculateAttributeChangeCost("Int", true).ToString() + ")";
+                    //btnIntPlus.Text = "+ (" + calculateAttributeChangeCost("Int", true).ToString() + ")";
+                    btnIntPlus.Text = "More";
                 }
                 else
                 {
-                    btnIntPlus.Text = "NO MORE";
+                    btnIntPlus.Text = "No more";
                 }
                 btnIntPlus.Draw();
                 if (checkMental("Wis"))
                 {
-                    btnWisMinus.Text = "- (" + calculateAttributeChangeCost("Wis", false).ToString() + ")";
+ //                   btnWisMinus.Text = "- (" + calculateAttributeChangeCost("Wis", false).ToString() + ")";
+                    btnWisMinus.Text = "Less";
                 }
                 else
                 {
-                    btnWisMinus.Text = "NO MORE";
+                    btnWisMinus.Text = "No less";
                 }
                 btnWisMinus.Draw();
                 btnWis.Draw();
                 if (pc.baseWis < gv.mod.attributeMaxValue)
                 {
-                    btnWisPlus.Text = "+ (" + calculateAttributeChangeCost("Wis", true).ToString() + ")";
+    //                btnWisPlus.Text = "+ (" + calculateAttributeChangeCost("Wis", true).ToString() + ")";
+                    btnWisPlus.Text = "More";
                 }
                 else
                 {
-                    btnWisPlus.Text = "NO MORE";
+                    btnWisPlus.Text = "No more";
                 }
                 btnWisPlus.Draw();
                 if (checkMental("Cha"))
                 {
-                    btnChaMinus.Text = "- (" + calculateAttributeChangeCost("Cha", false).ToString() + ")";
+//                    btnChaMinus.Text = "- (" + calculateAttributeChangeCost("Cha", false).ToString() + ")";
+                    btnChaMinus.Text = "Less";
                 }
                 else
                 {
-                    btnChaMinus.Text = "NO MORE";
+                    btnChaMinus.Text = "No less";
                 }
                 btnChaMinus.Draw();
                 btnCha.Draw();
                 if (pc.baseCha < gv.mod.attributeMaxValue)
                 {
-                    btnChaPlus.Text = "+ (" + calculateAttributeChangeCost("Cha", true).ToString() + ")";
+//                    btnChaPlus.Text = "+ (" + calculateAttributeChangeCost("Cha", true).ToString() + ")";
+                    btnChaPlus.Text = "More";
                 }
                 else
                 {
-                    btnChaPlus.Text = "NO MORE";
+                    btnChaPlus.Text = "No more";
                 }
                 btnChaPlus.Draw();
             }

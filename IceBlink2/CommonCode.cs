@@ -775,9 +775,9 @@ gv.resetGame();
         }
         public void doLoadSaveGameDialog()
         {
-            List<string> saveList = new List<string> { slotA, slot0, slot1, slot2, slot3, slot4, slot5 };
+            List<string> saveList = new List<string> { /*slotA,*/ slot0, slot1, slot2, slot3, slot4, slot5 };
 
-            using (ItemListSelector itSel = new ItemListSelector(gv, saveList, "Choose a Saved Game to Load."))
+            using (ItemListSelector itSel = new ItemListSelector(gv, saveList, ""))
             {
                 itSel.IceBlinkButtonClose.Visible = true;
                 itSel.IceBlinkButtonClose.Enabled = true;
